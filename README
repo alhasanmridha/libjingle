@@ -1,15 +1,15 @@
-Libjingle
+# Libjingle
 
-1. Introduction
-
-Libjingle is a set of components provided by Google to implement Jingle
-protocols XEP-166 (http://xmpp.org/extensions/xep-0166.html) and XEP-167
+## 1. Introduction
+Libjingle is a set of components provided by Google to implement Jingle protocols XEP-166 (http://xmpp.org/extensions/xep-0166.html) and XEP-167
 (http://xmpp.org/extensions/xep-0167.html). Libjingle is also backward
 compatible with Google Talk Call Signaling
-(http://code.google.com/apis/talk/call_signaling.html). This package will
+(http://code.google.com/apis/call_signaling.html). This package will
 create several static libraries you may link to your projects as needed.
 
--talk               - No source files in talk/, just these subdirectories
+
+~~~
+-talk               - No source files in , just these subdirectories
 |-base              - Contains basic low-level portable utility functions for
 |                     things like threads and sockets
 |-p2p               - The P2P stack
@@ -23,55 +23,59 @@ create several static libraries you may link to your projects as needed.
   |-libudev         - Folder containing libudev.h
 |-xmllite           - XML parser
 |-xmpp              - XMPP engine
-
-In addition, this package contains two examples in talk/examples which
+~~~
+In addition, this package contains two examples in examples which
 illustrate the basic concepts of how the provided classes work.
 
-2. How to Build
+## 2. How to Build
 
 We now support two ways to build libjingle: GYP and Scons. We recommend
 using GYP which is easier to get dependencies and simple to use.
 
-2.1. Building using GYP
+### 2.1. Building using GYP
 
-2.1.1. Prerequisites
+### 2.1.1. Prerequisites
 
 First, be sure to install the prerequisite software.
 http://www.webrtc.org/reference/getting-started/prerequisite-sw
 
 The currently supported platforms are Windows, Mac OS X, and Linux.
 
-2.1.2. Getting the code and building
+### 2.1.2. Getting the code and building
 
 Create a working directory, enter it, and run:
+```
 $ gclient config http://libjingle.googlecode.com/svn/trunk
 $ gclient sync
-
+```
 The sync will generate native build files for your environment using gyp
 (Linux: make/ninja, OS X: XCode/make/ninja, Windows: Visual Studio). This
 generation can also be forced manually:
-$ gclient runhooks
+
+`$ gclient runhooks`
 
 It is also possible to choice the build method by set the environment variable
 GYP_GENERATORS. For examplerun this on mac will generate makefiles instead of
 xcode projects:
-$ GYP_GENERATORS=make gclient runhooks
+
+`$ GYP_GENERATORS=make gclient runhooks`
 
 For more information on ninja build:
 http://code.google.com/p/chromium/wiki/NinjaBuild
 
 On Windows, gyp will use the latest Visual Studio on your system by default.
 In order to specify a particular Visual Studio version, there are a few
-options. You can set an environment variable GYP_MSVS_VERSION=<version> before
+options. You can set an environment variable `GYP_MSVS_VERSION=<version>` before
 runhooks, or manually run the gyp command triggered by runhooks. From the
 trunk/ directory:
-$ build/gyp_chromium --depth=. -G msvs_version=<version> talk/libjingle_all.gyp
+
+`$ build/gyp_chromium --depth=. -G msvs_version=<version> libjingle_all.gyp`
 
 where <version> is, for example, 2008.
 
-2.2. Building using SCons 
+### 2.2. Building using SCons 
 
-2.2.1. Prerequisites
+#### 2.2.1. Prerequisites
 
 Libjingle is built with swtoolkit (http://code.google.com/p/swtoolkit/), which
 is a set of extensions to the open-source SCons build tool (www.scons.org).
@@ -101,11 +105,11 @@ is a set of extensions to the open-source SCons build tool (www.scons.org).
   * Finally, download and install the unit test framework from
     http://code.google.com/p/googletest/downloads/list
     To install it, just unzip the package and put the file folder under
-    /talk/third_party/ directory and rename it from "gtest-x.x.x" to "gtest",
+    /third_party/ directory and rename it from "gtest-x.x.x" to "gtest",
     so that your folder structure looks like:
-    /talk/third_party/gtest/...
+    /third_party/gtest/...
 
-2.2.2. libjingle
+#### 2.2.2. libjingle
 
 Libjingle needs to be downloaded and patched
 
@@ -118,12 +122,12 @@ Libjingle needs to be downloaded and patched
 
   * Second, Libjingle depends on two open-source projects, expat and srtp.
     Download expat from http://sourceforge.net/projects/expat/ to
-    talk/third_party/expat-2.0.1/. Download srtp at
+    third_party/expat-2.0.1/. Download srtp at
     http://libjingle.googlecode.com/files/srtp-cvs.zip to
-    talk/third_party/srtp. Note that srtp-1.4.4 does not work since it misses
+    third_party/srtp. Note that srtp-1.4.4 does not work since it misses
     the extensions used by Libjingle.
     If you put expat or srtp in a different directory, you need to edit
-    talk/libjingle.scons correspondingly.
+    libjingle.scons correspondingly.
     rename srtp-cvs to srtp
     For example, on Windows, download expat
     http://sourceforge.net/projects/expat/files/expat/2.0.1/expat-2.0.1.tar.gz
@@ -136,7 +140,7 @@ Libjingle needs to be downloaded and patched
   * Third, on Windows, copy config.h
     copy talk\third_party\srtp\config.hw talk\third_party\srtp\crypto\include\config.h
 
-2.2.3. Build Libjingle under Linux or OS X
+#### 2.2.3. Build Libjingle under Linux or OS X
   * On Linux, you need to install libssl-dev, libasound2-dev and gtk+2.0.
   * Some optional new features in OpenSSL are only available in OpenSSL v1.0
     and above. To build with new OpenSSL features, you need to add the
@@ -148,13 +152,13 @@ Libjingle needs to be downloaded and patched
     the directory "third_party/openssl/include/", etc.
   * To build Libjingle, first make sure the SCONS_DIR environment variable
     is set correctly.
-  * Second, run talk/third_party/expat-2.0.1/configure and
-    talk/third_party/srtp/configure.
-  * Third, go to the talk/ directory and run $path_to_swtoolkit/hammer.sh. Run
+  * Second, run third_party/expat-2.0.1/configure and
+    third_party/srtp/configure.
+  * Third, go to the  directory and run $path_to_swtoolkit/hammer.sh. Run
     $path_to_swtoolkit/hammer.sh --help for information on how to build for
     different modes.
 
-2.2.4. Build Libjingle under Windows
+#### 2.2.4. Build Libjingle under Windows
   * First, make sure the SCONS_DIR environment variable is set correctly and
     Microsoft Visual Studio is installed.
     dir %SCONS_DIR%
@@ -170,7 +174,7 @@ Libjingle needs to be downloaded and patched
     %PATH_TO_SWTOOLKIT%\hammer.bat --jobs=6 --verbose --mode=all all_programs
 
 
-The built binaries are under talk/build/dbg/staging or talk/build/opt/staging,
+The built binaries are under build/dbg/staging or build/opt/staging,
 depending on the build mode. When the build is complete, you can run the
 examples, login or call. For the call sample, you can specify the input and
 output RTP dump for voice and video. This package provides two samples of input
@@ -185,7 +189,7 @@ relay server may be used to relay traffic when a direct peer-to-peer connection
 could not be established. The STUN Server implements the STUN protocol for
 Session Traversal Utilities for NAT(rfc5389), and the TURN server is in active
 development to reach compatibility with rfc5766. See the Libjingle Developer
-Guide at http://developers.google.com/talk/libjingle/developer_guide for
+Guide at http://developers.google.com/libjingle/developer_guide for
 information about configuring a client to use this relay server and this STUN
 server.
 
@@ -205,3 +209,4 @@ To use LinphoneMediaEngine, you need to perform the following additional steps:
   * In the libjingle.scons file, add the following line into the "srcs = [ ..."
     section of the "libjingle" Library.
       "session/phone/linphonemediaengine.cc",
+
