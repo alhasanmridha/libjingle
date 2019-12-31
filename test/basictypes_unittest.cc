@@ -29,7 +29,7 @@
 
 #include "gtest/gtest.h"
 
-namespace talk_base {
+namespace base {
 
 TEST(BasicTypesTest, Endian) {
   uint16 v16 = 0x1234u;
