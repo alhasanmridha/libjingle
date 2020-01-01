@@ -27,11 +27,9 @@
 
 #ifndef TALK_BASE_CRITICALSECTION_H__
 #define TALK_BASE_CRITICALSECTION_H__
-
 #include "constructormagic.h"
-
 #ifdef WIN32
-#include "talk/base/win32.h"
+#include "win32.h"
 #endif
 
 #ifdef POSIX

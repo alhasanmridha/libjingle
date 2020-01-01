@@ -11,6 +11,7 @@ buffer_unittest.cc
 sigslot_unittest.cc
 versionparsing_unittest.cc
 host_unittest.cc
+logging_unittest.cc
 main.cpp
 )
 set(SOURCES ${TEST_SOURCES})
