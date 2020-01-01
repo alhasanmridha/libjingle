@@ -5,6 +5,7 @@ set(SOURCES
 basictypes.h
 byteorder.h
 stringutils.cc
+bytebuffer.cc
 main.cpp
 )
 set(SOURCES ${SOURCES})

@@ -5,6 +5,7 @@ set(TEST_SOURCES
 basictypes_unittest.cc
 byteorder_unittest.cc
 stringutils_unittest.cc
+bytebuffer_unittest.cc
 main.cpp
 )
 set(SOURCES ${TEST_SOURCES})

@@ -33,7 +33,7 @@
 #include "basictypes.h"
 #include "constructormagic.h"
 
-namespace base {
+namespace talk_base {
 
 class ByteBuffer {
  public:

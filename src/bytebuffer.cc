@@ -34,7 +34,7 @@
 #include "basictypes.h"
 #include "byteorder.h"
 
-namespace base {
+namespace talk_base {
 
 static const int DEFAULT_SIZE = 4096;
 

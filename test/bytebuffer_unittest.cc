@@ -30,44 +30,44 @@
 #include "common.h"
 #include "gtest/gtest.h"
 
-namespace base {
+namespace talk_base {
 
-// TEST(ByteBufferTest, TestByteOrder) {
-//   uint16 n16 = 1;
-//   uint32 n32 = 1;
-//   uint64 n64 = 1;
+TEST(ByteBufferTest, TestByteOrder) {
+  uint16 n16 = 1;
+  uint32 n32 = 1;
+  uint64 n64 = 1;
 
-//   EXPECT_EQ(n16, NetworkToHost16(HostToNetwork16(n16)));
-//   EXPECT_EQ(n32, NetworkToHost32(HostToNetwork32(n32)));
-//   EXPECT_EQ(n64, NetworkToHost64(HostToNetwork64(n64)));
+  EXPECT_EQ(n16, NetworkToHost16(HostToNetwork16(n16)));
+  EXPECT_EQ(n32, NetworkToHost32(HostToNetwork32(n32)));
+  EXPECT_EQ(n64, NetworkToHost64(HostToNetwork64(n64)));
 
-//   if (IsHostBigEndian()) {
-//     // The host is the network (big) endian.
-//     EXPECT_EQ(n16, HostToNetwork16(n16));
-//     EXPECT_EQ(n32, HostToNetwork32(n32));
-//     EXPECT_EQ(n64, HostToNetwork64(n64));
+  if (IsHostBigEndian()) {
+    // The host is the network (big) endian.
+    EXPECT_EQ(n16, HostToNetwork16(n16));
+    EXPECT_EQ(n32, HostToNetwork32(n32));
+    EXPECT_EQ(n64, HostToNetwork64(n64));
 
-//     // GetBE converts big endian to little endian here.
-//     EXPECT_EQ(n16 >> 8, GetBE16(&n16));
-//     EXPECT_EQ(n32 >> 24, GetBE32(&n32));
-//     EXPECT_EQ(n64 >> 56, GetBE64(&n64));
-//   } else {
-//     // The host is little endian.
-//     EXPECT_NE(n16, HostToNetwork16(n16));
-//     EXPECT_NE(n32, HostToNetwork32(n32));
-//     EXPECT_NE(n64, HostToNetwork64(n64));
+    // GetBE converts big endian to little endian here.
+    EXPECT_EQ(n16 >> 8, GetBE16(&n16));
+    EXPECT_EQ(n32 >> 24, GetBE32(&n32));
+    EXPECT_EQ(n64 >> 56, GetBE64(&n64));
+  } else {
+    // The host is little endian.
+    EXPECT_NE(n16, HostToNetwork16(n16));
+    EXPECT_NE(n32, HostToNetwork32(n32));
+    EXPECT_NE(n64, HostToNetwork64(n64));
 
-//     // GetBE converts little endian to big endian here.
-//     EXPECT_EQ(GetBE16(&n16), HostToNetwork16(n16));
-//     EXPECT_EQ(GetBE32(&n32), HostToNetwork32(n32));
-//     EXPECT_EQ(GetBE64(&n64), HostToNetwork64(n64));
+    // GetBE converts little endian to big endian here.
+    EXPECT_EQ(GetBE16(&n16), HostToNetwork16(n16));
+    EXPECT_EQ(GetBE32(&n32), HostToNetwork32(n32));
+    EXPECT_EQ(GetBE64(&n64), HostToNetwork64(n64));
 
-//     // GetBE converts little endian to big endian here.
-//     EXPECT_EQ(n16 << 8, GetBE16(&n16));
-//     EXPECT_EQ(n32 << 24, GetBE32(&n32));
-//     EXPECT_EQ(n64 << 56, GetBE64(&n64));
-//   }
-// }
+    // GetBE converts little endian to big endian here.
+    EXPECT_EQ(n16 << 8, GetBE16(&n16));
+    EXPECT_EQ(n32 << 24, GetBE32(&n32));
+    EXPECT_EQ(n64 << 56, GetBE64(&n64));
+  }
+}
 
 TEST(ByteBufferTest, TestBufferLength) {
   ByteBuffer buffer;
