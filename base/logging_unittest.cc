@@ -25,12 +25,12 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/fileutils.h"
+#include "base/fileutils.h"
 #include "talk/base/gunit.h"
 #include "talk/base/logging.h"
-#include "talk/base/pathutils.h"
+#include "base/pathutils.h"
 #include "talk/base/stream.h"
-#include "talk/base/thread.h"
+#include "base/thread.h"
 
 namespace talk_base {
 

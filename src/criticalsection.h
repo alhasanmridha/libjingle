@@ -28,7 +28,7 @@
 #ifndef TALK_BASE_CRITICALSECTION_H__
 #define TALK_BASE_CRITICALSECTION_H__
 
-#include "talk/base/constructormagic.h"
+#include "constructormagic.h"
 
 #ifdef WIN32
 #include "talk/base/win32.h"

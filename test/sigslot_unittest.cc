@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/sigslot.h"
+#include "sigslot.h"
 
-#include "talk/base/gunit.h"
+#include "gtest/gtest.h"
 
 // This function, when passed a has_slots or signalx, will break the build if
 // its threading requirement is not single threaded
