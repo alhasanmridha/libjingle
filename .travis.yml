@@ -9,7 +9,7 @@ before_install:
 
 script:
   - cmake -H. -Bbuild
-  - cmake --build build
+  - cmake --build build && ./build/test/libjigle_tst
 
 notifications:
   email: false

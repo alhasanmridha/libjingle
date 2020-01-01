@@ -7,6 +7,7 @@ byteorder_unittest.cc
 stringutils_unittest.cc
 bytebuffer_unittest.cc
 stringencode_unittest.cc
+buffer_unittest.cc
 main.cpp
 )
 set(SOURCES ${TEST_SOURCES})
