@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/versionparsing.h"
+#include "versionparsing.h"
 
-#include "talk/base/gunit.h"
+#include "gtest/gtest.h"
 
 namespace talk_base {
 

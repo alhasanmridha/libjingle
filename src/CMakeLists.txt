@@ -5,6 +5,7 @@ set(SOURCES
 stringutils.cc
 bytebuffer.cc
 stringencode.cc
+versionparsing.cc
 main.cpp
 )
 set(SOURCES ${SOURCES})

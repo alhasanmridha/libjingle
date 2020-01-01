@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/versionparsing.h"
+#include "versionparsing.h"
 
 #include <cstdlib>
 

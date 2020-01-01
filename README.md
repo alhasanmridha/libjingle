@@ -8,6 +8,7 @@
 4. ByteBuffer
 5. StringEncode
 6. Sigslot
+7. VersionParsing
 ## 1. Introduction
 Libjingle is a set of components provided by Google to implement Jingle protocols XEP-166 (http://xmpp.org/extensions/xep-0166.html) and XEP-167
 (http://xmpp.org/extensions/xep-0167.html). Libjingle is also backward
