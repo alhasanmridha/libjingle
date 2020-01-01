@@ -32,7 +32,7 @@
 #include <sstream>
 #include <vector>
 
-#include "talk/base/common.h"
+#include "common.h"
 
 namespace talk_base {
 

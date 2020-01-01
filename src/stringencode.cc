@@ -25,14 +25,14 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/stringencode.h"
+#include "stringencode.h"
 
 #include <cstdio>
 #include <cstdlib>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/common.h"
-#include "talk/base/stringutils.h"
+#include "basictypes.h"
+#include "common.h"
+#include "stringutils.h"
 
 namespace talk_base {
 
