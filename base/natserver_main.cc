@@ -27,9 +27,9 @@
 
 #include <iostream>
 
-#include "talk/base/natserver.h"
-#include "talk/base/host.h"
-#include "talk/base/physicalsocketserver.h"
+#include "base/natserver.h"
+#include "base/host.h"
+#include "base/physicalsocketserver.h"
 
 using namespace talk_base;
 

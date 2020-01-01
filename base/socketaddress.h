@@ -31,8 +31,8 @@
 #include <string>
 #include <vector>
 #include <iosfwd>
-#include "talk/base/basictypes.h"
-#include "talk/base/ipaddress.h"
+#include "base/basictypes.h"
+#include "base/ipaddress.h"
 
 #undef SetPort
 

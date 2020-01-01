@@ -28,7 +28,7 @@
 #ifndef TALK_BASE_DISKCACHEWIN32_H__
 #define TALK_BASE_DISKCACHEWIN32_H__
 
-#include "talk/base/diskcache.h"
+#include "base/diskcache.h"
 
 namespace talk_base {
 

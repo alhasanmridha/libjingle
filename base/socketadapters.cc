@@ -41,16 +41,16 @@
 #include <security.h>
 #endif
 
-#include "talk/base/bytebuffer.h"
-#include "talk/base/common.h"
-#include "talk/base/httpcommon.h"
-#include "talk/base/logging.h"
-#include "talk/base/socketadapters.h"
-#include "talk/base/stringencode.h"
-#include "talk/base/stringutils.h"
+#include "base/bytebuffer.h"
+#include "base/common.h"
+#include "base/httpcommon.h"
+#include "base/logging.h"
+#include "base/socketadapters.h"
+#include "base/stringencode.h"
+#include "base/stringutils.h"
 
 #ifdef WIN32
-#include "talk/base/sec_buffer.h"
+#include "base/sec_buffer.h"
 #endif  // WIN32
 
 namespace talk_base {

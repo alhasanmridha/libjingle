@@ -30,10 +30,10 @@
 
 #include <vector>
 
-#include "talk/base/asyncfile.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/socketserver.h"
-#include "talk/base/criticalsection.h"
+#include "asyncfile.h"
+#include "base/scoped_ptr.h"
+#include "base/socketserver.h"
+#include "base/criticalsection.h"
 
 #ifdef POSIX
 typedef int SOCKET;

@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/socketaddresspair.h"
+#include "base/socketaddresspair.h"
 
 namespace talk_base {
 

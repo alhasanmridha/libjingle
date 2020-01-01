@@ -29,7 +29,7 @@
 #define TALK_BASE_TIMING_H_
 
 #if defined(WIN32)
-#include "talk/base/win32.h"
+#include "base/win32.h"
 #endif
 
 namespace talk_base {

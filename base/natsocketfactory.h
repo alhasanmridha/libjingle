@@ -32,9 +32,9 @@
 #include <map>
 #include <set>
 
-#include "talk/base/natserver.h"
-#include "talk/base/socketaddress.h"
-#include "talk/base/socketserver.h"
+#include "base/natserver.h"
+#include "base/socketaddress.h"
+#include "base/socketserver.h"
 
 namespace talk_base {
 

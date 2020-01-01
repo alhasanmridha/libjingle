@@ -29,10 +29,10 @@
 #define TALK_BASE_TESTECHOSERVER_H_
 
 #include <list>
-#include "talk/base/asynctcpsocket.h"
-#include "talk/base/socketaddress.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/thread.h"
+#include "base/asynctcpsocket.h"
+#include "base/socketaddress.h"
+#include "base/sigslot.h"
+#include "base/thread.h"
 
 namespace talk_base {
 

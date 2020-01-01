@@ -31,10 +31,10 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/buffer.h"
-#include "talk/base/stream.h"
-#include "talk/base/sslidentity.h"
-#include "talk/base/sslstreamadapter.h"
+#include "base/buffer.h"
+#include "base/stream.h"
+#include "base/sslidentity.h"
+#include "base/sslstreamadapter.h"
 
 namespace talk_base {
 

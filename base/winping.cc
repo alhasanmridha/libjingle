@@ -25,17 +25,17 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/winping.h"
+#include "base/winping.h"
 
 #include <Iphlpapi.h>
 #include <cassert>
 
-#include "talk/base/byteorder.h"
-#include "talk/base/common.h"
-#include "talk/base/ipaddress.h"
-#include "talk/base/logging.h"
-#include "talk/base/nethelpers.h"
-#include "talk/base/socketaddress.h"
+#include "base/byteorder.h"
+#include "base/common.h"
+#include "base/ipaddress.h"
+#include "base/logging.h"
+#include "base/nethelpers.h"
+#include "base/socketaddress.h"
 
 namespace talk_base {
 

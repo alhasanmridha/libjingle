@@ -31,11 +31,11 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/network.h"
-#include "talk/base/messagehandler.h"
-#include "talk/base/socketaddress.h"
-#include "talk/base/stringencode.h"
-#include "talk/base/thread.h"
+#include "base/network.h"
+#include "base/messagehandler.h"
+#include "base/socketaddress.h"
+#include "base/stringencode.h"
+#include "base/thread.h"
 
 namespace talk_base {
 

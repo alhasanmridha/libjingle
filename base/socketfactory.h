@@ -28,8 +28,8 @@
 #ifndef TALK_BASE_SOCKETFACTORY_H__
 #define TALK_BASE_SOCKETFACTORY_H__
 
-#include "talk/base/socket.h"
-#include "talk/base/asyncsocket.h"
+#include "base/socket.h"
+#include "base/asyncsocket.h"
 
 namespace talk_base {
 

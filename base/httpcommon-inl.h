@@ -28,8 +28,8 @@
 #ifndef TALK_BASE_HTTPCOMMON_INL_H__
 #define TALK_BASE_HTTPCOMMON_INL_H__
 
-#include "talk/base/common.h"
-#include "talk/base/httpcommon.h"
+#include "base/common.h"
+#include "base/httpcommon.h"
 
 namespace talk_base {
 

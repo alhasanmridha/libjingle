@@ -28,8 +28,8 @@
 #ifndef TALK_BASE_BANDWIDTHSMOOTHER_H_
 #define TALK_BASE_BANDWIDTHSMOOTHER_H_
 
-#include "talk/base/rollingaccumulator.h"
-#include "talk/base/timeutils.h"
+#include "base/rollingaccumulator.h"
+#include "base/timeutils.h"
 
 namespace talk_base {
 

@@ -28,8 +28,8 @@
 #ifndef TALK_BASE_GUNIT_H_
 #define TALK_BASE_GUNIT_H_
 
-#include "talk/base/logging.h"
-#include "talk/base/thread.h"
+#include "base/logging.h"
+#include "base/thread.h"
 #if defined(ANDROID) || defined(GTEST_RELATIVE_PATH)
 #include "gtest/gtest.h"
 #else

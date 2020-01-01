@@ -29,15 +29,15 @@
 #define TALK_BASE_WINDOWPICKERFACTORY_H_
 
 #if defined(WIN32)
-#include "talk/base/win32windowpicker.h"
+#include "base/win32windowpicker.h"
 #elif defined(OSX)
-#include "talk/base/macutils.h"
-#include "talk/base/macwindowpicker.h"
+#include "base/macutils.h"
+#include "base/macwindowpicker.h"
 #elif defined(LINUX)
-#include "talk/base/linuxwindowpicker.h"
+#include "base/linuxwindowpicker.h"
 #endif
 
-#include "talk/base/windowpicker.h"
+#include "base/windowpicker.h"
 
 namespace talk_base {
 

@@ -42,8 +42,8 @@
 
 #include <assert.h>
 
-#include "talk/base/checks.h"
-#include "talk/base/common.h"
+#include "base/checks.h"
+#include "base/common.h"
 
 // Internal use only.
 union FlagValue {

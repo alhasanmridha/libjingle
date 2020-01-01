@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/testclient.h"
-#include "talk/base/thread.h"
-#include "talk/base/timeutils.h"
+#include "base/testclient.h"
+#include "base/thread.h"
+#include "base/timeutils.h"
 
 namespace talk_base {
 

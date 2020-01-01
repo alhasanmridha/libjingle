@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/crc32.h"
-#include "talk/base/gunit.h"
+#include "base/crc32.h"
+#include "base/gunit.h"
 
 #include <string>
 

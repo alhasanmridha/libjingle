@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/gunit.h"
-#include "talk/base/macutils.h"
+#include "base/gunit.h"
+#include "base/macutils.h"
 
 TEST(MacUtilsTest, GetOsVersionName) {
   talk_base::MacOSVersionName ver = talk_base::GetOSVersionName();

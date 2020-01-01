@@ -30,11 +30,11 @@
 
 #include <string>
 
-#include "talk/base/constructormagic.h"
-#include "talk/base/cryptstring.h"
-#include "talk/base/proxydetect.h"
-#include "talk/base/proxyinfo.h"
-#include "talk/base/signalthread.h"
+#include "base/constructormagic.h"
+#include "base/cryptstring.h"
+#include "base/proxydetect.h"
+#include "base/proxyinfo.h"
+#include "base/signalthread.h"
 
 namespace talk_base {
 

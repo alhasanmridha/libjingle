@@ -30,7 +30,7 @@
 
 #include <sys/types.h>
 
-#include "talk/base/fileutils.h"
+#include "base/fileutils.h"
 
 namespace talk_base {
 

@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/network.h"
+#include "base/network.h"
 
 #include <vector>
 #if defined(POSIX)
@@ -33,10 +33,10 @@
 #ifndef ANDROID
 #include <ifaddrs.h>
 #else
-#include "talk/base/ifaddrs-android.h"
+#include "base/ifaddrs-android.h"
 #endif
 #endif
-#include "talk/base/gunit.h"
+#include "base/gunit.h"
 
 namespace talk_base {
 

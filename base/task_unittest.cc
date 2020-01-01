@@ -34,16 +34,16 @@
 #include <iostream>
 
 #ifdef WIN32
-#include "talk/base/win32.h"
+#include "base/win32.h"
 #endif  // WIN32
 
-#include "talk/base/common.h"
-#include "talk/base/gunit.h"
-#include "talk/base/logging.h"
-#include "talk/base/task.h"
-#include "talk/base/taskrunner.h"
-#include "talk/base/thread.h"
-#include "talk/base/timeutils.h"
+#include "base/common.h"
+#include "base/gunit.h"
+#include "base/logging.h"
+#include "base/task.h"
+#include "base/taskrunner.h"
+#include "base/thread.h"
+#include "base/timeutils.h"
 
 namespace talk_base {
 

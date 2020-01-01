@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/gunit.h"
-#include "talk/base/common.h"
-#include "talk/base/win32window.h"
-#include "talk/base/logging.h"
+#include "base/gunit.h"
+#include "base/common.h"
+#include "base/win32window.h"
+#include "base/logging.h"
 
 static LRESULT kDummyResult = 0x1234ABCD;
 

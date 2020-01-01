@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/signalthread.h"
+#include "base/signalthread.h"
 
-#include "talk/base/common.h"
+#include "base/common.h"
 
 namespace talk_base {
 

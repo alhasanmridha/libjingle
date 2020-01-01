@@ -36,11 +36,11 @@
 #include "nss.h"
 #include "secmodt.h"
 
-#include "talk/base/buffer.h"
-#include "talk/base/nssidentity.h"
-#include "talk/base/ssladapter.h"
-#include "talk/base/sslstreamadapter.h"
-#include "talk/base/sslstreamadapterhelper.h"
+#include "base/buffer.h"
+#include "base/nssidentity.h"
+#include "base/ssladapter.h"
+#include "base/sslstreamadapter.h"
+#include "base/sslstreamadapterhelper.h"
 
 namespace talk_base {
 

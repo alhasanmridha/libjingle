@@ -29,7 +29,7 @@
 #define TALK_BASE_RATETRACKER_H_
 
 #include <stdlib.h>
-#include "talk/base/basictypes.h"
+#include "base/basictypes.h"
 
 namespace talk_base {
 

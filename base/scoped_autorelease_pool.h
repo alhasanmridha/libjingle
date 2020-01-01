@@ -39,7 +39,7 @@
 
 #if defined(IOS) || defined(OSX)
 
-#include "talk/base/common.h"
+#include "base/common.h"
 
 // This header may be included from Obj-C files or C++ files.
 #ifdef __OBJC__

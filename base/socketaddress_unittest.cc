@@ -29,9 +29,9 @@
 #include <netinet/in.h>  // for sockaddr_in
 #endif
 
-#include "talk/base/gunit.h"
-#include "talk/base/socketaddress.h"
-#include "talk/base/ipaddress.h"
+#include "base/gunit.h"
+#include "base/socketaddress.h"
+#include "base/ipaddress.h"
 
 namespace talk_base {
 

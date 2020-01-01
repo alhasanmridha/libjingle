@@ -25,16 +25,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/posix.h"
+#include "base/posix.h"
 
 #include <sys/wait.h>
 #include <errno.h>
 #include <unistd.h>
 
 #ifdef LINUX
-#include "talk/base/linuxfdwalk.h"
+#include "base/linuxfdwalk.h"
 #endif
-#include "talk/base/logging.h"
+#include "base/logging.h"
 
 namespace talk_base {
 

@@ -31,11 +31,11 @@
 #include <map>
 #include <set>
 
-#include "talk/base/asyncudpsocket.h"
-#include "talk/base/socketaddresspair.h"
-#include "talk/base/thread.h"
-#include "talk/base/socketfactory.h"
-#include "talk/base/nattypes.h"
+#include "base/asyncudpsocket.h"
+#include "base/socketaddresspair.h"
+#include "base/thread.h"
+#include "base/socketfactory.h"
+#include "base/nattypes.h"
 
 namespace talk_base {
 

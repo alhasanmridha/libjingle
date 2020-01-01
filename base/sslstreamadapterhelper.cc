@@ -33,11 +33,11 @@
 #include "config.h"
 #endif  // HAVE_CONFIG_H
 
-#include "talk/base/sslstreamadapterhelper.h"
+#include "base/sslstreamadapterhelper.h"
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/stream.h"
+#include "base/common.h"
+#include "base/logging.h"
+#include "base/stream.h"
 
 namespace talk_base {
 

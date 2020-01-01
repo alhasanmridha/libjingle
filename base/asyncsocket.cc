@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/asyncsocket.h"
+#include "base/asyncsocket.h"
 
 namespace talk_base {
 

@@ -29,8 +29,8 @@
 #define TALK_BASE_PROXYINFO_H__
 
 #include <string>
-#include "talk/base/socketaddress.h"
-#include "talk/base/cryptstring.h"
+#include "base/socketaddress.h"
+#include "base/cryptstring.h"
 
 namespace talk_base {
 

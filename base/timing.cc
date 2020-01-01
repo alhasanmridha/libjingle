@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/timing.h"
-#include "talk/base/timeutils.h"
+#include "base/timing.h"
+#include "base/timeutils.h"
 
 #if defined(POSIX)
 #include <errno.h>
@@ -38,7 +38,7 @@
 #endif
 #elif defined(WIN32)
 #include <sys/timeb.h>
-#include "talk/base/win32.h"
+#include "base/win32.h"
 #endif
 
 namespace talk_base {

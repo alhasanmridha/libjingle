@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/socketstream.h"
+#include "base/socketstream.h"
 
 namespace talk_base {
 

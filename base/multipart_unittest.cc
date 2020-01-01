@@ -27,12 +27,12 @@
 
 #include <string>
 
-#include "talk/base/gunit.h"
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/multipart.h"
+#include "base/gunit.h"
+#include "base/helpers.h"
+#include "base/logging.h"
+#include "base/pathutils.h"
+#include "base/scoped_ptr.h"
+#include "base/multipart.h"
 
 namespace talk_base {
 

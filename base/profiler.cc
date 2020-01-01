@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/profiler.h"
+#include "base/profiler.h"
 
 #include <math.h>
 
-#include "talk/base/timeutils.h"
+#include "base/timeutils.h"
 
 namespace {
 

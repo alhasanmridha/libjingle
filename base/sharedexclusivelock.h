@@ -28,9 +28,9 @@
 #ifndef TALK_BASE_SHAREDEXCLUSIVELOCK_H_
 #define TALK_BASE_SHAREDEXCLUSIVELOCK_H_
 
-#include "talk/base/constructormagic.h"
-#include "talk/base/criticalsection.h"
-#include "talk/base/event.h"
+#include "base/constructormagic.h"
+#include "base/criticalsection.h"
+#include "base/event.h"
 
 namespace talk_base {
 

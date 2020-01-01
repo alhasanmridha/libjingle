@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/ratetracker.h"
-#include "talk/base/timeutils.h"
+#include "base/ratetracker.h"
+#include "base/timeutils.h"
 
 namespace talk_base {
 

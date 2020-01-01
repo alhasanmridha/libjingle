@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/thread.h"
+#include "base/thread.h"
 
 #ifndef __has_feature
 #define __has_feature(x) 0  // Compatibility with non-clang or LLVM compilers.
@@ -37,14 +37,14 @@
 #include <time.h>
 #endif
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/stringutils.h"
-#include "talk/base/timeutils.h"
+#include "base/common.h"
+#include "base/logging.h"
+#include "base/stringutils.h"
+#include "base/timeutils.h"
 
 #if !__has_feature(objc_arc) && (defined(OSX) || defined(IOS))
-#include "talk/base/maccocoathreadhelper.h"
-#include "talk/base/scoped_autorelease_pool.h"
+#include "base/maccocoathreadhelper.h"
+#include "base/scoped_autorelease_pool.h"
 #endif
 
 namespace talk_base {

@@ -36,11 +36,11 @@
 #ifdef POSIX
 #include <pthread.h>
 #endif
-#include "talk/base/constructormagic.h"
-#include "talk/base/messagequeue.h"
+#include "base/constructormagic.h"
+#include "base/messagequeue.h"
 
 #ifdef WIN32
-#include "talk/base/win32.h"
+#include "base/win32.h"
 #endif
 
 namespace talk_base {

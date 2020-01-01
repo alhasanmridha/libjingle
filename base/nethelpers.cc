@@ -25,16 +25,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/nethelpers.h"
+#include "base/nethelpers.h"
 
 #if defined(WIN32)
 #include <ws2spi.h>
 #include <ws2tcpip.h>
-#include "talk/base/win32.h"
+#include "base/win32.h"
 #endif
 
-#include "talk/base/byteorder.h"
-#include "talk/base/signalthread.h"
+#include "base/byteorder.h"
+#include "base/signalthread.h"
 
 namespace talk_base {
 

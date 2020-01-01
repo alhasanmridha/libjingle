@@ -10,7 +10,7 @@
 #ifndef TALK_BASE_SHA1_H_
 #define TALK_BASE_SHA1_H_
 
-#include "talk/base/basictypes.h"
+#include "base/basictypes.h"
 
 struct SHA1_CTX {
   uint32 state[5];

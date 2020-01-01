@@ -27,9 +27,9 @@
 
 #ifdef HAVE_DBUS_GLIB
 
-#include "talk/base/dbus.h"
-#include "talk/base/gunit.h"
-#include "talk/base/thread.h"
+#include "base/dbus.h"
+#include "base/gunit.h"
+#include "base/thread.h"
 
 namespace talk_base {
 

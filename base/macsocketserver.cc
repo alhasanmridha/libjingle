@@ -1,12 +1,12 @@
 
 
-#include "talk/base/macsocketserver.h"
+#include "base/macsocketserver.h"
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/macasyncsocket.h"
-#include "talk/base/macutils.h"
-#include "talk/base/thread.h"
+#include "base/common.h"
+#include "base/logging.h"
+#include "base/macasyncsocket.h"
+#include "base/macutils.h"
+#include "base/thread.h"
 
 namespace talk_base {
 

@@ -27,10 +27,10 @@
 
 #include <algorithm>
 
-#include "talk/base/taskparent.h"
+#include "base/taskparent.h"
 
-#include "talk/base/task.h"
-#include "talk/base/taskrunner.h"
+#include "base/task.h"
+#include "base/taskrunner.h"
 
 namespace talk_base {
 

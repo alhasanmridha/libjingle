@@ -29,8 +29,8 @@
 #define TALK_BASE_SCHANNELADAPTER_H__
 
 #include <string>
-#include "talk/base/ssladapter.h"
-#include "talk/base/messagequeue.h"
+#include "base/ssladapter.h"
+#include "base/messagequeue.h"
 struct _SecBufferDesc;
 
 namespace talk_base {

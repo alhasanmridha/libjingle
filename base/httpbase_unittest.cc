@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/gunit.h"
-#include "talk/base/httpbase.h"
-#include "talk/base/testutils.h"
+#include "base/gunit.h"
+#include "base/httpbase.h"
+#include "base/testutils.h"
 
 namespace talk_base {
 

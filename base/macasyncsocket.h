@@ -12,8 +12,8 @@
 
 #include <CoreFoundation/CoreFoundation.h>
 
-#include "talk/base/asyncsocket.h"
-#include "talk/base/nethelpers.h"
+#include "base/asyncsocket.h"
+#include "base/nethelpers.h"
 
 namespace talk_base {
 

@@ -42,10 +42,10 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/byteorder.h"
+#include "base/basictypes.h"
+#include "base/byteorder.h"
 #ifdef WIN32
-#include "talk/base/win32.h"
+#include "base/win32.h"
 #endif
 
 namespace talk_base {

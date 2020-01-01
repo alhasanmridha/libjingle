@@ -29,9 +29,9 @@
 #include "config.h"
 #endif  // HAVE_CONFIG_H
 
-#include "talk/base/ssladapter.h"
+#include "base/ssladapter.h"
 
-#include "talk/base/sslconfig.h"
+#include "base/sslconfig.h"
 
 #if SSL_USE_SCHANNEL
 

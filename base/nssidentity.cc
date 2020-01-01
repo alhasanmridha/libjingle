@@ -32,7 +32,7 @@
 
 #if HAVE_NSS_SSL_H
 
-#include "talk/base/nssidentity.h"
+#include "base/nssidentity.h"
 
 #include <string>
 
@@ -43,10 +43,10 @@
 #include "pk11pub.h"
 #include "sechash.h"
 
-#include "talk/base/base64.h"
-#include "talk/base/logging.h"
-#include "talk/base/helpers.h"
-#include "talk/base/nssstreamadapter.h"
+#include "base/base64.h"
+#include "base/logging.h"
+#include "base/helpers.h"
+#include "base/nssstreamadapter.h"
 
 namespace talk_base {
 

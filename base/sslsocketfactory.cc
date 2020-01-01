@@ -25,12 +25,12 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/autodetectproxy.h"
-#include "talk/base/httpcommon.h"
-#include "talk/base/httpcommon-inl.h"
-#include "talk/base/socketadapters.h"
-#include "talk/base/ssladapter.h"
-#include "talk/base/sslsocketfactory.h"
+#include "base/autodetectproxy.h"
+#include "base/httpcommon.h"
+#include "base/httpcommon-inl.h"
+#include "base/socketadapters.h"
+#include "base/ssladapter.h"
+#include "base/sslsocketfactory.h"
 
 namespace talk_base {
 

@@ -29,15 +29,15 @@
 #define TALK_BASE_EVENT_H__
 
 #if defined(WIN32)
-#include "talk/base/win32.h"  // NOLINT: consider this a system header.
+#include "base/win32.h"  // NOLINT: consider this a system header.
 #elif defined(POSIX)
 #include <pthread.h>
 #else
 #error "Must define either WIN32 or POSIX."
 #endif
 
-#include "talk/base/basictypes.h"
-#include "talk/base/common.h"
+#include "base/basictypes.h"
+#include "base/common.h"
 
 namespace talk_base {
 

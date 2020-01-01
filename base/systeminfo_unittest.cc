@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/gunit.h"
-#include "talk/base/stringutils.h"
-#include "talk/base/systeminfo.h"
+#include "base/gunit.h"
+#include "base/stringutils.h"
+#include "base/systeminfo.h"
 
 #if defined(CPU_X86) || defined(CPU_ARM)
 TEST(SystemInfoTest, CpuVendorNonEmpty) {

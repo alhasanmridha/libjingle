@@ -27,14 +27,14 @@
 
 #if HAVE_OPENSSL_SSL_H
 
-#include "talk/base/openssladapter.h"
+#include "base/openssladapter.h"
 
 #if defined(POSIX)
 #include <unistd.h>
 #endif
 
 // Must be included first before openssl headers.
-#include "talk/base/win32.h"  // NOLINT
+#include "base/win32.h"  // NOLINT
 
 #include <openssl/bio.h>
 #include <openssl/crypto.h>
@@ -48,10 +48,10 @@
 #include "config.h"
 #endif  // HAVE_CONFIG_H
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/sslroots.h"
-#include "talk/base/stringutils.h"
+#include "base/common.h"
+#include "base/logging.h"
+#include "base/sslroots.h"
+#include "base/stringutils.h"
 
 // TODO: Use a nicer abstraction for mutex.
 

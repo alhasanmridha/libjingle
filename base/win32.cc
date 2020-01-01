@@ -25,16 +25,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/win32.h"
+#include "base/win32.h"
 
 #include <winsock2.h>
 #include <ws2tcpip.h>
 #include <algorithm>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/byteorder.h"
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
+#include "base/basictypes.h"
+#include "base/byteorder.h"
+#include "base/common.h"
+#include "base/logging.h"
 
 namespace talk_base {
 

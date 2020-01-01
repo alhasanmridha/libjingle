@@ -28,9 +28,9 @@
 
 #include <string>
 
-#include "talk/base/gunit.h"
-#include "talk/base/ssladapter.h"
-#include "talk/base/sslidentity.h"
+#include "base/gunit.h"
+#include "base/ssladapter.h"
+#include "base/sslidentity.h"
 
 const char kTestCertificate[] = "-----BEGIN CERTIFICATE-----\n"
     "MIIB6TCCAVICAQYwDQYJKoZIhvcNAQEEBQAwWzELMAkGA1UEBhMCQVUxEzARBgNV\n"

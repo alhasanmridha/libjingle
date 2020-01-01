@@ -25,13 +25,13 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/asyncudpsocket.h"
-#include "talk/base/event.h"
-#include "talk/base/gunit.h"
-#include "talk/base/host.h"
-#include "talk/base/physicalsocketserver.h"
-#include "talk/base/socketaddress.h"
-#include "talk/base/thread.h"
+#include "base/asyncudpsocket.h"
+#include "base/event.h"
+#include "base/gunit.h"
+#include "base/host.h"
+#include "base/physicalsocketserver.h"
+#include "base/socketaddress.h"
+#include "base/thread.h"
 
 #ifdef WIN32
 #include <comdef.h>  // NOLINT

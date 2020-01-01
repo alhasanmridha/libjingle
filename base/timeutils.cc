@@ -38,8 +38,8 @@
 #include <mmsystem.h>
 #endif
 
-#include "talk/base/common.h"
-#include "talk/base/timeutils.h"
+#include "base/common.h"
+#include "base/timeutils.h"
 
 #define EFFICIENT_IMPLEMENTATION 1
 

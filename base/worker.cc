@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/worker.h"
+#include "base/worker.h"
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/thread.h"
+#include "base/common.h"
+#include "base/logging.h"
+#include "base/thread.h"
 
 namespace talk_base {
 

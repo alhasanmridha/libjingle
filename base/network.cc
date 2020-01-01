@@ -29,7 +29,7 @@
 #include "config.h"
 #endif
 
-#include "talk/base/network.h"
+#include "base/network.h"
 
 #ifdef POSIX
 #include <sys/socket.h>
@@ -39,27 +39,27 @@
 #include <unistd.h>
 #include <errno.h>
 #ifdef ANDROID
-#include "talk/base/ifaddrs-android.h"
+#include "base/ifaddrs-android.h"
 #else
 #include <ifaddrs.h>
 #endif
 #endif  // POSIX
 
 #ifdef WIN32
-#include "talk/base/win32.h"
+#include "base/win32.h"
 #include <Iphlpapi.h>
 #endif
 
 #include <algorithm>
 #include <cstdio>
 
-#include "talk/base/host.h"
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/socket.h"  // includes something that makes windows happy
-#include "talk/base/stream.h"
-#include "talk/base/stringencode.h"
-#include "talk/base/thread.h"
+#include "base/host.h"
+#include "base/logging.h"
+#include "base/scoped_ptr.h"
+#include "base/socket.h"  // includes something that makes windows happy
+#include "base/stream.h"
+#include "base/stringencode.h"
+#include "base/thread.h"
 
 namespace talk_base {
 namespace {

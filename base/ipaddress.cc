@@ -40,11 +40,11 @@
 
 #include <stdio.h>
 
-#include "talk/base/ipaddress.h"
-#include "talk/base/byteorder.h"
-#include "talk/base/nethelpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/win32.h"
+#include "base/ipaddress.h"
+#include "base/byteorder.h"
+#include "base/nethelpers.h"
+#include "base/logging.h"
+#include "base/win32.h"
 
 namespace talk_base {
 

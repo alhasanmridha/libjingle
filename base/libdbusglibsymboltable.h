@@ -33,7 +33,7 @@
 #include <dbus/dbus-glib.h>
 #include <dbus/dbus-glib-lowlevel.h>
 
-#include "talk/base/latebindingsymboltable.h"
+#include "base/latebindingsymboltable.h"
 
 namespace talk_base {
 
@@ -64,7 +64,7 @@ namespace talk_base {
 
 #define LATE_BINDING_SYMBOL_TABLE_CLASS_NAME LIBDBUS_GLIB_CLASS_NAME
 #define LATE_BINDING_SYMBOL_TABLE_SYMBOLS_LIST LIBDBUS_GLIB_SYMBOLS_LIST
-#include "talk/base/latebindingsymboltable.h.def"
+#include "base/latebindingsymboltable.h.def"
 
 }  // namespace talk_base
 

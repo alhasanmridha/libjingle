@@ -29,7 +29,7 @@
 #import <assert.h>
 #import <Foundation/Foundation.h>
 
-#import "talk/base/maccocoathreadhelper.h"
+#import "base/maccocoathreadhelper.h"
 
 namespace talk_base {
 

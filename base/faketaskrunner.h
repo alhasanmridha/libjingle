@@ -30,8 +30,8 @@
 #ifndef TALK_BASE_FAKETASKRUNNER_H_
 #define TALK_BASE_FAKETASKRUNNER_H_
 
-#include "talk/base/taskparent.h"
-#include "talk/base/taskrunner.h"
+#include "base/taskparent.h"
+#include "base/taskrunner.h"
 
 namespace talk_base {
 

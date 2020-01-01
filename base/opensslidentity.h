@@ -33,9 +33,9 @@
 
 #include <string>
 
-#include "talk/base/common.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sslidentity.h"
+#include "base/common.h"
+#include "base/scoped_ptr.h"
+#include "base/sslidentity.h"
 
 typedef struct ssl_ctx_st SSL_CTX;
 

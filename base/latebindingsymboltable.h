@@ -30,7 +30,7 @@
 
 #include <string.h>
 
-#include "talk/base/common.h"
+#include "base/common.h"
 
 namespace talk_base {
 

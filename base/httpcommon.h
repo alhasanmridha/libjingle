@@ -31,11 +31,11 @@
 #include <map>
 #include <string>
 #include <vector>
-#include "talk/base/basictypes.h"
-#include "talk/base/common.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stringutils.h"
-#include "talk/base/stream.h"
+#include "base/basictypes.h"
+#include "base/common.h"
+#include "base/scoped_ptr.h"
+#include "base/stringutils.h"
+#include "base/stream.h"
 
 namespace talk_base {
 

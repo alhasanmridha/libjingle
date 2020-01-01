@@ -25,18 +25,18 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/win32filesystem.h"
+#include "base/win32filesystem.h"
 
-#include "talk/base/win32.h"
+#include "base/win32.h"
 #include <shellapi.h>
 #include <shlobj.h>
 #include <tchar.h>
 
-#include "talk/base/fileutils.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stream.h"
-#include "talk/base/stringutils.h"
+#include "base/fileutils.h"
+#include "base/pathutils.h"
+#include "base/scoped_ptr.h"
+#include "base/stream.h"
+#include "base/stringutils.h"
 
 // In several places in this file, we test the integrity level of the process
 // before calling GetLongPathName. We do this because calling GetLongPathName

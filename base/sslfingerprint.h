@@ -32,11 +32,11 @@
 #include <ctype.h>
 #include <string>
 
-#include "talk/base/buffer.h"
-#include "talk/base/helpers.h"
-#include "talk/base/messagedigest.h"
-#include "talk/base/sslidentity.h"
-#include "talk/base/stringencode.h"
+#include "base/buffer.h"
+#include "base/helpers.h"
+#include "base/messagedigest.h"
+#include "base/sslidentity.h"
+#include "base/stringencode.h"
 
 namespace talk_base {
 

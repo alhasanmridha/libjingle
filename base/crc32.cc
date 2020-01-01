@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/crc32.h"
+#include "base/crc32.h"
 
-#include "talk/base/basicdefs.h"
+#include "base/basicdefs.h"
 
 namespace talk_base {
 

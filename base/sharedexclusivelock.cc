@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/sharedexclusivelock.h"
+#include "base/sharedexclusivelock.h"
 
 namespace talk_base {
 

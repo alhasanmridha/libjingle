@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/winfirewall.h"
+#include "base/winfirewall.h"
 
-#include "talk/base/win32.h"
+#include "base/win32.h"
 
 #include <comdef.h>
 #include <netfw.h>

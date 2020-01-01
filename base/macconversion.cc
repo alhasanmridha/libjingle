@@ -29,8 +29,8 @@
 
 #include <CoreFoundation/CoreFoundation.h>
 
-#include "talk/base/logging.h"
-#include "talk/base/macconversion.h"
+#include "base/logging.h"
+#include "base/macconversion.h"
 
 bool p_convertHostCFStringRefToCPPString(
   const CFStringRef cfstr, std::string& cppstr) {

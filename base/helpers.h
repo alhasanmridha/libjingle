@@ -29,7 +29,7 @@
 #define TALK_BASE_HELPERS_H_
 
 #include <string>
-#include "talk/base/basictypes.h"
+#include "base/basictypes.h"
 
 namespace talk_base {
 

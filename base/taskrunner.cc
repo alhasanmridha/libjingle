@@ -27,12 +27,12 @@
 
 #include <algorithm>
 
-#include "talk/base/taskrunner.h"
+#include "base/taskrunner.h"
 
-#include "talk/base/common.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/task.h"
-#include "talk/base/logging.h"
+#include "base/common.h"
+#include "base/scoped_ptr.h"
+#include "base/task.h"
+#include "base/logging.h"
 
 namespace talk_base {
 

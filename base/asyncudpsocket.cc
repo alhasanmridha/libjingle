@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/asyncudpsocket.h"
-#include "talk/base/logging.h"
+#include "base/asyncudpsocket.h"
+#include "base/logging.h"
 
 namespace talk_base {
 

@@ -30,7 +30,7 @@
 
 #ifdef WIN32
 
-#include "talk/base/win32.h"
+#include "base/win32.h"
 
 namespace talk_base {
 

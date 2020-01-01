@@ -30,10 +30,10 @@
 
 #include <string>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
+#include "base/basictypes.h"
+#include "base/common.h"
+#include "base/logging.h"
+#include "base/scoped_ptr.h"
 
 namespace talk_base {
 

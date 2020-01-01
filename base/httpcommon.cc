@@ -36,16 +36,16 @@
 #include <security.h>
 #endif
 
-#include "talk/base/httpcommon-inl.h"
+#include "base/httpcommon-inl.h"
 
-#include "talk/base/base64.h"
-#include "talk/base/common.h"
-#include "talk/base/cryptstring.h"
-#include "talk/base/httpcommon.h"
-#include "talk/base/socketaddress.h"
-#include "talk/base/stringdigest.h"
-#include "talk/base/stringencode.h"
-#include "talk/base/stringutils.h"
+#include "base/base64.h"
+#include "base/common.h"
+#include "base/cryptstring.h"
+#include "base/httpcommon.h"
+#include "base/socketaddress.h"
+#include "base/stringdigest.h"
+#include "base/stringencode.h"
+#include "base/stringutils.h"
 
 namespace talk_base {
 

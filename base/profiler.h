@@ -51,9 +51,9 @@
 #include <map>
 #include <string>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
+#include "base/basictypes.h"
+#include "base/common.h"
+#include "base/logging.h"
 
 // Profiling could be switched via a build flag, but for now, it's always on.
 #define ENABLE_PROFILING

@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/common.h"
-#include "talk/base/gunit.h"
-#include "talk/base/thread.h"
-#include "talk/base/timeutils.h"
+#include "base/common.h"
+#include "base/gunit.h"
+#include "base/thread.h"
+#include "base/timeutils.h"
 
 namespace talk_base {
 

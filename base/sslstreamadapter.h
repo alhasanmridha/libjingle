@@ -31,8 +31,8 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/stream.h"
-#include "talk/base/sslidentity.h"
+#include "base/stream.h"
+#include "base/sslidentity.h"
 
 namespace talk_base {
 

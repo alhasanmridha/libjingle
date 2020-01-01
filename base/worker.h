@@ -28,8 +28,8 @@
 #ifndef TALK_BASE_WORKER_H_
 #define TALK_BASE_WORKER_H_
 
-#include "talk/base/constructormagic.h"
-#include "talk/base/messagehandler.h"
+#include "base/constructormagic.h"
+#include "base/messagehandler.h"
 
 namespace talk_base {
 

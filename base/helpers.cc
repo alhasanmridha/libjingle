@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/helpers.h"
+#include "base/helpers.h"
 
 #include <limits>
 
-#include "talk/base/sslconfig.h"
+#include "base/sslconfig.h"
 #if defined(SSL_USE_OPENSSL)
 #include <openssl/rand.h>
 #elif defined(SSL_USE_NSS_RNG)
@@ -42,11 +42,11 @@
 #endif  // WIN32
 #endif
 
-#include "talk/base/base64.h"
-#include "talk/base/basictypes.h"
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/timeutils.h"
+#include "base/base64.h"
+#include "base/basictypes.h"
+#include "base/logging.h"
+#include "base/scoped_ptr.h"
+#include "base/timeutils.h"
 
 // Protect against max macro inclusion.
 #undef max

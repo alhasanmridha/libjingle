@@ -28,14 +28,14 @@
 #ifndef TALK_BASE_WINDOW_H_
 #define TALK_BASE_WINDOW_H_
 
-#include "talk/base/stringencode.h"
+#include "base/stringencode.h"
 
 // Define platform specific window types.
 #if defined(LINUX)
 typedef unsigned long Window;  // Avoid include <X11/Xlib.h>.
 #elif defined(WIN32)
 // We commonly include win32.h in talk/base so just include it here.
-#include "talk/base/win32.h"  // Include HWND, HMONITOR.
+#include "base/win32.h"  // Include HWND, HMONITOR.
 #elif defined(OSX)
 typedef unsigned int CGWindowID;
 typedef unsigned int CGDirectDisplayID;

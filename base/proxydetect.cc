@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/proxydetect.h"
+#include "base/proxydetect.h"
 
 #ifdef WIN32
-#include "talk/base/win32.h"
+#include "base/win32.h"
 #include <shlobj.h>
 #endif  // WIN32
 
@@ -46,11 +46,11 @@
 
 #include <map>
 
-#include "talk/base/fileutils.h"
-#include "talk/base/httpcommon.h"
-#include "talk/base/httpcommon-inl.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/stringutils.h"
+#include "base/fileutils.h"
+#include "base/httpcommon.h"
+#include "base/httpcommon-inl.h"
+#include "base/pathutils.h"
+#include "base/stringutils.h"
 
 #ifdef WIN32
 #define _TRY_WINHTTP 1

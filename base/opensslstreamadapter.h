@@ -31,9 +31,9 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/buffer.h"
-#include "talk/base/sslstreamadapter.h"
-#include "talk/base/opensslidentity.h"
+#include "base/buffer.h"
+#include "base/sslstreamadapter.h"
+#include "base/opensslidentity.h"
 
 typedef struct ssl_st SSL;
 typedef struct ssl_ctx_st SSL_CTX;

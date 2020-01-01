@@ -28,7 +28,7 @@
 #ifndef TALK_BASE_MESSAGEHANDLER_H_
 #define TALK_BASE_MESSAGEHANDLER_H_
 
-#include "talk/base/constructormagic.h"
+#include "base/constructormagic.h"
 
 namespace talk_base {
 

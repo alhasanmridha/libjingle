@@ -25,19 +25,19 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/cpumonitor.h"
+#include "base/cpumonitor.h"
 
 #include <string>
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/systeminfo.h"
-#include "talk/base/thread.h"
-#include "talk/base/timeutils.h"
+#include "base/common.h"
+#include "base/logging.h"
+#include "base/scoped_ptr.h"
+#include "base/systeminfo.h"
+#include "base/thread.h"
+#include "base/timeutils.h"
 
 #ifdef WIN32
-#include "talk/base/win32.h"
+#include "base/win32.h"
 #include <winternl.h>
 #endif
 
@@ -56,8 +56,8 @@
 #include <sys/resource.h>
 #include <errno.h>
 #include <stdio.h>
-#include "talk/base/fileutils.h"
-#include "talk/base/pathutils.h"
+#include "base/fileutils.h"
+#include "base/pathutils.h"
 #endif // defined(LINUX) || defined(ANDROID)
 
 #if defined(IOS) || defined(OSX)

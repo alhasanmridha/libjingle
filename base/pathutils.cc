@@ -26,18 +26,18 @@
  */
 
 #ifdef WIN32
-#include "talk/base/win32.h"
+#include "base/win32.h"
 #include <shellapi.h>
 #include <shlobj.h>
 #include <tchar.h>
 #endif  // WIN32
 
-#include "talk/base/common.h"
-#include "talk/base/fileutils.h"
-#include "talk/base/logging.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/stringutils.h"
-#include "talk/base/urlencode.h"
+#include "base/common.h"
+#include "base/fileutils.h"
+#include "base/logging.h"
+#include "base/pathutils.h"
+#include "base/stringutils.h"
+#include "base/urlencode.h"
 
 namespace talk_base {
 

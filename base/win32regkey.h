@@ -40,8 +40,8 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/win32.h"
+#include "base/basictypes.h"
+#include "base/win32.h"
 
 namespace talk_base {
 

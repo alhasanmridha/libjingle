@@ -28,16 +28,16 @@
 #include <time.h>
 
 #ifdef WIN32
-#include "talk/base/win32.h"
+#include "base/win32.h"
 #endif
 
-#include "talk/base/common.h"
-#include "talk/base/diskcache.h"
-#include "talk/base/fileutils.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/stream.h"
-#include "talk/base/stringencode.h"
-#include "talk/base/stringutils.h"
+#include "base/common.h"
+#include "base/diskcache.h"
+#include "base/fileutils.h"
+#include "base/pathutils.h"
+#include "base/stream.h"
+#include "base/stringencode.h"
+#include "base/stringutils.h"
 
 #ifdef _DEBUG
 #define TRANSPARENT_CACHE_NAMES 1

@@ -8,7 +8,7 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/window.h"
+#include "base/window.h"
 
 namespace talk_base {
 

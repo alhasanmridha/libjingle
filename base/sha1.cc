@@ -97,7 +97,7 @@
 // Disabling SHA1HANDSOFF the buffer will be modified (end swapped).
 #define SHA1HANDSOFF
 
-#include "talk/base/sha1.h"
+#include "base/sha1.h"
 
 #include <stdio.h>
 #include <string.h>

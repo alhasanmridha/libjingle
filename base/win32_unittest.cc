@@ -27,10 +27,10 @@
 
 #include <string>
 
-#include "talk/base/gunit.h"
-#include "talk/base/nethelpers.h"
-#include "talk/base/win32.h"
-#include "talk/base/winping.h"
+#include "base/gunit.h"
+#include "base/nethelpers.h"
+#include "base/win32.h"
+#include "base/winping.h"
 
 #ifndef WIN32
 #error Only for Windows

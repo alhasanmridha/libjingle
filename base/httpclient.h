@@ -28,14 +28,14 @@
 #ifndef TALK_BASE_HTTPCLIENT_H__
 #define TALK_BASE_HTTPCLIENT_H__
 
-#include "talk/base/common.h"
-#include "talk/base/httpbase.h"
-#include "talk/base/nethelpers.h"
-#include "talk/base/proxyinfo.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/socketaddress.h"
-#include "talk/base/socketpool.h"
+#include "base/common.h"
+#include "base/httpbase.h"
+#include "base/nethelpers.h"
+#include "base/proxyinfo.h"
+#include "base/scoped_ptr.h"
+#include "base/sigslot.h"
+#include "base/socketaddress.h"
+#include "base/socketpool.h"
 
 namespace talk_base {
 

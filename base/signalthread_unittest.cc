@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/gunit.h"
-#include "talk/base/signalthread.h"
-#include "talk/base/thread.h"
+#include "base/gunit.h"
+#include "base/signalthread.h"
+#include "base/thread.h"
 
 using namespace talk_base;
 

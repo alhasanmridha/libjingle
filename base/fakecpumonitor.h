@@ -28,7 +28,7 @@
 #ifndef TALK_BASE_FAKECPUMONITOR_H_
 #define TALK_BASE_FAKECPUMONITOR_H_
 
-#include "talk/base/cpumonitor.h"
+#include "base/cpumonitor.h"
 
 namespace talk_base {
 

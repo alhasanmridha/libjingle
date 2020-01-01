@@ -29,10 +29,10 @@
 #define TALK_BASE_TASK_H__
 
 #include <string>
-#include "talk/base/basictypes.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/taskparent.h"
+#include "base/basictypes.h"
+#include "base/scoped_ptr.h"
+#include "base/sigslot.h"
+#include "base/taskparent.h"
 
 /////////////////////////////////////////////////////////////////////
 //

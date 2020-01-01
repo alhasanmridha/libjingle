@@ -30,9 +30,9 @@
 
 #include <string>
 
-#include "talk/base/constructormagic.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/thread.h"
+#include "base/constructormagic.h"
+#include "base/sigslot.h"
+#include "base/thread.h"
 
 namespace talk_base {
 

@@ -6,6 +6,8 @@ stringutils.cc
 bytebuffer.cc
 stringencode.cc
 versionparsing.cc
+host.cc
+asyncfile.cc
 main.cpp
 )
 set(SOURCES ${SOURCES})

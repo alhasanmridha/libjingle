@@ -35,10 +35,10 @@
 #include "hasht.h"
 #include "keythi.h"
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sslidentity.h"
+#include "base/common.h"
+#include "base/logging.h"
+#include "base/scoped_ptr.h"
+#include "base/sslidentity.h"
 
 namespace talk_base {
 

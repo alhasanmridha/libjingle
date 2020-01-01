@@ -1,12 +1,12 @@
 // Copyright 2010 Google Inc. All Rights Reserved
 
 
-#include "talk/base/gunit.h"
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/win32window.h"
-#include "talk/base/win32windowpicker.h"
-#include "talk/base/windowpicker.h"
+#include "base/gunit.h"
+#include "base/common.h"
+#include "base/logging.h"
+#include "base/win32window.h"
+#include "base/win32windowpicker.h"
+#include "base/windowpicker.h"
 
 #ifndef WIN32
 #error Only for Windows

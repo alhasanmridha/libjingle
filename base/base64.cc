@@ -14,11 +14,11 @@
 //*
 //*********************************************************************
 
-#include "talk/base/base64.h"
+#include "base/base64.h"
 
 #include <string.h>
 
-#include "talk/base/common.h"
+#include "base/common.h"
 
 using std::string;
 using std::vector;

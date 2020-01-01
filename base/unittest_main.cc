@@ -8,11 +8,11 @@
 #include <crtdbg.h>
 #endif
 
-#include "talk/base/flags.h"
-#include "talk/base/fileutils.h"
-#include "talk/base/gunit.h"
-#include "talk/base/logging.h"
-#include "talk/base/pathutils.h"
+#include "base/flags.h"
+#include "base/fileutils.h"
+#include "base/gunit.h"
+#include "base/logging.h"
+#include "base/pathutils.h"
 
 DEFINE_bool(help, false, "prints this message");
 DEFINE_string(log, "", "logging options to use");

@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/gunit.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/win32toolhelp.h"
+#include "base/gunit.h"
+#include "base/pathutils.h"
+#include "base/scoped_ptr.h"
+#include "base/win32toolhelp.h"
 
 namespace talk_base {
 

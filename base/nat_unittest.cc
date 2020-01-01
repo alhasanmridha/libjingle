@@ -27,16 +27,16 @@
 
 #include <string>
 
-#include "talk/base/gunit.h"
-#include "talk/base/host.h"
-#include "talk/base/logging.h"
-#include "talk/base/natserver.h"
-#include "talk/base/natsocketfactory.h"
-#include "talk/base/nethelpers.h"
-#include "talk/base/network.h"
-#include "talk/base/physicalsocketserver.h"
-#include "talk/base/testclient.h"
-#include "talk/base/virtualsocketserver.h"
+#include "base/gunit.h"
+#include "base/host.h"
+#include "base/logging.h"
+#include "base/natserver.h"
+#include "base/natsocketfactory.h"
+#include "base/nethelpers.h"
+#include "base/network.h"
+#include "base/physicalsocketserver.h"
+#include "base/testclient.h"
+#include "base/virtualsocketserver.h"
 
 using namespace talk_base;
 

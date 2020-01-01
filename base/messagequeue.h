@@ -34,15 +34,15 @@
 #include <queue>
 #include <vector>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/constructormagic.h"
-#include "talk/base/criticalsection.h"
-#include "talk/base/messagehandler.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/scoped_ref_ptr.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/socketserver.h"
-#include "talk/base/timeutils.h"
+#include "base/basictypes.h"
+#include "base/constructormagic.h"
+#include "base/criticalsection.h"
+#include "base/messagehandler.h"
+#include "base/scoped_ptr.h"
+#include "base/scoped_ref_ptr.h"
+#include "base/sigslot.h"
+#include "base/socketserver.h"
+#include "base/timeutils.h"
 
 namespace talk_base {
 

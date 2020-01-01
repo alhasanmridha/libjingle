@@ -28,12 +28,12 @@
 #ifndef TALK_BASE_CPUMONITOR_H_
 #define TALK_BASE_CPUMONITOR_H_
 
-#include "talk/base/basictypes.h"
-#include "talk/base/messagehandler.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sigslot.h"
+#include "base/basictypes.h"
+#include "base/messagehandler.h"
+#include "base/scoped_ptr.h"
+#include "base/sigslot.h"
 #if defined(LINUX) || defined(ANDROID)
-#include "talk/base/stream.h"
+#include "base/stream.h"
 #endif // defined(LINUX) || defined(ANDROID)
 
 namespace talk_base {

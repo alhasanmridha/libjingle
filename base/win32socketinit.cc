@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/win32socketinit.h"
+#include "base/win32socketinit.h"
 
-#include "talk/base/win32.h"
+#include "base/win32.h"
 
 namespace talk_base {
 

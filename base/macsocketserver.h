@@ -8,7 +8,7 @@
 #ifdef OSX // Invalid on IOS
 #include <Carbon/Carbon.h>
 #endif
-#include "talk/base/physicalsocketserver.h"
+#include "base/physicalsocketserver.h"
 
 namespace talk_base {
 

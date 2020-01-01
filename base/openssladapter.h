@@ -29,7 +29,7 @@
 #define TALK_BASE_OPENSSLADAPTER_H__
 
 #include <string>
-#include "talk/base/ssladapter.h"
+#include "base/ssladapter.h"
 
 typedef struct ssl_st SSL;
 typedef struct ssl_ctx_st SSL_CTX;

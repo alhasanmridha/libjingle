@@ -25,12 +25,12 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/win32socketserver.h"
-#include "talk/base/byteorder.h"
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/winping.h"
-#include "talk/base/win32window.h"
+#include "base/win32socketserver.h"
+#include "base/byteorder.h"
+#include "base/common.h"
+#include "base/logging.h"
+#include "base/winping.h"
+#include "base/win32window.h"
 #include <ws2tcpip.h>  // NOLINT
 
 namespace talk_base {

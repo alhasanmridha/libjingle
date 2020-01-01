@@ -25,16 +25,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/httprequest.h"
+#include "base/httprequest.h"
 
-#include "talk/base/common.h"
-#include "talk/base/firewallsocketserver.h"
-#include "talk/base/httpclient.h"
-#include "talk/base/logging.h"
-#include "talk/base/physicalsocketserver.h"
-#include "talk/base/socketadapters.h"
-#include "talk/base/socketpool.h"
-#include "talk/base/ssladapter.h"
+#include "base/common.h"
+#include "base/firewallsocketserver.h"
+#include "base/httpclient.h"
+#include "base/logging.h"
+#include "base/physicalsocketserver.h"
+#include "base/socketadapters.h"
+#include "base/socketpool.h"
+#include "base/ssladapter.h"
 
 using namespace talk_base;
 

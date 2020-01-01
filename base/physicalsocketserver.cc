@@ -51,15 +51,15 @@
 #include <algorithm>
 #include <map>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/byteorder.h"
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/nethelpers.h"
-#include "talk/base/physicalsocketserver.h"
-#include "talk/base/timeutils.h"
-#include "talk/base/winping.h"
-#include "talk/base/win32socketinit.h"
+#include "base/basictypes.h"
+#include "base/byteorder.h"
+#include "base/common.h"
+#include "base/logging.h"
+#include "base/nethelpers.h"
+#include "base/physicalsocketserver.h"
+#include "base/timeutils.h"
+#include "base/winping.h"
+#include "base/win32socketinit.h"
 
 // stm: this will tell us if we are on OSX
 #ifdef HAVE_CONFIG_H

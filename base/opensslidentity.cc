@@ -27,10 +27,10 @@
 
 #if HAVE_OPENSSL_SSL_H
 
-#include "talk/base/opensslidentity.h"
+#include "base/opensslidentity.h"
 
 // Must be included first before openssl headers.
-#include "talk/base/win32.h"  // NOLINT
+#include "base/win32.h"  // NOLINT
 
 #include <openssl/ssl.h>
 #include <openssl/bio.h>
@@ -40,9 +40,9 @@
 #include <openssl/rsa.h>
 #include <openssl/crypto.h>
 
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/openssldigest.h"
+#include "base/helpers.h"
+#include "base/logging.h"
+#include "base/openssldigest.h"
 
 namespace talk_base {
 

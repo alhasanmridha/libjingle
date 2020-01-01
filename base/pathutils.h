@@ -30,7 +30,7 @@
 
 #include <string>
 // Temporary, until deprecated helpers are removed.
-#include "talk/base/fileutils.h"
+#include "base/fileutils.h"
 
 namespace talk_base {
 

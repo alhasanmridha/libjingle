@@ -30,9 +30,9 @@
 
 #include <vector>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/taskparent.h"
+#include "base/basictypes.h"
+#include "base/sigslot.h"
+#include "base/taskparent.h"
 
 namespace talk_base {
 class Task;

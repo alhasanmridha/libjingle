@@ -30,7 +30,7 @@
 
 #include <openssl/evp.h>
 
-#include "talk/base/messagedigest.h"
+#include "base/messagedigest.h"
 
 namespace talk_base {
 

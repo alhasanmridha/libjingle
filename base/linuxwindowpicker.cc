@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/linuxwindowpicker.h"
+#include "base/linuxwindowpicker.h"
 
 #include <math.h>
 #include <string.h>
@@ -38,7 +38,7 @@
 #include <X11/extensions/Xrender.h>
 #include <X11/Xutil.h>
 
-#include "talk/base/logging.h"
+#include "base/logging.h"
 
 namespace talk_base {
 

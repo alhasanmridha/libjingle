@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/systeminfo.h"
+#include "base/systeminfo.h"
 
 #if defined(WIN32)
 #include <winsock2.h>
@@ -44,16 +44,16 @@
 #endif
 
 #if defined(WIN32)
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/win32.h"
+#include "base/scoped_ptr.h"
+#include "base/win32.h"
 #elif defined(OSX)
-#include "talk/base/macconversion.h"
+#include "base/macconversion.h"
 #elif defined(LINUX) || defined(ANDROID)
-#include "talk/base/linux.h"
+#include "base/linux.h"
 #endif
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/stringutils.h"
+#include "base/common.h"
+#include "base/logging.h"
+#include "base/stringutils.h"
 
 namespace talk_base {
 

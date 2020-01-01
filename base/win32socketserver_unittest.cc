@@ -1,10 +1,10 @@
 // Copyright 2009 Google Inc. All Rights Reserved.
 
 
-#include "talk/base/gunit.h"
-#include "talk/base/socket_unittest.h"
-#include "talk/base/thread.h"
-#include "talk/base/win32socketserver.h"
+#include "base/gunit.h"
+#include "base/socket_unittest.h"
+#include "base/thread.h"
+#include "base/win32socketserver.h"
 
 namespace talk_base {
 

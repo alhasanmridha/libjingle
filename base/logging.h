@@ -69,8 +69,8 @@
 #include <sstream>
 #include <string>
 #include <utility>
-#include "talk/base/basictypes.h"
-#include "talk/base/criticalsection.h"
+#include "base/basictypes.h"
+#include "base/criticalsection.h"
 
 namespace talk_base {
 

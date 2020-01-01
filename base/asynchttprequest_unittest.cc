@@ -26,11 +26,11 @@
  */
 
 #include <string>
-#include "talk/base/asynchttprequest.h"
-#include "talk/base/gunit.h"
-#include "talk/base/httpserver.h"
-#include "talk/base/socketstream.h"
-#include "talk/base/thread.h"
+#include "base/asynchttprequest.h"
+#include "base/gunit.h"
+#include "base/httpserver.h"
+#include "base/socketstream.h"
+#include "base/thread.h"
 
 namespace talk_base {
 

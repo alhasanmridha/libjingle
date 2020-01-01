@@ -28,9 +28,9 @@
 #ifndef TALK_BASE_SOCKETSTREAM_H_
 #define TALK_BASE_SOCKETSTREAM_H_
 
-#include "talk/base/asyncsocket.h"
-#include "talk/base/common.h"
-#include "talk/base/stream.h"
+#include "base/asyncsocket.h"
+#include "base/common.h"
+#include "base/stream.h"
 
 namespace talk_base {
 

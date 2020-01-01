@@ -29,8 +29,8 @@
 #define TALK_BASE_FIREWALLSOCKETSERVER_H_
 
 #include <vector>
-#include "talk/base/socketserver.h"
-#include "talk/base/criticalsection.h"
+#include "base/socketserver.h"
+#include "base/criticalsection.h"
 
 namespace talk_base {
 

@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/urlencode.h"
+#include "base/urlencode.h"
 
-#include "talk/base/common.h"
-#include "talk/base/stringutils.h"
+#include "base/common.h"
+#include "base/stringutils.h"
 
 static int HexPairValue(const char * code) {
   int value = 0;

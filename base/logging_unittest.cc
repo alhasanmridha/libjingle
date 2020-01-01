@@ -26,10 +26,10 @@
  */
 
 #include "base/fileutils.h"
-#include "talk/base/gunit.h"
-#include "talk/base/logging.h"
+#include "base/gunit.h"
+#include "base/logging.h"
 #include "base/pathutils.h"
-#include "talk/base/stream.h"
+#include "base/stream.h"
 #include "base/thread.h"
 
 namespace talk_base {

@@ -1,14 +1,14 @@
 // Copyright 2010 Google Inc. All Rights Reserved
 
 
-#include "talk/base/macwindowpicker.h"
+#include "base/macwindowpicker.h"
 
 #include <ApplicationServices/ApplicationServices.h>
 #include <CoreFoundation/CoreFoundation.h>
 #include <dlfcn.h>
 
-#include "talk/base/logging.h"
-#include "talk/base/macutils.h"
+#include "base/logging.h"
+#include "base/macutils.h"
 
 namespace talk_base {
 

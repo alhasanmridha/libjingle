@@ -2,9 +2,9 @@
 // All Rights Reserved.
 
 
-#include "talk/base/gunit.h"
-#include "talk/base/httpserver.h"
-#include "talk/base/testutils.h"
+#include "base/gunit.h"
+#include "base/httpserver.h"
+#include "base/testutils.h"
 
 using namespace testing;
 

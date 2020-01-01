@@ -12,10 +12,10 @@
 #include <CoreFoundation/CoreFoundation.h>
 #include <fcntl.h>
 
-#include "talk/base/macasyncsocket.h"
+#include "base/macasyncsocket.h"
 
-#include "talk/base/logging.h"
-#include "talk/base/macsocketserver.h"
+#include "base/logging.h"
+#include "base/macsocketserver.h"
 
 namespace talk_base {
 

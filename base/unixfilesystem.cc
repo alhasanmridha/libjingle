@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/unixfilesystem.h"
+#include "base/unixfilesystem.h"
 
 #include <errno.h>
 #include <fcntl.h>
@@ -37,7 +37,7 @@
 #include <Carbon/Carbon.h>
 #include <IOKit/IOCFBundle.h>
 #include <sys/statvfs.h>
-#include "talk/base/macutils.h"
+#include "base/macutils.h"
 #endif  // OSX
 
 #if defined(POSIX) && !defined(OSX)
@@ -57,10 +57,10 @@
 #include <algorithm>
 #endif
 
-#include "talk/base/fileutils.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/stream.h"
-#include "talk/base/stringutils.h"
+#include "base/fileutils.h"
+#include "base/pathutils.h"
+#include "base/stream.h"
+#include "base/stringutils.h"
 
 namespace talk_base {
 

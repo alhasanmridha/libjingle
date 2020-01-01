@@ -32,18 +32,18 @@
 #include <sys/stat.h>
 #include <errno.h>
 #include <string>
-#include "talk/base/basictypes.h"
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/messagequeue.h"
-#include "talk/base/stream.h"
-#include "talk/base/stringencode.h"
-#include "talk/base/stringutils.h"
-#include "talk/base/thread.h"
-#include "talk/base/timeutils.h"
+#include "base/basictypes.h"
+#include "base/common.h"
+#include "base/logging.h"
+#include "base/messagequeue.h"
+#include "base/stream.h"
+#include "base/stringencode.h"
+#include "base/stringutils.h"
+#include "base/thread.h"
+#include "base/timeutils.h"
 
 #ifdef WIN32
-#include "talk/base/win32.h"
+#include "base/win32.h"
 #define fileno _fileno
 #endif
 

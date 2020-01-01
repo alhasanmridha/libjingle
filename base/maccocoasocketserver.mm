@@ -24,13 +24,13 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#import "talk/base/maccocoasocketserver.h"
+#import "base/maccocoasocketserver.h"
 
 #import <Foundation/Foundation.h>
 #import <AppKit/AppKit.h>
 #include <assert.h>
 
-#include "talk/base/scoped_autorelease_pool.h"
+#include "base/scoped_autorelease_pool.h"
 
 // MacCocoaSocketServerHelper serves as a delegate to NSMachPort or a target for
 // a timeout.

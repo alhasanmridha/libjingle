@@ -25,13 +25,13 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/firewallsocketserver.h"
+#include "base/firewallsocketserver.h"
 
 #include <cassert>
 #include <algorithm>
 
-#include "talk/base/asyncsocket.h"
-#include "talk/base/logging.h"
+#include "base/asyncsocket.h"
+#include "base/logging.h"
 
 namespace talk_base {
 

@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/gunit.h"
-#include "talk/base/referencecountedsingletonfactory.h"
+#include "base/gunit.h"
+#include "base/referencecountedsingletonfactory.h"
 
 namespace talk_base {
 

@@ -25,19 +25,19 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/messagedigest.h"
+#include "base/messagedigest.h"
 
 #include <string.h>
 
-#include "talk/base/sslconfig.h"
+#include "base/sslconfig.h"
 #if SSL_USE_OPENSSL
-#include "talk/base/openssldigest.h"
+#include "base/openssldigest.h"
 #else
-#include "talk/base/md5digest.h"
-#include "talk/base/sha1digest.h"
+#include "base/md5digest.h"
+#include "base/sha1digest.h"
 #endif
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stringencode.h"
+#include "base/scoped_ptr.h"
+#include "base/stringencode.h"
 
 namespace talk_base {
 

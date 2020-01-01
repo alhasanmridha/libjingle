@@ -31,13 +31,13 @@
 #include <set>
 #include <string>
 
-#include "talk/base/gunit.h"
-#include "talk/base/helpers.h"
-#include "talk/base/ssladapter.h"
-#include "talk/base/sslconfig.h"
-#include "talk/base/sslidentity.h"
-#include "talk/base/sslstreamadapter.h"
-#include "talk/base/stream.h"
+#include "base/gunit.h"
+#include "base/helpers.h"
+#include "base/ssladapter.h"
+#include "base/sslconfig.h"
+#include "base/sslidentity.h"
+#include "base/sslstreamadapter.h"
+#include "base/stream.h"
 
 static const int kBlockSize = 4096;
 static const char kAES_CM_HMAC_SHA1_80[] = "AES_CM_128_HMAC_SHA1_80";

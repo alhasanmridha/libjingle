@@ -25,15 +25,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/socket_unittest.h"
+#include "base/socket_unittest.h"
 
-#include "talk/base/asyncudpsocket.h"
-#include "talk/base/gunit.h"
-#include "talk/base/nethelpers.h"
-#include "talk/base/socketserver.h"
-#include "talk/base/testclient.h"
-#include "talk/base/testutils.h"
-#include "talk/base/thread.h"
+#include "base/asyncudpsocket.h"
+#include "base/gunit.h"
+#include "base/nethelpers.h"
+#include "base/socketserver.h"
+#include "base/testclient.h"
+#include "base/testutils.h"
+#include "base/thread.h"
 
 namespace talk_base {
 

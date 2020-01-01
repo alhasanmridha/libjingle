@@ -33,10 +33,10 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/ipaddress.h"
-#include "talk/base/messagehandler.h"
-#include "talk/base/sigslot.h"
+#include "base/basictypes.h"
+#include "base/ipaddress.h"
+#include "base/messagehandler.h"
+#include "base/sigslot.h"
 
 #if defined(POSIX)
 struct ifaddrs;
