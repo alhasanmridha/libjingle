@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/pathutils.h"
-#include "base/gunit.h"
+#include "pathutils.h"
+#include "gtest/gtest.h"
 
 TEST(Pathname, ReturnsDotForEmptyPathname) {
   const std::string kCWD =

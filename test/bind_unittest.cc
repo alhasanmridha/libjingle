@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/bind.h"
-#include "base/gunit.h"
+#include "bind.h"
+#include "gtest/gtest.h"
 
 namespace talk_base {
 
