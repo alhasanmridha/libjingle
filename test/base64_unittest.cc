@@ -25,14 +25,14 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/common.h"
-#include "base/base64.h"
-#include "base/gunit.h"
-#include "base/logging.h"
-#include "base/stringutils.h"
-#include "base/stream.h"
+#include "common.h"
+#include "base64.h"
+#include "gtest/gtest.h"
+#include "logging.h"
+#include "stringutils.h"
+#include "stream.h"
 
-#include "base/testbase64.h"
+#include "testbase64.h"
 
 using namespace std;
 using namespace talk_base;

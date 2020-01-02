@@ -2,13 +2,16 @@
 [![Build Status](https://travis-ci.org/alhasanmridha/libjingle.svg?branch=dev)](https://travis-ci.org/alhasanmridha/libjingle)
 ## Test Driven Development
 
-1. BasicTypes
-2. ByteOrder
-3. StringUtil
-4. ByteBuffer
-5. StringEncode
-6. Sigslot
-7. VersionParsing
+1. Base64
+2. BasicTypes
+2. ByteBuffer
+3. ByteOrder
+4. Logging
+4. SignalThread
+8. Sigslot
+6. StringEncode
+7. StringUtil
+9. VersionParsing
 ## 1. Introduction
 Libjingle is a set of components provided by Google to implement Jingle protocols XEP-166 (http://xmpp.org/extensions/xep-0166.html) and XEP-167
 (http://xmpp.org/extensions/xep-0167.html). Libjingle is also backward

@@ -2,17 +2,19 @@ set(BINARY ${CMAKE_PROJECT_NAME}_tst)
 
 # file(GLOB_RECURSE TEST_SOURCES LIST_DIRECTORIES false *.h *.cpp *.cc)
 set(TEST_SOURCES 
+base64_unittest.cc
 basictypes_unittest.cc
-byteorder_unittest.cc
-stringutils_unittest.cc
-bytebuffer_unittest.cc
-stringencode_unittest.cc
 buffer_unittest.cc
-sigslot_unittest.cc
-versionparsing_unittest.cc
+bytebuffer_unittest.cc
+byteorder_unittest.cc
 host_unittest.cc
 logging_unittest.cc
 main.cpp
+signalthread_unittest.cc
+sigslot_unittest.cc
+stringencode_unittest.cc
+stringutils_unittest.cc
+versionparsing_unittest.cc
 )
 set(SOURCES ${TEST_SOURCES})
 

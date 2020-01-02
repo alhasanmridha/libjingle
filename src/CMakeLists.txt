@@ -4,6 +4,7 @@ set(BINARY ${CMAKE_PROJECT_NAME})
 set(SOURCES
 asyncfile.cc
 asyncsocket.cc
+base64.cc
 bytebuffer.cc
 fileutils.cc
 host.cc
