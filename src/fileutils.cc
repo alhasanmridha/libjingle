@@ -31,15 +31,15 @@
 #include "base/win32.h"
 #endif
 
-#include "base/pathutils.h"
-#include "base/fileutils.h"
-#include "base/stringutils.h"
-#include "base/stream.h"
+#include "pathutils.h"
+#include "fileutils.h"
+#include "stringutils.h"
+#include "stream.h"
 
 #ifdef WIN32
 #include "base/win32filesystem.h"
 #else
-#include "base/unixfilesystem.h"
+#include "unixfilesystem.h"
 #endif
 
 #ifndef WIN32

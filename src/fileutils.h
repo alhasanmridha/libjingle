@@ -39,9 +39,9 @@
 #include <unistd.h>
 #endif
 
-#include "base/basictypes.h"
-#include "base/common.h"
-#include "base/scoped_ptr.h"
+#include "basictypes.h"
+#include "common.h"
+#include "scoped_ptr.h"
 
 namespace talk_base {
 
