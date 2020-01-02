@@ -1,6 +1,6 @@
 /*
  * libjingle
- * Copyright 2004--2011, Google Inc.
+ * Copyright 2004--2005, Google Inc.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -25,59 +25,49 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <string>
+#ifndef TALK_BASE_HELPERS_H_
+#define TALK_BASE_HELPERS_H_
 
-#include "base/gunit.h"
-#include "base/helpers.h"
+#include <string>
+#include "basictypes.h"
 
 namespace talk_base {
 
-TEST(RandomTest, TestCreateRandomId) {
-  CreateRandomId();
-}
+// For testing, we can return predictable data.
+void SetRandomTestMode(bool test);
 
-TEST(RandomTest, TestCreateRandomDouble) {
-  for (int i = 0; i < 100; ++i) {
-    double r = CreateRandomDouble();
-    EXPECT_GE(r, 0.0);
-    EXPECT_LT(r, 1.0);
-  }
-}
+// Initializes the RNG, and seeds it with the specified entropy.
+bool InitRandom(int seed);
+bool InitRandom(const char* seed, size_t len);
 
-TEST(RandomTest, TestCreateNonZeroRandomId) {
-  EXPECT_NE(0U, CreateRandomNonZeroId());
-}
+// Generates a (cryptographically) random string of the given length.
+// We generate base64 values so that they will be printable.
+// WARNING: could silently fail. Use the version below instead.
+std::string CreateRandomString(size_t length);
 
-TEST(RandomTest, TestCreateRandomString) {
-  std::string random = CreateRandomString(256);
-  EXPECT_EQ(256U, random.size());
-  std::string random2;
-  EXPECT_TRUE(CreateRandomString(256, &random2));
-  EXPECT_NE(random, random2);
-  EXPECT_EQ(256U, random2.size());
-}
+// Generates a (cryptographically) random string of the given length.
+// We generate base64 values so that they will be printable.
+// Return false if the random number generator failed.
+bool CreateRandomString(size_t length, std::string* str);
 
-TEST(RandomTest, TestCreateRandomForTest) {
-  // Make sure we get the output we expect.
-  SetRandomTestMode(true);
-  EXPECT_EQ(2154761789U, CreateRandomId());
-  EXPECT_EQ("h0ISP4S5SJKH/9EY", CreateRandomString(16));
+// Generates a (cryptographically) random string of the given length,
+// with characters from the given table. Return false if the random
+// number generator failed.
+bool CreateRandomString(size_t length, const std::string& table,
+                        std::string* str);
 
-  // Reset and make sure we get the same output.
-  SetRandomTestMode(true);
-  EXPECT_EQ(2154761789U, CreateRandomId());
-  EXPECT_EQ("h0ISP4S5SJKH/9EY", CreateRandomString(16));
+// Generates a random id.
+uint32 CreateRandomId();
 
-  // Test different character sets.
-  SetRandomTestMode(true);
-  std::string str;
-  EXPECT_TRUE(CreateRandomString(16, "a", &str));
-  EXPECT_EQ("aaaaaaaaaaaaaaaa", str);
-  EXPECT_TRUE(CreateRandomString(16, "abc", &str));
-  EXPECT_EQ("acbccaaaabbaacbb", str);
+// Generates a 64 bit random id.
+uint64 CreateRandomId64();
 
-  // Turn off test mode for other tests.
-  SetRandomTestMode(false);
-}
+// Generates a random id > 0.
+uint32 CreateRandomNonZeroId();
+
+// Generates a random double between 0.0 (inclusive) and 1.0 (exclusive).
+double CreateRandomDouble();
 
 }  // namespace talk_base
+
+#endif  // TALK_BASE_HELPERS_H_

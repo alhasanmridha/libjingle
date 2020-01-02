@@ -7,6 +7,7 @@ asyncsocket.cc
 base64.cc
 bytebuffer.cc
 fileutils.cc
+helpers.cc
 host.cc
 ipaddress.cc
 logging.cc

@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/helpers.h"
+#include "helpers.h"
 
 #include <limits>
 
-#include "base/sslconfig.h"
+#include "sslconfig.h"
 #if defined(SSL_USE_OPENSSL)
 #include <openssl/rand.h>
 #elif defined(SSL_USE_NSS_RNG)
@@ -42,11 +42,11 @@
 #endif  // WIN32
 #endif
 
-#include "base/base64.h"
-#include "base/basictypes.h"
-#include "base/logging.h"
-#include "base/scoped_ptr.h"
-#include "base/timeutils.h"
+#include "base64.h"
+#include "basictypes.h"
+#include "logging.h"
+#include "scoped_ptr.h"
+#include "timeutils.h"
 
 // Protect against max macro inclusion.
 #undef max
