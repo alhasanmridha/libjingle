@@ -14,6 +14,7 @@ signalthread_unittest.cc
 sigslot_unittest.cc
 stringencode_unittest.cc
 stringutils_unittest.cc
+timeutils_unittest.cc
 versionparsing_unittest.cc
 )
 set(SOURCES ${TEST_SOURCES})
