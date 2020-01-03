@@ -28,7 +28,7 @@
 #include <set>
 #include <sstream>
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "linuxfdwalk.h"
 
 #include <sys/types.h>

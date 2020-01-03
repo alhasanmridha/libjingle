@@ -23,7 +23,7 @@
 // OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 // ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/logging.h"
 #include "talk/thread.h"
 #include "talk/media/fakecapturemanager.h"

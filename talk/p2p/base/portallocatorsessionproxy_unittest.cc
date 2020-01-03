@@ -28,7 +28,7 @@
 #include <vector>
 
 #include "talk/fakenetwork.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/thread.h"
 #include "talk/p2p/basicpacketsocketfactory.h"
 #include "talk/p2p/portallocatorsessionproxy.h"

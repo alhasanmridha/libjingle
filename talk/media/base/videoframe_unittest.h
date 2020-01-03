@@ -35,7 +35,7 @@
 #include "libyuv/format_conversion.h"
 #include "libyuv/planar_functions.h"
 #include "libyuv/rotate.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/pathutils.h"
 #include "talk/stream.h"
 #include "talk/stringutils.h"

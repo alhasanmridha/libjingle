@@ -32,7 +32,7 @@
 #include "talk/refcount.h"
 #include "talk/scoped_ptr.h"
 #include "talk/thread.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "testing/public/gmock.h"
 
 using ::testing::_;

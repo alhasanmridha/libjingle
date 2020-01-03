@@ -1,7 +1,7 @@
 // Copyright 2010 Google Inc. All Rights Reserved
 
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "logging.h"
 #include "macutils.h"
 #include "macwindowpicker.h"

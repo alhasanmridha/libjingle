@@ -28,7 +28,7 @@
 #include "messagequeue.h"
 
 #include "bind.h"
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "logging.h"
 #include "thread.h"
 #include "timeutils.h"

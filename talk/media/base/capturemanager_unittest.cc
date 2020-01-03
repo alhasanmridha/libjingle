@@ -27,7 +27,7 @@
 
 #include "talk/media/capturemanager.h"
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/sigslot.h"
 #include "talk/media/fakemediaprocessor.h"
 #include "talk/media/fakevideocapturer.h"

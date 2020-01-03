@@ -4,6 +4,8 @@ set(BINARY ${CMAKE_PROJECT_NAME})
 set(SOURCES
 asyncfile.cc
 asyncsocket.cc
+asynctcpsocket.cc
+asyncudpsocket.cc
 base64.cc
 bytebuffer.cc
 event.cc
@@ -21,6 +23,7 @@ pathutils.cc
 physicalsocketserver.cc
 signalthread.cc
 socketaddress.cc
+socketaddresspair.cc
 stream.cc
 stringutils.cc
 stringencode.cc
@@ -28,11 +31,13 @@ systeminfo.cc
 task.cc
 taskparent.cc
 taskrunner.cc
+testclient.cc
 thread.cc
 timeutils.cc
 unixfilesystem.cc
 urlencode.cc
 versionparsing.cc
+virtualsocketserver.cc
 )
 set(SOURCES ${SOURCES})
 # add_executable(${BINARY}_run ${SOURCES})

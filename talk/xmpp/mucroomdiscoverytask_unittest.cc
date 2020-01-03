@@ -29,7 +29,7 @@
 #include <vector>
 
 #include "talk/faketaskrunner.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/sigslot.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmpp/constants.h"

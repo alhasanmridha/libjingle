@@ -28,7 +28,7 @@
 #include <string>
 
 #include "talk/bytebuffer.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/thread.h"
 #include "talk/media/rtpdump.h"
 #include "talk/media/rtputils.h"

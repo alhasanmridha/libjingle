@@ -1,7 +1,7 @@
 // Copyright 2004 Google Inc. All Rights Reserved
 
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/xmpp/jid.h"
 
 using buzz::Jid;

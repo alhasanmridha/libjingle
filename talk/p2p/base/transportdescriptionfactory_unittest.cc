@@ -29,7 +29,7 @@
 #include <vector>
 
 #include "talk/fakesslidentity.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/p2p/constants.h"
 #include "talk/p2p/transportdescription.h"
 #include "talk/p2p/transportdescriptionfactory.h"

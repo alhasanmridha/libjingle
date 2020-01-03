@@ -26,7 +26,7 @@
  */
 
 #include "common.h"
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "messagehandler.h"
 #include "messagequeue.h"
 #include "scoped_ptr.h"

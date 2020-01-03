@@ -34,7 +34,7 @@
 #include <vector>
 #include "asyncsocket.h"
 #include "common.h"
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "nethelpers.h"
 #include "stream.h"
 #include "stringencode.h"

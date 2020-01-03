@@ -27,7 +27,7 @@
 
 #include <string>
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/logging.h"
 #include "talk/physicalsocketserver.h"
 #include "talk/virtualsocketserver.h"

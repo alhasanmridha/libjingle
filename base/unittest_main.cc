@@ -10,7 +10,7 @@
 
 #include "flags.h"
 #include "fileutils.h"
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "logging.h"
 #include "pathutils.h"
 

@@ -35,7 +35,7 @@
 #include "talk/app/webrtc/webrtcsession.h"
 #include "talk/fakenetwork.h"
 #include "talk/firewallsocketserver.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/logging.h"
 #include "talk/network.h"
 #include "talk/physicalsocketserver.h"

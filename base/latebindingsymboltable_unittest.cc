@@ -29,7 +29,7 @@
 #include <math.h>
 #endif
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "latebindingsymboltable.h"
 
 namespace talk_base {

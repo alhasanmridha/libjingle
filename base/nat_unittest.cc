@@ -27,7 +27,7 @@
 
 #include <string>
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "host.h"
 #include "logging.h"
 #include "natserver.h"

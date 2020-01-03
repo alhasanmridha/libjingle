@@ -32,7 +32,7 @@
 #include <iostream>
 
 #include "talk/common.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/xmllite/xmlconstants.h"
 
 using buzz::NS_XML;

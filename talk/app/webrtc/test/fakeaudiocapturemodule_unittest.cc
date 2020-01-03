@@ -29,7 +29,7 @@
 
 #include <algorithm>
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/scoped_ref_ptr.h"
 #include "talk/thread.h"
 

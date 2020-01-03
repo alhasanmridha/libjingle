@@ -26,7 +26,7 @@
  */
 
 #include "md5digest.h"
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "stringencode.h"
 
 namespace talk_base {

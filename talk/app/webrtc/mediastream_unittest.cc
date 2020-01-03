@@ -32,7 +32,7 @@
 #include "talk/app/webrtc/videotrack.h"
 #include "talk/refcount.h"
 #include "talk/scoped_ptr.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "testing/public/gmock.h"
 
 static const char kStreamLabel1[] = "local_stream_1";

@@ -31,7 +31,7 @@
 
 #include "talk/app/webrtc/jsepsessiondescription.h"
 #include "talk/app/webrtc/webrtcsdp.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/logging.h"
 #include "talk/messagedigest.h"
 #include "talk/scoped_ptr.h"

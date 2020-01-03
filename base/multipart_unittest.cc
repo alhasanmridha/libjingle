@@ -27,7 +27,7 @@
 
 #include <string>
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "helpers.h"
 #include "logging.h"
 #include "pathutils.h"

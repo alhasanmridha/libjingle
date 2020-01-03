@@ -27,7 +27,7 @@
 
 // Unit tests for CallClient
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/examples/call/callclient.h"
 #include "talk/media/filemediaengine.h"
 #include "talk/media/mediaengine.h"

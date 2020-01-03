@@ -28,7 +28,7 @@
 #include <string>
 
 #include "asynctcpsocket.h"
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "physicalsocketserver.h"
 #include "scoped_ptr.h"
 #include "virtualsocketserver.h"

@@ -30,7 +30,7 @@
 #include <vector>
 
 #include "talk/bytebuffer.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/timeutils.h"
 #include "talk/media/fakenetworkinterface.h"
 #include "talk/media/fakevideocapturer.h"

@@ -1,4 +1,4 @@
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "window.h"
 #include "windowpicker.h"
 #include "windowpickerfactory.h"

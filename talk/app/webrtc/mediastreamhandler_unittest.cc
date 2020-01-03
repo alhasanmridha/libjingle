@@ -34,7 +34,7 @@
 #include "talk/app/webrtc/mediastream.h"
 #include "talk/app/webrtc/streamcollection.h"
 #include "talk/app/webrtc/videotrack.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/media/fakevideocapturer.h"
 #include "talk/media/mediachannel.h"
 #include "testing/public/gmock.h"

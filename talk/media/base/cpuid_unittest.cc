@@ -30,7 +30,7 @@
 #include <iostream>
 
 #include "talk/basictypes.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/systeminfo.h"
 
 TEST(CpuInfoTest, CpuId) {

@@ -26,7 +26,7 @@
  */
 
 #include "crc32.h"
-#include "gunit.h"
+#include "gtest/gtest.h"
 
 #include <string>
 

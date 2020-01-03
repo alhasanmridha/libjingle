@@ -2,6 +2,8 @@ set(BINARY ${CMAKE_PROJECT_NAME}_tst)
 
 # file(GLOB_RECURSE TEST_SOURCES LIST_DIRECTORIES false *.h *.cpp *.cc)
 set(TEST_SOURCES 
+asynctcpsocket_unittest.cc
+asyncudpsocket_unittest.cc
 base64_unittest.cc
 basictypes_unittest.cc
 bind_unittest.cc
@@ -18,12 +20,15 @@ main.cpp
 pathutils_unittest.cc
 signalthread_unittest.cc
 sigslot_unittest.cc
+# stream_unittest.cc
 stringencode_unittest.cc
 stringutils_unittest.cc
 # systeminfo_unittest.cc
-timeutils_unittest.cc
 task_unittest.cc
+testclient_unittest.cc
+timeutils_unittest.cc
 versionparsing_unittest.cc
+virtualsocket_unittest.cc
 )
 set(SOURCES ${TEST_SOURCES})
 

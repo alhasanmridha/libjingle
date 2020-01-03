@@ -27,7 +27,7 @@
 
 #include "sigslot.h"
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 
 // This function, when passed a has_slots or signalx, will break the build if
 // its threading requirement is not single threaded

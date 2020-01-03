@@ -29,7 +29,7 @@
 #include "talk/buffer.h"
 #include "talk/firewallsocketserver.h"
 #include "talk/logging.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/helpers.h"
 #include "talk/physicalsocketserver.h"
 #include "talk/scoped_ptr.h"

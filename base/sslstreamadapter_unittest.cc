@@ -31,7 +31,7 @@
 #include <set>
 #include <string>
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "helpers.h"
 #include "ssladapter.h"
 #include "sslconfig.h"

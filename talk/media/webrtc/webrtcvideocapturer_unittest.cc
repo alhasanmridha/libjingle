@@ -25,7 +25,7 @@
 
 #include <stdio.h>
 #include <vector>
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/logging.h"
 #include "talk/stringutils.h"
 #include "talk/thread.h"

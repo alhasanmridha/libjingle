@@ -36,7 +36,7 @@
 #include "ifaddrs-android.h"
 #endif
 #endif
-#include "gunit.h"
+#include "gtest/gtest.h"
 
 namespace talk_base {
 

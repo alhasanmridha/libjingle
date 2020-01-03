@@ -27,7 +27,7 @@
 
 #include "talk/fakenetwork.h"
 #include "talk/firewallsocketserver.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/helpers.h"
 #include "talk/logging.h"
 #include "talk/natserver.h"

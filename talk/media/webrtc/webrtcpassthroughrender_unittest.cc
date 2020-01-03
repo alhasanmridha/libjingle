@@ -4,7 +4,7 @@
 
 #include <string>
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/media/testutils.h"
 #include "talk/media/webrtc/webrtcpassthroughrender.h"
 

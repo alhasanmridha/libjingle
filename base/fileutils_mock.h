@@ -33,7 +33,7 @@
 #include <vector>
 
 #include "fileutils.h"
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "pathutils.h"
 #include "stream.h"
 

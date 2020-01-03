@@ -27,7 +27,7 @@
 
 // Unittest for registry access API
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "common.h"
 #include "win32regkey.h"
 

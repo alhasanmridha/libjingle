@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/helpers.h"
 #include "talk/logging.h"
 #include "talk/timeutils.h"

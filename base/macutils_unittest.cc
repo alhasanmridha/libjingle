@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "macutils.h"
 
 TEST(MacUtilsTest, GetOsVersionName) {

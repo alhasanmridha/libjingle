@@ -1,6 +1,6 @@
 /*
  * libjingle
- * Copyright 2010, Google Inc.
+ * Copyright 2004--2013, Google Inc.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -25,37 +25,46 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "asyncsocket.h"
+#include <string>
+
+#include "asyncudpsocket.h"
+#include "gtest/gtest.h"
+#include "physicalsocketserver.h"
+#include "scoped_ptr.h"
+#include "virtualsocketserver.h"
 
 namespace talk_base {
 
-AsyncSocket::AsyncSocket() {
-}
-
-AsyncSocket::~AsyncSocket() {
-}
-
-AsyncSocketAdapter::AsyncSocketAdapter(AsyncSocket* socket) : socket_(NULL) {
-  Attach(socket);
-}
-
-AsyncSocketAdapter::~AsyncSocketAdapter() {
-  delete socket_;
-}
-
-void AsyncSocketAdapter::Attach(AsyncSocket* socket) {
-  ASSERT(!socket_);
-  socket_ = socket;
-  if (socket_) {
-    socket_->SignalConnectEvent.connect(this,
-        &AsyncSocketAdapter::OnConnectEvent);
-    socket_->SignalReadEvent.connect(this,
-        &AsyncSocketAdapter::OnReadEvent);
-    socket_->SignalWriteEvent.connect(this,
-        &AsyncSocketAdapter::OnWriteEvent);
-    socket_->SignalCloseEvent.connect(this,
-        &AsyncSocketAdapter::OnCloseEvent);
+class AsyncUdpSocketTest
+    : public testing::Test,
+      public sigslot::has_slots<> {
+ public:
+  AsyncUdpSocketTest()
+      : pss_(new talk_base::PhysicalSocketServer),
+        vss_(new talk_base::VirtualSocketServer(pss_.get())),
+        socket_(vss_->CreateAsyncSocket(SOCK_DGRAM)),
+        udp_socket_(new AsyncUDPSocket(socket_)),
+        ready_to_send_(false) {
+    udp_socket_->SignalReadyToSend.connect(this,
+                                           &AsyncUdpSocketTest::OnReadyToSend);
   }
+
+  void OnReadyToSend(talk_base::AsyncPacketSocket* socket) {
+    ready_to_send_ = true;
+  }
+
+ protected:
+  scoped_ptr<PhysicalSocketServer> pss_;
+  scoped_ptr<VirtualSocketServer> vss_;
+  AsyncSocket* socket_;
+  scoped_ptr<AsyncUDPSocket> udp_socket_;
+  bool ready_to_send_;
+};
+
+TEST_F(AsyncUdpSocketTest, OnWriteEvent) {
+  EXPECT_FALSE(ready_to_send_);
+  socket_->SignalWriteEvent(socket_);
+  EXPECT_TRUE(ready_to_send_);
 }
 
 }  // namespace talk_base

@@ -35,7 +35,7 @@
 #include "talk/app/webrtc/test/fakeconstraints.h"
 #include "talk/app/webrtc/test/mockpeerconnectionobservers.h"
 #include "talk/app/webrtc/test/testsdpstrings.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/scoped_ptr.h"
 #include "talk/sslstreamadapter.h"
 #include "talk/stringutils.h"

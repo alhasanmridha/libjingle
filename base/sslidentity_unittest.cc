@@ -28,7 +28,7 @@
 
 #include <string>
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "ssladapter.h"
 #include "sslidentity.h"
 

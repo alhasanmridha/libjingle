@@ -27,7 +27,7 @@
 
 #include <string>
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "nethelpers.h"
 #include "win32.h"
 #include "winping.h"

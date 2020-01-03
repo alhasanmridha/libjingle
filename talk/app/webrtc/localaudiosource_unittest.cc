@@ -31,7 +31,7 @@
 #include <vector>
 
 #include "talk/app/webrtc/test/fakeconstraints.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/media/fakemediaengine.h"
 #include "talk/media/fakevideorenderer.h"
 #include "talk/media/devices/fakedevicemanager.h"

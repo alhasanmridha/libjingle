@@ -29,7 +29,7 @@
 #include <netinet/in.h>  // for sockaddr_in
 #endif
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "socketaddress.h"
 #include "ipaddress.h"
 

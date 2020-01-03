@@ -30,7 +30,7 @@
 #include <string>
 #include <vector>
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/scoped_ptr.h"
 #include "talk/p2p/constants.h"
 #include "talk/session/media/mediasessionclient.h"

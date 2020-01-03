@@ -4,7 +4,7 @@
 #include <string>
 
 #include "talk/asynchttprequest.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/fakenetwork.h"
 #include "talk/scoped_ptr.h"
 #include "talk/socketaddress.h"

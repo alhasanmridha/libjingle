@@ -26,7 +26,7 @@
  */
 
 #include "talk/asyncsocket.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/physicalsocketserver.h"
 #include "talk/virtualsocketserver.h"
 #include "talk/p2p/asyncstuntcpsocket.h"

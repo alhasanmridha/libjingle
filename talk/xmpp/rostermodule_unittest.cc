@@ -29,7 +29,7 @@
 #include <sstream>
 #include <iostream>
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/scoped_ptr.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmpp/xmppengine.h"

@@ -32,7 +32,7 @@
 #include <cmath>
 
 #include "logging.h"
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "testclient.h"
 #include "testutils.h"
 #include "thread.h"

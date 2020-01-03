@@ -27,7 +27,7 @@
 
 #include "talk/bytebuffer.h"
 #include "talk/fileutils.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/pathutils.h"
 #include "talk/thread.h"
 #include "talk/media/fakemediaengine.h"

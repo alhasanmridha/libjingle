@@ -31,7 +31,7 @@
 
 #include "talk/bytebuffer.h"
 #include "talk/fileutils.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/pathutils.h"
 #include "talk/stream.h"
 #include "talk/stringutils.h"

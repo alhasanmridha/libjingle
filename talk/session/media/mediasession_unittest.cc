@@ -28,7 +28,7 @@
 #include <string>
 #include <vector>
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/fakesslidentity.h"
 #include "talk/messagedigest.h"
 #include "talk/media/codec.h"

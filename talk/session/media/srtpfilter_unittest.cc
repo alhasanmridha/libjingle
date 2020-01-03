@@ -26,7 +26,7 @@
  */
 
 #include "talk/byteorder.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/thread.h"
 #include "talk/media/cryptoparams.h"
 #include "talk/media/fakertp.h"

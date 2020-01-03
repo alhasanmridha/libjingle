@@ -29,7 +29,7 @@
 #include <set>
 
 #include "talk/common.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/helpers.h"
 #include "talk/scoped_ptr.h"
 #include "talk/stringutils.h"

@@ -26,7 +26,7 @@
  */
 
 #include "autodetectproxy.h"
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "httpcommon.h"
 #include "httpcommon-inl.h"
 

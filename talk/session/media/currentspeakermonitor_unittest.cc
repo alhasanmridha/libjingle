@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/thread.h"
 #include "talk/session/media/call.h"
 #include "talk/session/media/currentspeakermonitor.h"

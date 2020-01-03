@@ -30,7 +30,7 @@
 #include "event.h"
 #include "filelock.h"
 #include "fileutils.h"
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "pathutils.h"
 #include "scoped_ptr.h"
 #include "thread.h"

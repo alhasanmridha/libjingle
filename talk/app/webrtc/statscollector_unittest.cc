@@ -30,7 +30,7 @@
 
 #include "talk/app/webrtc/mediastream.h"
 #include "talk/app/webrtc/videotrack.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/media/fakemediaengine.h"
 #include "talk/media/devices/fakedevicemanager.h"
 #include "talk/p2p/fakesession.h"

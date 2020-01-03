@@ -26,7 +26,7 @@
  */
 
 #include <string>
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/messagehandler.h"
 #include "talk/scoped_ptr.h"
 #include "talk/stream.h"

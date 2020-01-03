@@ -27,7 +27,7 @@
 
 #include "asyncudpsocket.h"
 #include "event.h"
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "host.h"
 #include "physicalsocketserver.h"
 #include "socketaddress.h"

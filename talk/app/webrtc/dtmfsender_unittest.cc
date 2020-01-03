@@ -32,7 +32,7 @@
 #include <vector>
 
 #include "talk/app/webrtc/audiotrack.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/logging.h"
 #include "talk/timeutils.h"
 

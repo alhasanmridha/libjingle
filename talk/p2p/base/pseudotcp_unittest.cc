@@ -27,7 +27,7 @@
 
 #include <vector>
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/helpers.h"
 #include "talk/messagehandler.h"
 #include "talk/stream.h"

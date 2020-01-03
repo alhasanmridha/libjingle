@@ -8,7 +8,7 @@
 #endif
 
 #include "talk/byteorder.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/media/constants.h"
 #include "talk/media/fakemediaengine.h"
 #include "talk/media/fakemediaprocessor.h"

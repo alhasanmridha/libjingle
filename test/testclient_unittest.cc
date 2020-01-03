@@ -25,14 +25,14 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "host.h"
 #include "nethelpers.h"
 #include "physicalsocketserver.h"
 #include "testclient.h"
 #include "testechoserver.h"
 #include "thread.h"
-
+#include "logging.h"
 using namespace talk_base;
 
 void TestUdpInternal(const SocketAddress& loopback) {

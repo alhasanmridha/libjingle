@@ -26,7 +26,7 @@
  */
 
 #include "talk/crc32.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/helpers.h"
 #include "talk/host.h"
 #include "talk/logging.h"

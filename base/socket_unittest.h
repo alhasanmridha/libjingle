@@ -28,7 +28,7 @@
 #ifndef TALK_BASE_SOCKET_UNITTEST_H_
 #define TALK_BASE_SOCKET_UNITTEST_H_
 
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "thread.h"
 
 namespace talk_base {

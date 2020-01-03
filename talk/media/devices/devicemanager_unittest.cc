@@ -34,7 +34,7 @@
 #include <string>
 
 #include "talk/fileutils.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/logging.h"
 #include "talk/pathutils.h"
 #include "talk/scoped_ptr.h"

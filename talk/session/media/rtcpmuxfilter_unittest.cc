@@ -25,7 +25,7 @@
 
 #include "talk/session/media/rtcpmuxfilter.h"
 
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/media/testutils.h"
 
 TEST(RtcpMuxFilterTest, DemuxRtcpSender) {

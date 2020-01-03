@@ -33,7 +33,7 @@
 #include "talk/app/webrtc/streamcollection.h"
 #include "talk/app/webrtc/test/fakeconstraints.h"
 #include "talk/app/webrtc/videotrack.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/scoped_ptr.h"
 #include "talk/stringutils.h"
 #include "talk/thread.h"

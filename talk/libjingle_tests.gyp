@@ -72,7 +72,7 @@
         'fakenetwork.h',
         'fakesslidentity.h',
         'faketaskrunner.h',
-        'gunit.h',
+        'gtest/gtest.h',
         'testbase64.h',
         'testechoserver.h',
         'win32toolhelp.h',

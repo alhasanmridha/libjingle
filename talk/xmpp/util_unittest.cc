@@ -4,7 +4,7 @@
 #include <string>
 #include <sstream>
 #include <iostream>
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmpp/xmppengine.h"
 #include "talk/xmpp/util_unittest.h"

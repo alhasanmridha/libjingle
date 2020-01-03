@@ -28,7 +28,7 @@
 // Main function for all unit tests in talk/examples/call
 
 #include "talk/logging.h"
-#include "testing/public/gunit.h"
+#include "testing/public/gtest/gtest.h"
 
 int main(int argc, char **argv) {
   talk_base::LogMessage::LogToDebug(talk_base::LogMessage::NO_LOGGING);

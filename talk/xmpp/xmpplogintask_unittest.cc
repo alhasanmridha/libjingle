@@ -6,7 +6,7 @@
 #include <iostream>
 #include "talk/common.h"
 #include "talk/cryptstring.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmpp/util_unittest.h"
 #include "talk/xmpp/constants.h"

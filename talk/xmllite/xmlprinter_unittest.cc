@@ -31,7 +31,7 @@
 #include <string>
 
 #include "talk/common.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/xmllite/qname.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmllite/xmlnsstack.h"

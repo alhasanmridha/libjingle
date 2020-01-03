@@ -26,7 +26,7 @@
  */
 
 #include "talk/fakecpumonitor.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/logging.h"
 #include "talk/scoped_ptr.h"
 #include "talk/stream.h"

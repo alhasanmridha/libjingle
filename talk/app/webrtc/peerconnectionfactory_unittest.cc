@@ -30,7 +30,7 @@
 #include "talk/app/webrtc/peerconnectionfactory.h"
 #include "talk/app/webrtc/videosourceinterface.h"
 #include "talk/app/webrtc/test/fakevideotrackrenderer.h"
-#include "talk/gunit.h"
+#include "talk/gtest/gtest.h"
 #include "talk/scoped_ptr.h"
 #include "talk/thread.h"
 #include "talk/media/fakevideocapturer.h"

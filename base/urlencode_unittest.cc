@@ -26,7 +26,7 @@
  */
 
 #include "common.h"
-#include "gunit.h"
+#include "gtest/gtest.h"
 #include "thread.h"
 #include "urlencode.h"
 
