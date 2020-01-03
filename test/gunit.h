@@ -33,7 +33,7 @@
 #if defined(ANDROID) || defined(GTEST_RELATIVE_PATH)
 #include "gtest/gtest.h"
 #else
-#include "testing/public/gtest/gtest.h"
+#include "gtest/gtest.h"
 #endif
 
 // forward declarations
