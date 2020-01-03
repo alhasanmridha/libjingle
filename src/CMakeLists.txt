@@ -13,14 +13,18 @@ fileutils.cc
 filelock.cc
 helpers.cc
 host.cc
+httpbase.cc
+httpcommon.cc
 ipaddress.cc
 linux.cc
 logging.cc
 main.cpp
+messagedigest.cc
 messagehandler.cc
 messagequeue.cc
 nethelpers.cc
 network.cc
+openssldigest.cc
 pathutils.cc
 physicalsocketserver.cc
 profiler.cc
@@ -46,3 +50,5 @@ set(SOURCES ${SOURCES})
 # add_executable(${BINARY}_run ${SOURCES})
 
 add_library(${BINARY}_lib STATIC ${SOURCES})
+find_package(OpenSSL REQUIRED)
+target_link_libraries(${BINARY}_lib PUBLIC OpenSSL::SSL OpenSSL::Crypto)
