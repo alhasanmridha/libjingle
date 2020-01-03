@@ -11,6 +11,7 @@ buffer_unittest.cc
 bytebuffer_unittest.cc
 byteorder_unittest.cc
 event_unittest.cc
+filelock_unittest.cc
 fileutils_unittest.cc
 # helpers_unittest.cc # Undefined reference to `RAND_bytes'.Need to fix
 host_unittest.cc
@@ -19,6 +20,7 @@ linux_unittest.cc
 main.cpp
 # network_unittest.cc # Everything is fine. Travis has problem with NetworkTest.TestIPv6Toggle 
 pathutils_unittest.cc
+profiler_unittest.cc
 # signalthread_unittest.cc # Test is ok but it takes so much time
 sigslot_unittest.cc
 socket_unittest.cc

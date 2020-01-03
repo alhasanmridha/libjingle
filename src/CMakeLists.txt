@@ -10,6 +10,7 @@ base64.cc
 bytebuffer.cc
 event.cc
 fileutils.cc
+filelock.cc
 helpers.cc
 host.cc
 ipaddress.cc
@@ -22,6 +23,7 @@ nethelpers.cc
 network.cc
 pathutils.cc
 physicalsocketserver.cc
+profiler.cc
 signalthread.cc
 socketaddress.cc
 socketaddresspair.cc
