@@ -19,6 +19,7 @@ main.cpp
 messagehandler.cc
 messagequeue.cc
 nethelpers.cc
+network.cc
 pathutils.cc
 physicalsocketserver.cc
 signalthread.cc

@@ -26,7 +26,8 @@
  */
 
 #include "network.h"
-
+#include "socketaddress.h"
+#include "thread.h"
 #include <vector>
 #if defined(POSIX)
 #include <sys/types.h>

@@ -17,6 +17,7 @@ host_unittest.cc
 linux_unittest.cc
 # logging_unittest.cc
 main.cpp
+network_unittest.cc
 pathutils_unittest.cc
 signalthread_unittest.cc
 sigslot_unittest.cc
@@ -28,7 +29,7 @@ task_unittest.cc
 testclient_unittest.cc
 timeutils_unittest.cc
 versionparsing_unittest.cc
-virtualsocket_unittest.cc
+# virtualsocket_unittest.cc #Test is ok but it takes so much time
 )
 set(SOURCES ${TEST_SOURCES})
 
