@@ -34,12 +34,12 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/buffer.h"
-#include "talk/base/stringutils.h"
-#include "talk/media/base/mediaengine.h"
-#include "talk/media/base/rtputils.h"
-#include "talk/media/base/streamparams.h"
-#include "talk/p2p/base/sessiondescription.h"
+#include "talk/buffer.h"
+#include "talk/stringutils.h"
+#include "talk/media/mediaengine.h"
+#include "talk/media/rtputils.h"
+#include "talk/media/streamparams.h"
+#include "talk/p2p/sessiondescription.h"
 
 namespace cricket {
 

@@ -31,7 +31,7 @@
 #include <string>
 
 #ifdef WIN32
-#include "base/win32.h"
+#include "win32.h"
 #else
 #include <sys/types.h>
 #include <dirent.h>

@@ -36,7 +36,7 @@
 #include "talk/app/webrtc/mediastream.h"
 #include "talk/app/webrtc/peerconnectioninterface.h"
 #include "talk/app/webrtc/streamcollection.h"
-#include "talk/base/scoped_ref_ptr.h"
+#include "talk/scoped_ref_ptr.h"
 #include "talk/session/media/mediasession.h"
 
 namespace talk_base {

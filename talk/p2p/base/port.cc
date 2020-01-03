@@ -25,20 +25,20 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/port.h"
+#include "talk/p2p/port.h"
 
 #include <algorithm>
 #include <vector>
 
-#include "talk/base/base64.h"
-#include "talk/base/crc32.h"
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/messagedigest.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stringencode.h"
-#include "talk/base/stringutils.h"
-#include "talk/p2p/base/common.h"
+#include "talk/base64.h"
+#include "talk/crc32.h"
+#include "talk/helpers.h"
+#include "talk/logging.h"
+#include "talk/messagedigest.h"
+#include "talk/scoped_ptr.h"
+#include "talk/stringencode.h"
+#include "talk/stringutils.h"
+#include "talk/p2p/common.h"
 
 namespace {
 

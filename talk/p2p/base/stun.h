@@ -34,9 +34,9 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/bytebuffer.h"
-#include "talk/base/socketaddress.h"
+#include "talk/basictypes.h"
+#include "talk/bytebuffer.h"
+#include "talk/socketaddress.h"
 
 namespace cricket {
 

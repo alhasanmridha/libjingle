@@ -28,7 +28,7 @@
 #ifndef TALK_MEDIA_BASE_FAKECAPTUREMANAGER_H_
 #define TALK_MEDIA_BASE_FAKECAPTUREMANAGER_H_
 
-#include "talk/media/base/capturemanager.h"
+#include "talk/media/capturemanager.h"
 
 namespace cricket {
 

@@ -36,7 +36,7 @@
 #include <unistd.h>
 #endif
 
-#include "talk/base/common.h"
+#include "talk/common.h"
 
 const char kAudioLabel[] = "audio_label";
 const char kVideoLabel[] = "video_label";

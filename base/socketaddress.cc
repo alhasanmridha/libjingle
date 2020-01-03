@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/socketaddress.h"
+#include "socketaddress.h"
 
 #ifdef POSIX
 #include <sys/types.h>
@@ -42,13 +42,13 @@
 
 #include <sstream>
 
-#include "base/byteorder.h"
-#include "base/common.h"
-#include "base/logging.h"
-#include "base/nethelpers.h"
+#include "byteorder.h"
+#include "common.h"
+#include "logging.h"
+#include "nethelpers.h"
 
 #ifdef WIN32
-#include "base/win32.h"
+#include "win32.h"
 #endif
 
 namespace talk_base {

@@ -28,7 +28,7 @@
 #include <iostream>
 #include <string>
 
-#include "talk/base/thread.h"
+#include "talk/thread.h"
 #include "talk/libjingle-plus/libjingleplus.h"
 #include "talk/libjingle-plus/testutil/libjingleplus_test_notifier.h"
 

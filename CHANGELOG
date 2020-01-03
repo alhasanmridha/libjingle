@@ -85,7 +85,7 @@ Libjingle
 
 0.6.8 - Dec 22, 2011
   - Add a lot of unit tests
-  - Add a lot of older files to base/ and xmpp/
+  - Add a lot of older files to  and xmpp/
   - Add examples/pcp add examples/peerconnection
   - Improve support for IPV6
 

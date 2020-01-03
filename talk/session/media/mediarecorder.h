@@ -31,9 +31,9 @@
 #include <map>
 #include <string>
 
-#include "talk/base/criticalsection.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sigslot.h"
+#include "talk/criticalsection.h"
+#include "talk/scoped_ptr.h"
+#include "talk/sigslot.h"
 #include "talk/session/media/channel.h"
 #include "talk/session/media/mediasink.h"
 

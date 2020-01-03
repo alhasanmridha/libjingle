@@ -28,7 +28,7 @@
 #ifndef TALK_BASE_TRANSFORMADAPTER_H__
 #define TALK_BASE_TRANSFORMADAPTER_H__
 
-#include "base/stream.h"
+#include "stream.h"
 
 namespace talk_base {
 ///////////////////////////////////////////////////////////////////////////////

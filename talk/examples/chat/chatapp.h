@@ -28,8 +28,8 @@
 #ifndef TALK_EXAMPLES_CHAT_CHATAPP_H_
 #define TALK_EXAMPLES_CHAT_CHATAPP_H_
 
-#include "talk/base/thread.h"
-#include "talk/base/scoped_ptr.h"
+#include "talk/thread.h"
+#include "talk/scoped_ptr.h"
 
 #include "talk/xmpp/jid.h"
 #include "talk/xmpp/xmppclient.h"

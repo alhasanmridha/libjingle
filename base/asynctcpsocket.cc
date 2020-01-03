@@ -25,13 +25,13 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/asynctcpsocket.h"
+#include "asynctcpsocket.h"
 
 #include <cstring>
 
-#include "base/byteorder.h"
-#include "base/common.h"
-#include "base/logging.h"
+#include "byteorder.h"
+#include "common.h"
+#include "logging.h"
 
 #ifdef POSIX
 #include <errno.h>

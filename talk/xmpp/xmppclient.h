@@ -29,9 +29,9 @@
 #define TALK_XMPP_XMPPCLIENT_H_
 
 #include <string>
-#include "talk/base/basicdefs.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/task.h"
+#include "talk/basicdefs.h"
+#include "talk/sigslot.h"
+#include "talk/task.h"
 #include "talk/xmpp/asyncsocket.h"
 #include "talk/xmpp/xmppclientsettings.h"
 #include "talk/xmpp/xmppengine.h"

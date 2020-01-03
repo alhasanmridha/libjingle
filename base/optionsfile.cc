@@ -25,13 +25,13 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/optionsfile.h"
+#include "optionsfile.h"
 
 #include <ctype.h>
 
-#include "base/logging.h"
-#include "base/stream.h"
-#include "base/stringencode.h"
+#include "logging.h"
+#include "stream.h"
+#include "stringencode.h"
 
 namespace talk_base {
 

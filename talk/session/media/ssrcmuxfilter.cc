@@ -29,8 +29,8 @@
 
 #include <algorithm>
 
-#include "talk/base/logging.h"
-#include "talk/media/base/rtputils.h"
+#include "talk/logging.h"
+#include "talk/media/rtputils.h"
 
 namespace cricket {
 

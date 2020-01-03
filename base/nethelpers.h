@@ -37,9 +37,9 @@
 
 #include <list>
 
-#include "base/signalthread.h"
-#include "base/sigslot.h"
-#include "base/socketaddress.h"
+#include "signalthread.h"
+#include "sigslot.h"
+#include "socketaddress.h"
 
 namespace talk_base {
 

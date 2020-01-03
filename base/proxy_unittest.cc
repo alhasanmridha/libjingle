@@ -26,14 +26,14 @@
  */
 
 #include <string>
-#include "base/autodetectproxy.h"
-#include "base/gunit.h"
-#include "base/httpserver.h"
-#include "base/proxyserver.h"
-#include "base/socketadapters.h"
-#include "base/testclient.h"
-#include "base/testechoserver.h"
-#include "base/virtualsocketserver.h"
+#include "autodetectproxy.h"
+#include "gunit.h"
+#include "httpserver.h"
+#include "proxyserver.h"
+#include "socketadapters.h"
+#include "testclient.h"
+#include "testechoserver.h"
+#include "virtualsocketserver.h"
 
 using talk_base::Socket;
 using talk_base::Thread;

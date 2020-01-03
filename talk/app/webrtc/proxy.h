@@ -55,7 +55,7 @@
 #ifndef TALK_APP_WEBRTC_PROXY_H_
 #define TALK_APP_WEBRTC_PROXY_H_
 
-#include "talk/base/thread.h"
+#include "talk/thread.h"
 
 namespace webrtc {
 

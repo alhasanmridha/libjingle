@@ -1,12 +1,12 @@
 // Copyright 2010 Google Inc. All Rights Reserved
 
 
-#include "base/gunit.h"
-#include "base/common.h"
-#include "base/logging.h"
-#include "base/win32window.h"
-#include "base/win32windowpicker.h"
-#include "base/windowpicker.h"
+#include "gunit.h"
+#include "common.h"
+#include "logging.h"
+#include "win32window.h"
+#include "win32windowpicker.h"
+#include "windowpicker.h"
 
 #ifndef WIN32
 #error Only for Windows

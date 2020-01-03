@@ -30,9 +30,9 @@
 
 #include <deque>
 #include <list>
-#include "base/logging.h"
-#include "base/sigslot.h"
-#include "base/socketaddress.h"
+#include "logging.h"
+#include "sigslot.h"
+#include "socketaddress.h"
 
 namespace talk_base {
 

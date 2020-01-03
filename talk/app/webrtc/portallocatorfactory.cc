@@ -27,10 +27,10 @@
 
 #include "talk/app/webrtc/portallocatorfactory.h"
 
-#include "talk/base/logging.h"
-#include "talk/base/network.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/basicpacketsocketfactory.h"
+#include "talk/logging.h"
+#include "talk/network.h"
+#include "talk/thread.h"
+#include "talk/p2p/basicpacketsocketfactory.h"
 #include "talk/p2p/client/basicportallocator.h"
 
 static const char kUserAgent[] = "PeerConnection User Agent";

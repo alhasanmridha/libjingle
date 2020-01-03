@@ -27,8 +27,8 @@
 
 #include <limits.h>
 
-#include "base/bandwidthsmoother.h"
-#include "base/gunit.h"
+#include "bandwidthsmoother.h"
+#include "gunit.h"
 
 namespace talk_base {
 

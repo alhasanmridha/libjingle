@@ -32,7 +32,7 @@
 #include "talk/examples/peerconnection/client/linux/main_wnd.h"
 #include "talk/examples/peerconnection/client/peer_connection_client.h"
 
-#include "talk/base/thread.h"
+#include "talk/thread.h"
 
 class CustomSocketServer : public talk_base::PhysicalSocketServer {
  public:

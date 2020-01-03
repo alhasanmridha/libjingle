@@ -26,7 +26,7 @@
  */
 
 #if defined(ANDROID)
-#include "base/ifaddrs-android.h"
+#include "ifaddrs-android.h"
 #include <stdlib.h>
 #include <string.h>
 #include <sys/types.h>

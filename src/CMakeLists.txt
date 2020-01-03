@@ -11,6 +11,7 @@ fileutils.cc
 helpers.cc
 host.cc
 ipaddress.cc
+linux.cc
 logging.cc
 main.cpp
 messagehandler.cc
@@ -23,6 +24,7 @@ socketaddress.cc
 stream.cc
 stringutils.cc
 stringencode.cc
+systeminfo.cc
 task.cc
 taskparent.cc
 taskrunner.cc

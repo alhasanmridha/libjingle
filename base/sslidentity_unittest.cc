@@ -28,9 +28,9 @@
 
 #include <string>
 
-#include "base/gunit.h"
-#include "base/ssladapter.h"
-#include "base/sslidentity.h"
+#include "gunit.h"
+#include "ssladapter.h"
+#include "sslidentity.h"
 
 const char kTestCertificate[] = "-----BEGIN CERTIFICATE-----\n"
     "MIIB6TCCAVICAQYwDQYJKoZIhvcNAQEEBQAwWzELMAkGA1UEBhMCQVUxEzARBgNV\n"

@@ -37,7 +37,7 @@
 #include <Carbon/Carbon.h>
 #include <IOKit/IOCFBundle.h>
 #include <sys/statvfs.h>
-#include "base/macutils.h"
+#include "macutils.h"
 #endif  // OSX
 
 #if defined(POSIX) && !defined(OSX)

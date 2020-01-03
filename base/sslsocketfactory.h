@@ -28,8 +28,8 @@
 #ifndef TALK_BASE_SSLSOCKETFACTORY_H__
 #define TALK_BASE_SSLSOCKETFACTORY_H__
 
-#include "base/proxyinfo.h"
-#include "base/socketserver.h"
+#include "proxyinfo.h"
+#include "socketserver.h"
 
 namespace talk_base {
 

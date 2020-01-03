@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "testing/base/gunit.h"
+#include "testing/gunit.h"
 #include "talk/libjingle-plus/libjingleplus.h"
 #include "talk/libjingle-plus/testutil/libjingleplus_test_notifier.h"
 

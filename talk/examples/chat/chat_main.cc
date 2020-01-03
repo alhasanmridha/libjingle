@@ -31,15 +31,15 @@
 
 #include <iostream>
 
-#include "talk/base/logging.h"
-#include "talk/base/ssladapter.h"
+#include "talk/logging.h"
+#include "talk/ssladapter.h"
 
 #ifdef OSX
-#include "talk/base/maccocoasocketserver.h"
+#include "talk/maccocoasocketserver.h"
 #elif defined(WIN32)
-#include "talk/base/win32socketserver.h"
+#include "talk/win32socketserver.h"
 #else
-#include "talk/base/physicalsocketserver.h"
+#include "talk/physicalsocketserver.h"
 #endif
 
 #include "talk/xmpp/constants.h"

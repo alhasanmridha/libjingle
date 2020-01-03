@@ -29,8 +29,8 @@
 #include <math.h>
 #endif
 
-#include "base/gunit.h"
-#include "base/latebindingsymboltable.h"
+#include "gunit.h"
+#include "latebindingsymboltable.h"
 
 namespace talk_base {
 
@@ -44,12 +44,12 @@ namespace talk_base {
 
 #define LATE_BINDING_SYMBOL_TABLE_CLASS_NAME LIBM_SYMBOLS_CLASS_NAME
 #define LATE_BINDING_SYMBOL_TABLE_SYMBOLS_LIST LIBM_SYMBOLS_LIST
-#include "base/latebindingsymboltable.h.def"
+#include "latebindingsymboltable.h.def"
 
 #define LATE_BINDING_SYMBOL_TABLE_CLASS_NAME LIBM_SYMBOLS_CLASS_NAME
 #define LATE_BINDING_SYMBOL_TABLE_SYMBOLS_LIST LIBM_SYMBOLS_LIST
 #define LATE_BINDING_SYMBOL_TABLE_DLL_NAME "libm.so.6"
-#include "base/latebindingsymboltable.cc.def"
+#include "latebindingsymboltable.cc.def"
 
 TEST(LateBindingSymbolTable, libm) {
   LibmTestSymbolTable table;

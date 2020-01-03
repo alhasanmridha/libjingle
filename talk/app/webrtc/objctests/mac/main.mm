@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/gunit.h"
+#include "talk/gunit.h"
 
 int main(int argc, char *argv[]) {
   testing::InitGoogleTest(&argc, argv);

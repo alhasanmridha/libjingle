@@ -28,8 +28,8 @@
 #include <string>
 #include <sstream>
 #include <iostream>
-#include "talk/base/common.h"
-#include "talk/base/gunit.h"
+#include "talk/common.h"
+#include "talk/gunit.h"
 #include "talk/xmllite/qname.h"
 #include "talk/xmllite/xmlparser.h"
 

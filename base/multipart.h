@@ -29,8 +29,8 @@
 #include <string>
 #include <vector>
 
-#include "base/sigslot.h"
-#include "base/stream.h"
+#include "sigslot.h"
+#include "stream.h"
 
 namespace talk_base {
 

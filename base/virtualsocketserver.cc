@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/virtualsocketserver.h"
+#include "virtualsocketserver.h"
 
 #include <errno.h>
 
@@ -34,12 +34,12 @@
 #include <map>
 #include <vector>
 
-#include "base/common.h"
-#include "base/logging.h"
-#include "base/physicalsocketserver.h"
-#include "base/socketaddresspair.h"
-#include "base/thread.h"
-#include "base/timeutils.h"
+#include "common.h"
+#include "logging.h"
+#include "physicalsocketserver.h"
+#include "socketaddresspair.h"
+#include "thread.h"
+#include "timeutils.h"
 
 namespace talk_base {
 #ifdef WIN32

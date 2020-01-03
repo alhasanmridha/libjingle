@@ -26,7 +26,7 @@
  */
 
 #include "talk/app/webrtc/mediastream.h"
-#include "talk/base/logging.h"
+#include "talk/logging.h"
 
 namespace webrtc {
 

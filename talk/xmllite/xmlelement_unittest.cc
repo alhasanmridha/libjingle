@@ -28,9 +28,9 @@
 #include <string>
 #include <sstream>
 #include <iostream>
-#include "talk/base/common.h"
-#include "talk/base/gunit.h"
-#include "talk/base/thread.h"
+#include "talk/common.h"
+#include "talk/gunit.h"
+#include "talk/thread.h"
 #include "talk/xmllite/xmlelement.h"
 
 using buzz::QName;

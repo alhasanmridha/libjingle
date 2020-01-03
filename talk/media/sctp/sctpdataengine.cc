@@ -31,12 +31,12 @@
 #include <stdio.h>
 #include <vector>
 
-#include "talk/base/buffer.h"
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/media/base/codec.h"
-#include "talk/media/base/constants.h"
-#include "talk/media/base/streamparams.h"
+#include "talk/buffer.h"
+#include "talk/helpers.h"
+#include "talk/logging.h"
+#include "talk/media/codec.h"
+#include "talk/media/constants.h"
+#include "talk/media/streamparams.h"
 #include "usrsctplib/usrsctp.h"
 
 namespace cricket {

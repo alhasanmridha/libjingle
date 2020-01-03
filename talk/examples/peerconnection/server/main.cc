@@ -31,7 +31,7 @@
 
 #include <vector>
 
-#include "talk/base/flags.h"
+#include "talk/flags.h"
 #include "talk/examples/peerconnection/server/data_socket.h"
 #include "talk/examples/peerconnection/server/peer_channel.h"
 #include "talk/examples/peerconnection/server/utils.h"

@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/common.h"
-#include "base/gunit.h"
-#include "base/thread.h"
-#include "base/urlencode.h"
+#include "common.h"
+#include "gunit.h"
+#include "thread.h"
+#include "urlencode.h"
 
 TEST(Urlencode, SourceTooLong) {
   char source[] = "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"

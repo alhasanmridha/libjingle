@@ -32,18 +32,18 @@
 #include <sys/stat.h>
 #include <errno.h>
 #include <string>
-#include "base/basictypes.h"
-#include "base/common.h"
-#include "base/logging.h"
-#include "base/messagequeue.h"
-#include "base/stream.h"
-#include "base/stringencode.h"
-#include "base/stringutils.h"
-#include "base/thread.h"
-#include "base/timeutils.h"
+#include "basictypes.h"
+#include "common.h"
+#include "logging.h"
+#include "messagequeue.h"
+#include "stream.h"
+#include "stringencode.h"
+#include "stringutils.h"
+#include "thread.h"
+#include "timeutils.h"
 
 #ifdef WIN32
-#include "base/win32.h"
+#include "win32.h"
 #define fileno _fileno
 #endif
 

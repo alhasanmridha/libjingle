@@ -30,7 +30,7 @@
 
 #include <map>
 
-#include "talk/base/criticalsection.h"
+#include "talk/criticalsection.h"
 #include "webrtc/modules/video_render/include/video_render.h"
 
 namespace cricket {

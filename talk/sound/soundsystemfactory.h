@@ -28,7 +28,7 @@
 #ifndef TALK_SOUND_SOUNDSYSTEMFACTORY_H_
 #define TALK_SOUND_SOUNDSYSTEMFACTORY_H_
 
-#include "talk/base/referencecountedsingletonfactory.h"
+#include "talk/referencecountedsingletonfactory.h"
 
 namespace cricket {
 

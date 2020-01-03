@@ -8,12 +8,12 @@
 #error WIN32 Only
 #endif
 
-#include "base/win32.h"
+#include "win32.h"
 
 // Should be included first, but that causes redefinitions.
 #include <tlhelp32.h>
 
-#include "base/constructormagic.h"
+#include "constructormagic.h"
 
 namespace talk_base {
 

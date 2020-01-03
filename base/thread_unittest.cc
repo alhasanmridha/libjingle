@@ -25,13 +25,13 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/asyncudpsocket.h"
-#include "base/event.h"
-#include "base/gunit.h"
-#include "base/host.h"
-#include "base/physicalsocketserver.h"
-#include "base/socketaddress.h"
-#include "base/thread.h"
+#include "asyncudpsocket.h"
+#include "event.h"
+#include "gunit.h"
+#include "host.h"
+#include "physicalsocketserver.h"
+#include "socketaddress.h"
+#include "thread.h"
 
 #ifdef WIN32
 #include <comdef.h>  // NOLINT

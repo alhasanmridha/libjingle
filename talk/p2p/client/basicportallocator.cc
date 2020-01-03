@@ -30,18 +30,18 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/common.h"
-#include "talk/base/helpers.h"
-#include "talk/base/host.h"
-#include "talk/base/logging.h"
-#include "talk/p2p/base/basicpacketsocketfactory.h"
-#include "talk/p2p/base/common.h"
-#include "talk/p2p/base/port.h"
-#include "talk/p2p/base/relayport.h"
-#include "talk/p2p/base/stunport.h"
-#include "talk/p2p/base/tcpport.h"
-#include "talk/p2p/base/turnport.h"
-#include "talk/p2p/base/udpport.h"
+#include "talk/common.h"
+#include "talk/helpers.h"
+#include "talk/host.h"
+#include "talk/logging.h"
+#include "talk/p2p/basicpacketsocketfactory.h"
+#include "talk/p2p/common.h"
+#include "talk/p2p/port.h"
+#include "talk/p2p/relayport.h"
+#include "talk/p2p/stunport.h"
+#include "talk/p2p/tcpport.h"
+#include "talk/p2p/turnport.h"
+#include "talk/p2p/udpport.h"
 
 using talk_base::CreateRandomId;
 using talk_base::CreateRandomString;

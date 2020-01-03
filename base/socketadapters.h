@@ -31,9 +31,9 @@
 #include <map>
 #include <string>
 
-#include "base/asyncsocket.h"
-#include "base/cryptstring.h"
-#include "base/logging.h"
+#include "asyncsocket.h"
+#include "cryptstring.h"
+#include "logging.h"
 
 namespace talk_base {
 

@@ -34,10 +34,10 @@
 #include "talk/app/webrtc/mediastream.h"
 #include "talk/app/webrtc/streamcollection.h"
 #include "talk/app/webrtc/videotrack.h"
-#include "talk/base/gunit.h"
-#include "talk/media/base/fakevideocapturer.h"
-#include "talk/media/base/mediachannel.h"
-#include "testing/base/public/gmock.h"
+#include "talk/gunit.h"
+#include "talk/media/fakevideocapturer.h"
+#include "talk/media/mediachannel.h"
+#include "testing/public/gmock.h"
 
 using ::testing::_;
 using ::testing::Exactly;

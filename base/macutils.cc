@@ -27,11 +27,11 @@
 
 #include <sstream>
 
-#include "base/common.h"
-#include "base/logging.h"
-#include "base/macutils.h"
-#include "base/scoped_ptr.h"
-#include "base/stringutils.h"
+#include "common.h"
+#include "logging.h"
+#include "macutils.h"
+#include "scoped_ptr.h"
+#include "stringutils.h"
 
 namespace talk_base {
 

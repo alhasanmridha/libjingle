@@ -30,21 +30,21 @@
 #include "config.h"
 #endif  // HAVE_CONFIG_H
 
-#include "base/sslidentity.h"
+#include "sslidentity.h"
 
 #include <string>
 
-#include "base/sslconfig.h"
+#include "sslconfig.h"
 
 #if SSL_USE_SCHANNEL
 
 #elif SSL_USE_OPENSSL  // !SSL_USE_SCHANNEL
 
-#include "base/opensslidentity.h"
+#include "opensslidentity.h"
 
 #elif SSL_USE_NSS  // !SSL_USE_SCHANNEL && !SSL_USE_OPENSSL
 
-#include "base/nssidentity.h"
+#include "nssidentity.h"
 
 #endif  // SSL_USE_SCHANNEL
 

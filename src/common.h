@@ -173,7 +173,7 @@ inline bool ImplicitCastToBool(bool result) { return result; }
 #define FORCE_INLINE
 #endif
 
-// Borrowed from Chromium's base/compiler_specific.h.
+// Borrowed from Chromium's compiler_specific.h.
 // Annotate a virtual method indicating it must be overriding a virtual
 // method in the parent class.
 // Use like:

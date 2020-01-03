@@ -28,8 +28,8 @@
 #ifndef TALK_MEDIA_BASE_MUTEDVIDEOCAPTURER_H_
 #define TALK_MEDIA_BASE_MUTEDVIDEOCAPTURER_H_
 
-#include "talk/base/thread.h"
-#include "talk/media/base/videocapturer.h"
+#include "talk/thread.h"
+#include "talk/media/videocapturer.h"
 
 namespace cricket {
 

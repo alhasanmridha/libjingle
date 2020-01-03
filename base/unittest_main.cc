@@ -8,11 +8,11 @@
 #include <crtdbg.h>
 #endif
 
-#include "base/flags.h"
-#include "base/fileutils.h"
-#include "base/gunit.h"
-#include "base/logging.h"
-#include "base/pathutils.h"
+#include "flags.h"
+#include "fileutils.h"
+#include "gunit.h"
+#include "logging.h"
+#include "pathutils.h"
 
 DEFINE_bool(help, false, "prints this message");
 DEFINE_string(log, "", "logging options to use");

@@ -27,8 +27,8 @@
 
 #include "talk/xmpp/mucroomlookuptask.h"
 
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
+#include "talk/logging.h"
+#include "talk/scoped_ptr.h"
 #include "talk/xmpp/constants.h"
 
 

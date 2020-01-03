@@ -27,14 +27,14 @@
 
 #include <algorithm>
 
-#include "base/httpcommon-inl.h"
+#include "httpcommon-inl.h"
 
-#include "base/asyncsocket.h"
-#include "base/common.h"
-#include "base/httpserver.h"
-#include "base/logging.h"
-#include "base/socketstream.h"
-#include "base/thread.h"
+#include "asyncsocket.h"
+#include "common.h"
+#include "httpserver.h"
+#include "logging.h"
+#include "socketstream.h"
+#include "thread.h"
 
 namespace talk_base {
 

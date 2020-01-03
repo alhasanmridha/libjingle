@@ -35,7 +35,7 @@
 // to the originating signal using the 'repeat' method.  When the repeated
 // signal fires, the repeater will also fire.
 
-#include "base/sigslot.h"
+#include "sigslot.h"
 
 namespace sigslot {
 

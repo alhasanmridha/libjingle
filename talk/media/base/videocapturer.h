@@ -31,13 +31,13 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/criticalsection.h"
-#include "talk/base/messagehandler.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/thread.h"
-#include "talk/media/base/videocommon.h"
+#include "talk/basictypes.h"
+#include "talk/criticalsection.h"
+#include "talk/messagehandler.h"
+#include "talk/scoped_ptr.h"
+#include "talk/sigslot.h"
+#include "talk/thread.h"
+#include "talk/media/videocommon.h"
 #include "talk/media/devices/devicemanager.h"
 
 

@@ -25,14 +25,14 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/common.h"
-#include "base/gunit.h"
-#include "base/messagehandler.h"
-#include "base/messagequeue.h"
-#include "base/scoped_ptr.h"
-#include "base/sharedexclusivelock.h"
-#include "base/thread.h"
-#include "base/timeutils.h"
+#include "common.h"
+#include "gunit.h"
+#include "messagehandler.h"
+#include "messagequeue.h"
+#include "scoped_ptr.h"
+#include "sharedexclusivelock.h"
+#include "thread.h"
+#include "timeutils.h"
 
 namespace talk_base {
 

@@ -31,10 +31,10 @@
 
 #include <string>
 
-#include "talk/base/fileutils.h"
-#include "talk/base/logging.h"
-#include "talk/base/pathutils.h"
-#include "talk/media/base/rtpdump.h"
+#include "talk/fileutils.h"
+#include "talk/logging.h"
+#include "talk/pathutils.h"
+#include "talk/media/rtpdump.h"
 
 
 namespace cricket {

@@ -29,7 +29,7 @@
 
 #include <vector>
 
-#include "talk/media/base/mediaengine.h"
+#include "talk/media/mediaengine.h"
 #include "talk/app/webrtc/mediaconstraintsinterface.h"
 
 using webrtc::MediaConstraintsInterface;

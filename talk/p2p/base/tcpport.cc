@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/tcpport.h"
+#include "talk/p2p/tcpport.h"
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/p2p/base/common.h"
+#include "talk/common.h"
+#include "talk/logging.h"
+#include "talk/p2p/common.h"
 
 namespace cricket {
 

@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/gunit.h"
-#include "base/winfirewall.h"
+#include "gunit.h"
+#include "winfirewall.h"
 
 #include <objbase.h>
 

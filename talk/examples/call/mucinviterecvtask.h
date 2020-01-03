@@ -30,7 +30,7 @@
 
 #include <vector>
 
-#include "talk/base/sigslot.h"
+#include "talk/sigslot.h"
 #include "talk/xmpp/xmppengine.h"
 #include "talk/xmpp/xmpptask.h"
 

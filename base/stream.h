@@ -28,14 +28,14 @@
 #ifndef TALK_BASE_STREAM_H_
 #define TALK_BASE_STREAM_H_
 
-#include "base/basictypes.h"
-#include "base/buffer.h"
-#include "base/criticalsection.h"
-#include "base/logging.h"
-#include "base/messagehandler.h"
-#include "base/messagequeue.h"
-#include "base/scoped_ptr.h"
-#include "base/sigslot.h"
+#include "basictypes.h"
+#include "buffer.h"
+#include "criticalsection.h"
+#include "logging.h"
+#include "messagehandler.h"
+#include "messagequeue.h"
+#include "scoped_ptr.h"
+#include "sigslot.h"
 
 namespace talk_base {
 

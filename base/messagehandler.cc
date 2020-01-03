@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/messagehandler.h"
-#include "base/messagequeue.h"
+#include "messagehandler.h"
+#include "messagequeue.h"
 
 namespace talk_base {
 

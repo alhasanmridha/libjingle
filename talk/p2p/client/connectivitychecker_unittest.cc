@@ -3,14 +3,14 @@
 
 #include <string>
 
-#include "talk/base/asynchttprequest.h"
-#include "talk/base/gunit.h"
-#include "talk/base/fakenetwork.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/socketaddress.h"
-#include "talk/p2p/base/basicpacketsocketfactory.h"
-#include "talk/p2p/base/relayport.h"
-#include "talk/p2p/base/stunport.h"
+#include "talk/asynchttprequest.h"
+#include "talk/gunit.h"
+#include "talk/fakenetwork.h"
+#include "talk/scoped_ptr.h"
+#include "talk/socketaddress.h"
+#include "talk/p2p/basicpacketsocketfactory.h"
+#include "talk/p2p/relayport.h"
+#include "talk/p2p/stunport.h"
 #include "talk/p2p/client/connectivitychecker.h"
 #include "talk/p2p/client/httpportallocator.h"
 

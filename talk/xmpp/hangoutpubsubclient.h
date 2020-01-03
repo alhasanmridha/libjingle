@@ -32,9 +32,9 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/sigslotrepeater.h"
+#include "talk/scoped_ptr.h"
+#include "talk/sigslot.h"
+#include "talk/sigslotrepeater.h"
 #include "talk/xmpp/jid.h"
 #include "talk/xmpp/pubsubclient.h"
 

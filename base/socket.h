@@ -39,11 +39,11 @@
 #endif
 
 #ifdef WIN32
-#include "base/win32.h"
+#include "win32.h"
 #endif
 
-#include "base/basictypes.h"
-#include "base/socketaddress.h"
+#include "basictypes.h"
+#include "socketaddress.h"
 
 // Rather than converting errors into a private namespace,
 // Reuse the POSIX socket api errors. Note this depends on

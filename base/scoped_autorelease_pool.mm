@@ -27,7 +27,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "base/scoped_autorelease_pool.h"
+#import "scoped_autorelease_pool.h"
 
 namespace talk_base {
 

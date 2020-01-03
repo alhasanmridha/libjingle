@@ -28,9 +28,9 @@
 #ifndef TALK_MEDIA_BASE_FAKEVIDEORENDERER_H_
 #define TALK_MEDIA_BASE_FAKEVIDEORENDERER_H_
 
-#include "talk/base/sigslot.h"
-#include "talk/media/base/videoframe.h"
-#include "talk/media/base/videorenderer.h"
+#include "talk/sigslot.h"
+#include "talk/media/videoframe.h"
+#include "talk/media/videorenderer.h"
 
 namespace cricket {
 

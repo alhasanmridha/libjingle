@@ -3,9 +3,9 @@
 
 #include <string>
 
-#include "talk/base/faketaskrunner.h"
-#include "talk/base/gunit.h"
-#include "talk/base/sigslot.h"
+#include "talk/faketaskrunner.h"
+#include "talk/gunit.h"
+#include "talk/sigslot.h"
 #include "talk/xmllite/qname.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmpp/constants.h"

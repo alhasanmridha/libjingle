@@ -29,14 +29,14 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/bytebuffer.h"
-#include "talk/base/gunit.h"
-#include "talk/base/timeutils.h"
-#include "talk/media/base/fakenetworkinterface.h"
-#include "talk/media/base/fakevideocapturer.h"
-#include "talk/media/base/fakevideorenderer.h"
-#include "talk/media/base/mediachannel.h"
-#include "talk/media/base/streamparams.h"
+#include "talk/bytebuffer.h"
+#include "talk/gunit.h"
+#include "talk/timeutils.h"
+#include "talk/media/fakenetworkinterface.h"
+#include "talk/media/fakevideocapturer.h"
+#include "talk/media/fakevideorenderer.h"
+#include "talk/media/mediachannel.h"
+#include "talk/media/streamparams.h"
 
 #ifdef WIN32
 #include <objbase.h>  // NOLINT

@@ -28,8 +28,8 @@
 #ifndef TALK_BASE_ASYNCPACKETSOCKET_H_
 #define TALK_BASE_ASYNCPACKETSOCKET_H_
 
-#include "base/sigslot.h"
-#include "base/socket.h"
+#include "sigslot.h"
+#include "socket.h"
 
 namespace talk_base {
 

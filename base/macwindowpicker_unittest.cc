@@ -1,11 +1,11 @@
 // Copyright 2010 Google Inc. All Rights Reserved
 
 
-#include "base/gunit.h"
-#include "base/logging.h"
-#include "base/macutils.h"
-#include "base/macwindowpicker.h"
-#include "base/windowpicker.h"
+#include "gunit.h"
+#include "logging.h"
+#include "macutils.h"
+#include "macwindowpicker.h"
+#include "windowpicker.h"
 
 #ifndef OSX
 #error Only for Mac OSX

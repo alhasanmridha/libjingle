@@ -31,7 +31,7 @@
 
 #if HAVE_OPENSSL_SSL_H
 
-#include "base/opensslstreamadapter.h"
+#include "opensslstreamadapter.h"
 
 #include <openssl/bio.h>
 #include <openssl/crypto.h>
@@ -42,14 +42,14 @@
 
 #include <vector>
 
-#include "base/common.h"
-#include "base/logging.h"
-#include "base/stream.h"
-#include "base/openssladapter.h"
-#include "base/openssldigest.h"
-#include "base/opensslidentity.h"
-#include "base/stringutils.h"
-#include "base/thread.h"
+#include "common.h"
+#include "logging.h"
+#include "stream.h"
+#include "openssladapter.h"
+#include "openssldigest.h"
+#include "opensslidentity.h"
+#include "stringutils.h"
+#include "thread.h"
 
 namespace talk_base {
 

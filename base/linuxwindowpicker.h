@@ -28,9 +28,9 @@
 #ifndef TALK_BASE_LINUXWINDOWPICKER_H_
 #define TALK_BASE_LINUXWINDOWPICKER_H_
 
-#include "base/basictypes.h"
-#include "base/scoped_ptr.h"
-#include "base/windowpicker.h"
+#include "basictypes.h"
+#include "scoped_ptr.h"
+#include "windowpicker.h"
 
 // Avoid include <X11/Xlib.h>.
 struct _XDisplay;

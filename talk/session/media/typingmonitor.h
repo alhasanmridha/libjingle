@@ -28,8 +28,8 @@
 #ifndef TALK_SESSION_MEDIA_TYPINGMONITOR_H_
 #define TALK_SESSION_MEDIA_TYPINGMONITOR_H_
 
-#include "talk/base/messagehandler.h"
-#include "talk/media/base/mediachannel.h"
+#include "talk/messagehandler.h"
+#include "talk/media/mediachannel.h"
 
 namespace talk_base {
 class Thread;

@@ -28,14 +28,14 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/gunit.h"
-#include "talk/base/fakesslidentity.h"
-#include "talk/base/messagedigest.h"
-#include "talk/media/base/codec.h"
-#include "talk/media/base/testutils.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/transportdescription.h"
-#include "talk/p2p/base/transportinfo.h"
+#include "talk/gunit.h"
+#include "talk/fakesslidentity.h"
+#include "talk/messagedigest.h"
+#include "talk/media/codec.h"
+#include "talk/media/testutils.h"
+#include "talk/p2p/constants.h"
+#include "talk/p2p/transportdescription.h"
+#include "talk/p2p/transportinfo.h"
 #include "talk/session/media/mediasession.h"
 #include "talk/session/media/srtpfilter.h"
 

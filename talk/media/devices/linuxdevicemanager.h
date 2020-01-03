@@ -31,8 +31,8 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/sigslot.h"
-#include "talk/base/stringencode.h"
+#include "talk/sigslot.h"
+#include "talk/stringencode.h"
 #include "talk/media/devices/devicemanager.h"
 #include "talk/sound/soundsystemfactory.h"
 

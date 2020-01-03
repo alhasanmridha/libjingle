@@ -28,12 +28,12 @@
 #ifndef TALK_P2P_BASE_TESTRELAYSERVER_H_
 #define TALK_P2P_BASE_TESTRELAYSERVER_H_
 
-#include "talk/base/asynctcpsocket.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/socketadapters.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/relayserver.h"
+#include "talk/asynctcpsocket.h"
+#include "talk/scoped_ptr.h"
+#include "talk/socketadapters.h"
+#include "talk/sigslot.h"
+#include "talk/thread.h"
+#include "talk/p2p/relayserver.h"
 
 namespace cricket {
 

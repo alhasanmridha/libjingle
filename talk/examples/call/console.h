@@ -30,9 +30,9 @@
 
 #include <cstdio>
 
-#include "talk/base/thread.h"
-#include "talk/base/messagequeue.h"
-#include "talk/base/scoped_ptr.h"
+#include "talk/thread.h"
+#include "talk/messagequeue.h"
+#include "talk/scoped_ptr.h"
 
 class CallClient;
 

@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/bandwidthsmoother.h"
+#include "bandwidthsmoother.h"
 
 #include <limits.h>
 

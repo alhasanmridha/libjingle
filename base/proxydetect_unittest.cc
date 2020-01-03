@@ -27,8 +27,8 @@
 
 #include <string>
 
-#include "base/fileutils_mock.h"
-#include "base/proxydetect.h"
+#include "fileutils_mock.h"
+#include "proxydetect.h"
 
 namespace talk_base {
 

@@ -30,9 +30,9 @@
 #include "libyuv/convert.h"
 #include "libyuv/convert_from.h"
 #include "libyuv/planar_functions.h"
-#include "talk/base/logging.h"
-#include "talk/media/base/videocapturer.h"
-#include "talk/media/base/videocommon.h"
+#include "talk/logging.h"
+#include "talk/media/videocapturer.h"
+#include "talk/media/videocommon.h"
 
 namespace cricket {
 

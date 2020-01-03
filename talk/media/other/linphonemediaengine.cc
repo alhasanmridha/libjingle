@@ -38,12 +38,12 @@ extern "C" {
 
 #include "talk/media/other/linphonemediaengine.h"
 
-#include "talk/base/buffer.h"
-#include "talk/base/event.h"
-#include "talk/base/logging.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/stream.h"
-#include "talk/media/base/rtpdump.h"
+#include "talk/buffer.h"
+#include "talk/event.h"
+#include "talk/logging.h"
+#include "talk/pathutils.h"
+#include "talk/stream.h"
+#include "talk/media/rtpdump.h"
 
 #ifndef WIN32
 #include <libgen.h>

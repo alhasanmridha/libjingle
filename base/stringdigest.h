@@ -29,6 +29,6 @@
 #define TALK_BASE_STRINGDIGEST_H_
 
 // TODO: Update remaining callers to use messagedigest.h instead
-#include "base/messagedigest.h"
+#include "messagedigest.h"
 
 #endif  // TALK_BASE_STRINGDIGEST_H_

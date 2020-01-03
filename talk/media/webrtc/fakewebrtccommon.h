@@ -28,7 +28,7 @@
 #ifndef TALK_SESSION_PHONE_FAKEWEBRTCCOMMON_H_
 #define TALK_SESSION_PHONE_FAKEWEBRTCCOMMON_H_
 
-#include "talk/base/common.h"
+#include "talk/common.h"
 
 namespace cricket {
 

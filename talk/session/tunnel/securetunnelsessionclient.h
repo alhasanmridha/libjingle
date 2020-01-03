@@ -36,8 +36,8 @@
 
 #include <string>
 
-#include "talk/base/sslidentity.h"
-#include "talk/base/sslstreamadapter.h"
+#include "talk/sslidentity.h"
+#include "talk/sslstreamadapter.h"
 #include "talk/session/tunnel/tunnelsessionclient.h"
 
 namespace cricket {

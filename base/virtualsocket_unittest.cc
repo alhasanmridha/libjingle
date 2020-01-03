@@ -31,13 +31,13 @@
 #endif
 #include <cmath>
 
-#include "base/logging.h"
-#include "base/gunit.h"
-#include "base/testclient.h"
-#include "base/testutils.h"
-#include "base/thread.h"
-#include "base/timeutils.h"
-#include "base/virtualsocketserver.h"
+#include "logging.h"
+#include "gunit.h"
+#include "testclient.h"
+#include "testutils.h"
+#include "thread.h"
+#include "timeutils.h"
+#include "virtualsocketserver.h"
 
 using namespace talk_base;
 

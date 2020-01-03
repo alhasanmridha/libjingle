@@ -27,9 +27,9 @@
 
 #include "talk/media/devices/filevideocapturer.h"
 
-#include "talk/base/bytebuffer.h"
-#include "talk/base/logging.h"
-#include "talk/base/thread.h"
+#include "talk/bytebuffer.h"
+#include "talk/logging.h"
+#include "talk/thread.h"
 
 namespace cricket {
 

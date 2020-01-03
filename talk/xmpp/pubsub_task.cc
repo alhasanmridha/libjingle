@@ -30,7 +30,7 @@
 #include <map>
 #include <string>
 
-#include "talk/base/common.h"
+#include "talk/common.h"
 #include "talk/xmpp/constants.h"
 #include "talk/xmpp/xmppengine.h"
 

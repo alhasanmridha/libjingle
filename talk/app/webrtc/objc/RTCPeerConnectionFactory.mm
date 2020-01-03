@@ -52,7 +52,7 @@
 #include "talk/app/webrtc/peerconnectioninterface.h"
 #include "talk/app/webrtc/videosourceinterface.h"
 #include "talk/app/webrtc/videotrack.h"
-#include "talk/base/logging.h"
+#include "talk/logging.h"
 
 @interface RTCPeerConnectionFactory ()
 

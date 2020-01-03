@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/gunit.h"
-#include "base/nullsocketserver.h"
+#include "gunit.h"
+#include "nullsocketserver.h"
 
 namespace talk_base {
 

@@ -28,7 +28,7 @@
 #ifndef TALK_BASE_SOCKETADDRESSPAIR_H__
 #define TALK_BASE_SOCKETADDRESSPAIR_H__
 
-#include "base/socketaddress.h"
+#include "socketaddress.h"
 
 namespace talk_base {
 

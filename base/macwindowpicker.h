@@ -4,7 +4,7 @@
 #ifndef TALK_BASE_MACWINDOWPICKER_H_
 #define TALK_BASE_MACWINDOWPICKER_H_
 
-#include "base/windowpicker.h"
+#include "windowpicker.h"
 
 namespace talk_base {
 

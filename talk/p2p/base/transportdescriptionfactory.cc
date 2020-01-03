@@ -25,14 +25,14 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/transportdescriptionfactory.h"
+#include "talk/p2p/transportdescriptionfactory.h"
 
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/messagedigest.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sslfingerprint.h"
-#include "talk/p2p/base/transportdescription.h"
+#include "talk/helpers.h"
+#include "talk/logging.h"
+#include "talk/messagedigest.h"
+#include "talk/scoped_ptr.h"
+#include "talk/sslfingerprint.h"
+#include "talk/p2p/transportdescription.h"
 
 namespace cricket {
 

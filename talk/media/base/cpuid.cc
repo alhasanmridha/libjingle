@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/media/base/cpuid.h"
+#include "talk/media/cpuid.h"
 
 #if !defined(DISABLE_YUV)
 #include "libyuv/cpu_id.h"

@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/crc32.h"
-#include "base/gunit.h"
+#include "crc32.h"
+#include "gunit.h"
 
 #include <string>
 

@@ -27,8 +27,8 @@
 
 #include "talk/session/media/typingmonitor.h"
 
-#include "talk/base/logging.h"
-#include "talk/base/thread.h"
+#include "talk/logging.h"
+#include "talk/thread.h"
 #include "talk/session/media/channel.h"
 
 namespace cricket {

@@ -30,8 +30,8 @@
 
 #include <vector>
 
-#include "talk/base/cryptstring.h"
-#include "talk/base/sigslot.h"
+#include "talk/cryptstring.h"
+#include "talk/sigslot.h"
 #include "talk/xmpp/jid.h"
 #include "talk/xmpp/saslhandler.h"
 #include "talk/xmpp/prexmppauth.h"

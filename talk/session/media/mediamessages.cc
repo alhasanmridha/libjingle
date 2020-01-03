@@ -31,10 +31,10 @@
 
 #include "talk/session/media/mediamessages.h"
 
-#include "talk/base/logging.h"
-#include "talk/base/stringencode.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/parsing.h"
+#include "talk/logging.h"
+#include "talk/stringencode.h"
+#include "talk/p2p/constants.h"
+#include "talk/p2p/parsing.h"
 #include "talk/session/media/mediasessionclient.h"
 #include "talk/xmllite/xmlelement.h"
 

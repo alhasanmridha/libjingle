@@ -31,9 +31,9 @@
 #include <vector>
 
 #include "asyncfile.h"
-#include "base/scoped_ptr.h"
-#include "base/socketserver.h"
-#include "base/criticalsection.h"
+#include "scoped_ptr.h"
+#include "socketserver.h"
+#include "criticalsection.h"
 
 #ifdef POSIX
 typedef int SOCKET;

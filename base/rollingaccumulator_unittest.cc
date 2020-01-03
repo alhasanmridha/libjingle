@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/gunit.h"
-#include "base/rollingaccumulator.h"
+#include "gunit.h"
+#include "rollingaccumulator.h"
 
 namespace talk_base {
 

@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/portallocatorsessionproxy.h"
+#include "talk/p2p/portallocatorsessionproxy.h"
 
-#include "talk/base/thread.h"
-#include "talk/p2p/base/portallocator.h"
-#include "talk/p2p/base/portproxy.h"
+#include "talk/thread.h"
+#include "talk/p2p/portallocator.h"
+#include "talk/p2p/portproxy.h"
 
 namespace cricket {
 

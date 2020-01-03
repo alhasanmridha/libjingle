@@ -30,8 +30,8 @@
 
 #include <string>
 
-#include "base/constructormagic.h"
-#include "base/scoped_ptr.h"
+#include "constructormagic.h"
+#include "scoped_ptr.h"
 
 namespace talk_base {
 

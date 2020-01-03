@@ -27,7 +27,7 @@
 
 #include <cassert>
 
-#include "base/nattypes.h"
+#include "nattypes.h"
 
 namespace talk_base {
 

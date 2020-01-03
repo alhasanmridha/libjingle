@@ -33,16 +33,16 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/refcount.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/scoped_ref_ptr.h"
-#include "talk/base/socketaddress.h"
-#include "talk/p2p/base/parsing.h"
-#include "talk/p2p/base/port.h"
-#include "talk/p2p/base/sessionclient.h"
-#include "talk/p2p/base/sessionmanager.h"
-#include "talk/p2p/base/sessionmessages.h"
-#include "talk/p2p/base/transport.h"
+#include "talk/refcount.h"
+#include "talk/scoped_ptr.h"
+#include "talk/scoped_ref_ptr.h"
+#include "talk/socketaddress.h"
+#include "talk/p2p/parsing.h"
+#include "talk/p2p/port.h"
+#include "talk/p2p/sessionclient.h"
+#include "talk/p2p/sessionmanager.h"
+#include "talk/p2p/sessionmessages.h"
+#include "talk/p2p/transport.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmpp/constants.h"
 

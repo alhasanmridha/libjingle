@@ -4,8 +4,8 @@
 
 #include <string>
 
-#include "talk/base/gunit.h"
-#include "talk/media/base/testutils.h"
+#include "talk/gunit.h"
+#include "talk/media/testutils.h"
 #include "talk/media/webrtc/webrtcpassthroughrender.h"
 
 class WebRtcPassthroughRenderTest : public testing::Test {

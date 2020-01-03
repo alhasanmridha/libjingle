@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/win32.h"
+#include "win32.h"
 #define SECURITY_WIN32
 #include <security.h>
 #include <schannel.h>
@@ -33,11 +33,11 @@
 #include <iomanip>
 #include <vector>
 
-#include "base/common.h"
-#include "base/logging.h"
-#include "base/schanneladapter.h"
-#include "base/sec_buffer.h"
-#include "base/thread.h"
+#include "common.h"
+#include "logging.h"
+#include "schanneladapter.h"
+#include "sec_buffer.h"
+#include "thread.h"
 
 namespace talk_base {
 

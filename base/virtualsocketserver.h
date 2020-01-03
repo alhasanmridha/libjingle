@@ -32,8 +32,8 @@
 #include <deque>
 #include <map>
 
-#include "base/messagequeue.h"
-#include "base/socketserver.h"
+#include "messagequeue.h"
+#include "socketserver.h"
 
 namespace talk_base {
 

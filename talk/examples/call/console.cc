@@ -33,9 +33,9 @@
 #include <unistd.h>
 #endif  // POSIX
 #include <cassert>
-#include "talk/base/logging.h"
-#include "talk/base/messagequeue.h"
-#include "talk/base/stringutils.h"
+#include "talk/logging.h"
+#include "talk/messagequeue.h"
+#include "talk/stringutils.h"
 #include "talk/examples/call/console.h"
 #include "talk/examples/call/callclient.h"
 

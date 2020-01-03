@@ -51,7 +51,7 @@
         'libjingle.gyp:libjingle_p2p',
       ],
       'sources': [
-        'p2p/base/relayserver_main.cc',
+        'p2p/relayserver_main.cc',
       ],
     },  # target relayserver
     {
@@ -62,7 +62,7 @@
         'libjingle.gyp:libjingle_p2p',
       ],
       'sources': [
-        'p2p/base/stunserver_main.cc',
+        'p2p/stunserver_main.cc',
       ],
     },  # target stunserver
     {
@@ -73,7 +73,7 @@
         'libjingle.gyp:libjingle_p2p',
       ],
       'sources': [
-        'p2p/base/turnserver_main.cc',
+        'p2p/turnserver_main.cc',
       ],
     },  # target turnserver
     {

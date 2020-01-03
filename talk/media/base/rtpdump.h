@@ -32,9 +32,9 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/bytebuffer.h"
-#include "talk/base/stream.h"
+#include "talk/basictypes.h"
+#include "talk/bytebuffer.h"
+#include "talk/stream.h"
 
 namespace cricket {
 

@@ -28,7 +28,7 @@
 
 #include <vector>
 
-#include "talk/media/base/testutils.h"
+#include "talk/media/testutils.h"
 #include "talk/media/webrtc/fakewebrtcdeviceinfo.h"
 #include "talk/media/webrtc/webrtcvideocapturer.h"
 

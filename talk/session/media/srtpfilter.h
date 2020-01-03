@@ -33,11 +33,11 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sigslotrepeater.h"
-#include "talk/media/base/cryptoparams.h"
-#include "talk/p2p/base/sessiondescription.h"
+#include "talk/basictypes.h"
+#include "talk/scoped_ptr.h"
+#include "talk/sigslotrepeater.h"
+#include "talk/media/cryptoparams.h"
+#include "talk/p2p/sessiondescription.h"
 
 // Forward declaration to avoid pulling in libsrtp headers here
 struct srtp_event_data_t;

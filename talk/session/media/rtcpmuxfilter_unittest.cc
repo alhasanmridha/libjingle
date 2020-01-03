@@ -25,8 +25,8 @@
 
 #include "talk/session/media/rtcpmuxfilter.h"
 
-#include "talk/base/gunit.h"
-#include "talk/media/base/testutils.h"
+#include "talk/gunit.h"
+#include "talk/media/testutils.h"
 
 TEST(RtcpMuxFilterTest, DemuxRtcpSender) {
   cricket::RtcpMuxFilter filter;

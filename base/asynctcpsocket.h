@@ -28,9 +28,9 @@
 #ifndef TALK_BASE_ASYNCTCPSOCKET_H_
 #define TALK_BASE_ASYNCTCPSOCKET_H_
 
-#include "base/asyncpacketsocket.h"
-#include "base/scoped_ptr.h"
-#include "base/socketfactory.h"
+#include "asyncpacketsocket.h"
+#include "scoped_ptr.h"
+#include "socketfactory.h"
 
 namespace talk_base {
 

@@ -26,7 +26,7 @@
  */
 
 #if defined(LINUX) || defined(ANDROID)
-#include "base/linux.h"
+#include "linux.h"
 
 #include <ctype.h>
 
@@ -37,7 +37,7 @@
 #include <cstdio>
 #include <set>
 
-#include "base/stringencode.h"
+#include "stringencode.h"
 
 namespace talk_base {
 

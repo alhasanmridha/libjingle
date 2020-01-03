@@ -29,11 +29,11 @@
 
 #include <string>
 
-#include "talk/base/refcount.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/thread.h"
-#include "talk/base/gunit.h"
-#include "testing/base/public/gmock.h"
+#include "talk/refcount.h"
+#include "talk/scoped_ptr.h"
+#include "talk/thread.h"
+#include "talk/gunit.h"
+#include "testing/public/gmock.h"
 
 using ::testing::_;
 using ::testing::DoAll;

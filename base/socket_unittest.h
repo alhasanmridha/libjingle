@@ -28,8 +28,8 @@
 #ifndef TALK_BASE_SOCKET_UNITTEST_H_
 #define TALK_BASE_SOCKET_UNITTEST_H_
 
-#include "base/gunit.h"
-#include "base/thread.h"
+#include "gunit.h"
+#include "thread.h"
 
 namespace talk_base {
 

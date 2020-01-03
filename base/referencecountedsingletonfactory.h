@@ -28,10 +28,10 @@
 #ifndef TALK_BASE_REFERENCECOUNTEDSINGLETONFACTORY_H_
 #define TALK_BASE_REFERENCECOUNTEDSINGLETONFACTORY_H_
 
-#include "base/common.h"
-#include "base/criticalsection.h"
-#include "base/logging.h"
-#include "base/scoped_ptr.h"
+#include "common.h"
+#include "criticalsection.h"
+#include "logging.h"
+#include "scoped_ptr.h"
 
 namespace talk_base {
 

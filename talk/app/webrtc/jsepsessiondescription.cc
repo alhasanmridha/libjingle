@@ -27,7 +27,7 @@
 #include "talk/app/webrtc/jsepsessiondescription.h"
 
 #include "talk/app/webrtc/webrtcsdp.h"
-#include "talk/base/stringencode.h"
+#include "talk/stringencode.h"
 #include "talk/session/media/mediasession.h"
 
 using talk_base::scoped_ptr;

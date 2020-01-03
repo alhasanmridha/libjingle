@@ -51,15 +51,15 @@
 #include <algorithm>
 #include <map>
 
-#include "base/basictypes.h"
-#include "base/byteorder.h"
-#include "base/common.h"
-#include "base/logging.h"
-#include "base/nethelpers.h"
-#include "base/physicalsocketserver.h"
-#include "base/timeutils.h"
-#include "base/winping.h"
-#include "base/win32socketinit.h"
+#include "basictypes.h"
+#include "byteorder.h"
+#include "common.h"
+#include "logging.h"
+#include "nethelpers.h"
+#include "physicalsocketserver.h"
+#include "timeutils.h"
+#include "winping.h"
+#include "win32socketinit.h"
 
 // stm: this will tell us if we are on OSX
 #ifdef HAVE_CONFIG_H

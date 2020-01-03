@@ -28,8 +28,8 @@
 #ifndef TALK_XMPP_PREXMPPAUTH_H_
 #define TALK_XMPP_PREXMPPAUTH_H_
 
-#include "talk/base/cryptstring.h"
-#include "talk/base/sigslot.h"
+#include "talk/cryptstring.h"
+#include "talk/sigslot.h"
 #include "talk/xmpp/saslhandler.h"
 
 namespace talk_base {

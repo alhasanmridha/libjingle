@@ -27,7 +27,7 @@
 
 #include "talk/sound/platformsoundsystem.h"
 
-#include "talk/base/common.h"
+#include "talk/common.h"
 #ifdef LINUX
 #include "talk/sound/linuxsoundsystem.h"
 #else

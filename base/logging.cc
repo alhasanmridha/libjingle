@@ -50,11 +50,11 @@ static const int kMaxLogLineSize = 1024 - 60;
 #include <limits.h>
 #include <vector>
 
-#include "base/logging.h"
-#include "base/stream.h"
-#include "base/stringencode.h"
-#include "base/stringutils.h"
-#include "base/timeutils.h"
+#include "logging.h"
+#include "stream.h"
+#include "stringencode.h"
+#include "stringutils.h"
+#include "timeutils.h"
 
 namespace talk_base {
 

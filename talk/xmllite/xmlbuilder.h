@@ -30,7 +30,7 @@
 
 #include <string>
 #include <vector>
-#include "talk/base/scoped_ptr.h"
+#include "talk/scoped_ptr.h"
 #include "talk/xmllite/xmlparser.h"
 
 #ifdef EXPAT_RELATIVE_PATH

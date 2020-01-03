@@ -30,10 +30,10 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/gunit.h"
-#include "talk/base/logging.h"
-#include "talk/base/thread.h"
-#include "talk/media/base/testutils.h"
+#include "talk/gunit.h"
+#include "talk/logging.h"
+#include "talk/thread.h"
+#include "talk/media/testutils.h"
 #include "talk/media/devices/filevideocapturer.h"
 
 namespace {

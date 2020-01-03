@@ -30,10 +30,10 @@
 #include "talk/app/webrtc/audiotrack.h"
 #include "talk/app/webrtc/mediastream.h"
 #include "talk/app/webrtc/videotrack.h"
-#include "talk/base/refcount.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/gunit.h"
-#include "testing/base/public/gmock.h"
+#include "talk/refcount.h"
+#include "talk/scoped_ptr.h"
+#include "talk/gunit.h"
+#include "testing/public/gmock.h"
 
 static const char kStreamLabel1[] = "local_stream_1";
 static const char kVideoTrackId[] = "dummy_video_cam_1";

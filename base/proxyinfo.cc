@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/proxyinfo.h"
+#include "proxyinfo.h"
 
 namespace talk_base {
 

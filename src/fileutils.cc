@@ -28,7 +28,7 @@
 #include <cassert>
 
 #ifdef WIN32
-#include "base/win32.h"
+#include "win32.h"
 #endif
 
 #include "pathutils.h"
@@ -37,7 +37,7 @@
 #include "stream.h"
 
 #ifdef WIN32
-#include "base/win32filesystem.h"
+#include "win32filesystem.h"
 #else
 #include "unixfilesystem.h"
 #endif

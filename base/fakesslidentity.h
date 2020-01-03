@@ -28,8 +28,8 @@
 #ifndef TALK_BASE_FAKESSLIDENTITY_H_
 #define TALK_BASE_FAKESSLIDENTITY_H_
 
-#include "base/messagedigest.h"
-#include "base/sslidentity.h"
+#include "messagedigest.h"
+#include "sslidentity.h"
 
 namespace talk_base {
 

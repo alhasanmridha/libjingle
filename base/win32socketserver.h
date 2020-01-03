@@ -29,14 +29,14 @@
 #define TALK_BASE_WIN32SOCKETSERVER_H_
 
 #ifdef WIN32
-#include "base/asyncsocket.h"
-#include "base/criticalsection.h"
-#include "base/messagequeue.h"
-#include "base/socketserver.h"
-#include "base/socketfactory.h"
-#include "base/socket.h"
-#include "base/thread.h"
-#include "base/win32window.h"
+#include "asyncsocket.h"
+#include "criticalsection.h"
+#include "messagequeue.h"
+#include "socketserver.h"
+#include "socketfactory.h"
+#include "socket.h"
+#include "thread.h"
+#include "win32window.h"
 
 namespace talk_base {
 

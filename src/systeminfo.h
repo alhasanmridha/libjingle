@@ -30,7 +30,7 @@
 
 #include <string>
 
-#include "base/basictypes.h"
+#include "basictypes.h"
 
 namespace talk_base {
 

@@ -32,12 +32,12 @@
 #endif
 
 #ifdef HAVE_WEBRTC_VIDEO
-#include "talk/base/logging.h"
-#include "talk/base/thread.h"
-#include "talk/base/timeutils.h"
+#include "talk/logging.h"
+#include "talk/thread.h"
+#include "talk/timeutils.h"
 #include "talk/media/webrtc/webrtcvideoframe.h"
 
-#include "talk/base/win32.h"  // Need this to #include the impl files.
+#include "talk/win32.h"  // Need this to #include the impl files.
 #include "webrtc/modules/video_capture/include/video_capture_factory.h"
 
 namespace cricket {

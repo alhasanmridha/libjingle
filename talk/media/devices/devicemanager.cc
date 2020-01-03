@@ -27,14 +27,14 @@
 
 #include "talk/media/devices/devicemanager.h"
 
-#include "talk/base/fileutils.h"
-#include "talk/base/logging.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/stringutils.h"
-#include "talk/base/thread.h"
-#include "talk/base/windowpicker.h"
-#include "talk/base/windowpickerfactory.h"
-#include "talk/media/base/mediacommon.h"
+#include "talk/fileutils.h"
+#include "talk/logging.h"
+#include "talk/pathutils.h"
+#include "talk/stringutils.h"
+#include "talk/thread.h"
+#include "talk/windowpicker.h"
+#include "talk/windowpickerfactory.h"
+#include "talk/media/mediacommon.h"
 #include "talk/media/devices/deviceinfo.h"
 #include "talk/media/devices/filevideocapturer.h"
 

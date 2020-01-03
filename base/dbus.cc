@@ -27,12 +27,12 @@
 
 #ifdef HAVE_DBUS_GLIB
 
-#include "base/dbus.h"
+#include "dbus.h"
 
 #include <glib.h>
 
-#include "base/logging.h"
-#include "base/thread.h"
+#include "logging.h"
+#include "thread.h"
 
 namespace talk_base {
 

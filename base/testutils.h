@@ -32,14 +32,14 @@
 
 #include <map>
 #include <vector>
-#include "base/asyncsocket.h"
-#include "base/common.h"
-#include "base/gunit.h"
-#include "base/nethelpers.h"
-#include "base/stream.h"
-#include "base/stringencode.h"
-#include "base/stringutils.h"
-#include "base/thread.h"
+#include "asyncsocket.h"
+#include "common.h"
+#include "gunit.h"
+#include "nethelpers.h"
+#include "stream.h"
+#include "stringencode.h"
+#include "stringutils.h"
+#include "thread.h"
 
 namespace testing {
 

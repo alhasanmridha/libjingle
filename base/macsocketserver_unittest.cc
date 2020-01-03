@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/gunit.h"
-#include "base/scoped_ptr.h"
-#include "base/socket_unittest.h"
-#include "base/thread.h"
-#include "base/macsocketserver.h"
+#include "gunit.h"
+#include "scoped_ptr.h"
+#include "socket_unittest.h"
+#include "thread.h"
+#include "macsocketserver.h"
 
 namespace talk_base {
 

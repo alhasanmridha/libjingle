@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/gunit.h"
-#include "talk/media/base/streamparams.h"
-#include "talk/media/base/testutils.h"
+#include "talk/gunit.h"
+#include "talk/media/streamparams.h"
+#include "talk/media/testutils.h"
 
 static const uint32 kSscrs1[] = {1};
 static const uint32 kSscrs2[] = {1, 2};

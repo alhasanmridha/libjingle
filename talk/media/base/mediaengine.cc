@@ -25,7 +25,7 @@
 // ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 
-#include "talk/media/base/mediaengine.h"
+#include "talk/media/mediaengine.h"
 
 namespace cricket {
 const int MediaEngineInterface::kDefaultAudioDelayOffset = 0;

@@ -28,26 +28,26 @@
 #include "talk/media/devices/devicemanager.h"
 
 #ifdef WIN32
-#include "talk/base/win32.h"
+#include "talk/win32.h"
 #include <objbase.h>
 #endif
 #include <string>
 
-#include "talk/base/fileutils.h"
-#include "talk/base/gunit.h"
-#include "talk/base/logging.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stream.h"
-#include "talk/base/windowpickerfactory.h"
-#include "talk/media/base/fakevideocapturer.h"
-#include "talk/media/base/testutils.h"
+#include "talk/fileutils.h"
+#include "talk/gunit.h"
+#include "talk/logging.h"
+#include "talk/pathutils.h"
+#include "talk/scoped_ptr.h"
+#include "talk/stream.h"
+#include "talk/windowpickerfactory.h"
+#include "talk/media/fakevideocapturer.h"
+#include "talk/media/testutils.h"
 #include "talk/media/devices/filevideocapturer.h"
 #include "talk/media/devices/v4llookup.h"
 
 #ifdef LINUX
 // TODO(juberti): Figure out why this doesn't compile on Windows.
-#include "talk/base/fileutils_mock.h"
+#include "talk/fileutils_mock.h"
 #endif  // LINUX
 
 using talk_base::Pathname;

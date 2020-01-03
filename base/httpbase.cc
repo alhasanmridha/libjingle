@@ -30,17 +30,17 @@
 
 
 #ifdef WIN32
-#include "base/win32.h"
+#include "win32.h"
 #else  // !WIN32
 #define SEC_E_CERT_EXPIRED (-2146893016)
 #endif  // !WIN32
 
-#include "base/common.h"
-#include "base/httpbase.h"
-#include "base/logging.h"
-#include "base/socket.h"
-#include "base/stringutils.h"
-#include "base/thread.h"
+#include "common.h"
+#include "httpbase.h"
+#include "logging.h"
+#include "socket.h"
+#include "stringutils.h"
+#include "thread.h"
 
 namespace talk_base {
 

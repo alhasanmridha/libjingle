@@ -31,7 +31,7 @@
 #include "talk/xmpp/xmppclient.h"
 #include "talk/xmpp/xmpptask.h"
 #include "talk/app/rosteritem.h"
-#include "talk/base/sigslot.h"
+#include "talk/sigslot.h"
 
 namespace buzz {
 

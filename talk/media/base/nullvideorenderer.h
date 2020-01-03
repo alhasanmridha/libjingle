@@ -28,7 +28,7 @@
 #ifndef TALK_MEDIA_BASE_NULLVIDEORENDERER_H_
 #define TALK_MEDIA_BASE_NULLVIDEORENDERER_H_
 
-#include "talk/media/base/videorenderer.h"
+#include "talk/media/videorenderer.h"
 
 namespace cricket {
 

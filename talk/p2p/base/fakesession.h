@@ -32,14 +32,14 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/buffer.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/sslfingerprint.h"
-#include "talk/base/messagequeue.h"
-#include "talk/p2p/base/session.h"
-#include "talk/p2p/base/transport.h"
-#include "talk/p2p/base/transportchannel.h"
-#include "talk/p2p/base/transportchannelimpl.h"
+#include "talk/buffer.h"
+#include "talk/sigslot.h"
+#include "talk/sslfingerprint.h"
+#include "talk/messagequeue.h"
+#include "talk/p2p/session.h"
+#include "talk/p2p/transport.h"
+#include "talk/p2p/transportchannel.h"
+#include "talk/p2p/transportchannelimpl.h"
 
 namespace cricket {
 

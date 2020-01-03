@@ -25,12 +25,12 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/filelock.h"
+#include "filelock.h"
 
-#include "base/fileutils.h"
-#include "base/logging.h"
-#include "base/pathutils.h"
-#include "base/stream.h"
+#include "fileutils.h"
+#include "logging.h"
+#include "pathutils.h"
+#include "stream.h"
 
 namespace talk_base {
 

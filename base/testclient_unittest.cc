@@ -25,13 +25,13 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/gunit.h"
-#include "base/host.h"
-#include "base/nethelpers.h"
-#include "base/physicalsocketserver.h"
-#include "base/testclient.h"
-#include "base/testechoserver.h"
-#include "base/thread.h"
+#include "gunit.h"
+#include "host.h"
+#include "nethelpers.h"
+#include "physicalsocketserver.h"
+#include "testclient.h"
+#include "testechoserver.h"
+#include "thread.h"
 
 using namespace talk_base;
 

@@ -31,10 +31,10 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/timing.h"
-#include "talk/media/base/constants.h"
-#include "talk/media/base/mediachannel.h"
-#include "talk/media/base/mediaengine.h"
+#include "talk/timing.h"
+#include "talk/media/constants.h"
+#include "talk/media/mediachannel.h"
+#include "talk/media/mediaengine.h"
 
 namespace cricket {
 

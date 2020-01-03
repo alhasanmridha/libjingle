@@ -25,15 +25,15 @@
 
 #include <string>
 
-#include "talk/base/bytebuffer.h"
-#include "talk/base/fileutils.h"
-#include "talk/base/gunit.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/thread.h"
-#include "talk/media/base/fakemediaengine.h"
-#include "talk/media/base/rtpdump.h"
-#include "talk/media/base/testutils.h"
-#include "talk/p2p/base/fakesession.h"
+#include "talk/bytebuffer.h"
+#include "talk/fileutils.h"
+#include "talk/gunit.h"
+#include "talk/pathutils.h"
+#include "talk/thread.h"
+#include "talk/media/fakemediaengine.h"
+#include "talk/media/rtpdump.h"
+#include "talk/media/testutils.h"
+#include "talk/p2p/fakesession.h"
 #include "talk/session/media/channel.h"
 #include "talk/session/media/mediarecorder.h"
 

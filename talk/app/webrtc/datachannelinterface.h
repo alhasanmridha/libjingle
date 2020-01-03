@@ -33,9 +33,9 @@
 
 #include <string>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/buffer.h"
-#include "talk/base/refcount.h"
+#include "talk/basictypes.h"
+#include "talk/buffer.h"
+#include "talk/refcount.h"
 
 
 namespace webrtc {

@@ -28,8 +28,8 @@
 #include <set>
 #include <sstream>
 
-#include "base/gunit.h"
-#include "base/linuxfdwalk.h"
+#include "gunit.h"
+#include "linuxfdwalk.h"
 
 #include <sys/types.h>
 #include <sys/stat.h>

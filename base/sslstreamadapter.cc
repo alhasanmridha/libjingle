@@ -29,8 +29,8 @@
 #include "config.h"
 #endif  // HAVE_CONFIG_H
 
-#include "base/sslstreamadapter.h"
-#include "base/sslconfig.h"
+#include "sslstreamadapter.h"
+#include "sslconfig.h"
 
 #if SSL_USE_SCHANNEL
 
@@ -38,11 +38,11 @@
 // done.
 #elif SSL_USE_OPENSSL  // && !SSL_USE_SCHANNEL
 
-#include "base/opensslstreamadapter.h"
+#include "opensslstreamadapter.h"
 
 #elif SSL_USE_NSS      // && !SSL_USE_SCHANNEL && !SSL_USE_OPENSSL
 
-#include "base/nssstreamadapter.h"
+#include "nssstreamadapter.h"
 
 #endif  // !SSL_USE_OPENSSL && !SSL_USE_SCHANNEL && !SSL_USE_NSS
 

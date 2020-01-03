@@ -26,7 +26,7 @@
  */
 
 #include <string>
-#include "talk/base/gunit.h"
+#include "talk/gunit.h"
 #include "talk/xmllite/qname.h"
 
 using buzz::StaticQName;

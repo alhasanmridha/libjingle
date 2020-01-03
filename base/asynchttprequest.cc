@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/asynchttprequest.h"
+#include "asynchttprequest.h"
 
 namespace talk_base {
 

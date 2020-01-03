@@ -25,14 +25,14 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/media/base/codec.h"
+#include "talk/media/codec.h"
 
 #include <algorithm>
 #include <sstream>
 
-#include "talk/base/common.h"
-#include "talk/base/stringencode.h"
-#include "talk/base/stringutils.h"
+#include "talk/common.h"
+#include "talk/stringencode.h"
+#include "talk/stringutils.h"
 
 namespace cricket {
 

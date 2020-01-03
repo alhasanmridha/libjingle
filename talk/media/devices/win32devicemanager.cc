@@ -38,12 +38,12 @@
 #include <functiondiscoverykeys_devpkey.h>
 #include <uuids.h>
 
-#include "talk/base/logging.h"
-#include "talk/base/stringutils.h"
-#include "talk/base/thread.h"
-#include "talk/base/win32.h"  // ToUtf8
-#include "talk/base/win32window.h"
-#include "talk/media/base/mediacommon.h"
+#include "talk/logging.h"
+#include "talk/stringutils.h"
+#include "talk/thread.h"
+#include "talk/win32.h"  // ToUtf8
+#include "talk/win32window.h"
+#include "talk/media/mediacommon.h"
 #ifdef HAVE_LOGITECH_HEADERS
 #include "third_party/logitech/files/logitechquickcam.h"
 #endif

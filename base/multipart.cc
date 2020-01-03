@@ -24,9 +24,9 @@
 // ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-#include "base/common.h"
-#include "base/httpcommon.h"
-#include "base/multipart.h"
+#include "common.h"
+#include "httpcommon.h"
+#include "multipart.h"
 
 namespace talk_base {
 

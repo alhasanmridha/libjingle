@@ -25,13 +25,13 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/latebindingsymboltable.h"
+#include "latebindingsymboltable.h"
 
 #ifdef POSIX
 #include <dlfcn.h>
 #endif
 
-#include "base/logging.h"
+#include "logging.h"
 
 namespace talk_base {
 

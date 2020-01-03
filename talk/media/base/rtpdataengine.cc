@@ -25,17 +25,17 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/media/base/rtpdataengine.h"
+#include "talk/media/rtpdataengine.h"
 
-#include "talk/base/buffer.h"
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/ratelimiter.h"
-#include "talk/base/timing.h"
-#include "talk/media/base/codec.h"
-#include "talk/media/base/constants.h"
-#include "talk/media/base/rtputils.h"
-#include "talk/media/base/streamparams.h"
+#include "talk/buffer.h"
+#include "talk/helpers.h"
+#include "talk/logging.h"
+#include "talk/ratelimiter.h"
+#include "talk/timing.h"
+#include "talk/media/codec.h"
+#include "talk/media/constants.h"
+#include "talk/media/rtputils.h"
+#include "talk/media/streamparams.h"
 
 namespace cricket {
 

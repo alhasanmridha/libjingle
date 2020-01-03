@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/asyncsocket.h"
-#include "talk/base/gunit.h"
-#include "talk/base/physicalsocketserver.h"
-#include "talk/base/virtualsocketserver.h"
-#include "talk/p2p/base/asyncstuntcpsocket.h"
+#include "talk/asyncsocket.h"
+#include "talk/gunit.h"
+#include "talk/physicalsocketserver.h"
+#include "talk/virtualsocketserver.h"
+#include "talk/p2p/asyncstuntcpsocket.h"
 
 namespace cricket {
 

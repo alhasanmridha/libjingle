@@ -30,8 +30,8 @@
 
 #include <string>
 #include <list>
-#include "talk/base/asyncpacketsocket.h"
-#include "talk/p2p/base/port.h"
+#include "talk/asyncpacketsocket.h"
+#include "talk/p2p/port.h"
 
 namespace cricket {
 

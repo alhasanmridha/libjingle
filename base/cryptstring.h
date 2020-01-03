@@ -31,8 +31,8 @@
 #include <cstring>
 #include <string>
 #include <vector>
-#include "base/linked_ptr.h"
-#include "base/scoped_ptr.h"
+#include "linked_ptr.h"
+#include "scoped_ptr.h"
 
 namespace talk_base {
 

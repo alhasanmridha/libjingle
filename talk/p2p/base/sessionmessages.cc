@@ -25,20 +25,20 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/sessionmessages.h"
+#include "talk/p2p/sessionmessages.h"
 
 #include <stdio.h>
 #include <string>
 
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stringutils.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/p2ptransport.h"
-#include "talk/p2p/base/parsing.h"
-#include "talk/p2p/base/sessionclient.h"
-#include "talk/p2p/base/sessiondescription.h"
-#include "talk/p2p/base/transport.h"
+#include "talk/logging.h"
+#include "talk/scoped_ptr.h"
+#include "talk/stringutils.h"
+#include "talk/p2p/constants.h"
+#include "talk/p2p/p2ptransport.h"
+#include "talk/p2p/parsing.h"
+#include "talk/p2p/sessionclient.h"
+#include "talk/p2p/sessiondescription.h"
+#include "talk/p2p/transport.h"
 #include "talk/xmllite/xmlconstants.h"
 #include "talk/xmpp/constants.h"
 

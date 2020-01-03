@@ -28,9 +28,9 @@
 #ifndef TALK_SOUND_AUTOMATICALLYCHOSENSOUNDSYSTEM_H_
 #define TALK_SOUND_AUTOMATICALLYCHOSENSOUNDSYSTEM_H_
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
+#include "talk/common.h"
+#include "talk/logging.h"
+#include "talk/scoped_ptr.h"
 #include "talk/sound/soundsysteminterface.h"
 #include "talk/sound/soundsystemproxy.h"
 

@@ -28,7 +28,7 @@
 #include <cstdio>
 #include <iostream>
 
-#include "talk/base/thread.h"
+#include "talk/thread.h"
 #include "talk/xmpp/constants.h"
 #include "talk/xmpp/xmppclientsettings.h"
 #include "talk/xmpp/xmppengine.h"

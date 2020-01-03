@@ -29,8 +29,8 @@
 #define TALK_BASE_TESTCLIENT_H_
 
 #include <vector>
-#include "base/asyncudpsocket.h"
-#include "base/criticalsection.h"
+#include "asyncudpsocket.h"
+#include "criticalsection.h"
 
 namespace talk_base {
 

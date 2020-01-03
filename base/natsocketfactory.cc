@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/natsocketfactory.h"
+#include "natsocketfactory.h"
 
-#include "base/logging.h"
-#include "base/natserver.h"
-#include "base/virtualsocketserver.h"
+#include "logging.h"
+#include "natserver.h"
+#include "virtualsocketserver.h"
 
 namespace talk_base {
 

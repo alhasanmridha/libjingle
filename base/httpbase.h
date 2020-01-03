@@ -32,7 +32,7 @@
 #ifndef TALK_BASE_HTTPBASE_H__
 #define TALK_BASE_HTTPBASE_H__
 
-#include "base/httpcommon.h"
+#include "httpcommon.h"
 
 namespace talk_base {
 

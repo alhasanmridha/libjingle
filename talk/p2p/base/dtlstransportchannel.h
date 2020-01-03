@@ -32,11 +32,11 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/buffer.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sslstreamadapter.h"
-#include "talk/base/stream.h"
-#include "talk/p2p/base/transportchannelimpl.h"
+#include "talk/buffer.h"
+#include "talk/scoped_ptr.h"
+#include "talk/sslstreamadapter.h"
+#include "talk/stream.h"
+#include "talk/p2p/transportchannelimpl.h"
 
 namespace cricket {
 

@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/proxyserver.h"
+#include "proxyserver.h"
 
 #include <algorithm>
-#include "base/socketfactory.h"
+#include "socketfactory.h"
 
 namespace talk_base {
 

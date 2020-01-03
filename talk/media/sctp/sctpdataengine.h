@@ -41,11 +41,11 @@ enum PreservedErrno {
 };
 }  // namespace cricket
 
-#include "talk/base/buffer.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/media/base/codec.h"
-#include "talk/media/base/mediachannel.h"
-#include "talk/media/base/mediaengine.h"
+#include "talk/buffer.h"
+#include "talk/scoped_ptr.h"
+#include "talk/media/codec.h"
+#include "talk/media/mediachannel.h"
+#include "talk/media/mediaengine.h"
 
 // Defined by "usrsctplib/usrsctp.h"
 struct sockaddr_conn;

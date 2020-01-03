@@ -14,20 +14,20 @@
 #include "config.h"
 #endif  // HAVE_CONFIG_H
 
-#include "talk/base/sslconfig.h"  // For SSL_USE_*
+#include "talk/sslconfig.h"  // For SSL_USE_*
 
 #if SSL_USE_OPENSSL
 #define USE_SSL_TUNNEL
 #endif
 
-#include "talk/base/basicdefs.h"
-#include "talk/base/common.h"
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/ssladapter.h"
-#include "talk/base/stringutils.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/sessionmanager.h"
+#include "talk/basicdefs.h"
+#include "talk/common.h"
+#include "talk/helpers.h"
+#include "talk/logging.h"
+#include "talk/ssladapter.h"
+#include "talk/stringutils.h"
+#include "talk/thread.h"
+#include "talk/p2p/sessionmanager.h"
 #include "talk/p2p/client/autoportallocator.h"
 #include "talk/p2p/client/sessionmanagertask.h"
 #include "talk/xmpp/xmppengine.h"

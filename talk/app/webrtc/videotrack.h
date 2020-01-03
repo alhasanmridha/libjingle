@@ -33,7 +33,7 @@
 #include "talk/app/webrtc/mediastreamtrack.h"
 #include "talk/app/webrtc/videosourceinterface.h"
 #include "talk/app/webrtc/videotrackrenderers.h"
-#include "talk/base/scoped_ref_ptr.h"
+#include "talk/scoped_ref_ptr.h"
 
 namespace webrtc {
 

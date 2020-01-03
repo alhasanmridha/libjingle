@@ -33,12 +33,12 @@
 #if !defined(DISABLE_YUV)
 #include "libyuv/compare.h"
 #endif
-#include "talk/base/basictypes.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/window.h"
-#include "talk/media/base/mediachannel.h"
-#include "talk/media/base/videocapturer.h"
-#include "talk/media/base/videocommon.h"
+#include "talk/basictypes.h"
+#include "talk/sigslot.h"
+#include "talk/window.h"
+#include "talk/media/mediachannel.h"
+#include "talk/media/videocapturer.h"
+#include "talk/media/videocommon.h"
 
 namespace talk_base {
 class ByteBuffer;

@@ -32,10 +32,10 @@
 #include <utility>
 #include <vector>
 
-#include "base/fileutils.h"
-#include "base/gunit.h"
-#include "base/pathutils.h"
-#include "base/stream.h"
+#include "fileutils.h"
+#include "gunit.h"
+#include "pathutils.h"
+#include "stream.h"
 
 namespace talk_base {
 

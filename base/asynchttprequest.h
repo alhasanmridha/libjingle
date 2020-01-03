@@ -29,11 +29,11 @@
 #define TALK_BASE_ASYNCHTTPREQUEST_H_
 
 #include <string>
-#include "base/event.h"
-#include "base/httpclient.h"
-#include "base/signalthread.h"
-#include "base/socketpool.h"
-#include "base/sslsocketfactory.h"
+#include "event.h"
+#include "httpclient.h"
+#include "signalthread.h"
+#include "socketpool.h"
+#include "sslsocketfactory.h"
 
 namespace talk_base {
 

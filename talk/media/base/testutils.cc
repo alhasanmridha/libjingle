@@ -25,19 +25,19 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/media/base/testutils.h"
+#include "talk/media/testutils.h"
 
 #include <math.h>
 
-#include "talk/base/bytebuffer.h"
-#include "talk/base/fileutils.h"
-#include "talk/base/gunit.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/stream.h"
-#include "talk/base/stringutils.h"
-#include "talk/media/base/rtpdump.h"
-#include "talk/media/base/videocapturer.h"
-#include "talk/media/base/videoframe.h"
+#include "talk/bytebuffer.h"
+#include "talk/fileutils.h"
+#include "talk/gunit.h"
+#include "talk/pathutils.h"
+#include "talk/stream.h"
+#include "talk/stringutils.h"
+#include "talk/media/rtpdump.h"
+#include "talk/media/videocapturer.h"
+#include "talk/media/videoframe.h"
 
 namespace cricket {
 

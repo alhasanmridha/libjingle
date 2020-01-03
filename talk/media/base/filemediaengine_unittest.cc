@@ -27,15 +27,15 @@
 
 #include <set>
 
-#include "talk/base/buffer.h"
-#include "talk/base/gunit.h"
-#include "talk/base/helpers.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/stream.h"
-#include "talk/media/base/filemediaengine.h"
-#include "talk/media/base/rtpdump.h"
-#include "talk/media/base/streamparams.h"
-#include "talk/media/base/testutils.h"
+#include "talk/buffer.h"
+#include "talk/gunit.h"
+#include "talk/helpers.h"
+#include "talk/pathutils.h"
+#include "talk/stream.h"
+#include "talk/media/filemediaengine.h"
+#include "talk/media/rtpdump.h"
+#include "talk/media/streamparams.h"
+#include "talk/media/testutils.h"
 
 namespace cricket {
 

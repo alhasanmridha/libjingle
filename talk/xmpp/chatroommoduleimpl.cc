@@ -31,7 +31,7 @@
 #include <algorithm>
 #include <sstream>
 #include <iostream>
-#include "talk/base/common.h"
+#include "talk/common.h"
 #include "talk/xmpp/constants.h"
 #include "talk/xmpp/moduleimpl.h"
 #include "talk/xmpp/chatroommodule.h"

@@ -25,21 +25,21 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/win32.h"
+#include "win32.h"
 #include <shellapi.h>
 #include <shlobj.h>
 #include <tchar.h>
 
 #include <time.h>
 
-#include "base/common.h"
-#include "base/diskcache.h"
-#include "base/pathutils.h"
-#include "base/stream.h"
-#include "base/stringencode.h"
-#include "base/stringutils.h"
+#include "common.h"
+#include "diskcache.h"
+#include "pathutils.h"
+#include "stream.h"
+#include "stringencode.h"
+#include "stringutils.h"
 
-#include "base/diskcache_win32.h"
+#include "diskcache_win32.h"
 
 namespace talk_base {
 

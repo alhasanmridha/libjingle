@@ -28,7 +28,7 @@
 #ifndef TALK_MEDIA_WEBRTCMEDIAENGINE_H_
 #define TALK_MEDIA_WEBRTCMEDIAENGINE_H_
 
-#include "talk/media/base/mediaengine.h"
+#include "talk/media/mediaengine.h"
 #include "talk/media/webrtc/webrtcexport.h"
 
 namespace webrtc {

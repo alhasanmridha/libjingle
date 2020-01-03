@@ -19,7 +19,7 @@
 
 #include <cstring>
 
-#include "talk/base/logging.h"
+#include "talk/logging.h"
 
 namespace cricket {
 

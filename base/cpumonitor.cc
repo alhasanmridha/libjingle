@@ -25,19 +25,19 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/cpumonitor.h"
+#include "cpumonitor.h"
 
 #include <string>
 
-#include "base/common.h"
-#include "base/logging.h"
-#include "base/scoped_ptr.h"
-#include "base/systeminfo.h"
-#include "base/thread.h"
-#include "base/timeutils.h"
+#include "common.h"
+#include "logging.h"
+#include "scoped_ptr.h"
+#include "systeminfo.h"
+#include "thread.h"
+#include "timeutils.h"
 
 #ifdef WIN32
-#include "base/win32.h"
+#include "win32.h"
 #include <winternl.h>
 #endif
 
@@ -56,8 +56,8 @@
 #include <sys/resource.h>
 #include <errno.h>
 #include <stdio.h>
-#include "base/fileutils.h"
-#include "base/pathutils.h"
+#include "fileutils.h"
+#include "pathutils.h"
 #endif // defined(LINUX) || defined(ANDROID)
 
 #if defined(IOS) || defined(OSX)

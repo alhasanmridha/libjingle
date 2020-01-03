@@ -32,17 +32,17 @@
 #endif
 
 #include <errno.h>
-#include "talk/base/basicdefs.h"
-#include "talk/base/logging.h"
-#include "talk/base/thread.h"
+#include "talk/basicdefs.h"
+#include "talk/logging.h"
+#include "talk/thread.h"
 #ifdef FEATURE_ENABLE_SSL
-#include "talk/base/ssladapter.h"
+#include "talk/ssladapter.h"
 #endif
 
 #ifdef USE_SSLSTREAM
-#include "talk/base/socketstream.h"
+#include "talk/socketstream.h"
 #ifdef FEATURE_ENABLE_SSL
-#include "talk/base/sslstreamadapter.h"
+#include "talk/sslstreamadapter.h"
 #endif  // FEATURE_ENABLE_SSL
 #endif  // USE_SSLSTREAM
 

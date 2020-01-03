@@ -33,10 +33,10 @@
 #include <vector>
 
 
-#include "talk/base/basictypes.h"
-#include "talk/base/stringutils.h"
-#include "talk/media/base/codec.h"
-#include "talk/media/base/voiceprocessor.h"
+#include "talk/basictypes.h"
+#include "talk/stringutils.h"
+#include "talk/media/codec.h"
+#include "talk/media/voiceprocessor.h"
 #include "talk/media/webrtc/fakewebrtccommon.h"
 #include "talk/media/webrtc/webrtcvoe.h"
 

@@ -38,7 +38,7 @@
 #include "talk/app/webrtc/statstypes.h"
 #include "talk/app/webrtc/webrtcsession.h"
 
-#include "talk/base/timing.h"
+#include "talk/timing.h"
 
 namespace webrtc {
 

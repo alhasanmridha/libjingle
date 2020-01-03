@@ -32,9 +32,9 @@
 #include <set>
 #include <vector>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/stringutils.h"
-#include "talk/media/base/codec.h"
+#include "talk/basictypes.h"
+#include "talk/stringutils.h"
+#include "talk/media/codec.h"
 #include "talk/media/webrtc/fakewebrtccommon.h"
 #include "talk/media/webrtc/webrtcvideodecoderfactory.h"
 #include "talk/media/webrtc/webrtcvideoencoderfactory.h"

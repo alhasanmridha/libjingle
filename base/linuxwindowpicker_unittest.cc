@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/gunit.h"
-#include "base/linuxwindowpicker.h"
-#include "base/logging.h"
-#include "base/windowpicker.h"
+#include "gunit.h"
+#include "linuxwindowpicker.h"
+#include "logging.h"
+#include "windowpicker.h"
 
 #ifndef LINUX
 #error Only for Linux

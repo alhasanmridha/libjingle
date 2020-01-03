@@ -29,10 +29,10 @@
 #include <sys/time.h>
 #endif
 
-#include "base/common.h"
-#include "base/logging.h"
-#include "base/messagequeue.h"
-#include "base/physicalsocketserver.h"
+#include "common.h"
+#include "logging.h"
+#include "messagequeue.h"
+#include "physicalsocketserver.h"
 
 
 namespace talk_base {

@@ -27,7 +27,7 @@
 
 #include "talk/session/media/currentspeakermonitor.h"
 
-#include "talk/base/logging.h"
+#include "talk/logging.h"
 #include "talk/session/media/call.h"
 
 namespace cricket {

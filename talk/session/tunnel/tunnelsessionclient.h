@@ -30,14 +30,14 @@
 
 #include <vector>
 
-#include "talk/base/criticalsection.h"
-#include "talk/base/stream.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/pseudotcp.h"
-#include "talk/p2p/base/session.h"
-#include "talk/p2p/base/sessiondescription.h"
-#include "talk/p2p/base/sessionmanager.h"
-#include "talk/p2p/base/sessionclient.h"
+#include "talk/criticalsection.h"
+#include "talk/stream.h"
+#include "talk/p2p/constants.h"
+#include "talk/p2p/pseudotcp.h"
+#include "talk/p2p/session.h"
+#include "talk/p2p/sessiondescription.h"
+#include "talk/p2p/sessionmanager.h"
+#include "talk/p2p/sessionclient.h"
 #include "talk/xmllite/qname.h"
 #include "talk/xmpp/constants.h"
 

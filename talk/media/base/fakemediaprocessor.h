@@ -28,8 +28,8 @@
 #ifndef TALK_MEDIA_BASE_FAKEMEDIAPROCESSOR_H_
 #define TALK_MEDIA_BASE_FAKEMEDIAPROCESSOR_H_
 
-#include "talk/media/base/videoprocessor.h"
-#include "talk/media/base/voiceprocessor.h"
+#include "talk/media/videoprocessor.h"
+#include "talk/media/voiceprocessor.h"
 
 namespace cricket {
 

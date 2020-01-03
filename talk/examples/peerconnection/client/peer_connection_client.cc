@@ -28,13 +28,13 @@
 #include "talk/examples/peerconnection/client/peer_connection_client.h"
 
 #include "talk/examples/peerconnection/client/defaults.h"
-#include "talk/base/common.h"
-#include "talk/base/nethelpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/stringutils.h"
+#include "talk/common.h"
+#include "talk/nethelpers.h"
+#include "talk/logging.h"
+#include "talk/stringutils.h"
 
 #ifdef WIN32
-#include "talk/base/win32socketserver.h"
+#include "talk/win32socketserver.h"
 #endif
 
 using talk_base::sprintfn;

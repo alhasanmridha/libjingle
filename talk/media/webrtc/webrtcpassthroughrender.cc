@@ -27,8 +27,8 @@
 
 #include "talk/media/webrtc/webrtcpassthroughrender.h"
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
+#include "talk/common.h"
+#include "talk/logging.h"
 
 namespace cricket {
 

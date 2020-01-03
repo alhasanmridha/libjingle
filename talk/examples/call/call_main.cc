@@ -32,19 +32,19 @@
 #include <iostream>
 #include <vector>
 
-#include "talk/base/flags.h"
-#include "talk/base/logging.h"
+#include "talk/flags.h"
+#include "talk/logging.h"
 #ifdef OSX
-#include "talk/base/maccocoasocketserver.h"
+#include "talk/maccocoasocketserver.h"
 #endif
-#include "talk/base/pathutils.h"
-#include "talk/base/ssladapter.h"
-#include "talk/base/stream.h"
-#include "talk/base/win32socketserver.h"
+#include "talk/pathutils.h"
+#include "talk/ssladapter.h"
+#include "talk/stream.h"
+#include "talk/win32socketserver.h"
 #include "talk/examples/call/callclient.h"
 #include "talk/examples/call/console.h"
 #include "talk/examples/call/mediaenginefactory.h"
-#include "talk/p2p/base/constants.h"
+#include "talk/p2p/constants.h"
 #ifdef ANDROID
 #include "talk/media/other/androidmediaengine.h"
 #endif

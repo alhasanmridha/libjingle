@@ -40,7 +40,7 @@
 #include <set>
 #include <vector>
 
-#include "talk/base/basictypes.h"
+#include "talk/basictypes.h"
 
 namespace cricket {
 

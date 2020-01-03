@@ -30,9 +30,9 @@
 #include <utility>
 
 #include "talk/app/webrtc/videosourceinterface.h"
-#include "talk/base/common.h"
-#include "talk/base/json.h"
-#include "talk/base/logging.h"
+#include "talk/common.h"
+#include "talk/json.h"
+#include "talk/logging.h"
 #include "talk/examples/peerconnection/client/defaults.h"
 #include "talk/media/devices/devicemanager.h"
 

@@ -32,11 +32,11 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sslidentity.h"
+#include "talk/scoped_ptr.h"
+#include "talk/sslidentity.h"
 #include "talk/examples/call/console.h"
-#include "talk/media/base/mediachannel.h"
-#include "talk/p2p/base/session.h"
+#include "talk/media/mediachannel.h"
+#include "talk/p2p/session.h"
 #include "talk/session/media/mediamessages.h"
 #include "talk/session/media/mediasessionclient.h"
 #include "talk/xmpp/hangoutpubsubclient.h"

@@ -30,14 +30,14 @@
 #include <algorithm>
 #include <map>
 
-#include "talk/base/asynchttprequest.h"
-#include "talk/base/basicdefs.h"
-#include "talk/base/common.h"
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/nethelpers.h"
-#include "talk/base/signalthread.h"
-#include "talk/base/stringencode.h"
+#include "talk/asynchttprequest.h"
+#include "talk/basicdefs.h"
+#include "talk/common.h"
+#include "talk/helpers.h"
+#include "talk/logging.h"
+#include "talk/nethelpers.h"
+#include "talk/signalthread.h"
+#include "talk/stringencode.h"
 
 namespace {
 

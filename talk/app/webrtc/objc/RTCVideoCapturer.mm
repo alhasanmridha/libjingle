@@ -31,7 +31,7 @@
 
 #import "RTCVideoCapturer+internal.h"
 
-#include "talk/media/base/videocapturer.h"
+#include "talk/media/videocapturer.h"
 #include "talk/media/devices/devicemanager.h"
 
 @implementation RTCVideoCapturer {

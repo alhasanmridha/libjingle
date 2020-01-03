@@ -21,7 +21,7 @@
 #ifndef TALK_BASE_MD5_H_
 #define TALK_BASE_MD5_H_
 
-#include "base/basictypes.h"
+#include "basictypes.h"
 
 // Canonical name for a MD5 context structure, used in many crypto libs.
 typedef struct MD5Context MD5_CTX;

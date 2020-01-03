@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/gunit.h"
-#include "base/ratelimiter.h"
+#include "gunit.h"
+#include "ratelimiter.h"
 
 namespace talk_base {
 

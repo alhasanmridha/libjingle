@@ -28,7 +28,7 @@
 #ifndef TALK_EXAMPLES_CHAT_TEXTCHATRECEIVETASK_H_
 #define TALK_EXAMPLES_CHAT_TEXTCHATRECEIVETASK_H_
 
-#include "talk/base/sigslot.h"
+#include "talk/sigslot.h"
 #include "talk/xmpp/xmpptask.h"
 
 namespace buzz {

@@ -30,10 +30,10 @@
 
 #include <string>
 
-#include "base/basictypes.h"
-#include "base/common.h"
-#include "base/logging.h"
-#include "base/scoped_ptr.h"
+#include "basictypes.h"
+#include "common.h"
+#include "logging.h"
+#include "scoped_ptr.h"
 
 namespace talk_base {
 
@@ -51,12 +51,12 @@ class FixedSizeLockFreeQueue {
 #if defined(__arm__)
   typedef uint32 Atomic32;
 
-  // Copied from google3/base/atomicops-internals-arm-v6plus.h
+  // Copied from google3/atomicops-internals-arm-v6plus.h
   static inline void MemoryBarrier() {
     asm volatile("dmb":::"memory");
   }
 
-  // Adapted from google3/base/atomicops-internals-arm-v6plus.h
+  // Adapted from google3/atomicops-internals-arm-v6plus.h
   static inline void AtomicIncrement(volatile Atomic32* ptr) {
     Atomic32 str_success, value;
     asm volatile (

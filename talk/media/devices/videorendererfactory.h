@@ -28,7 +28,7 @@
 #ifndef TALK_MEDIA_DEVICES_VIDEORENDERERFACTORY_H_
 #define TALK_MEDIA_DEVICES_VIDEORENDERERFACTORY_H_
 
-#include "talk/media/base/videorenderer.h"
+#include "talk/media/videorenderer.h"
 #if defined(LINUX) && defined(HAVE_GTK)
 #include "talk/media/devices/gtkvideorenderer.h"
 #elif defined(OSX) && !defined(CARBON_DEPRECATED)

@@ -32,7 +32,7 @@ namespace cricket {
 #define LATE_BINDING_SYMBOL_TABLE_CLASS_NAME LIBUDEV_SYMBOLS_CLASS_NAME
 #define LATE_BINDING_SYMBOL_TABLE_SYMBOLS_LIST LIBUDEV_SYMBOLS_LIST
 #define LATE_BINDING_SYMBOL_TABLE_DLL_NAME "libudev.so.0"
-#include "talk/base/latebindingsymboltable.cc.def"
+#include "talk/latebindingsymboltable.cc.def"
 #undef LATE_BINDING_SYMBOL_TABLE_CLASS_NAME
 #undef LATE_BINDING_SYMBOL_TABLE_SYMBOLS_LIST
 #undef LATE_BINDING_SYMBOL_TABLE_DLL_NAME

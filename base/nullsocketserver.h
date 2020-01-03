@@ -28,8 +28,8 @@
 #ifndef TALK_BASE_NULLSOCKETSERVER_H_
 #define TALK_BASE_NULLSOCKETSERVER_H_
 
-#include "base/event.h"
-#include "base/physicalsocketserver.h"
+#include "event.h"
+#include "physicalsocketserver.h"
 
 namespace talk_base {
 

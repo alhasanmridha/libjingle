@@ -43,8 +43,8 @@
 #include "timeutils.h"
 
 #if !__has_feature(objc_arc) && (defined(OSX) || defined(IOS))
-#include "base/maccocoathreadhelper.h"
-#include "base/scoped_autorelease_pool.h"
+#include "maccocoathreadhelper.h"
+#include "scoped_autorelease_pool.h"
 #endif
 
 namespace talk_base {

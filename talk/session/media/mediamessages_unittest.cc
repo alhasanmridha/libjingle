@@ -30,9 +30,9 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/gunit.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/p2p/base/constants.h"
+#include "talk/gunit.h"
+#include "talk/scoped_ptr.h"
+#include "talk/p2p/constants.h"
 #include "talk/session/media/mediasessionclient.h"
 #include "talk/xmllite/xmlelement.h"
 

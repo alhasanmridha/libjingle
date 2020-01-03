@@ -32,9 +32,9 @@
 #include <vector>
 
 #include "talk/app/webrtc/audiotrack.h"
-#include "talk/base/gunit.h"
-#include "talk/base/logging.h"
-#include "talk/base/timeutils.h"
+#include "talk/gunit.h"
+#include "talk/logging.h"
+#include "talk/timeutils.h"
 
 using webrtc::AudioTrackInterface;
 using webrtc::AudioTrack;

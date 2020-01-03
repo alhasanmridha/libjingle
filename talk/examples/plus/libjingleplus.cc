@@ -28,10 +28,10 @@
 #include <iostream>
 #include "libjingleplus.h"
 #ifdef WIN32
-#include "talk/base/win32socketserver.h"
+#include "talk/win32socketserver.h"
 #endif
-#include "talk/base/physicalsocketserver.h"
-#include "talk/base/logging.h"
+#include "talk/physicalsocketserver.h"
+#include "talk/logging.h"
 #include "talk/examples/login/xmppauth.h"
 #include "talk/examples/login/xmppsocket.h"
 #include "talk/examples/login/xmpppump.h"

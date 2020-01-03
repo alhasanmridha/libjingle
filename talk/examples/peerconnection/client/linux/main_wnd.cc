@@ -33,9 +33,9 @@
 #include <stddef.h>
 
 #include "talk/examples/peerconnection/client/defaults.h"
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/stringutils.h"
+#include "talk/common.h"
+#include "talk/logging.h"
+#include "talk/stringutils.h"
 
 using talk_base::sprintfn;
 

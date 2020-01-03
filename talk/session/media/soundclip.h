@@ -28,8 +28,8 @@
 #ifndef TALK_SESSION_MEDIA_SOUNDCLIP_H_
 #define TALK_SESSION_MEDIA_SOUNDCLIP_H_
 
-#include "talk/base/scoped_ptr.h"
-#include "talk/media/base/mediaengine.h"
+#include "talk/scoped_ptr.h"
+#include "talk/media/mediaengine.h"
 
 namespace talk_base {
 

@@ -30,8 +30,8 @@
 
 #include <list>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/stream.h"
+#include "talk/basictypes.h"
+#include "talk/stream.h"
 
 namespace cricket {
 

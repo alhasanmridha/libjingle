@@ -32,10 +32,10 @@
 
 #include <vector>
 
-#include "talk/base/timeutils.h"
-#include "talk/media/base/videocapturer.h"
-#include "talk/media/base/videocommon.h"
-#include "talk/media/base/videoframe.h"
+#include "talk/timeutils.h"
+#include "talk/media/videocapturer.h"
+#include "talk/media/videocommon.h"
+#include "talk/media/videoframe.h"
 
 namespace cricket {
 

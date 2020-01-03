@@ -32,7 +32,7 @@
 #include <string>
 #include <list>
 
-#include "talk/p2p/base/port.h"
+#include "talk/p2p/port.h"
 #include "talk/p2p/client/basicportallocator.h"
 
 namespace talk_base {

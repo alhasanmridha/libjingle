@@ -27,7 +27,7 @@
 
 #if !defined(__arm__)
 // For testing purposes, define faked versions of the atomic operations
-#include "base/basictypes.h"
+#include "basictypes.h"
 namespace talk_base {
 typedef uint32 Atomic32;
 static inline void MemoryBarrier() { }
@@ -38,10 +38,10 @@ static inline void AtomicIncrement(volatile Atomic32* ptr) {
 #define SKIP_ATOMIC_CHECK
 #endif
 
-#include "base/atomicops.h"
-#include "base/gunit.h"
-#include "base/helpers.h"
-#include "base/logging.h"
+#include "atomicops.h"
+#include "gunit.h"
+#include "helpers.h"
+#include "logging.h"
 
 TEST(FixedSizeLockFreeQueueTest, TestDefaultConstruct) {
   talk_base::FixedSizeLockFreeQueue<int> queue;

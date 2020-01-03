@@ -55,8 +55,8 @@ typedef struct _TOKEN_MANDATORY_LABEL {
 
 #include <string>
 
-#include "base/stringutils.h"
-#include "base/basictypes.h"
+#include "stringutils.h"
+#include "basictypes.h"
 
 namespace talk_base {
 

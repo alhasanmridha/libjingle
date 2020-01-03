@@ -29,9 +29,9 @@
 #include "config.h"
 #endif  // HAVE_CONFIG_H
 
-#include "base/ssladapter.h"
+#include "ssladapter.h"
 
-#include "base/sslconfig.h"
+#include "sslconfig.h"
 
 #if SSL_USE_SCHANNEL
 

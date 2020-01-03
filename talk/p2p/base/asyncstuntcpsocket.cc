@@ -25,13 +25,13 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/asyncstuntcpsocket.h"
+#include "talk/p2p/asyncstuntcpsocket.h"
 
 #include <cstring>
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/p2p/base/stun.h"
+#include "talk/common.h"
+#include "talk/logging.h"
+#include "talk/p2p/stun.h"
 
 namespace cricket {
 

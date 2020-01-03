@@ -27,18 +27,18 @@
 
 #include <time.h>
 
-#include "base/httpcommon-inl.h"
+#include "httpcommon-inl.h"
 
-#include "base/asyncsocket.h"
-#include "base/common.h"
-#include "base/diskcache.h"
-#include "base/httpclient.h"
-#include "base/logging.h"
-#include "base/pathutils.h"
-#include "base/socketstream.h"
-#include "base/stringencode.h"
-#include "base/stringutils.h"
-#include "base/thread.h"
+#include "asyncsocket.h"
+#include "common.h"
+#include "diskcache.h"
+#include "httpclient.h"
+#include "logging.h"
+#include "pathutils.h"
+#include "socketstream.h"
+#include "stringencode.h"
+#include "stringutils.h"
+#include "thread.h"
 
 namespace talk_base {
 

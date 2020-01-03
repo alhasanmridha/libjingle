@@ -35,11 +35,11 @@
 #include "talk/app/webrtc/mediastreamprovider.h"
 #include "talk/app/webrtc/datachannel.h"
 #include "talk/app/webrtc/statstypes.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/thread.h"
-#include "talk/media/base/mediachannel.h"
-#include "talk/p2p/base/session.h"
-#include "talk/p2p/base/transportdescriptionfactory.h"
+#include "talk/sigslot.h"
+#include "talk/thread.h"
+#include "talk/media/mediachannel.h"
+#include "talk/p2p/session.h"
+#include "talk/p2p/transportdescriptionfactory.h"
 #include "talk/session/media/mediasession.h"
 
 namespace cricket {

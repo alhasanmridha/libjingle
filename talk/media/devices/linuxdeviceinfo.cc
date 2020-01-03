@@ -27,7 +27,7 @@
 
 #include "talk/media/devices/deviceinfo.h"
 
-#include "talk/base/common.h"  // for ASSERT
+#include "talk/common.h"  // for ASSERT
 #include "talk/media/devices/libudevsymboltable.h"
 
 namespace cricket {

@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/media/base/mutedvideocapturer.h"
+#include "talk/media/mutedvideocapturer.h"
 
-#include "talk/base/gunit.h"
-#include "talk/media/base/videoframe.h"
+#include "talk/gunit.h"
+#include "talk/media/videoframe.h"
 
 class MutedVideoCapturerTest : public sigslot::has_slots<>,
                                public testing::Test {

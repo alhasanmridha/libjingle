@@ -25,15 +25,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/transport.h"
+#include "talk/p2p/transport.h"
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/p2p/base/candidate.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/sessionmanager.h"
-#include "talk/p2p/base/parsing.h"
-#include "talk/p2p/base/transportchannelimpl.h"
+#include "talk/common.h"
+#include "talk/logging.h"
+#include "talk/p2p/candidate.h"
+#include "talk/p2p/constants.h"
+#include "talk/p2p/sessionmanager.h"
+#include "talk/p2p/parsing.h"
+#include "talk/p2p/transportchannelimpl.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmpp/constants.h"
 

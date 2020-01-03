@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/gunit.h"
-#include "base/profiler.h"
-#include "base/thread.h"
+#include "gunit.h"
+#include "profiler.h"
+#include "thread.h"
 
 namespace {
 

@@ -28,12 +28,12 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/gunit.h"
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/media/base/fakemediaengine.h"
+#include "talk/gunit.h"
+#include "talk/logging.h"
+#include "talk/scoped_ptr.h"
+#include "talk/media/fakemediaengine.h"
 #include "talk/media/devices/fakedevicemanager.h"
-#include "talk/p2p/base/constants.h"
+#include "talk/p2p/constants.h"
 #include "talk/p2p/client/basicportallocator.h"
 #include "talk/session/media/mediasessionclient.h"
 #include "talk/xmllite/xmlbuilder.h"

@@ -40,13 +40,13 @@
 #include <map>
 #include <vector>
 #include <string>
-#include "talk/base/sigslot.h"
-#include "talk/p2p/base/candidate.h"
-#include "talk/p2p/base/portinterface.h"
-#include "talk/p2p/base/portallocator.h"
-#include "talk/p2p/base/transport.h"
-#include "talk/p2p/base/transportchannelimpl.h"
-#include "talk/p2p/base/p2ptransport.h"
+#include "talk/sigslot.h"
+#include "talk/p2p/candidate.h"
+#include "talk/p2p/portinterface.h"
+#include "talk/p2p/portallocator.h"
+#include "talk/p2p/transport.h"
+#include "talk/p2p/transportchannelimpl.h"
+#include "talk/p2p/p2ptransport.h"
 
 namespace cricket {
 

@@ -27,7 +27,7 @@
 
 #include "talk/p2p/client/socketmonitor.h"
 
-#include "talk/base/common.h"
+#include "talk/common.h"
 
 namespace cricket {
 

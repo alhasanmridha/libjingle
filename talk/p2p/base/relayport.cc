@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/asyncpacketsocket.h"
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/p2p/base/relayport.h"
+#include "talk/asyncpacketsocket.h"
+#include "talk/helpers.h"
+#include "talk/logging.h"
+#include "talk/p2p/relayport.h"
 
 namespace cricket {
 

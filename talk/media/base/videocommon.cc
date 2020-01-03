@@ -23,13 +23,13 @@
 // OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 // ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "talk/media/base/videocommon.h"
+#include "talk/media/videocommon.h"
 
 #include <limits.h>  // For INT_MAX
 #include <math.h>
 #include <sstream>
 
-#include "talk/base/common.h"
+#include "talk/common.h"
 
 namespace cricket {
 

@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/transformadapter.h"
+#include "transformadapter.h"
 
 #include <cstring>
 
-#include "base/common.h"
+#include "common.h"
 
 namespace talk_base {
 

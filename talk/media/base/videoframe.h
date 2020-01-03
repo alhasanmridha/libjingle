@@ -28,8 +28,8 @@
 #ifndef TALK_MEDIA_BASE_VIDEOFRAME_H_
 #define TALK_MEDIA_BASE_VIDEOFRAME_H_
 
-#include "talk/base/basictypes.h"
-#include "talk/base/stream.h"
+#include "talk/basictypes.h"
+#include "talk/stream.h"
 
 namespace cricket {
 
@@ -119,7 +119,7 @@ class VideoFrame {
   virtual void CopyToFrame(VideoFrame* target) const;
 
   // Writes the frame into the given stream and returns the StreamResult.
-  // See talk/base/stream.h for a description of StreamResult and error.
+  // See talk/stream.h for a description of StreamResult and error.
   // Error may be NULL. If a non-success value is returned from
   // StreamInterface::Write(), we immediately return with that value.
   virtual talk_base::StreamResult Write(talk_base::StreamInterface *stream,

@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/parsing.h"
+#include "talk/p2p/parsing.h"
 
 #include <algorithm>
 #include <stdlib.h>
-#include "talk/base/stringutils.h"
+#include "talk/stringutils.h"
 
 namespace {
 static const char kTrue[] = "true";

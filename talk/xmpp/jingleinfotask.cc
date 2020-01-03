@@ -27,7 +27,7 @@
 
 #include "talk/xmpp/jingleinfotask.h"
 
-#include "talk/base/socketaddress.h"
+#include "talk/socketaddress.h"
 #include "talk/xmpp/constants.h"
 #include "talk/xmpp/xmppclient.h"
 #include "talk/xmpp/xmpptask.h"

@@ -31,7 +31,7 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/sigslot.h"
+#include "talk/sigslot.h"
 #include "talk/p2p/client/httpportallocator.h"
 #include "talk/xmpp/jingleinfotask.h"
 #include "talk/xmpp/xmppclient.h"

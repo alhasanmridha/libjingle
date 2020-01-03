@@ -29,8 +29,8 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
-#include "base/checks.h"
-#include "base/logging.h"
+#include "checks.h"
+#include "logging.h"
 
 void Fatal(const char* file, int line, const char* format, ...) {
   char msg[256];

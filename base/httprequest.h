@@ -28,12 +28,12 @@
 #ifndef _HTTPREQUEST_H_
 #define _HTTPREQUEST_H_
 
-#include "base/httpclient.h"
-#include "base/logging.h"
-#include "base/proxyinfo.h"
-#include "base/socketserver.h"
-#include "base/thread.h"
-#include "base/sslsocketfactory.h"  // Deprecated include
+#include "httpclient.h"
+#include "logging.h"
+#include "proxyinfo.h"
+#include "socketserver.h"
+#include "thread.h"
+#include "sslsocketfactory.h"  // Deprecated include
 
 namespace talk_base {
 

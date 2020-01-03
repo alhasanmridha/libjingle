@@ -30,8 +30,8 @@
 
 #include <string>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/timeutils.h"
+#include "talk/basictypes.h"
+#include "talk/timeutils.h"
 
 namespace cricket {
 

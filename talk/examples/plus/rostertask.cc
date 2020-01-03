@@ -27,7 +27,7 @@
 
 #include "rostertask.h"
 #include "talk/xmpp/constants.h"
-#include "talk/base/stream.h"
+#include "talk/stream.h"
 
 #undef WIN32
 #ifdef WIN32

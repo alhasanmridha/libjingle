@@ -30,10 +30,10 @@
 
 #include <vector>
 
-#include "talk/base/criticalsection.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/transportchannel.h"
+#include "talk/criticalsection.h"
+#include "talk/sigslot.h"
+#include "talk/thread.h"
+#include "talk/p2p/transportchannel.h"
 
 namespace cricket {
 

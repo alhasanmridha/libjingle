@@ -31,7 +31,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "base/linuxfdwalk.h"
+#include "linuxfdwalk.h"
 
 // Parses a file descriptor number in base 10, requiring the strict format used
 // in /proc/*/fd. Returns the value, or -1 if not a valid string.

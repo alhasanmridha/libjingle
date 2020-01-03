@@ -28,12 +28,12 @@
 #include <signal.h>
 #include <stdarg.h>
 
-#include "base/gunit.h"
-#include "base/logging.h"
-#include "base/physicalsocketserver.h"
-#include "base/scoped_ptr.h"
-#include "base/socket_unittest.h"
-#include "base/thread.h"
+#include "gunit.h"
+#include "logging.h"
+#include "physicalsocketserver.h"
+#include "scoped_ptr.h"
+#include "socket_unittest.h"
+#include "thread.h"
 
 namespace talk_base {
 

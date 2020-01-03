@@ -31,13 +31,13 @@
 #include <set>
 #include <string>
 
-#include "base/gunit.h"
-#include "base/helpers.h"
-#include "base/ssladapter.h"
-#include "base/sslconfig.h"
-#include "base/sslidentity.h"
-#include "base/sslstreamadapter.h"
-#include "base/stream.h"
+#include "gunit.h"
+#include "helpers.h"
+#include "ssladapter.h"
+#include "sslconfig.h"
+#include "sslidentity.h"
+#include "sslstreamadapter.h"
+#include "stream.h"
 
 static const int kBlockSize = 4096;
 static const char kAES_CM_HMAC_SHA1_80[] = "AES_CM_128_HMAC_SHA1_80";

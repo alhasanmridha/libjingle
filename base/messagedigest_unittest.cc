@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/gunit.h"
-#include "base/messagedigest.h"
-#include "base/stringencode.h"
+#include "gunit.h"
+#include "messagedigest.h"
+#include "stringencode.h"
 
 namespace talk_base {
 

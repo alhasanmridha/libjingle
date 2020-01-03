@@ -34,8 +34,8 @@
 #include "talk/app/webrtc/jsepsessiondescription.h"
 #include "talk/app/webrtc/mediastreamhandler.h"
 #include "talk/app/webrtc/streamcollection.h"
-#include "talk/base/logging.h"
-#include "talk/base/stringencode.h"
+#include "talk/logging.h"
+#include "talk/stringencode.h"
 #include "talk/session/media/channelmanager.h"
 
 namespace {

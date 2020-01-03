@@ -28,10 +28,10 @@
 #ifndef TALK_MEDIA_WEBRTCVIDEOFRAME_H_
 #define TALK_MEDIA_WEBRTCVIDEOFRAME_H_
 
-#include "talk/base/buffer.h"
-#include "talk/base/refcount.h"
-#include "talk/base/scoped_ref_ptr.h"
-#include "talk/media/base/videoframe.h"
+#include "talk/buffer.h"
+#include "talk/refcount.h"
+#include "talk/scoped_ref_ptr.h"
+#include "talk/media/videoframe.h"
 #include "webrtc/common_types.h"
 #include "webrtc/modules/interface/module_common_types.h"
 

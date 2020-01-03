@@ -27,10 +27,10 @@
 
 // Unit tests for CallClient
 
-#include "talk/base/gunit.h"
+#include "talk/gunit.h"
 #include "talk/examples/call/callclient.h"
-#include "talk/media/base/filemediaengine.h"
-#include "talk/media/base/mediaengine.h"
+#include "talk/media/filemediaengine.h"
+#include "talk/media/mediaengine.h"
 #include "talk/xmpp/xmppthread.h"
 
 TEST(CallClientTest, CreateCallClientWithDefaultMediaEngine) {

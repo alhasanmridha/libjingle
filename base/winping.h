@@ -30,9 +30,9 @@
 
 #ifdef WIN32
 
-#include "base/win32.h"
-#include "base/basictypes.h"
-#include "base/IPAddress.h"
+#include "win32.h"
+#include "basictypes.h"
+#include "IPAddress.h"
 
 namespace talk_base {
 

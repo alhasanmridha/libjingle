@@ -25,18 +25,18 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/rawtransportchannel.h"
+#include "talk/p2p/rawtransportchannel.h"
 
 #include <string>
 #include <vector>
-#include "talk/base/common.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/portallocator.h"
-#include "talk/p2p/base/portinterface.h"
-#include "talk/p2p/base/rawtransport.h"
-#include "talk/p2p/base/relayport.h"
-#include "talk/p2p/base/sessionmanager.h"
-#include "talk/p2p/base/stunport.h"
+#include "talk/common.h"
+#include "talk/p2p/constants.h"
+#include "talk/p2p/portallocator.h"
+#include "talk/p2p/portinterface.h"
+#include "talk/p2p/rawtransport.h"
+#include "talk/p2p/relayport.h"
+#include "talk/p2p/sessionmanager.h"
+#include "talk/p2p/stunport.h"
 #include "talk/xmllite/qname.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmpp/constants.h"

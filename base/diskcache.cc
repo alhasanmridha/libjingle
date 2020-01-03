@@ -28,16 +28,16 @@
 #include <time.h>
 
 #ifdef WIN32
-#include "base/win32.h"
+#include "win32.h"
 #endif
 
-#include "base/common.h"
-#include "base/diskcache.h"
-#include "base/fileutils.h"
-#include "base/pathutils.h"
-#include "base/stream.h"
-#include "base/stringencode.h"
-#include "base/stringutils.h"
+#include "common.h"
+#include "diskcache.h"
+#include "fileutils.h"
+#include "pathutils.h"
+#include "stream.h"
+#include "stringencode.h"
+#include "stringutils.h"
 
 #ifdef _DEBUG
 #define TRANSPARENT_CACHE_NAMES 1

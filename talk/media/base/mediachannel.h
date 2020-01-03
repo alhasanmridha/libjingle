@@ -31,15 +31,15 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/buffer.h"
-#include "talk/base/logging.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/socket.h"
-#include "talk/base/window.h"
-#include "talk/media/base/codec.h"
-#include "talk/media/base/constants.h"
-#include "talk/media/base/streamparams.h"
+#include "talk/basictypes.h"
+#include "talk/buffer.h"
+#include "talk/logging.h"
+#include "talk/sigslot.h"
+#include "talk/socket.h"
+#include "talk/window.h"
+#include "talk/media/codec.h"
+#include "talk/media/constants.h"
+#include "talk/media/streamparams.h"
 // TODO(juberti): re-evaluate this include
 #include "talk/session/media/audiomonitor.h"
 

@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/profiler.h"
+#include "profiler.h"
 
 #include <math.h>
 
-#include "base/timeutils.h"
+#include "timeutils.h"
 
 namespace {
 

@@ -32,8 +32,8 @@
 #include <utility>
 #include <vector>
 
-#include "talk/base/messagehandler.h"
-#include "talk/p2p/base/transportchannel.h"
+#include "talk/messagehandler.h"
+#include "talk/p2p/transportchannel.h"
 
 namespace talk_base {
 class Thread;

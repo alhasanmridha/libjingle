@@ -35,7 +35,7 @@
 
 #include "talk/app/webrtc/jsep.h"
 #include "talk/app/webrtc/jsepicecandidate.h"
-#include "talk/base/scoped_ptr.h"
+#include "talk/scoped_ptr.h"
 
 namespace cricket {
 class SessionDescription;

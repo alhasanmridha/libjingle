@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/gunit.h"
-#include "base/ratetracker.h"
+#include "gunit.h"
+#include "ratetracker.h"
 
 namespace talk_base {
 

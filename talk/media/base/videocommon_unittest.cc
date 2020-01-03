@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/gunit.h"
-#include "talk/media/base/videocommon.h"
+#include "talk/gunit.h"
+#include "talk/media/videocommon.h"
 
 namespace cricket {
 

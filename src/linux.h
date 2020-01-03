@@ -33,8 +33,8 @@
 #include <map>
 #include <vector>
 
-#include "base/scoped_ptr.h"
-#include "base/stream.h"
+#include "scoped_ptr.h"
+#include "stream.h"
 
 namespace talk_base {
 

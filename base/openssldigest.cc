@@ -27,9 +27,9 @@
 
 #if HAVE_OPENSSL_SSL_H
 
-#include "base/openssldigest.h"
+#include "openssldigest.h"
 
-#include "base/common.h"
+#include "common.h"
 
 namespace talk_base {
 

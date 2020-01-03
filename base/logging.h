@@ -69,8 +69,8 @@
 #include <sstream>
 #include <string>
 #include <utility>
-#include "base/basictypes.h"
-#include "base/criticalsection.h"
+#include "basictypes.h"
+#include "criticalsection.h"
 
 namespace talk_base {
 
@@ -278,7 +278,7 @@ void LogMultiline(LoggingSeverity level, const char* label, bool input,
 #if LOGGING
 
 // The following non-obvious technique for implementation of a
-// conditional log stream was stolen from google3/base/logging.h.
+// conditional log stream was stolen from google3/logging.h.
 
 // This class is used to explicitly ignore values in the conditional
 // logging macros.  This avoids compiler warnings like "value computed

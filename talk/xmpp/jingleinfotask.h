@@ -33,7 +33,7 @@
 #include "talk/p2p/client/httpportallocator.h"
 #include "talk/xmpp/xmppengine.h"
 #include "talk/xmpp/xmpptask.h"
-#include "talk/base/sigslot.h"
+#include "talk/sigslot.h"
 
 namespace buzz {
 

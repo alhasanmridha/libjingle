@@ -25,17 +25,17 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/stun.h"
+#include "talk/p2p/stun.h"
 
 #include <cstring>
 
-#include "talk/base/byteorder.h"
-#include "talk/base/common.h"
-#include "talk/base/crc32.h"
-#include "talk/base/logging.h"
-#include "talk/base/messagedigest.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stringencode.h"
+#include "talk/byteorder.h"
+#include "talk/common.h"
+#include "talk/crc32.h"
+#include "talk/logging.h"
+#include "talk/messagedigest.h"
+#include "talk/scoped_ptr.h"
+#include "talk/stringencode.h"
 
 using talk_base::ByteBuffer;
 

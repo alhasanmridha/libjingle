@@ -27,13 +27,13 @@
 
 #include <string>
 
-#include "base/event.h"
-#include "base/filelock.h"
-#include "base/fileutils.h"
-#include "base/gunit.h"
-#include "base/pathutils.h"
-#include "base/scoped_ptr.h"
-#include "base/thread.h"
+#include "event.h"
+#include "filelock.h"
+#include "fileutils.h"
+#include "gunit.h"
+#include "pathutils.h"
+#include "scoped_ptr.h"
+#include "thread.h"
 
 namespace talk_base {
 

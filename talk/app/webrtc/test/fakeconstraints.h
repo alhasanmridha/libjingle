@@ -32,7 +32,7 @@
 #include <vector>
 
 #include "talk/app/webrtc/mediaconstraintsinterface.h"
-#include "talk/base/stringencode.h"
+#include "talk/stringencode.h"
 
 namespace webrtc {
 

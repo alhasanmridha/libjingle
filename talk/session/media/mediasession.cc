@@ -32,13 +32,13 @@
 #include <set>
 #include <utility>
 
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stringutils.h"
-#include "talk/media/base/constants.h"
-#include "talk/media/base/cryptoparams.h"
-#include "talk/p2p/base/constants.h"
+#include "talk/helpers.h"
+#include "talk/logging.h"
+#include "talk/scoped_ptr.h"
+#include "talk/stringutils.h"
+#include "talk/media/constants.h"
+#include "talk/media/cryptoparams.h"
+#include "talk/p2p/constants.h"
 #include "talk/session/media/channelmanager.h"
 #include "talk/session/media/srtpfilter.h"
 #include "talk/xmpp/constants.h"

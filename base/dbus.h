@@ -35,9 +35,9 @@
 #include <string>
 #include <vector>
 
-#include "base/libdbusglibsymboltable.h"
-#include "base/messagehandler.h"
-#include "base/thread.h"
+#include "libdbusglibsymboltable.h"
+#include "messagehandler.h"
+#include "thread.h"
 
 namespace talk_base {
 

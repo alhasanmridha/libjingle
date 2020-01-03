@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/relayserver.h"
+#include "talk/p2p/relayserver.h"
 
 #ifdef POSIX
 #include <errno.h>
@@ -33,10 +33,10 @@
 
 #include <algorithm>
 
-#include "talk/base/asynctcpsocket.h"
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/socketadapters.h"
+#include "talk/asynctcpsocket.h"
+#include "talk/helpers.h"
+#include "talk/logging.h"
+#include "talk/socketadapters.h"
 
 namespace cricket {
 

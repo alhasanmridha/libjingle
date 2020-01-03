@@ -28,7 +28,7 @@
 #ifndef TALK_XMPP_SASLPLAINMECHANISM_H_
 #define TALK_XMPP_SASLPLAINMECHANISM_H_
 
-#include "talk/base/cryptstring.h"
+#include "talk/cryptstring.h"
 #include "talk/xmpp/saslmechanism.h"
 
 namespace buzz {

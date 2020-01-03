@@ -27,14 +27,14 @@
 
 #if HAVE_OPENSSL_SSL_H
 
-#include "base/openssladapter.h"
+#include "openssladapter.h"
 
 #if defined(POSIX)
 #include <unistd.h>
 #endif
 
 // Must be included first before openssl headers.
-#include "base/win32.h"  // NOLINT
+#include "win32.h"  // NOLINT
 
 #include <openssl/bio.h>
 #include <openssl/crypto.h>
@@ -48,10 +48,10 @@
 #include "config.h"
 #endif  // HAVE_CONFIG_H
 
-#include "base/common.h"
-#include "base/logging.h"
-#include "base/sslroots.h"
-#include "base/stringutils.h"
+#include "common.h"
+#include "logging.h"
+#include "sslroots.h"
+#include "stringutils.h"
 
 // TODO: Use a nicer abstraction for mutex.
 

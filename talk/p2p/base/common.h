@@ -28,7 +28,7 @@
 #ifndef TALK_P2P_BASE_COMMON_H_
 #define TALK_P2P_BASE_COMMON_H_
 
-#include "talk/base/logging.h"
+#include "talk/logging.h"
 
 // Common log description format for jingle messages
 #define LOG_J(sev, obj) LOG(sev) << "Jingle:" << obj->ToString() << ": "

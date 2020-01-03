@@ -30,7 +30,7 @@
 #ifndef TALK_BASE_MACCOCOASOCKETSERVER_H_
 #define TALK_BASE_MACCOCOASOCKETSERVER_H_
 
-#include "base/macsocketserver.h"
+#include "macsocketserver.h"
 
 #ifdef __OBJC__
 @class NSTimer, MacCocoaSocketServerHelper;

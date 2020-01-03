@@ -33,10 +33,10 @@
 #include <set>
 #include <string>
 
-#include "talk/base/messagequeue.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/socketaddress.h"
-#include "talk/p2p/base/portinterface.h"
+#include "talk/messagequeue.h"
+#include "talk/sigslot.h"
+#include "talk/socketaddress.h"
+#include "talk/p2p/portinterface.h"
 
 namespace talk_base {
 class AsyncPacketSocket;

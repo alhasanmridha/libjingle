@@ -32,8 +32,8 @@
 #include "talk/app/webrtc/mediastreaminterface.h"
 #include "talk/app/webrtc/mediastreamtrack.h"
 #include "talk/app/webrtc/notifier.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/scoped_ref_ptr.h"
+#include "talk/scoped_ptr.h"
+#include "talk/scoped_ref_ptr.h"
 
 namespace webrtc {
 

@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/natsocketfactory.h"
-#include "base/natserver.h"
-#include "base/logging.h"
+#include "natsocketfactory.h"
+#include "natserver.h"
+#include "logging.h"
 
 namespace talk_base {
 

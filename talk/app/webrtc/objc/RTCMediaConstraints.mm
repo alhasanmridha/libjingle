@@ -33,7 +33,7 @@
 
 #import "RTCPair.h"
 
-#include "talk/base/scoped_ptr.h"
+#include "talk/scoped_ptr.h"
 
 // TODO(hughv):  Add accessors for mandatory and optional constraints.
 // TODO(hughv):  Add description.

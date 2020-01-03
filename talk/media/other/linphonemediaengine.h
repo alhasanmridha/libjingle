@@ -37,10 +37,10 @@ extern "C" {
 #include <mediastreamer2/mediastream.h>
 }
 
-#include "talk/base/scoped_ptr.h"
-#include "talk/media/base/codec.h"
-#include "talk/media/base/mediachannel.h"
-#include "talk/media/base/mediaengine.h"
+#include "talk/scoped_ptr.h"
+#include "talk/media/codec.h"
+#include "talk/media/mediachannel.h"
+#include "talk/media/mediaengine.h"
 
 namespace talk_base {
 class StreamInterface;

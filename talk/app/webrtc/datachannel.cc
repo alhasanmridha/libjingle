@@ -29,8 +29,8 @@
 #include <string>
 
 #include "talk/app/webrtc/webrtcsession.h"
-#include "talk/base/logging.h"
-#include "talk/base/refcount.h"
+#include "talk/logging.h"
+#include "talk/refcount.h"
 
 namespace webrtc {
 

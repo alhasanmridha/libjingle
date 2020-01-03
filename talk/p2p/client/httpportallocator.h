@@ -32,7 +32,7 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/gunit_prod.h"
+#include "talk/gunit_prod.h"
 #include "talk/p2p/client/basicportallocator.h"
 
 class HttpPortAllocatorTest_TestSessionRequestUrl_Test;

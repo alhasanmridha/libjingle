@@ -27,11 +27,11 @@
 
 #include <string>
 
-#include "base/asyncudpsocket.h"
-#include "base/gunit.h"
-#include "base/physicalsocketserver.h"
-#include "base/scoped_ptr.h"
-#include "base/virtualsocketserver.h"
+#include "asyncudpsocket.h"
+#include "gunit.h"
+#include "physicalsocketserver.h"
+#include "scoped_ptr.h"
+#include "virtualsocketserver.h"
 
 namespace talk_base {
 

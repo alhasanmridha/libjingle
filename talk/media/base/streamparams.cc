@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/media/base/streamparams.h"
+#include "talk/media/streamparams.h"
 
 #include <sstream>
 

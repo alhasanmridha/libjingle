@@ -28,8 +28,8 @@
 #ifndef TALK_BASE_SHA1DIGEST_H_
 #define TALK_BASE_SHA1DIGEST_H_
 
-#include "base/messagedigest.h"
-#include "base/sha1.h"
+#include "messagedigest.h"
+#include "sha1.h"
 
 namespace talk_base {
 

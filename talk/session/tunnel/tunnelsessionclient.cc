@@ -25,14 +25,14 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/basicdefs.h"
-#include "talk/base/basictypes.h"
-#include "talk/base/common.h"
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/stringutils.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/transportchannel.h"
+#include "talk/basicdefs.h"
+#include "talk/basictypes.h"
+#include "talk/common.h"
+#include "talk/helpers.h"
+#include "talk/logging.h"
+#include "talk/stringutils.h"
+#include "talk/p2p/constants.h"
+#include "talk/p2p/transportchannel.h"
 #include "talk/xmllite/xmlelement.h"
 #include "pseudotcpchannel.h"
 #include "tunnelsessionclient.h"

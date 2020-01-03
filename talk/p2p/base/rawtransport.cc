@@ -27,12 +27,12 @@
 
 #include <string>
 #include <vector>
-#include "talk/p2p/base/rawtransport.h"
-#include "talk/base/common.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/parsing.h"
-#include "talk/p2p/base/sessionmanager.h"
-#include "talk/p2p/base/rawtransportchannel.h"
+#include "talk/p2p/rawtransport.h"
+#include "talk/common.h"
+#include "talk/p2p/constants.h"
+#include "talk/p2p/parsing.h"
+#include "talk/p2p/sessionmanager.h"
+#include "talk/p2p/rawtransportchannel.h"
 #include "talk/xmllite/qname.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmpp/constants.h"

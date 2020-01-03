@@ -31,7 +31,7 @@
 #if defined(ANDROID) || defined (GTEST_RELATIVE_PATH)
 #include "gtest/gtest_prod.h"
 #else
-#include "testing/base/gunit_prod.h"
+#include "testing/gunit_prod.h"
 #endif
 
 #endif  // TALK_BASE_GUNIT_PROD_H_

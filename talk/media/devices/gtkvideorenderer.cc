@@ -31,8 +31,8 @@
 #include <gdk/gdk.h>
 #include <gtk/gtk.h>
 
-#include "talk/media/base/videocommon.h"
-#include "talk/media/base/videoframe.h"
+#include "talk/media/videocommon.h"
+#include "talk/media/videoframe.h"
 
 namespace cricket {
 

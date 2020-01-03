@@ -76,7 +76,7 @@
 #include "talk/app/webrtc/jsep.h"
 #include "talk/app/webrtc/mediastreaminterface.h"
 #include "talk/app/webrtc/statstypes.h"
-#include "talk/base/socketaddress.h"
+#include "talk/socketaddress.h"
 
 namespace talk_base {
 class Thread;

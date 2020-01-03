@@ -30,10 +30,10 @@
 
 #include <string>
 #include <vector>
-#include "talk/base/messagequeue.h"
-#include "talk/p2p/base/transportchannelimpl.h"
-#include "talk/p2p/base/rawtransport.h"
-#include "talk/p2p/base/candidate.h"
+#include "talk/messagequeue.h"
+#include "talk/p2p/transportchannelimpl.h"
+#include "talk/p2p/rawtransport.h"
+#include "talk/p2p/candidate.h"
 
 #if defined(FEATURE_ENABLE_PSTN)
 

@@ -36,14 +36,14 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/sigslotrepeater.h"
-#include "talk/media/base/codec.h"
-#include "talk/media/base/mediachannel.h"
-#include "talk/media/base/mediacommon.h"
-#include "talk/media/base/videocapturer.h"
-#include "talk/media/base/videocommon.h"
-#include "talk/media/base/videoprocessor.h"
-#include "talk/media/base/voiceprocessor.h"
+#include "talk/sigslotrepeater.h"
+#include "talk/media/codec.h"
+#include "talk/media/mediachannel.h"
+#include "talk/media/mediacommon.h"
+#include "talk/media/videocapturer.h"
+#include "talk/media/videocommon.h"
+#include "talk/media/videoprocessor.h"
+#include "talk/media/voiceprocessor.h"
 #include "talk/media/devices/devicemanager.h"
 
 #if defined(GOOGLE_CHROME_BUILD) || defined(CHROMIUM_BUILD)

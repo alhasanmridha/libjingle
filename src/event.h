@@ -29,7 +29,7 @@
 #define TALK_BASE_EVENT_H__
 
 #if defined(WIN32)
-#include "base/win32.h"  // NOLINT: consider this a system header.
+#include "win32.h"  // NOLINT: consider this a system header.
 #elif defined(POSIX)
 #include <pthread.h>
 #else

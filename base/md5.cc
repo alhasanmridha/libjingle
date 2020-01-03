@@ -18,12 +18,12 @@
 // Changes from original C code:
 // Ported to C++, type casting, Google code style.
 
-#include "base/md5.h"
+#include "md5.h"
 
 // TODO: Avoid memcmpy - hash directly from memory.
 #include <string.h>  // for memcpy().
 
-#include "base/byteorder.h"  // for ARCH_CPU_LITTLE_ENDIAN.
+#include "byteorder.h"  // for ARCH_CPU_LITTLE_ENDIAN.
 
 #ifdef ARCH_CPU_LITTLE_ENDIAN
 #define ByteReverse(buf, len)  // Nothing.

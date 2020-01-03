@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/portproxy.h"
+#include "talk/p2p/portproxy.h"
 
 namespace cricket {
 

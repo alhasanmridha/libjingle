@@ -28,9 +28,9 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/faketaskrunner.h"
-#include "talk/base/gunit.h"
-#include "talk/base/sigslot.h"
+#include "talk/faketaskrunner.h"
+#include "talk/gunit.h"
+#include "talk/sigslot.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmpp/constants.h"
 #include "talk/xmpp/fakexmppclient.h"

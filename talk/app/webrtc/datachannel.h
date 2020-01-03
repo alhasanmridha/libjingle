@@ -33,8 +33,8 @@
 
 #include "talk/app/webrtc/datachannelinterface.h"
 #include "talk/app/webrtc/proxy.h"
-#include "talk/base/scoped_ref_ptr.h"
-#include "talk/base/sigslot.h"
+#include "talk/scoped_ref_ptr.h"
+#include "talk/sigslot.h"
 #include "talk/session/media/channel.h"
 
 namespace webrtc {

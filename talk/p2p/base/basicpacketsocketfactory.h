@@ -28,7 +28,7 @@
 #ifndef TALK_BASE_BASICPACKETSOCKETFACTORY_H_
 #define TALK_BASE_BASICPACKETSOCKETFACTORY_H_
 
-#include "talk/p2p/base/packetsocketfactory.h"
+#include "talk/p2p/packetsocketfactory.h"
 
 namespace talk_base {
 

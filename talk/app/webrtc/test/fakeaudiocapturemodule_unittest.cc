@@ -29,9 +29,9 @@
 
 #include <algorithm>
 
-#include "talk/base/gunit.h"
-#include "talk/base/scoped_ref_ptr.h"
-#include "talk/base/thread.h"
+#include "talk/gunit.h"
+#include "talk/scoped_ref_ptr.h"
+#include "talk/thread.h"
 
 using std::min;
 

@@ -29,11 +29,11 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stream.h"
-#include "talk/media/base/codec.h"
-#include "talk/media/base/mediachannel.h"
-#include "talk/media/base/mediaengine.h"
+#include "talk/scoped_ptr.h"
+#include "talk/stream.h"
+#include "talk/media/codec.h"
+#include "talk/media/mediachannel.h"
+#include "talk/media/mediaengine.h"
 
 namespace talk_base {
 class StreamInterface;

@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/logging.h"
-#include "talk/base/thread.h"
-#include "talk/media/base/mutedvideocapturer.h"
-#include "talk/media/base/videoframe.h"
+#include "talk/logging.h"
+#include "talk/thread.h"
+#include "talk/media/mutedvideocapturer.h"
+#include "talk/media/videoframe.h"
 
 #if defined(HAVE_WEBRTC_VIDEO)
 #include "talk/media/webrtc/webrtcvideoframe.h"

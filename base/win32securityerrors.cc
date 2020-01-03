@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/win32.h"
-#include "base/logging.h"
+#include "win32.h"
+#include "logging.h"
 
 namespace talk_base {
 

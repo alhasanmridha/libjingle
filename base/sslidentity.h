@@ -31,7 +31,7 @@
 #define TALK_BASE_SSLIDENTITY_H_
 
 #include <string>
-#include "base/messagedigest.h"
+#include "messagedigest.h"
 
 namespace talk_base {
 

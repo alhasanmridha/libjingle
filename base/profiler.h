@@ -51,9 +51,9 @@
 #include <map>
 #include <string>
 
-#include "base/basictypes.h"
-#include "base/common.h"
-#include "base/logging.h"
+#include "basictypes.h"
+#include "common.h"
+#include "logging.h"
 
 // Profiling could be switched via a build flag, but for now, it's always on.
 #define ENABLE_PROFILING

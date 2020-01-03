@@ -3,15 +3,15 @@
 #include <stdio.h>
 #include <vector>
 
-#include "talk/base/gunit.h"
-#include "talk/base/logging.h"
-#include "talk/base/thread.h"
-#include "talk/media/base/fakemediaprocessor.h"
-#include "talk/media/base/fakevideocapturer.h"
-#include "talk/media/base/fakevideorenderer.h"
-#include "talk/media/base/testutils.h"
-#include "talk/media/base/videocapturer.h"
-#include "talk/media/base/videoprocessor.h"
+#include "talk/gunit.h"
+#include "talk/logging.h"
+#include "talk/thread.h"
+#include "talk/media/fakemediaprocessor.h"
+#include "talk/media/fakevideocapturer.h"
+#include "talk/media/fakevideorenderer.h"
+#include "talk/media/testutils.h"
+#include "talk/media/videocapturer.h"
+#include "talk/media/videoprocessor.h"
 
 // If HAS_I420_FRAME is not defined the video capturer will not be able to
 // provide OnVideoFrame-callbacks since they require cricket::CapturedFrame to

@@ -36,7 +36,7 @@
 #include "talk/app/webrtc/statscollector.h"
 #include "talk/app/webrtc/streamcollection.h"
 #include "talk/app/webrtc/webrtcsession.h"
-#include "talk/base/scoped_ptr.h"
+#include "talk/scoped_ptr.h"
 
 namespace webrtc {
 class MediaStreamHandlerContainer;

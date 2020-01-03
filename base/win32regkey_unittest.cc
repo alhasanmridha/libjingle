@@ -27,9 +27,9 @@
 
 // Unittest for registry access API
 
-#include "base/gunit.h"
-#include "base/common.h"
-#include "base/win32regkey.h"
+#include "gunit.h"
+#include "common.h"
+#include "win32regkey.h"
 
 namespace talk_base {
 

@@ -27,7 +27,7 @@
 
 #include <time.h>
 #include <sstream>
-#include "talk/base/stringencode.h"
+#include "talk/stringencode.h"
 #include "talk/xmpp/constants.h"
 #include "talk/xmpp/presenceouttask.h"
 #include "talk/xmpp/xmppclient.h"

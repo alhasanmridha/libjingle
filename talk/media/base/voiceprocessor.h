@@ -28,9 +28,9 @@
 #ifndef TALK_MEDIA_BASE_VOICEPROCESSOR_H_
 #define TALK_MEDIA_BASE_VOICEPROCESSOR_H_
 
-#include "talk/base/basictypes.h"
-#include "talk/base/sigslot.h"
-#include "talk/media/base/audioframe.h"
+#include "talk/basictypes.h"
+#include "talk/sigslot.h"
+#include "talk/media/audioframe.h"
 
 namespace cricket {
 

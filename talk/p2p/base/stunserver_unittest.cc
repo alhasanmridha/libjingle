@@ -27,13 +27,13 @@
 
 #include <string>
 
-#include "talk/base/gunit.h"
-#include "talk/base/logging.h"
-#include "talk/base/physicalsocketserver.h"
-#include "talk/base/virtualsocketserver.h"
-#include "talk/base/testclient.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/stunserver.h"
+#include "talk/gunit.h"
+#include "talk/logging.h"
+#include "talk/physicalsocketserver.h"
+#include "talk/virtualsocketserver.h"
+#include "talk/testclient.h"
+#include "talk/thread.h"
+#include "talk/p2p/stunserver.h"
 
 using namespace cricket;
 

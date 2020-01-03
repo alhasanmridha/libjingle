@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/gunit.h"
-#include "talk/media/base/fakertp.h"
-#include "talk/media/base/rtputils.h"
+#include "talk/gunit.h"
+#include "talk/media/fakertp.h"
+#include "talk/media/rtputils.h"
 
 namespace cricket {
 

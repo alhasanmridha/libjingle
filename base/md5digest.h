@@ -28,8 +28,8 @@
 #ifndef TALK_BASE_MD5DIGEST_H_
 #define TALK_BASE_MD5DIGEST_H_
 
-#include "base/md5.h"
-#include "base/messagedigest.h"
+#include "md5.h"
+#include "messagedigest.h"
 
 namespace talk_base {
 

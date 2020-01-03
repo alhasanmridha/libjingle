@@ -40,8 +40,8 @@
 #endif  // OSX
 
 #include <algorithm>
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
+#include "talk/common.h"
+#include "talk/logging.h"
 
 //////////////////////////////////////////////////////////////////////
 // Assertions

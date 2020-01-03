@@ -1,13 +1,13 @@
 // Copyright 2010 Google Inc. All Rights Reserved
 
 
-#include "base/win32windowpicker.h"
+#include "win32windowpicker.h"
 
 #include <string>
 #include <vector>
 
-#include "base/common.h"
-#include "base/logging.h"
+#include "common.h"
+#include "logging.h"
 
 namespace talk_base {
 

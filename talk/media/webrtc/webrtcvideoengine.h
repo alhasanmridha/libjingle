@@ -31,9 +31,9 @@
 #include <map>
 #include <vector>
 
-#include "talk/base/scoped_ptr.h"
-#include "talk/media/base/codec.h"
-#include "talk/media/base/videocommon.h"
+#include "talk/scoped_ptr.h"
+#include "talk/media/codec.h"
+#include "talk/media/videocommon.h"
 #include "talk/media/webrtc/webrtccommon.h"
 #include "talk/media/webrtc/webrtcexport.h"
 #include "talk/media/webrtc/webrtcvideoencoderfactory.h"

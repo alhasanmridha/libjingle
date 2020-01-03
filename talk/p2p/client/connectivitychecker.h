@@ -7,14 +7,14 @@
 #include <map>
 #include <string>
 
-#include "talk/base/network.h"
-#include "talk/base/basictypes.h"
-#include "talk/base/messagehandler.h"
-#include "talk/base/proxyinfo.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/socketaddress.h"
-#include "talk/p2p/base/basicpacketsocketfactory.h"
+#include "talk/network.h"
+#include "talk/basictypes.h"
+#include "talk/messagehandler.h"
+#include "talk/proxyinfo.h"
+#include "talk/scoped_ptr.h"
+#include "talk/sigslot.h"
+#include "talk/socketaddress.h"
+#include "talk/p2p/basicpacketsocketfactory.h"
 #include "talk/p2p/client/httpportallocator.h"
 
 namespace talk_base {

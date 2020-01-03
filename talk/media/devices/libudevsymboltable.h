@@ -30,7 +30,7 @@
 
 #include <libudev.h>
 
-#include "talk/base/latebindingsymboltable.h"
+#include "talk/latebindingsymboltable.h"
 
 namespace cricket {
 
@@ -62,7 +62,7 @@ namespace cricket {
 
 #define LATE_BINDING_SYMBOL_TABLE_CLASS_NAME LIBUDEV_SYMBOLS_CLASS_NAME
 #define LATE_BINDING_SYMBOL_TABLE_SYMBOLS_LIST LIBUDEV_SYMBOLS_LIST
-#include "talk/base/latebindingsymboltable.h.def"
+#include "talk/latebindingsymboltable.h.def"
 #undef LATE_BINDING_SYMBOL_TABLE_CLASS_NAME
 #undef LATE_BINDING_SYMBOL_TABLE_SYMBOLS_LIST
 

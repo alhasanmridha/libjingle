@@ -30,16 +30,16 @@
 #include <stdio.h>
 #include <string>
 
-#include "talk/base/buffer.h"
-#include "talk/base/criticalsection.h"
-#include "talk/base/gunit.h"
-#include "talk/base/helpers.h"
-#include "talk/base/messagehandler.h"
-#include "talk/base/messagequeue.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/thread.h"
-#include "talk/media/base/constants.h"
-#include "talk/media/base/mediachannel.h"
+#include "talk/buffer.h"
+#include "talk/criticalsection.h"
+#include "talk/gunit.h"
+#include "talk/helpers.h"
+#include "talk/messagehandler.h"
+#include "talk/messagequeue.h"
+#include "talk/scoped_ptr.h"
+#include "talk/thread.h"
+#include "talk/media/constants.h"
+#include "talk/media/mediachannel.h"
 #include "talk/media/sctp/sctpdataengine.h"
 
 enum {
@@ -47,7 +47,7 @@ enum {
 };
 
 // Fake NetworkInterface that sends/receives sctp packets.  The one in
-// talk/media/base/fakenetworkinterface.h only works with rtp/rtcp.
+// talk/media/fakenetworkinterface.h only works with rtp/rtcp.
 class SctpFakeNetworkInterface : public cricket::MediaChannel::NetworkInterface,
                                  public talk_base::MessageHandler {
  public:

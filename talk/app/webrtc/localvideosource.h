@@ -31,10 +31,10 @@
 #include "talk/app/webrtc/mediastreaminterface.h"
 #include "talk/app/webrtc/notifier.h"
 #include "talk/app/webrtc/videosourceinterface.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sigslot.h"
-#include "talk/media/base/videocapturer.h"
-#include "talk/media/base/videocommon.h"
+#include "talk/scoped_ptr.h"
+#include "talk/sigslot.h"
+#include "talk/media/videocapturer.h"
+#include "talk/media/videocommon.h"
 
 // LocalVideoSource implements VideoSourceInterface. It owns a
 // cricket::VideoCapturer and make sure the camera is started at a resolution

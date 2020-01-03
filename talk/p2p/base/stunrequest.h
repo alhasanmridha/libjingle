@@ -28,9 +28,9 @@
 #ifndef TALK_P2P_BASE_STUNREQUEST_H_
 #define TALK_P2P_BASE_STUNREQUEST_H_
 
-#include "talk/base/sigslot.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/stun.h"
+#include "talk/sigslot.h"
+#include "talk/thread.h"
+#include "talk/p2p/stun.h"
 #include <map>
 #include <string>
 

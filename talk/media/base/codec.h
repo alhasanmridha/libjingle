@@ -33,7 +33,7 @@
 #include <string>
 #include <vector>
 
-#include "talk/media/base/constants.h"
+#include "talk/media/constants.h"
 
 namespace cricket {
 

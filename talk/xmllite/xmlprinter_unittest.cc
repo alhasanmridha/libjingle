@@ -30,8 +30,8 @@
 #include <sstream>
 #include <string>
 
-#include "talk/base/common.h"
-#include "talk/base/gunit.h"
+#include "talk/common.h"
+#include "talk/gunit.h"
 #include "talk/xmllite/qname.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmllite/xmlnsstack.h"

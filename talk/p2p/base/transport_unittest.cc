@@ -25,15 +25,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/fakesslidentity.h"
-#include "talk/base/gunit.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/fakesession.h"
-#include "talk/p2p/base/parsing.h"
-#include "talk/p2p/base/p2ptransport.h"
-#include "talk/p2p/base/rawtransport.h"
-#include "talk/p2p/base/sessionmessages.h"
+#include "talk/fakesslidentity.h"
+#include "talk/gunit.h"
+#include "talk/thread.h"
+#include "talk/p2p/constants.h"
+#include "talk/p2p/fakesession.h"
+#include "talk/p2p/parsing.h"
+#include "talk/p2p/p2ptransport.h"
+#include "talk/p2p/rawtransport.h"
+#include "talk/p2p/sessionmessages.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmpp/constants.h"
 

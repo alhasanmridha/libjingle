@@ -32,11 +32,11 @@
 #include <algorithm>
 #include <cstring>
 
-#include "talk/base/base64.h"
-#include "talk/base/logging.h"
-#include "talk/base/stringencode.h"
-#include "talk/base/timeutils.h"
-#include "talk/media/base/rtputils.h"
+#include "talk/base64.h"
+#include "talk/logging.h"
+#include "talk/stringencode.h"
+#include "talk/timeutils.h"
+#include "talk/media/rtputils.h"
 
 // Enable this line to turn on SRTP debugging
 // #define SRTP_DEBUG

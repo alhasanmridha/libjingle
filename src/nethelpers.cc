@@ -30,7 +30,7 @@
 #if defined(WIN32)
 #include <ws2spi.h>
 #include <ws2tcpip.h>
-#include "base/win32.h"
+#include "win32.h"
 #endif
 
 #include "byteorder.h"

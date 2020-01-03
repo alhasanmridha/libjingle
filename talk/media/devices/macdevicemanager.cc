@@ -30,10 +30,10 @@
 #include <CoreAudio/CoreAudio.h>
 #include <QuickTime/QuickTime.h>
 
-#include "talk/base/logging.h"
-#include "talk/base/stringutils.h"
-#include "talk/base/thread.h"
-#include "talk/media/base/mediacommon.h"
+#include "talk/logging.h"
+#include "talk/stringutils.h"
+#include "talk/thread.h"
+#include "talk/media/mediacommon.h"
 
 class DeviceWatcherImpl;
 

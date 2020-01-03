@@ -27,7 +27,7 @@
 
 #include <vector>
 #include <algorithm>
-#include "talk/base/common.h"
+#include "talk/common.h"
 #include "talk/xmpp/xmppengineimpl.h"
 #include "talk/xmpp/constants.h"
 

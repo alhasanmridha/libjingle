@@ -31,8 +31,8 @@
 
 #include "talk/app/webrtc/mediastreaminterface.h"
 #include "talk/app/webrtc/peerconnectioninterface.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/thread.h"
+#include "talk/scoped_ptr.h"
+#include "talk/thread.h"
 #include "talk/session/media/channelmanager.h"
 
 namespace webrtc {

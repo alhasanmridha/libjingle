@@ -27,7 +27,7 @@
 
 #include "talk/sound/nullsoundsystem.h"
 
-#include "talk/base/logging.h"
+#include "talk/logging.h"
 #include "talk/sound/sounddevicelocator.h"
 #include "talk/sound/soundinputstreaminterface.h"
 #include "talk/sound/soundoutputstreaminterface.h"

@@ -33,10 +33,10 @@
 #include <utility>
 #include <vector>
 
-#include "talk/base/sigslot.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/portallocator.h"
-#include "talk/p2p/base/transportdescriptionfactory.h"
+#include "talk/sigslot.h"
+#include "talk/thread.h"
+#include "talk/p2p/portallocator.h"
+#include "talk/p2p/transportdescriptionfactory.h"
 
 namespace buzz {
 class QName;

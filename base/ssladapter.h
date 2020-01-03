@@ -28,7 +28,7 @@
 #ifndef TALK_BASE_SSLADAPTER_H_
 #define TALK_BASE_SSLADAPTER_H_
 
-#include "base/asyncsocket.h"
+#include "asyncsocket.h"
 
 namespace talk_base {
 

@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/constants.h"
+#include "talk/p2p/constants.h"
 
 #include <string>
 
@@ -175,7 +175,7 @@ const int ICE_UFRAG_LENGTH = 16;
 // some internal systems expect password to be multiple of 4.
 const int ICE_PWD_LENGTH = 24;
 // TODO: This is media-specific, so might belong
-// somewhere like media/base/constants.h
+// somewhere like media/constants.h
 const int ICE_CANDIDATE_COMPONENT_RTP = 1;
 const int ICE_CANDIDATE_COMPONENT_RTCP = 2;
 const int ICE_CANDIDATE_COMPONENT_DEFAULT = 1;

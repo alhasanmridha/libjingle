@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/gunit.h"
-#include "base/stream.h"
+#include "gunit.h"
+#include "stream.h"
 
 namespace talk_base {
 

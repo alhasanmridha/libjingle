@@ -30,12 +30,12 @@
 
 #include "talk/app/webrtc/mediastream.h"
 #include "talk/app/webrtc/videotrack.h"
-#include "talk/base/gunit.h"
-#include "talk/media/base/fakemediaengine.h"
+#include "talk/gunit.h"
+#include "talk/media/fakemediaengine.h"
 #include "talk/media/devices/fakedevicemanager.h"
-#include "talk/p2p/base/fakesession.h"
+#include "talk/p2p/fakesession.h"
 #include "talk/session/media/channelmanager.h"
-#include "testing/base/public/gmock.h"
+#include "testing/public/gmock.h"
 
 using testing::_;
 using testing::DoAll;

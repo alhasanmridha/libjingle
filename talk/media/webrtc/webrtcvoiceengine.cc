@@ -38,17 +38,17 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/base64.h"
-#include "talk/base/byteorder.h"
-#include "talk/base/common.h"
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/stringencode.h"
-#include "talk/base/stringutils.h"
-#include "talk/media/base/audiorenderer.h"
-#include "talk/media/base/constants.h"
-#include "talk/media/base/streamparams.h"
-#include "talk/media/base/voiceprocessor.h"
+#include "talk/base64.h"
+#include "talk/byteorder.h"
+#include "talk/common.h"
+#include "talk/helpers.h"
+#include "talk/logging.h"
+#include "talk/stringencode.h"
+#include "talk/stringutils.h"
+#include "talk/media/audiorenderer.h"
+#include "talk/media/constants.h"
+#include "talk/media/streamparams.h"
+#include "talk/media/voiceprocessor.h"
 #include "talk/media/webrtc/webrtcvoe.h"
 #include "webrtc/modules/audio_processing/include/audio_processing.h"
 

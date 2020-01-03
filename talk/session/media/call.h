@@ -33,12 +33,12 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/messagequeue.h"
-#include "talk/media/base/mediachannel.h"
-#include "talk/media/base/screencastid.h"
-#include "talk/media/base/streamparams.h"
-#include "talk/media/base/videocommon.h"
-#include "talk/p2p/base/session.h"
+#include "talk/messagequeue.h"
+#include "talk/media/mediachannel.h"
+#include "talk/media/screencastid.h"
+#include "talk/media/streamparams.h"
+#include "talk/media/videocommon.h"
+#include "talk/p2p/session.h"
 #include "talk/p2p/client/socketmonitor.h"
 #include "talk/session/media/audiomonitor.h"
 #include "talk/session/media/currentspeakermonitor.h"

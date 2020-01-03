@@ -30,16 +30,16 @@
 #include <vector>
 
 #ifdef WIN32
-#include "base/win32.h"
+#include "win32.h"
 #endif
 
-#include "base/cpumonitor.h"
-#include "base/flags.h"
-#include "base/gunit.h"
-#include "base/scoped_ptr.h"
-#include "base/thread.h"
-#include "base/timeutils.h"
-#include "base/timing.h"
+#include "cpumonitor.h"
+#include "flags.h"
+#include "gunit.h"
+#include "scoped_ptr.h"
+#include "thread.h"
+#include "timeutils.h"
+#include "timing.h"
 
 namespace talk_base {
 

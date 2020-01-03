@@ -34,13 +34,13 @@
 //   * to fix REG_SZ or REG_EXPAND_SZ data that is not properly null-terminated;
 //   * to expand REG_EXPAND_SZ data.
 
-#include "base/win32regkey.h"
+#include "win32regkey.h"
 
 #include <shlwapi.h>
 
-#include "base/common.h"
-#include "base/logging.h"
-#include "base/scoped_ptr.h"
+#include "common.h"
+#include "logging.h"
+#include "scoped_ptr.h"
 
 namespace talk_base {
 

@@ -28,7 +28,7 @@
 #ifndef TALK_APP_WEBRTC_AUDIOTRACKRENDERER_H_
 #define TALK_APP_WEBRTC_AUDIOTRACKRENDERER_H_
 
-#include "talk/media/base/audiorenderer.h"
+#include "talk/media/audiorenderer.h"
 
 namespace webrtc {
 

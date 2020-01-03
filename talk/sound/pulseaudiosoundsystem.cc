@@ -29,11 +29,11 @@
 
 #ifdef HAVE_LIBPULSE
 
-#include "talk/base/common.h"
-#include "talk/base/fileutils.h"  // for GetApplicationName()
-#include "talk/base/logging.h"
-#include "talk/base/worker.h"
-#include "talk/base/timeutils.h"
+#include "talk/common.h"
+#include "talk/fileutils.h"  // for GetApplicationName()
+#include "talk/logging.h"
+#include "talk/worker.h"
+#include "talk/timeutils.h"
 #include "talk/sound/sounddevicelocator.h"
 #include "talk/sound/soundinputstreaminterface.h"
 #include "talk/sound/soundoutputstreaminterface.h"

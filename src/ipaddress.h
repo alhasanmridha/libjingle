@@ -45,7 +45,7 @@
 #include "basictypes.h"
 #include "byteorder.h"
 #ifdef WIN32
-#include "base/win32.h"
+#include "win32.h"
 #endif
 
 namespace talk_base {

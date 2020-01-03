@@ -1,14 +1,14 @@
 // Copyright 2010 Google Inc. All Rights Reserved
 
 
-#include "base/macwindowpicker.h"
+#include "macwindowpicker.h"
 
 #include <ApplicationServices/ApplicationServices.h>
 #include <CoreFoundation/CoreFoundation.h>
 #include <dlfcn.h>
 
-#include "base/logging.h"
-#include "base/macutils.h"
+#include "logging.h"
+#include "macutils.h"
 
 namespace talk_base {
 
@@ -41,7 +41,7 @@ MacWindowPicker::~MacWindowPicker() {
 bool MacWindowPicker::Init() {
   // TODO: If this class grows to use more dynamically functions
   // from the CoreGraphics framework, consider using
-  // talk/base/latebindingsymboltable.h.
+  // talk/latebindingsymboltable.h.
   lib_handle_ = dlopen(kCoreGraphicsName, RTLD_NOW);
   if (lib_handle_ == NULL) {
     LOG(LS_ERROR) << "Could not load CoreGraphics";

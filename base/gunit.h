@@ -28,12 +28,12 @@
 #ifndef TALK_BASE_GUNIT_H_
 #define TALK_BASE_GUNIT_H_
 
-#include "base/logging.h"
-#include "base/thread.h"
+#include "logging.h"
+#include "thread.h"
 #if defined(ANDROID) || defined(GTEST_RELATIVE_PATH)
 #include "gtest/gtest.h"
 #else
-#include "testing/base/public/gunit.h"
+#include "testing/public/gunit.h"
 #endif
 
 // forward declarations

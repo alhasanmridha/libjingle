@@ -28,7 +28,7 @@
 #ifndef TALK_P2P_BASE_SESSIONCLIENT_H_
 #define TALK_P2P_BASE_SESSIONCLIENT_H_
 
-#include "talk/p2p/base/constants.h"
+#include "talk/p2p/constants.h"
 
 namespace buzz {
 class XmlElement;

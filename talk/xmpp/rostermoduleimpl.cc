@@ -31,8 +31,8 @@
 #include <algorithm>
 #include <sstream>
 #include <iostream>
-#include "talk/base/common.h"
-#include "talk/base/stringencode.h"
+#include "talk/common.h"
+#include "talk/stringencode.h"
 #include "talk/xmpp/constants.h"
 #include "talk/xmpp/rostermoduleimpl.h"
 

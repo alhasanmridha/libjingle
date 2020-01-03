@@ -30,7 +30,7 @@
 
 #include <cstring>
 
-#include "base/criticalsection.h"
+#include "criticalsection.h"
 
 namespace talk_base {
 

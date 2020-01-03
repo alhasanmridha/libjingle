@@ -29,7 +29,7 @@
 #define TALK_BASE_HTTPSERVER_H__
 
 #include <map>
-#include "base/httpbase.h"
+#include "httpbase.h"
 
 namespace talk_base {
 

@@ -26,7 +26,7 @@
  */
 
 // Originally these classes are from Chromium.
-// http://src.chromium.org/viewvc/chrome/trunk/src/base/memory/ref_counted.h?view=markup
+// http://src.chromium.org/viewvc/chrome/trunk/src/memory/ref_counted.h?view=markup
 
 //
 // A smart pointer class for reference counted objects.  Use this class instead

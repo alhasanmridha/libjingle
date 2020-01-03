@@ -26,13 +26,13 @@
  */
 
 #include <string>
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/thread.h"
-#include "talk/base/window.h"
-#include "talk/media/base/constants.h"
-#include "talk/media/base/screencastid.h"
-#include "talk/p2p/base/parsing.h"
+#include "talk/helpers.h"
+#include "talk/logging.h"
+#include "talk/thread.h"
+#include "talk/window.h"
+#include "talk/media/constants.h"
+#include "talk/media/screencastid.h"
+#include "talk/p2p/parsing.h"
 #include "talk/session/media/call.h"
 #include "talk/session/media/mediasessionclient.h"
 

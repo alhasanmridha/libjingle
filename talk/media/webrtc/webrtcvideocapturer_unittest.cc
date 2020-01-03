@@ -25,12 +25,12 @@
 
 #include <stdio.h>
 #include <vector>
-#include "talk/base/gunit.h"
-#include "talk/base/logging.h"
-#include "talk/base/stringutils.h"
-#include "talk/base/thread.h"
-#include "talk/media/base/testutils.h"
-#include "talk/media/base/videocommon.h"
+#include "talk/gunit.h"
+#include "talk/logging.h"
+#include "talk/stringutils.h"
+#include "talk/thread.h"
+#include "talk/media/testutils.h"
+#include "talk/media/videocommon.h"
 #include "talk/media/webrtc/fakewebrtcvcmfactory.h"
 #include "talk/media/webrtc/webrtcvideocapturer.h"
 

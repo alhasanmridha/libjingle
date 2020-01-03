@@ -27,12 +27,12 @@
 
 #include <iomanip>
 
-#include "base/asyncsocket.h"
-#include "base/logging.h"
-#include "base/socketfactory.h"
-#include "base/socketpool.h"
-#include "base/socketstream.h"
-#include "base/thread.h"
+#include "asyncsocket.h"
+#include "logging.h"
+#include "socketfactory.h"
+#include "socketpool.h"
+#include "socketstream.h"
+#include "thread.h"
 
 namespace talk_base {
 

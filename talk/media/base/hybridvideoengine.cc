@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/media/base/hybridvideoengine.h"
+#include "talk/media/hybridvideoengine.h"
 
-#include "talk/base/logging.h"
+#include "talk/logging.h"
 
 namespace cricket {
 

@@ -34,7 +34,7 @@
 #include <iostream>
 
 #ifdef WIN32
-#include "base/win32.h"
+#include "win32.h"
 #endif  // WIN32
 
 #include "common.h"

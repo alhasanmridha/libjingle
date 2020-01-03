@@ -27,12 +27,12 @@
 
 #include "talk/session/media/channel.h"
 
-#include "talk/base/buffer.h"
-#include "talk/base/byteorder.h"
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/media/base/rtputils.h"
-#include "talk/p2p/base/transportchannel.h"
+#include "talk/buffer.h"
+#include "talk/byteorder.h"
+#include "talk/common.h"
+#include "talk/logging.h"
+#include "talk/media/rtputils.h"
+#include "talk/p2p/transportchannel.h"
 #include "talk/session/media/channelmanager.h"
 #include "talk/session/media/mediamessages.h"
 #include "talk/session/media/rtcpmuxfilter.h"

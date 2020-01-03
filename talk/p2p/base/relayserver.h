@@ -32,12 +32,12 @@
 #include <vector>
 #include <map>
 
-#include "talk/base/asyncudpsocket.h"
-#include "talk/base/socketaddresspair.h"
-#include "talk/base/thread.h"
-#include "talk/base/timeutils.h"
-#include "talk/p2p/base/port.h"
-#include "talk/p2p/base/stun.h"
+#include "talk/asyncudpsocket.h"
+#include "talk/socketaddresspair.h"
+#include "talk/thread.h"
+#include "talk/timeutils.h"
+#include "talk/p2p/port.h"
+#include "talk/p2p/stun.h"
 
 namespace cricket {
 

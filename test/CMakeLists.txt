@@ -12,6 +12,7 @@ event_unittest.cc
 # fileutils_unittest.cc
 # helpers_unittest.cc
 host_unittest.cc
+linux_unittest.cc
 # logging_unittest.cc
 main.cpp
 pathutils_unittest.cc
@@ -19,6 +20,7 @@ signalthread_unittest.cc
 sigslot_unittest.cc
 stringencode_unittest.cc
 stringutils_unittest.cc
+# systeminfo_unittest.cc
 timeutils_unittest.cc
 task_unittest.cc
 versionparsing_unittest.cc

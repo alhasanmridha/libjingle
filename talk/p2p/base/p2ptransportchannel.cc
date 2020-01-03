@@ -25,16 +25,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/p2ptransportchannel.h"
+#include "talk/p2p/p2ptransportchannel.h"
 
 #include <set>
-#include "talk/base/common.h"
-#include "talk/base/crc32.h"
-#include "talk/base/logging.h"
-#include "talk/base/stringencode.h"
-#include "talk/p2p/base/common.h"
-#include "talk/p2p/base/relayport.h"  // For RELAY_PORT_TYPE.
-#include "talk/p2p/base/stunport.h"  // For STUN_PORT_TYPE.
+#include "talk/common.h"
+#include "talk/crc32.h"
+#include "talk/logging.h"
+#include "talk/stringencode.h"
+#include "talk/p2p/common.h"
+#include "talk/p2p/relayport.h"  // For RELAY_PORT_TYPE.
+#include "talk/p2p/stunport.h"  // For STUN_PORT_TYPE.
 
 namespace {
 

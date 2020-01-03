@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/autodetectproxy.h"
-#include "base/gunit.h"
-#include "base/httpcommon.h"
-#include "base/httpcommon-inl.h"
+#include "autodetectproxy.h"
+#include "gunit.h"
+#include "httpcommon.h"
+#include "httpcommon-inl.h"
 
 namespace talk_base {
 

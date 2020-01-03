@@ -1,7 +1,7 @@
-#include "base/gunit.h"
-#include "base/window.h"
-#include "base/windowpicker.h"
-#include "base/windowpickerfactory.h"
+#include "gunit.h"
+#include "window.h"
+#include "windowpicker.h"
+#include "windowpickerfactory.h"
 
 #ifdef OSX
 #  define DISABLE_ON_MAC(name) DISABLED_ ## name

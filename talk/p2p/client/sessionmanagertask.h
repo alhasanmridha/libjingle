@@ -28,7 +28,7 @@
 #ifndef _SESSIONMANAGERTASK_H_
 #define _SESSIONMANAGERTASK_H_
 
-#include "talk/p2p/base/sessionmanager.h"
+#include "talk/p2p/sessionmanager.h"
 #include "talk/p2p/client/sessionsendtask.h"
 #include "talk/xmpp/xmppengine.h"
 #include "talk/xmpp/xmpptask.h"

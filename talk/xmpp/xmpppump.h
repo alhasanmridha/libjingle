@@ -28,10 +28,10 @@
 #ifndef TALK_XMPP_XMPPPUMP_H_
 #define TALK_XMPP_XMPPPUMP_H_
 
-#include "talk/base/messagequeue.h"
-#include "talk/base/taskrunner.h"
-#include "talk/base/thread.h"
-#include "talk/base/timeutils.h"
+#include "talk/messagequeue.h"
+#include "talk/taskrunner.h"
+#include "talk/thread.h"
+#include "talk/timeutils.h"
 #include "talk/xmpp/xmppclient.h"
 #include "talk/xmpp/xmppengine.h"
 #include "talk/xmpp/xmpptask.h"

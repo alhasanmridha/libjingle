@@ -31,11 +31,11 @@
 
 
 #ifdef WIN32
-#include "base/win32.h"
+#include "win32.h"
 #include <shellapi.h>
 #endif
 
-#include "base/flags.h"
+#include "flags.h"
 
 
 // -----------------------------------------------------------------------------

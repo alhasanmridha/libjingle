@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/md5digest.h"
-#include "base/gunit.h"
-#include "base/stringencode.h"
+#include "md5digest.h"
+#include "gunit.h"
+#include "stringencode.h"
 
 namespace talk_base {
 

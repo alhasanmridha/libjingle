@@ -35,13 +35,13 @@
 #include "libyuv/format_conversion.h"
 #include "libyuv/planar_functions.h"
 #include "libyuv/rotate.h"
-#include "talk/base/gunit.h"
-#include "talk/base/pathutils.h"
-#include "talk/base/stream.h"
-#include "talk/base/stringutils.h"
-#include "talk/media/base/testutils.h"
-#include "talk/media/base/videocommon.h"
-#include "talk/media/base/videoframe.h"
+#include "talk/gunit.h"
+#include "talk/pathutils.h"
+#include "talk/stream.h"
+#include "talk/stringutils.h"
+#include "talk/media/testutils.h"
+#include "talk/media/videocommon.h"
+#include "talk/media/videoframe.h"
 
 #if defined(_MSC_VER)
 #define ALIGN16(var) __declspec(align(16)) var

@@ -29,10 +29,10 @@
 #define TALK_BASE_PROXYSERVER_H_
 
 #include <list>
-#include "base/asyncsocket.h"
-#include "base/socketadapters.h"
-#include "base/socketaddress.h"
-#include "base/stream.h"
+#include "asyncsocket.h"
+#include "socketadapters.h"
+#include "socketaddress.h"
+#include "stream.h"
 
 namespace talk_base {
 

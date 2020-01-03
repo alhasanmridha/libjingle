@@ -26,14 +26,14 @@
  */
 
 #include <string>
-#include "talk/base/gunit.h"
-#include "talk/base/messagehandler.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stream.h"
-#include "talk/base/thread.h"
-#include "talk/base/timeutils.h"
-#include "talk/p2p/base/sessionmanager.h"
-#include "talk/p2p/base/transport.h"
+#include "talk/gunit.h"
+#include "talk/messagehandler.h"
+#include "talk/scoped_ptr.h"
+#include "talk/stream.h"
+#include "talk/thread.h"
+#include "talk/timeutils.h"
+#include "talk/p2p/sessionmanager.h"
+#include "talk/p2p/transport.h"
 #include "talk/p2p/client/fakeportallocator.h"
 #include "talk/session/tunnel/tunnelsessionclient.h"
 

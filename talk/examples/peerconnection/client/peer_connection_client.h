@@ -32,11 +32,11 @@
 #include <map>
 #include <string>
 
-#include "talk/base/nethelpers.h"
-#include "talk/base/signalthread.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/physicalsocketserver.h"
-#include "talk/base/scoped_ptr.h"
+#include "talk/nethelpers.h"
+#include "talk/signalthread.h"
+#include "talk/sigslot.h"
+#include "talk/physicalsocketserver.h"
+#include "talk/scoped_ptr.h"
 
 typedef std::map<int, std::string> Peers;
 

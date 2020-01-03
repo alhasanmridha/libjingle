@@ -28,9 +28,9 @@
 #ifndef TALK_BASE_ASYNCSOCKET_H_
 #define TALK_BASE_ASYNCSOCKET_H_
 
-#include "base/common.h"
-#include "base/sigslot.h"
-#include "base/socket.h"
+#include "common.h"
+#include "sigslot.h"
+#include "socket.h"
 
 namespace talk_base {
 

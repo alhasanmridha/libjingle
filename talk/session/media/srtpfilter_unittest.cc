@@ -25,12 +25,12 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/byteorder.h"
-#include "talk/base/gunit.h"
-#include "talk/base/thread.h"
-#include "talk/media/base/cryptoparams.h"
-#include "talk/media/base/fakertp.h"
-#include "talk/p2p/base/sessiondescription.h"
+#include "talk/byteorder.h"
+#include "talk/gunit.h"
+#include "talk/thread.h"
+#include "talk/media/cryptoparams.h"
+#include "talk/media/fakertp.h"
+#include "talk/p2p/sessiondescription.h"
 #include "talk/session/media/srtpfilter.h"
 #ifdef SRTP_RELATIVE_PATH
 #include "crypto/include/err.h"

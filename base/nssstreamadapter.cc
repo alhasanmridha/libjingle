@@ -34,7 +34,7 @@
 
 #if HAVE_NSS_SSL_H
 
-#include "base/nssstreamadapter.h"
+#include "nssstreamadapter.h"
 
 #include "keyhi.h"
 #include "nspr.h"
@@ -52,8 +52,8 @@
 #include "net/third_party/nss/ssl/sslproto.h"
 #endif
 
-#include "base/nssidentity.h"
-#include "base/thread.h"
+#include "nssidentity.h"
+#include "thread.h"
 
 namespace talk_base {
 

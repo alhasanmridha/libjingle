@@ -29,8 +29,8 @@
 #include <sstream>
 #include <iostream>
 
-#include "talk/base/gunit.h"
-#include "talk/base/scoped_ptr.h"
+#include "talk/gunit.h"
+#include "talk/scoped_ptr.h"
 #include "talk/xmllite/xmlelement.h"
 #include "talk/xmpp/xmppengine.h"
 #include "talk/xmpp/rostermodule.h"

@@ -28,7 +28,7 @@
 #ifndef TALK_MEDIA_BASE_NULLVIDEOFRAME_H_
 #define TALK_MEDIA_BASE_NULLVIDEOFRAME_H_
 
-#include "talk/media/base/videoframe.h"
+#include "talk/media/videoframe.h"
 
 namespace cricket {
 

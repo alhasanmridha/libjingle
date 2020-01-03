@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/common.h"
+#include "talk/common.h"
 #include "talk/session/media/channelmanager.h"
 #include "talk/session/media/mediamonitor.h"
 

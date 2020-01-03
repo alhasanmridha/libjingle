@@ -33,10 +33,10 @@
 #include <string>
 #include <vector>
 
-#include "base/basictypes.h"
-#include "base/ipaddress.h"
-#include "base/messagehandler.h"
-#include "base/sigslot.h"
+#include "basictypes.h"
+#include "ipaddress.h"
+#include "messagehandler.h"
+#include "sigslot.h"
 
 #if defined(POSIX)
 struct ifaddrs;

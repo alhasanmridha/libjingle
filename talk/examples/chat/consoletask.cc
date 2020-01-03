@@ -39,7 +39,7 @@
 #endif  // POSIX
 #include <cassert>
 
-#include "talk/base/logging.h"
+#include "talk/logging.h"
 
 #ifdef POSIX
 static void DoNothing(int unused) {}

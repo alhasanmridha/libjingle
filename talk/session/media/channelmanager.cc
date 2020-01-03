@@ -33,16 +33,16 @@
 
 #include <algorithm>
 
-#include "talk/base/bind.h"
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/sigslotrepeater.h"
-#include "talk/base/stringencode.h"
-#include "talk/base/stringutils.h"
-#include "talk/media/base/capturemanager.h"
-#include "talk/media/base/hybriddataengine.h"
-#include "talk/media/base/rtpdataengine.h"
-#include "talk/media/base/videocapturer.h"
+#include "talk/bind.h"
+#include "talk/common.h"
+#include "talk/logging.h"
+#include "talk/sigslotrepeater.h"
+#include "talk/stringencode.h"
+#include "talk/stringutils.h"
+#include "talk/media/capturemanager.h"
+#include "talk/media/hybriddataengine.h"
+#include "talk/media/rtpdataengine.h"
+#include "talk/media/videocapturer.h"
 #include "talk/media/devices/devicemanager.h"
 #ifdef HAVE_SCTP
 #include "talk/media/sctp/sctpdataengine.h"

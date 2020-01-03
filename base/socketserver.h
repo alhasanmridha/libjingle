@@ -28,7 +28,7 @@
 #ifndef TALK_BASE_SOCKETSERVER_H_
 #define TALK_BASE_SOCKETSERVER_H_
 
-#include "base/socketfactory.h"
+#include "socketfactory.h"
 
 namespace talk_base {
 
