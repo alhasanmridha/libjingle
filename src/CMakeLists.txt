@@ -6,6 +6,7 @@ asyncfile.cc
 asyncsocket.cc
 base64.cc
 bytebuffer.cc
+event.cc
 fileutils.cc
 helpers.cc
 host.cc

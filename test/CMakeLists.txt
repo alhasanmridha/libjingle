@@ -8,6 +8,7 @@ bind_unittest.cc
 buffer_unittest.cc
 bytebuffer_unittest.cc
 byteorder_unittest.cc
+event_unittest.cc
 # fileutils_unittest.cc
 # helpers_unittest.cc
 host_unittest.cc

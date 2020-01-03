@@ -36,8 +36,8 @@
 #error "Must define either WIN32 or POSIX."
 #endif
 
-#include "base/basictypes.h"
-#include "base/common.h"
+#include "basictypes.h"
+#include "common.h"
 
 namespace talk_base {
 
