@@ -30,8 +30,8 @@
 
 #include <set>
 
-#include "base/basictypes.h"
-#include "base/scoped_ptr.h"
+#include "basictypes.h"
+#include "scoped_ptr.h"
 
 namespace talk_base {
 

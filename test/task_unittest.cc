@@ -37,13 +37,13 @@
 #include "base/win32.h"
 #endif  // WIN32
 
-#include "base/common.h"
-#include "base/gunit.h"
-#include "base/logging.h"
-#include "base/task.h"
-#include "base/taskrunner.h"
-#include "base/thread.h"
-#include "base/timeutils.h"
+#include "common.h"
+#include "gtest/gtest.h"
+#include "logging.h"
+#include "task.h"
+#include "taskrunner.h"
+#include "thread.h"
+#include "timeutils.h"
 
 namespace talk_base {
 

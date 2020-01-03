@@ -23,6 +23,9 @@ socketaddress.cc
 stream.cc
 stringutils.cc
 stringencode.cc
+task.cc
+taskparent.cc
+taskrunner.cc
 thread.cc
 timeutils.cc
 unixfilesystem.cc

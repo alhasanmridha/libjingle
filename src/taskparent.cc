@@ -27,10 +27,9 @@
 
 #include <algorithm>
 
-#include "base/taskparent.h"
-
-#include "base/task.h"
-#include "base/taskrunner.h"
+#include "taskparent.h"
+#include "task.h"
+#include "taskrunner.h"
 
 namespace talk_base {
 

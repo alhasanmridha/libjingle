@@ -20,6 +20,7 @@ sigslot_unittest.cc
 stringencode_unittest.cc
 stringutils_unittest.cc
 timeutils_unittest.cc
+task_unittest.cc
 versionparsing_unittest.cc
 )
 set(SOURCES ${TEST_SOURCES})

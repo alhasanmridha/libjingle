@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "base/task.h"
-#include "base/common.h"
-#include "base/taskrunner.h"
+#include "task.h"
+#include "common.h"
+#include "taskrunner.h"
 
 namespace talk_base {
 
