@@ -28,7 +28,6 @@
 #include "socket_unittest.h"
 
 #include "asyncudpsocket.h"
-#include "gtest/gtest.h"
 #include "nethelpers.h"
 #include "socketserver.h"
 #include "testclient.h"

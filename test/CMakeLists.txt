@@ -17,16 +17,17 @@ host_unittest.cc
 linux_unittest.cc
 # logging_unittest.cc # Compiles ok but test fails.
 main.cpp
-# network_unittest.cc # Everything is fine Travis has problem with NetworkTest.TestIPv6Toggle 
+# network_unittest.cc # Everything is fine. Travis has problem with NetworkTest.TestIPv6Toggle 
 pathutils_unittest.cc
-signalthread_unittest.cc
+# signalthread_unittest.cc # Test is ok but it takes so much time
 sigslot_unittest.cc
+socket_unittest.cc
 stream_unittest.cc
 stringencode_unittest.cc
 stringutils_unittest.cc
 systeminfo_unittest.cc
 # task_unittest.cc # Test is ok but it takes so much time
-testclient_unittest.cc
+# testclient_unittest.cc # Test is ok but it takes so much time
 timeutils_unittest.cc
 versionparsing_unittest.cc
 # virtualsocket_unittest.cc # Test is ok but it takes so much time
