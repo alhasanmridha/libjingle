@@ -27,7 +27,7 @@
 
 #include <string>
 #include "asynchttprequest.h"
-#include "gtest/gtest.h"
+#include "gunit.h"
 #include "httpserver.h"
 #include "socketstream.h"
 #include "thread.h"

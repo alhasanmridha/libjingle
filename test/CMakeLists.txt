@@ -1,9 +1,11 @@
 set(BINARY ${CMAKE_PROJECT_NAME}_tst)
 
 # file(GLOB_RECURSE TEST_SOURCES LIST_DIRECTORIES false *.h *.cpp *.cc)
-set(TEST_SOURCES 
+set(TEST_SOURCES
+asynchttprequest_unittest.cc 
 # asynctcpsocket_unittest.cc
 # asyncudpsocket_unittest.cc
+autodetectproxy_unittest.cc
 # base64_unittest.cc
 # basictypes_unittest.cc
 # bind_unittest.cc
@@ -15,17 +17,22 @@ set(TEST_SOURCES
 # fileutils_unittest.cc
 # helpers_unittest.cc # Undefined reference to `RAND_bytes'.Need to fix
 # host_unittest.cc
-httpbase_unittest.cc
+# httpbase_unittest.cc
 # httpcommon_unittest.cc
+httpserver_unittest.cc
 # linux_unittest.cc
+linuxfdwalk_unittest.cc
 # logging_unittest.cc # Compiles ok but test fails.
 main.cpp
 # messagedigest_unittest.cc
 # network_unittest.cc # Everything is fine. Travis has problem with NetworkTest.TestIPv6Toggle 
 # pathutils_unittest.cc
 # profiler_unittest.cc
+proxy_unittest.cc
+proxydetect_unittest.cc
 # signalthread_unittest.cc # Test is ok but it takes so much time
 # sigslot_unittest.cc
+socketaddress_unittest.cc
 # socket_unittest.cc
 # stream_unittest.cc
 # stringencode_unittest.cc

@@ -27,7 +27,7 @@
 
 #include <string>
 #include "autodetectproxy.h"
-#include "gtest/gtest.h"
+#include "gunit.h"
 #include "httpserver.h"
 #include "proxyserver.h"
 #include "socketadapters.h"
