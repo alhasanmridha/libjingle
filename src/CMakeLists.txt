@@ -32,6 +32,7 @@ nethelpers.cc
 network.cc
 openssladapter.cc
 openssldigest.cc
+optionsfile.cc
 pathutils.cc
 physicalsocketserver.cc
 posix.cc
@@ -39,6 +40,7 @@ profiler.cc
 proxydetect.cc
 proxyinfo.cc
 proxyserver.cc
+ratelimiter.cc
 signalthread.cc
 socketadapters.cc
 socketaddress.cc

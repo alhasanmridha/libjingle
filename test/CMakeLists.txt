@@ -26,10 +26,12 @@ linuxfdwalk_unittest.cc
 main.cpp
 # messagedigest_unittest.cc
 # network_unittest.cc # Everything is fine. Travis has problem with NetworkTest.TestIPv6Toggle 
+optionsfile_unittest.cc
 # pathutils_unittest.cc
 # profiler_unittest.cc
 proxy_unittest.cc
 proxydetect_unittest.cc
+ratelimiter_unittest.cc
 # signalthread_unittest.cc # Test is ok but it takes so much time
 # sigslot_unittest.cc
 socketaddress_unittest.cc
