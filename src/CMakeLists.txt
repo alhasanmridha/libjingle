@@ -28,6 +28,7 @@ httpserver.cc
 ipaddress.cc
 linux.cc
 linuxfdwalk.c
+# linuxwindowpicker.cc # compilation Error
 logging.cc
 main.cpp
 messagedigest.cc

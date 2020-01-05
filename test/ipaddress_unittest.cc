@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "gtest/gtest.h"
+#include "gunit.h"
 #include "ipaddress.h"
 
 namespace talk_base {

@@ -24,8 +24,10 @@ crc32_unittest.cc
 # httpbase_unittest.cc
 # httpcommon_unittest.cc
 httpserver_unittest.cc
+ipaddress_unittest.cc
 # linux_unittest.cc
 linuxfdwalk_unittest.cc
+# linuxwindowpicker_unittest.cc # Compilation Error
 # logging_unittest.cc # Compiles ok but test fails.
 # main.cpp
 # messagedigest_unittest.cc
@@ -51,6 +53,7 @@ socketaddress_unittest.cc
 unittest_main.cc
 # versionparsing_unittest.cc
 # virtualsocket_unittest.cc # Test is ok but it takes so much time
+# windowpicker_unittest.cc # depends on linuxwindowpicker
 )
 set(SOURCES ${TEST_SOURCES})
 
