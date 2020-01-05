@@ -39,7 +39,7 @@ static inline void AtomicIncrement(volatile Atomic32* ptr) {
 #endif
 
 #include "atomicops.h"
-#include "gtest/gtest.h"
+#include "gunit.h"
 #include "helpers.h"
 #include "logging.h"
 

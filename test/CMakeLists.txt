@@ -5,6 +5,7 @@ set(TEST_SOURCES
 asynchttprequest_unittest.cc 
 # asynctcpsocket_unittest.cc
 # asyncudpsocket_unittest.cc
+atomicops_unittest.cc
 autodetectproxy_unittest.cc
 bandwidthsmoother_unittest.cc
 # base64_unittest.cc
@@ -14,6 +15,7 @@ bandwidthsmoother_unittest.cc
 # bytebuffer_unittest.cc
 # byteorder_unittest.cc
 cpumonitor_unittest.cc
+crc32_unittest.cc
 # event_unittest.cc
 # filelock_unittest.cc
 # fileutils_unittest.cc

@@ -14,6 +14,7 @@ bytebuffer.cc
 diskcache.cc
 checks.cc
 cpumonitor.cc
+crc32.cc
 event.cc
 fileutils.cc
 filelock.cc
