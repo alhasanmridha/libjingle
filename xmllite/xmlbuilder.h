@@ -1,6 +1,6 @@
 /*
  * libjingle
- * Copyright 2004, Google Inc.
+ * Copyright 2004--2005, Google Inc.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -25,38 +25,54 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmllite/xmlprinter.h"
+#ifndef _xmlbuilder_h_
+#define _xmlbuilder_h_
 
-#include <sstream>
 #include <string>
+#include <vector>
+#include "scoped_ptr.h"
+#include "xmlparser.h"
 
-#include "talk/common.h"
-#include "talk/gtest/gtest.h"
-#include "talk/xmllite/qname.h"
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmllite/xmlnsstack.h"
+#ifdef EXPAT_RELATIVE_PATH
+#include "expat.h"
+#else
+#include "lib/expat.h"
+#endif  // EXPAT_RELATIVE_PATH
 
-using buzz::QName;
-using buzz::XmlElement;
-using buzz::XmlnsStack;
-using buzz::XmlPrinter;
+namespace buzz {
 
-TEST(XmlPrinterTest, TestBasicPrinting) {
-  XmlElement elt(QName("google:test", "first"));
-  std::stringstream ss;
-  XmlPrinter::PrintXml(&ss, &elt);
-  EXPECT_EQ("<test:first xmlns:test=\"google:test\"/>", ss.str());
+class XmlElement;
+class XmlParseContext;
+
+
+class XmlBuilder : public XmlParseHandler {
+public:
+  XmlBuilder();
+
+  static XmlElement * BuildElement(XmlParseContext * pctx,
+                                  const char * name, const char ** atts);
+  virtual void StartElement(XmlParseContext * pctx,
+                            const char * name, const char ** atts);
+  virtual void EndElement(XmlParseContext * pctx, const char * name);
+  virtual void CharacterData(XmlParseContext * pctx,
+                             const char * text, int len);
+  virtual void Error(XmlParseContext * pctx, XML_Error);
+  virtual ~XmlBuilder();
+
+  void Reset();
+
+  // Take ownership of the built element; second call returns NULL
+  XmlElement * CreateElement();
+
+  // Peek at the built element without taking ownership
+  XmlElement * BuiltElement();
+
+private:
+  XmlElement * pelCurrent_;
+  talk_base::scoped_ptr<XmlElement> pelRoot_;
+  talk_base::scoped_ptr<std::vector<XmlElement*> > pvParents_;
+};
+
 }
 
-TEST(XmlPrinterTest, TestNamespacedPrinting) {
-  XmlElement elt(QName("google:test", "first"));
-  elt.AddElement(new XmlElement(QName("nested:test", "second")));
-  std::stringstream ss;
-
-  XmlnsStack ns_stack;
-  ns_stack.AddXmlns("gg", "google:test");
-  ns_stack.AddXmlns("", "nested:test");
-
-  XmlPrinter::PrintXml(&ss, &elt, &ns_stack);
-  EXPECT_EQ("<gg:first><second/></gg:first>", ss.str());
-}
+#endif

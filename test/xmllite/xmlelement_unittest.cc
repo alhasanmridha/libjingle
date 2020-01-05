@@ -28,10 +28,10 @@
 #include <string>
 #include <sstream>
 #include <iostream>
-#include "talk/common.h"
-#include "talk/gtest/gtest.h"
-#include "talk/thread.h"
-#include "talk/xmllite/xmlelement.h"
+#include "common.h"
+#include "gunit.h"
+#include "thread.h"
+#include "xmlelement.h"
 
 using buzz::QName;
 using buzz::XmlAttr;

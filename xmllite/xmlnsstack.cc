@@ -25,14 +25,14 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmllite/xmlnsstack.h"
+#include "xmlnsstack.h"
 
 #include <sstream>
 #include <string>
 #include <vector>
 
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmllite/xmlconstants.h"
+#include "xmlelement.h"
+#include "xmlconstants.h"
 
 namespace buzz {
 

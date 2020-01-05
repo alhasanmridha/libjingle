@@ -25,15 +25,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmllite/xmlnsstack.h"
+#include "xmlnsstack.h"
 
 #include <string>
 #include <sstream>
 #include <iostream>
 
-#include "talk/common.h"
-#include "talk/gtest/gtest.h"
-#include "talk/xmllite/xmlconstants.h"
+#include "common.h"
+#include "gunit.h"
+#include "xmlconstants.h"
 
 using buzz::NS_XML;
 using buzz::NS_XMLNS;

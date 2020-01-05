@@ -30,8 +30,8 @@
 
 #include <string>
 #include <vector>
-#include "talk/scoped_ptr.h"
-#include "talk/xmllite/qname.h"
+#include "scoped_ptr.h"
+#include "qname.h"
 
 namespace buzz {
 

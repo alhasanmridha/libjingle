@@ -25,19 +25,19 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmllite/xmlelement.h"
+#include "xmlelement.h"
 
 #include <ostream>
 #include <sstream>
 #include <string>
 #include <vector>
 
-#include "talk/common.h"
-#include "talk/xmllite/qname.h"
-#include "talk/xmllite/xmlparser.h"
-#include "talk/xmllite/xmlbuilder.h"
-#include "talk/xmllite/xmlprinter.h"
-#include "talk/xmllite/xmlconstants.h"
+#include "common.h"
+#include "qname.h"
+#include "xmlparser.h"
+#include "xmlbuilder.h"
+#include "xmlprinter.h"
+#include "xmlconstants.h"
 
 namespace buzz {
 

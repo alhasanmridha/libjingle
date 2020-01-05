@@ -28,11 +28,11 @@
 #include <string>
 #include <sstream>
 #include <iostream>
-#include "talk/common.h"
-#include "talk/gtest/gtest.h"
-#include "talk/xmllite/xmlbuilder.h"
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmllite/xmlparser.h"
+#include "common.h"
+#include "gunit.h"
+#include "xmlbuilder.h"
+#include "xmlelement.h"
+#include "xmlparser.h"
 
 using buzz::XmlBuilder;
 using buzz::XmlElement;

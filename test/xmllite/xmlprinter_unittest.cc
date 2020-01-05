@@ -1,6 +1,6 @@
 /*
  * libjingle
- * Copyright 2004--2005, Google Inc.
+ * Copyright 2004, Google Inc.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -25,18 +25,38 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmllite/xmlconstants.h"
+#include "xmlprinter.h"
 
-namespace buzz {
+#include <sstream>
+#include <string>
 
-const char STR_EMPTY[] = "";
-const char NS_XML[] = "http://www.w3.org/XML/1998/namespace";
-const char NS_XMLNS[] = "http://www.w3.org/2000/xmlns/";
-const char STR_XMLNS[] = "xmlns";
-const char STR_XML[] = "xml";
-const char STR_VERSION[] = "version";
-const char STR_ENCODING[] = "encoding";
+#include "common.h"
+#include "gunit.h"
+#include "qname.h"
+#include "xmlelement.h"
+#include "xmlnsstack.h"
 
-const StaticQName QN_XMLNS = { STR_EMPTY, STR_XMLNS };
+using buzz::QName;
+using buzz::XmlElement;
+using buzz::XmlnsStack;
+using buzz::XmlPrinter;
 
-}  // namespace buzz
+TEST(XmlPrinterTest, TestBasicPrinting) {
+  XmlElement elt(QName("google:test", "first"));
+  std::stringstream ss;
+  XmlPrinter::PrintXml(&ss, &elt);
+  EXPECT_EQ("<test:first xmlns:test=\"google:test\"/>", ss.str());
+}
+
+TEST(XmlPrinterTest, TestNamespacedPrinting) {
+  XmlElement elt(QName("google:test", "first"));
+  elt.AddElement(new XmlElement(QName("nested:test", "second")));
+  std::stringstream ss;
+
+  XmlnsStack ns_stack;
+  ns_stack.AddXmlns("gg", "google:test");
+  ns_stack.AddXmlns("", "nested:test");
+
+  XmlPrinter::PrintXml(&ss, &elt, &ns_stack);
+  EXPECT_EQ("<gg:first><second/></gg:first>", ss.str());
+}

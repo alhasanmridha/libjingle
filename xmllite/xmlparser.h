@@ -30,11 +30,11 @@
 
 #include <string>
 
-#include "talk/xmllite/xmlnsstack.h"
+#include "xmlnsstack.h"
 #ifdef EXPAT_RELATIVE_PATH
 #include "expat.h"
 #else
-#include "third_party/expat/v2_0_1/Source/lib/expat.h"
+#include "lib/expat.h"
 #endif  // EXPAT_RELATIVE_PATH
 
 struct XML_ParserStruct;

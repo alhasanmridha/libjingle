@@ -25,54 +25,23 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef _xmlbuilder_h_
-#define _xmlbuilder_h_
+#ifndef TALK_XMLLITE_XMLCONSTANTS_H_
+#define TALK_XMLLITE_XMLCONSTANTS_H_
 
-#include <string>
-#include <vector>
-#include "talk/scoped_ptr.h"
-#include "talk/xmllite/xmlparser.h"
-
-#ifdef EXPAT_RELATIVE_PATH
-#include "expat.h"
-#else
-#include "third_party/expat/v2_0_1/Source/lib/expat.h"
-#endif  // EXPAT_RELATIVE_PATH
+#include "qname.h"
 
 namespace buzz {
 
-class XmlElement;
-class XmlParseContext;
+extern const char STR_EMPTY[];
+extern const char NS_XML[];
+extern const char NS_XMLNS[];
+extern const char STR_XMLNS[];
+extern const char STR_XML[];
+extern const char STR_VERSION[];
+extern const char STR_ENCODING[];
 
+extern const StaticQName QN_XMLNS;
 
-class XmlBuilder : public XmlParseHandler {
-public:
-  XmlBuilder();
+}  // namespace buzz
 
-  static XmlElement * BuildElement(XmlParseContext * pctx,
-                                  const char * name, const char ** atts);
-  virtual void StartElement(XmlParseContext * pctx,
-                            const char * name, const char ** atts);
-  virtual void EndElement(XmlParseContext * pctx, const char * name);
-  virtual void CharacterData(XmlParseContext * pctx,
-                             const char * text, int len);
-  virtual void Error(XmlParseContext * pctx, XML_Error);
-  virtual ~XmlBuilder();
-
-  void Reset();
-
-  // Take ownership of the built element; second call returns NULL
-  XmlElement * CreateElement();
-
-  // Peek at the built element without taking ownership
-  XmlElement * BuiltElement();
-
-private:
-  XmlElement * pelCurrent_;
-  talk_base::scoped_ptr<XmlElement> pelRoot_;
-  talk_base::scoped_ptr<std::vector<XmlElement*> > pvParents_;
-};
-
-}
-
-#endif
+#endif  // TALK_XMLLITE_XMLCONSTANTS_H_

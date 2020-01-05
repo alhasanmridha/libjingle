@@ -26,8 +26,8 @@
  */
 
 #include <string>
-#include "talk/gtest/gtest.h"
-#include "talk/xmllite/qname.h"
+#include "gunit.h"
+#include "qname.h"
 
 using buzz::StaticQName;
 using buzz::QName;
