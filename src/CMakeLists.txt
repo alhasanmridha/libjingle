@@ -8,6 +8,7 @@ asyncsocket.cc
 asynctcpsocket.cc
 asyncudpsocket.cc
 autodetectproxy.cc
+bandwidthsmoother.cc
 base64.cc
 bytebuffer.cc
 diskcache.cc

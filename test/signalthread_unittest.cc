@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "gtest/gtest.h"
+#include "gunit.h"
 #include "signalthread.h"
 #include "thread.h"
 

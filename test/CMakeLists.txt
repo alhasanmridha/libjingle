@@ -6,6 +6,7 @@ asynchttprequest_unittest.cc
 # asynctcpsocket_unittest.cc
 # asyncudpsocket_unittest.cc
 autodetectproxy_unittest.cc
+bandwidthsmoother_unittest.cc
 # base64_unittest.cc
 # basictypes_unittest.cc
 # bind_unittest.cc
@@ -32,6 +33,7 @@ optionsfile_unittest.cc
 proxy_unittest.cc
 proxydetect_unittest.cc
 ratelimiter_unittest.cc
+rollingaccumulator_unittest.cc
 # signalthread_unittest.cc # Test is ok but it takes so much time
 # sigslot_unittest.cc
 socketaddress_unittest.cc
