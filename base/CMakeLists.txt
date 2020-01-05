@@ -1,6 +1,4 @@
 set(BINARY ${CMAKE_PROJECT_NAME})
-# set(CMAKE_VERBOSE_MAKEFILE ON)
-# file(GLOB_RECURSE SOURCES LIST_DIRECTORIES true *.h *.cpp)
 set(SOURCES
 asyncfile.cc
 asynchttprequest
@@ -71,9 +69,7 @@ urlencode.cc
 versionparsing.cc
 virtualsocketserver.cc
 )
-set(SOURCES ${SOURCES})
-# add_executable(${BINARY}_run ${SOURCES})
 
-add_library(${BINARY}_lib STATIC ${SOURCES})
+add_library(${BINARY}_base STATIC ${SOURCES})
 find_package(OpenSSL REQUIRED)
-target_link_libraries(${BINARY}_lib PUBLIC OpenSSL::SSL OpenSSL::Crypto)
+target_link_libraries(${BINARY}_base PUBLIC OpenSSL::SSL OpenSSL::Crypto)

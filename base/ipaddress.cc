@@ -44,7 +44,7 @@
 #include "byteorder.h"
 #include "nethelpers.h"
 #include "logging.h"
-#include "win32.h"
+// #include "win32.h"
 
 namespace talk_base {
 

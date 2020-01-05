@@ -1,7 +1,7 @@
-set(BINARY ${CMAKE_PROJECT_NAME}_tst)
+set(BINARY ${CMAKE_PROJECT_NAME}_base_test)
 
 # file(GLOB_RECURSE TEST_SOURCES LIST_DIRECTORIES false *.h *.cpp *.cc)
-set(TEST_SOURCES
+set(SOURCES
 asynchttprequest_unittest.cc 
 # asynctcpsocket_unittest.cc
 # asyncudpsocket_unittest.cc
@@ -55,10 +55,9 @@ unittest_main.cc
 # virtualsocket_unittest.cc # Test is ok but it takes so much time
 # windowpicker_unittest.cc # depends on linuxwindowpicker
 )
-set(SOURCES ${TEST_SOURCES})
 
-add_executable(${BINARY} ${TEST_SOURCES})
+add_executable(${BINARY} ${SOURCES})
 
 add_test(NAME ${BINARY} COMMAND ${BINARY})
 
-target_link_libraries(${BINARY} PUBLIC ${CMAKE_PROJECT_NAME}_lib gtest)
+target_link_libraries(${BINARY} PUBLIC ${CMAKE_PROJECT_NAME}_base gtest)

@@ -26,7 +26,6 @@
  */
 
 #include "urlencode.h"
-
 #include "common.h"
 #include "stringutils.h"
 
