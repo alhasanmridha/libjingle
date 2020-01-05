@@ -9,7 +9,7 @@ before_install:
 
 script:
   - cmake -H. -Bbuild
-  - cmake --build build && ./build/test/base/libjigle_base_test && ./build/test/xmllite/libjigle_xmllite_tst
+  - cmake --build build && ./build/test/base/libjigle_base_test && ./build/test/xmllite/libjigle_xmllite_test
 
 notifications:
   email: false
