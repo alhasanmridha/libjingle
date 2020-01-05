@@ -13,6 +13,7 @@ bandwidthsmoother_unittest.cc
 # buffer_unittest.cc
 # bytebuffer_unittest.cc
 # byteorder_unittest.cc
+cpumonitor_unittest.cc
 # event_unittest.cc
 # filelock_unittest.cc
 # fileutils_unittest.cc
@@ -24,7 +25,7 @@ httpserver_unittest.cc
 # linux_unittest.cc
 linuxfdwalk_unittest.cc
 # logging_unittest.cc # Compiles ok but test fails.
-main.cpp
+# main.cpp
 # messagedigest_unittest.cc
 # network_unittest.cc # Everything is fine. Travis has problem with NetworkTest.TestIPv6Toggle 
 optionsfile_unittest.cc
@@ -45,6 +46,7 @@ socketaddress_unittest.cc
 # task_unittest.cc # Test is ok but it takes so much time
 # testclient_unittest.cc # Test is ok but it takes so much time
 # timeutils_unittest.cc
+unittest_main.cc
 # versionparsing_unittest.cc
 # virtualsocket_unittest.cc # Test is ok but it takes so much time
 )

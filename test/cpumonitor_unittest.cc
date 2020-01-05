@@ -35,7 +35,7 @@
 
 #include "cpumonitor.h"
 #include "flags.h"
-#include "gtest/gtest.h"
+#include "gunit.h"
 #include "scoped_ptr.h"
 #include "thread.h"
 #include "timeutils.h"

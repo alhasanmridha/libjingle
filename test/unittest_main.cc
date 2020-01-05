@@ -10,7 +10,7 @@
 
 #include "flags.h"
 #include "fileutils.h"
-#include "gtest/gtest.h"
+#include "gunit.h"
 #include "logging.h"
 #include "pathutils.h"
 
@@ -50,7 +50,7 @@ int TestCrtReportHandler(int report_type, char* msg, int* retval) {
 talk_base::Pathname GetTalkDirectory() {
   // Locate talk directory.
   talk_base::Pathname path = talk_base::Filesystem::GetCurrentDirectory();
-  std::string talk_folder_name("talk");
+  std::string talk_folder_name("src");
   talk_folder_name += path.folder_delimiter();
   while (path.folder_name() != talk_folder_name && !path.empty()) {
     path.SetFolder(path.parent_folder());

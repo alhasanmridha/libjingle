@@ -12,9 +12,12 @@ bandwidthsmoother.cc
 base64.cc
 bytebuffer.cc
 diskcache.cc
+checks.cc
+cpumonitor.cc
 event.cc
 fileutils.cc
 filelock.cc
+flags.cc
 helpers.cc
 host.cc
 httpbase.cc
@@ -60,6 +63,7 @@ taskrunner.cc
 testclient.cc
 thread.cc
 timeutils.cc
+timing.cc
 unixfilesystem.cc
 urlencode.cc
 versionparsing.cc
