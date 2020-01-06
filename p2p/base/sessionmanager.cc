@@ -25,18 +25,18 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/sessionmanager.h"
+#include "sessionmanager.h"
 
-#include "talk/base/common.h"
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stringencode.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/session.h"
-#include "talk/p2p/base/sessionmessages.h"
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/jid.h"
+#include "common.h"
+#include "helpers.h"
+#include "logging.h"
+#include "scoped_ptr.h"
+#include "stringencode.h"
+#include "constants.h"
+#include "session.h"
+#include "sessionmessages.h"
+#include "constants.h"
+#include "jid.h"
 
 namespace cricket {
 

@@ -29,6 +29,6 @@
 #define TALK_P2P_BASE_UDPPORT_H_
 
 // StunPort will be handling UDPPort functionality.
-#include "talk/p2p/base/stunport.h"
+#include "stunport.h"
 
 #endif  // TALK_P2P_BASE_UDPPORT_H_

@@ -30,11 +30,11 @@
 
 #include <string>
 
-#include "talk/base/asyncudpsocket.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/basicpacketsocketfactory.h"
-#include "talk/p2p/base/stun.h"
-#include "talk/p2p/base/turnserver.h"
+#include "asyncudpsocket.h"
+#include "thread.h"
+#include "basicpacketsocketfactory.h"
+#include "stun.h"
+#include "turnserver.h"
 
 namespace cricket {
 

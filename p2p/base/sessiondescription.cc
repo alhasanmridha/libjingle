@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/sessiondescription.h"
+#include "sessiondescription.h"
 
-#include "talk/xmllite/xmlelement.h"
+#include "xmlelement.h"
 
 namespace cricket {
 

@@ -3,22 +3,22 @@
 
 #include <string>
 
-#include "talk/p2p/client/connectivitychecker.h"
+#include "connectivitychecker.h"
 
-#include "talk/base/asynchttprequest.h"
-#include "talk/base/autodetectproxy.h"
-#include "talk/base/helpers.h"
-#include "talk/base/httpcommon.h"
-#include "talk/base/httpcommon-inl.h"
-#include "talk/base/logging.h"
-#include "talk/base/proxydetect.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/candidate.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/common.h"
-#include "talk/p2p/base/port.h"
-#include "talk/p2p/base/relayport.h"
-#include "talk/p2p/base/stunport.h"
+#include "asynchttprequest.h"
+#include "autodetectproxy.h"
+#include "helpers.h"
+#include "httpcommon.h"
+#include "httpcommon-inl.h"
+#include "logging.h"
+#include "proxydetect.h"
+#include "thread.h"
+#include "base/candidate.h"
+#include "base/constants.h"
+#include "base/common.h"
+#include "base/port.h"
+#include "base/relayport.h"
+#include "base/stunport.h"
 
 namespace cricket {
 

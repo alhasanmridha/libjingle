@@ -7,15 +7,15 @@
 #include <map>
 #include <string>
 
-#include "talk/base/network.h"
-#include "talk/base/basictypes.h"
-#include "talk/base/messagehandler.h"
-#include "talk/base/proxyinfo.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/socketaddress.h"
-#include "talk/p2p/base/basicpacketsocketfactory.h"
-#include "talk/p2p/client/httpportallocator.h"
+#include "network.h"
+#include "basictypes.h"
+#include "messagehandler.h"
+#include "proxyinfo.h"
+#include "scoped_ptr.h"
+#include "sigslot.h"
+#include "socketaddress.h"
+#include "base/basicpacketsocketfactory.h"
+#include "httpportallocator.h"
 
 namespace talk_base {
 class AsyncHttpRequest;

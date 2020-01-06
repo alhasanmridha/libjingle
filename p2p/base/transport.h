@@ -49,13 +49,13 @@
 #include <string>
 #include <map>
 #include <vector>
-#include "talk/base/criticalsection.h"
-#include "talk/base/messagequeue.h"
-#include "talk/base/sigslot.h"
-#include "talk/p2p/base/candidate.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/sessiondescription.h"
-#include "talk/p2p/base/transportinfo.h"
+#include "criticalsection.h"
+#include "messagequeue.h"
+#include "sigslot.h"
+#include "candidate.h"
+#include "constants.h"
+#include "sessiondescription.h"
+#include "transportinfo.h"
 
 namespace talk_base {
 class Thread;

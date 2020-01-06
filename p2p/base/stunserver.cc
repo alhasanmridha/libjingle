@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/stunserver.h"
+#include "stunserver.h"
 
-#include "talk/base/bytebuffer.h"
-#include "talk/base/logging.h"
+#include "bytebuffer.h"
+#include "logging.h"
 
 namespace cricket {
 

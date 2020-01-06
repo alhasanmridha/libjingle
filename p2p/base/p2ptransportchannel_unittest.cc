@@ -25,22 +25,22 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/fakenetwork.h"
-#include "talk/base/firewallsocketserver.h"
-#include "talk/base/gunit.h"
-#include "talk/base/helpers.h"
-#include "talk/base/logging.h"
-#include "talk/base/natserver.h"
-#include "talk/base/natsocketfactory.h"
-#include "talk/base/physicalsocketserver.h"
-#include "talk/base/proxyserver.h"
-#include "talk/base/socketaddress.h"
-#include "talk/base/thread.h"
-#include "talk/base/virtualsocketserver.h"
-#include "talk/p2p/base/p2ptransportchannel.h"
-#include "talk/p2p/base/testrelayserver.h"
-#include "talk/p2p/base/teststunserver.h"
-#include "talk/p2p/client/basicportallocator.h"
+#include "fakenetwork.h"
+#include "firewallsocketserver.h"
+#include "gunit.h"
+#include "helpers.h"
+#include "logging.h"
+#include "natserver.h"
+#include "natsocketfactory.h"
+#include "physicalsocketserver.h"
+#include "proxyserver.h"
+#include "socketaddress.h"
+#include "thread.h"
+#include "virtualsocketserver.h"
+#include "p2ptransportchannel.h"
+#include "testrelayserver.h"
+#include "teststunserver.h"
+#include "client/basicportallocator.h"
 
 using cricket::kDefaultPortAllocatorFlags;
 using cricket::kMinimumStepDelay;

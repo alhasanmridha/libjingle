@@ -25,23 +25,23 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/client/basicportallocator.h"
+#include "basicportallocator.h"
 
 #include <string>
 #include <vector>
 
-#include "talk/base/common.h"
-#include "talk/base/helpers.h"
-#include "talk/base/host.h"
-#include "talk/base/logging.h"
-#include "talk/p2p/base/basicpacketsocketfactory.h"
-#include "talk/p2p/base/common.h"
-#include "talk/p2p/base/port.h"
-#include "talk/p2p/base/relayport.h"
-#include "talk/p2p/base/stunport.h"
-#include "talk/p2p/base/tcpport.h"
-#include "talk/p2p/base/turnport.h"
-#include "talk/p2p/base/udpport.h"
+#include "common.h"
+#include "helpers.h"
+#include "host.h"
+#include "logging.h"
+#include "base/basicpacketsocketfactory.h"
+#include "base/common.h"
+#include "base/port.h"
+#include "base/relayport.h"
+#include "base/stunport.h"
+#include "base/tcpport.h"
+#include "base/turnport.h"
+#include "base/udpport.h"
 
 using talk_base::CreateRandomId;
 using talk_base::CreateRandomString;

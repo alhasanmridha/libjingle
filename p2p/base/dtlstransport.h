@@ -28,8 +28,8 @@
 #ifndef TALK_P2P_BASE_DTLSTRANSPORT_H_
 #define TALK_P2P_BASE_DTLSTRANSPORT_H_
 
-#include "talk/p2p/base/dtlstransportchannel.h"
-#include "talk/p2p/base/transport.h"
+#include "dtlstransportchannel.h"
+#include "transport.h"
 
 namespace talk_base {
 class SSLIdentity;

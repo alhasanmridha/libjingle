@@ -32,10 +32,10 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/sslfingerprint.h"
-#include "talk/p2p/base/candidate.h"
-#include "talk/p2p/base/constants.h"
+#include "scoped_ptr.h"
+#include "sslfingerprint.h"
+#include "candidate.h"
+#include "constants.h"
 
 namespace cricket {
 

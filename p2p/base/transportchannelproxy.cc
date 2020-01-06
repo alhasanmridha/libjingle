@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/transportchannelproxy.h"
-#include "talk/base/common.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/transport.h"
-#include "talk/p2p/base/transportchannelimpl.h"
+#include "transportchannelproxy.h"
+#include "common.h"
+#include "thread.h"
+#include "transport.h"
+#include "transportchannelimpl.h"
 
 namespace cricket {
 

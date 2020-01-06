@@ -27,13 +27,13 @@
 
 #include <vector>
 
-#include "talk/base/fakenetwork.h"
-#include "talk/base/gunit.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/basicpacketsocketfactory.h"
-#include "talk/p2p/base/portallocatorsessionproxy.h"
-#include "talk/p2p/client/basicportallocator.h"
-#include "talk/p2p/client/fakeportallocator.h"
+#include "fakenetwork.h"
+#include "gunit.h"
+#include "thread.h"
+#include "basicpacketsocketfactory.h"
+#include "portallocatorsessionproxy.h"
+#include "client/basicportallocator.h"
+#include "client/fakeportallocator.h"
 
 using cricket::Candidate;
 using cricket::PortAllocatorSession;

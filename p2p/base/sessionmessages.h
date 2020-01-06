@@ -32,12 +32,12 @@
 #include <vector>
 #include <map>
 
-#include "talk/base/basictypes.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/parsing.h"
-#include "talk/p2p/base/sessiondescription.h"  // Needed to delete contents.
-#include "talk/p2p/base/transportinfo.h"
-#include "talk/xmllite/xmlelement.h"
+#include "basictypes.h"
+#include "constants.h"
+#include "parsing.h"
+#include "sessiondescription.h"  // Needed to delete contents.
+#include "transportinfo.h"
+#include "xmlelement.h"
 
 namespace cricket {
 

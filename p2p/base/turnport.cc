@@ -25,19 +25,19 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/turnport.h"
+#include "turnport.h"
 
 #include <functional>
 
-#include "talk/base/asyncpacketsocket.h"
-#include "talk/base/byteorder.h"
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/nethelpers.h"
-#include "talk/base/socketaddress.h"
-#include "talk/base/stringencode.h"
-#include "talk/p2p/base/common.h"
-#include "talk/p2p/base/stun.h"
+#include "asyncpacketsocket.h"
+#include "byteorder.h"
+#include "common.h"
+#include "logging.h"
+#include "nethelpers.h"
+#include "socketaddress.h"
+#include "stringencode.h"
+#include "common.h"
+#include "stun.h"
 
 namespace cricket {
 

@@ -25,14 +25,14 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/stunport.h"
+#include "stunport.h"
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/helpers.h"
-#include "talk/base/nethelpers.h"
-#include "talk/p2p/base/common.h"
-#include "talk/p2p/base/stun.h"
+#include "common.h"
+#include "logging.h"
+#include "helpers.h"
+#include "nethelpers.h"
+#include "common.h"
+#include "stun.h"
 
 namespace cricket {
 

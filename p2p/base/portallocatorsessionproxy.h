@@ -30,8 +30,8 @@
 
 #include <string>
 
-#include "talk/p2p/base/candidate.h"
-#include "talk/p2p/base/portallocator.h"
+#include "candidate.h"
+#include "portallocator.h"
 
 namespace cricket {
 class PortAllocator;

@@ -30,9 +30,9 @@
 
 #include <string>
 #include <vector>
-#include "talk/base/basictypes.h"
-#include "talk/base/stringencode.h"
-#include "talk/xmllite/xmlelement.h"  // Needed to delete ParseError.extra.
+#include "basictypes.h"
+#include "stringencode.h"
+#include "xmlelement.h"  // Needed to delete ParseError.extra.
 
 namespace cricket {
 

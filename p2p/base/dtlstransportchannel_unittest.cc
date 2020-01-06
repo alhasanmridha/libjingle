@@ -28,17 +28,17 @@
 
 #include <set>
 
-#include "talk/base/common.h"
-#include "talk/base/gunit.h"
-#include "talk/base/helpers.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stringutils.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/fakesession.h"
-#include "talk/base/ssladapter.h"
-#include "talk/base/sslidentity.h"
-#include "talk/base/sslstreamadapter.h"
-#include "talk/p2p/base/dtlstransport.h"
+#include "common.h"
+#include "gunit.h"
+#include "helpers.h"
+#include "scoped_ptr.h"
+#include "stringutils.h"
+#include "thread.h"
+#include "fakesession.h"
+#include "ssladapter.h"
+#include "sslidentity.h"
+#include "sslstreamadapter.h"
+#include "dtlstransport.h"
 
 #define MAYBE_SKIP_TEST(feature)                    \
   if (!(talk_base::SSLStreamAdapter::feature())) {  \

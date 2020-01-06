@@ -33,8 +33,8 @@
 #include <utility>
 #include <vector>
 
-#include "talk/p2p/base/port.h"
-#include "talk/p2p/base/stunrequest.h"
+#include "port.h"
+#include "stunrequest.h"
 
 namespace cricket {
 

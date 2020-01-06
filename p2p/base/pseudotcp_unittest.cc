@@ -27,13 +27,13 @@
 
 #include <vector>
 
-#include "talk/base/gunit.h"
-#include "talk/base/helpers.h"
-#include "talk/base/messagehandler.h"
-#include "talk/base/stream.h"
-#include "talk/base/thread.h"
-#include "talk/base/timeutils.h"
-#include "talk/p2p/base/pseudotcp.h"
+#include "gunit.h"
+#include "helpers.h"
+#include "messagehandler.h"
+#include "stream.h"
+#include "thread.h"
+#include "timeutils.h"
+#include "pseudotcp.h"
 
 using cricket::PseudoTcp;
 

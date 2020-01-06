@@ -31,10 +31,10 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/sigslot.h"
-#include "talk/p2p/client/httpportallocator.h"
-#include "talk/xmpp/jingleinfotask.h"
-#include "talk/xmpp/xmppclient.h"
+#include "sigslot.h"
+#include "httpportallocator.h"
+#include "jingleinfotask.h"
+#include "xmppclient.h"
 
 // This class sets the relay and stun servers using XmppClient.
 // It enables the client to traverse Proxy and NAT.

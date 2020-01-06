@@ -33,18 +33,18 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/refcount.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/scoped_ref_ptr.h"
-#include "talk/base/socketaddress.h"
-#include "talk/p2p/base/parsing.h"
-#include "talk/p2p/base/port.h"
-#include "talk/p2p/base/sessionclient.h"
-#include "talk/p2p/base/sessionmanager.h"
-#include "talk/p2p/base/sessionmessages.h"
-#include "talk/p2p/base/transport.h"
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmpp/constants.h"
+#include "refcount.h"
+#include "scoped_ptr.h"
+#include "scoped_ref_ptr.h"
+#include "socketaddress.h"
+#include "parsing.h"
+#include "port.h"
+#include "sessionclient.h"
+#include "sessionmanager.h"
+#include "sessionmessages.h"
+#include "transport.h"
+#include "xmlelement.h"
+#include "constants.h"
 
 namespace cricket {
 

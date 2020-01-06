@@ -25,21 +25,21 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/rawtransportchannel.h"
+#include "rawtransportchannel.h"
 
 #include <string>
 #include <vector>
-#include "talk/base/common.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/portallocator.h"
-#include "talk/p2p/base/portinterface.h"
-#include "talk/p2p/base/rawtransport.h"
-#include "talk/p2p/base/relayport.h"
-#include "talk/p2p/base/sessionmanager.h"
-#include "talk/p2p/base/stunport.h"
-#include "talk/xmllite/qname.h"
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmpp/constants.h"
+#include "common.h"
+#include "constants.h"
+#include "portallocator.h"
+#include "portinterface.h"
+#include "rawtransport.h"
+#include "relayport.h"
+#include "sessionmanager.h"
+#include "stunport.h"
+#include "qname.h"
+#include "xmlelement.h"
+#include "constants.h"
 
 #if defined(FEATURE_ENABLE_PSTN)
 

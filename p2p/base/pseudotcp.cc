@@ -25,20 +25,20 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/pseudotcp.h"
+#include "pseudotcp.h"
 
 #include <cstdio>
 #include <cstdlib>
 #include <set>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/bytebuffer.h"
-#include "talk/base/byteorder.h"
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/base/socket.h"
-#include "talk/base/stringutils.h"
-#include "talk/base/timeutils.h"
+#include "basictypes.h"
+#include "bytebuffer.h"
+#include "byteorder.h"
+#include "common.h"
+#include "logging.h"
+#include "socket.h"
+#include "stringutils.h"
+#include "timeutils.h"
 
 // The following logging is for detailed (packet-level) analysis only.
 #define _DBG_NONE     0

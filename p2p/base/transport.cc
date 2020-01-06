@@ -25,17 +25,17 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/transport.h"
+#include "transport.h"
 
-#include "talk/base/common.h"
-#include "talk/base/logging.h"
-#include "talk/p2p/base/candidate.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/sessionmanager.h"
-#include "talk/p2p/base/parsing.h"
-#include "talk/p2p/base/transportchannelimpl.h"
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmpp/constants.h"
+#include "common.h"
+#include "logging.h"
+#include "candidate.h"
+#include "constants.h"
+#include "sessionmanager.h"
+#include "parsing.h"
+#include "transportchannelimpl.h"
+#include "xmlelement.h"
+#include "constants.h"
 
 namespace cricket {
 

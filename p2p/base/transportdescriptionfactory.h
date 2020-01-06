@@ -28,7 +28,7 @@
 #ifndef TALK_P2P_BASE_TRANSPORTDESCRIPTIONFACTORY_H_
 #define TALK_P2P_BASE_TRANSPORTDESCRIPTIONFACTORY_H_
 
-#include "talk/p2p/base/transportdescription.h"
+#include "transportdescription.h"
 
 namespace talk_base {
 class SSLIdentity;

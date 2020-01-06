@@ -25,22 +25,22 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/p2p/base/sessionmessages.h"
+#include "sessionmessages.h"
 
 #include <stdio.h>
 #include <string>
 
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stringutils.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/p2ptransport.h"
-#include "talk/p2p/base/parsing.h"
-#include "talk/p2p/base/sessionclient.h"
-#include "talk/p2p/base/sessiondescription.h"
-#include "talk/p2p/base/transport.h"
-#include "talk/xmllite/xmlconstants.h"
-#include "talk/xmpp/constants.h"
+#include "logging.h"
+#include "scoped_ptr.h"
+#include "stringutils.h"
+#include "constants.h"
+#include "p2ptransport.h"
+#include "parsing.h"
+#include "sessionclient.h"
+#include "sessiondescription.h"
+#include "transport.h"
+#include "xmlconstants.h"
+#include "constants.h"
 
 namespace cricket {
 

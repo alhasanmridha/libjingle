@@ -29,7 +29,7 @@
 #define TALK_P2P_BASE_RAWTRANSPORT_H_
 
 #include <string>
-#include "talk/p2p/base/transport.h"
+#include "transport.h"
 
 #if defined(FEATURE_ENABLE_PSTN)
 namespace cricket {

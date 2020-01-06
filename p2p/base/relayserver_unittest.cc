@@ -27,15 +27,15 @@
 
 #include <string>
 
-#include "talk/base/gunit.h"
-#include "talk/base/helpers.h"
-#include "talk/base/host.h"
-#include "talk/base/logging.h"
-#include "talk/base/physicalsocketserver.h"
-#include "talk/base/socketaddress.h"
-#include "talk/base/testclient.h"
-#include "talk/base/thread.h"
-#include "talk/p2p/base/relayserver.h"
+#include "gunit.h"
+#include "helpers.h"
+#include "host.h"
+#include "logging.h"
+#include "physicalsocketserver.h"
+#include "socketaddress.h"
+#include "testclient.h"
+#include "thread.h"
+#include "relayserver.h"
 
 using talk_base::SocketAddress;
 using namespace cricket;

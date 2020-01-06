@@ -31,14 +31,14 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/basictypes.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/socket.h"
-#include "talk/base/sslidentity.h"
-#include "talk/base/sslstreamadapter.h"
-#include "talk/p2p/base/candidate.h"
-#include "talk/p2p/base/transport.h"
-#include "talk/p2p/base/transportdescription.h"
+#include "basictypes.h"
+#include "sigslot.h"
+#include "socket.h"
+#include "sslidentity.h"
+#include "sslstreamadapter.h"
+#include "candidate.h"
+#include "transport.h"
+#include "transportdescription.h"
 
 namespace cricket {
 

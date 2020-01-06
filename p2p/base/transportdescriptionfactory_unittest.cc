@@ -28,11 +28,11 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/fakesslidentity.h"
-#include "talk/base/gunit.h"
-#include "talk/p2p/base/constants.h"
-#include "talk/p2p/base/transportdescription.h"
-#include "talk/p2p/base/transportdescriptionfactory.h"
+#include "fakesslidentity.h"
+#include "gunit.h"
+#include "constants.h"
+#include "transportdescription.h"
+#include "transportdescriptionfactory.h"
 
 using talk_base::scoped_ptr;
 using cricket::TransportDescriptionFactory;

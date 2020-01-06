@@ -29,8 +29,8 @@
 #define TALK_P2P_BASE_TRANSPORTCHANNELIMPL_H_
 
 #include <string>
-#include "talk/p2p/base/transport.h"
-#include "talk/p2p/base/transportchannel.h"
+#include "transport.h"
+#include "transportchannel.h"
 
 namespace buzz { class XmlElement; }
 

@@ -28,9 +28,9 @@
 #ifndef TALK_BASE_ASYNCSTUNTCPSOCKET_H_
 #define TALK_BASE_ASYNCSTUNTCPSOCKET_H_
 
-#include "talk/base/asynctcpsocket.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/socketfactory.h"
+#include "asynctcpsocket.h"
+#include "scoped_ptr.h"
+#include "socketfactory.h"
 
 namespace cricket {
 

@@ -25,18 +25,18 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/logging.h"
-#include "talk/base/gunit.h"
-#include "talk/base/helpers.h"
-#include "talk/base/physicalsocketserver.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/socketadapters.h"
-#include "talk/base/socketaddress.h"
-#include "talk/base/thread.h"
-#include "talk/base/virtualsocketserver.h"
-#include "talk/p2p/base/basicpacketsocketfactory.h"
-#include "talk/p2p/base/relayport.h"
-#include "talk/p2p/base/relayserver.h"
+#include "logging.h"
+#include "gunit.h"
+#include "helpers.h"
+#include "physicalsocketserver.h"
+#include "scoped_ptr.h"
+#include "socketadapters.h"
+#include "socketaddress.h"
+#include "thread.h"
+#include "virtualsocketserver.h"
+#include "basicpacketsocketfactory.h"
+#include "relayport.h"
+#include "relayserver.h"
 
 using talk_base::SocketAddress;
 
