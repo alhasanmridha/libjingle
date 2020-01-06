@@ -4,15 +4,15 @@
 #include <string>
 #include <sstream>
 #include <iostream>
-#include "talk/base/common.h"
-#include "talk/base/cryptstring.h"
-#include "talk/base/gunit.h"
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmpp/util_unittest.h"
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/saslplainmechanism.h"
-#include "talk/xmpp/plainsaslhandler.h"
-#include "talk/xmpp/xmppengine.h"
+#include "common.h"
+#include "cryptstring.h"
+#include "gunit.h"
+#include "xmlelement.h"
+#include "util_unittest.h"
+#include "constants.h"
+#include "saslplainmechanism.h"
+#include "plainsaslhandler.h"
+#include "xmppengine.h"
 
 using buzz::Jid;
 using buzz::QName;

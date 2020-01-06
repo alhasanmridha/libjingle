@@ -4,10 +4,10 @@
 #include <string>
 #include <sstream>
 #include <iostream>
-#include "talk/base/common.h"
-#include "talk/base/gunit.h"
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmpp/xmppstanzaparser.h"
+#include "common.h"
+#include "gunit.h"
+#include "xmlelement.h"
+#include "xmppstanzaparser.h"
 
 using buzz::QName;
 using buzz::XmlElement;

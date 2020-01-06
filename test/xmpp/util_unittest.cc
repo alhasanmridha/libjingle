@@ -4,10 +4,10 @@
 #include <string>
 #include <sstream>
 #include <iostream>
-#include "talk/base/gunit.h"
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmpp/xmppengine.h"
-#include "talk/xmpp/util_unittest.h"
+#include "gunit.h"
+#include "xmlelement.h"
+#include "xmppengine.h"
+#include "util_unittest.h"
 
 namespace buzz {
 

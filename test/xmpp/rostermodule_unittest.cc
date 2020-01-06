@@ -29,13 +29,13 @@
 #include <sstream>
 #include <iostream>
 
-#include "talk/base/gunit.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmpp/xmppengine.h"
-#include "talk/xmpp/rostermodule.h"
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/util_unittest.h"
+#include "gunit.h"
+#include "scoped_ptr.h"
+#include "xmlelement.h"
+#include "xmppengine.h"
+#include "rostermodule.h"
+#include "constants.h"
+#include "util_unittest.h"
 
 #define TEST_OK(x) EXPECT_EQ((x),XMPP_RETURN_OK)
 #define TEST_BADARGUMENT(x) EXPECT_EQ((x),XMPP_RETURN_BADARGUMENT)

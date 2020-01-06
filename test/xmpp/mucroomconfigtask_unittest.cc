@@ -28,13 +28,13 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/faketaskrunner.h"
-#include "talk/base/gunit.h"
-#include "talk/base/sigslot.h"
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/fakexmppclient.h"
-#include "talk/xmpp/mucroomconfigtask.h"
+#include "faketaskrunner.h"
+#include "gunit.h"
+#include "sigslot.h"
+#include "xmlelement.h"
+#include "constants.h"
+#include "fakexmppclient.h"
+#include "mucroomconfigtask.h"
 
 class MucRoomConfigListener : public sigslot::has_slots<> {
  public:
