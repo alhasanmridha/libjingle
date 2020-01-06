@@ -28,11 +28,11 @@
 #ifndef TALK_XMPP_XMPPTHREAD_H_
 #define TALK_XMPP_XMPPTHREAD_H_
 
-#include "talk/base/thread.h"
-#include "talk/xmpp/xmppclientsettings.h"
-#include "talk/xmpp/xmppengine.h"
-#include "talk/xmpp/xmpppump.h"
-#include "talk/xmpp/xmppsocket.h"
+#include "thread.h"
+#include "xmppclientsettings.h"
+#include "xmppengine.h"
+#include "xmpppump.h"
+#include "xmppsocket.h"
 
 namespace buzz {
 

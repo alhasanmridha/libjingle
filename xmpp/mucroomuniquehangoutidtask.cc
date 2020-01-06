@@ -1,9 +1,9 @@
 // Copyright 2012 Google Inc. All Rights Reserved.
 
 
-#include "talk/xmpp/mucroomuniquehangoutidtask.h"
+#include "mucroomuniquehangoutidtask.h"
 
-#include "talk/xmpp/constants.h"
+#include "constants.h"
 
 namespace buzz {
 

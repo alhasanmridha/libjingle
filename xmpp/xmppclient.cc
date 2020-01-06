@@ -27,14 +27,14 @@
 
 #include "xmppclient.h"
 #include "xmpptask.h"
-#include "talk/base/logging.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/base/stringutils.h"
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/saslplainmechanism.h"
-#include "talk/xmpp/prexmppauth.h"
-#include "talk/xmpp/plainsaslhandler.h"
+#include "logging.h"
+#include "sigslot.h"
+#include "scoped_ptr.h"
+#include "stringutils.h"
+#include "constants.h"
+#include "saslplainmechanism.h"
+#include "prexmppauth.h"
+#include "plainsaslhandler.h"
 
 namespace buzz {
 

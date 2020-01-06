@@ -54,7 +54,7 @@
 #include <string>
 #include <vector>
 
-#include "talk/xmpp/iqtask.h"
+#include "iqtask.h"
 
 namespace buzz {
 

@@ -29,7 +29,7 @@
 #define TALK_XMPP_MUCROOMCONFIGTASK_H_
 
 #include <string>
-#include "talk/xmpp/iqtask.h"
+#include "iqtask.h"
 
 namespace buzz {
 

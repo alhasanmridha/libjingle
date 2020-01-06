@@ -29,13 +29,13 @@
 #define TALK_XMPP_XMPPCLIENT_H_
 
 #include <string>
-#include "talk/base/basicdefs.h"
-#include "talk/base/sigslot.h"
-#include "talk/base/task.h"
-#include "talk/xmpp/asyncsocket.h"
-#include "talk/xmpp/xmppclientsettings.h"
-#include "talk/xmpp/xmppengine.h"
-#include "talk/xmpp/xmpptask.h"
+#include "basicdefs.h"
+#include "sigslot.h"
+#include "task.h"
+#include "asyncsocket.h"
+#include "xmppclientsettings.h"
+#include "xmppengine.h"
+#include "xmpptask.h"
 
 namespace buzz {
 

@@ -28,7 +28,7 @@
 #ifndef _PLAINSASLHANDLER_H_
 #define _PLAINSASLHANDLER_H_
 
-#include "talk/xmpp/saslhandler.h"
+#include "saslhandler.h"
 #include <algorithm>
 
 namespace buzz {

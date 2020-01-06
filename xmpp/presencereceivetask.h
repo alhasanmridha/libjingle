@@ -28,10 +28,10 @@
 #ifndef THIRD_PARTY_LIBJINGLE_FILES_TALK_XMPP_PRESENCERECEIVETASK_H_
 #define THIRD_PARTY_LIBJINGLE_FILES_TALK_XMPP_PRESENCERECEIVETASK_H_
 
-#include "talk/base/sigslot.h"
+#include "sigslot.h"
 
-#include "talk/xmpp/presencestatus.h"
-#include "talk/xmpp/xmpptask.h"
+#include "presencestatus.h"
+#include "xmpptask.h"
 
 namespace buzz {
 

@@ -28,13 +28,13 @@
 #ifndef TALK_XMPP_XMPPPUMP_H_
 #define TALK_XMPP_XMPPPUMP_H_
 
-#include "talk/base/messagequeue.h"
-#include "talk/base/taskrunner.h"
-#include "talk/base/thread.h"
-#include "talk/base/timeutils.h"
-#include "talk/xmpp/xmppclient.h"
-#include "talk/xmpp/xmppengine.h"
-#include "talk/xmpp/xmpptask.h"
+#include "messagequeue.h"
+#include "taskrunner.h"
+#include "thread.h"
+#include "timeutils.h"
+#include "xmppclient.h"
+#include "xmppengine.h"
+#include "xmpptask.h"
 
 namespace buzz {
 

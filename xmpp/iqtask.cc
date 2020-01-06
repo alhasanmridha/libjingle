@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/iqtask.h"
+#include "iqtask.h"
 
-#include "talk/xmpp/xmppclient.h"
-#include "talk/xmpp/constants.h"
+#include "xmppclient.h"
+#include "constants.h"
 
 namespace buzz {
 

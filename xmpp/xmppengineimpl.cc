@@ -25,18 +25,18 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/xmppengineimpl.h"
+#include "xmppengineimpl.h"
 
 #include <algorithm>
 #include <sstream>
 #include <vector>
 
-#include "talk/base/common.h"
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmllite/xmlprinter.h"
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/saslhandler.h"
-#include "talk/xmpp/xmpplogintask.h"
+#include "common.h"
+#include "xmlelement.h"
+#include "xmlprinter.h"
+#include "constants.h"
+#include "saslhandler.h"
+#include "xmpplogintask.h"
 
 namespace buzz {
 

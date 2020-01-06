@@ -25,14 +25,14 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/pubsub_task.h"
+#include "pubsub_task.h"
 
 #include <map>
 #include <string>
 
-#include "talk/base/common.h"
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/xmppengine.h"
+#include "common.h"
+#include "constants.h"
+#include "xmppengine.h"
 
 namespace buzz {
 

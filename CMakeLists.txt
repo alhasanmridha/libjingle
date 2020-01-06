@@ -4,7 +4,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "-pthread -lssl -lcrypto -lX11")
 add_definitions(-DPOSIX=5 -DHAVE_OPENSSL_SSL_H=1 -DLINUX=1)
 
-include_directories(base expat/expat xmllite)
+include_directories(base expat/expat xmllite xmpp)
 
 add_subdirectory(expat/expat)
 add_subdirectory(googletest)
@@ -12,3 +12,4 @@ add_subdirectory(base)
 add_subdirectory(test/base)
 add_subdirectory(test/xmllite)
 add_subdirectory(xmllite)
+add_subdirectory(xmpp)

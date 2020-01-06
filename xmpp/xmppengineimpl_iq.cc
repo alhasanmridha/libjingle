@@ -27,9 +27,9 @@
 
 #include <vector>
 #include <algorithm>
-#include "talk/base/common.h"
-#include "talk/xmpp/xmppengineimpl.h"
-#include "talk/xmpp/constants.h"
+#include "common.h"
+#include "xmppengineimpl.h"
+#include "constants.h"
 
 namespace buzz {
 

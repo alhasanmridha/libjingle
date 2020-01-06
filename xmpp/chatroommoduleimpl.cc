@@ -31,10 +31,10 @@
 #include <algorithm>
 #include <sstream>
 #include <iostream>
-#include "talk/base/common.h"
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/moduleimpl.h"
-#include "talk/xmpp/chatroommodule.h"
+#include "common.h"
+#include "constants.h"
+#include "moduleimpl.h"
+#include "chatroommodule.h"
 
 namespace buzz {
 

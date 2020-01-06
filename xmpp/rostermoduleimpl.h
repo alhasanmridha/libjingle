@@ -28,8 +28,8 @@
 #ifndef _rostermoduleimpl_h_
 #define _rostermoduleimpl_h_
 
-#include "talk/xmpp/moduleimpl.h"
-#include "talk/xmpp/rostermodule.h"
+#include "moduleimpl.h"
+#include "rostermodule.h"
 
 namespace buzz {
 

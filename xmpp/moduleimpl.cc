@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/base/common.h"
-#include "talk/xmpp/moduleimpl.h"
+#include "common.h"
+#include "moduleimpl.h"
 
 namespace buzz {
 

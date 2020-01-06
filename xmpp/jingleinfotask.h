@@ -31,9 +31,9 @@
 #include <vector>
 
 #include "talk/p2p/client/httpportallocator.h"
-#include "talk/xmpp/xmppengine.h"
-#include "talk/xmpp/xmpptask.h"
-#include "talk/base/sigslot.h"
+#include "xmppengine.h"
+#include "xmpptask.h"
+#include "sigslot.h"
 
 namespace buzz {
 

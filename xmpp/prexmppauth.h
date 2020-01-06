@@ -28,9 +28,9 @@
 #ifndef TALK_XMPP_PREXMPPAUTH_H_
 #define TALK_XMPP_PREXMPPAUTH_H_
 
-#include "talk/base/cryptstring.h"
-#include "talk/base/sigslot.h"
-#include "talk/xmpp/saslhandler.h"
+#include "cryptstring.h"
+#include "sigslot.h"
+#include "saslhandler.h"
 
 namespace talk_base {
   class SocketAddress;

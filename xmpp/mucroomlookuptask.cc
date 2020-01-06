@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/mucroomlookuptask.h"
+#include "mucroomlookuptask.h"
 
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/xmpp/constants.h"
+#include "logging.h"
+#include "scoped_ptr.h"
+#include "constants.h"
 
 
 namespace buzz {

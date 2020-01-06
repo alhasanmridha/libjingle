@@ -30,10 +30,10 @@
 
 #include <string>
 #include <deque>
-#include "talk/base/sigslot.h"
-#include "talk/base/task.h"
-#include "talk/base/taskparent.h"
-#include "talk/xmpp/xmppengine.h"
+#include "sigslot.h"
+#include "task.h"
+#include "taskparent.h"
+#include "xmppengine.h"
 
 namespace buzz {
 

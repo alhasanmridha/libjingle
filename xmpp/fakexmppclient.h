@@ -33,7 +33,7 @@
 #include <string>
 #include <vector>
 
-#include "talk/xmpp/xmpptask.h"
+#include "xmpptask.h"
 
 namespace buzz {
 

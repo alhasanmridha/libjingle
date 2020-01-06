@@ -1,11 +1,11 @@
 // Copyright 2011 Google Inc. All Rights Reserved.
 
 
-#include "talk/xmpp/pingtask.h"
+#include "pingtask.h"
 
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/xmpp/constants.h"
+#include "logging.h"
+#include "scoped_ptr.h"
+#include "constants.h"
 
 namespace buzz {
 

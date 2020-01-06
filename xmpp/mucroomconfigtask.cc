@@ -28,10 +28,10 @@
 #include <string>
 #include <vector>
 
-#include "talk/xmpp/mucroomconfigtask.h"
+#include "mucroomconfigtask.h"
 
-#include "talk/base/scoped_ptr.h"
-#include "talk/xmpp/constants.h"
+#include "scoped_ptr.h"
+#include "constants.h"
 
 namespace buzz {
 

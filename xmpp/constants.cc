@@ -25,15 +25,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/constants.h"
+#include "constants.h"
 
 #include <string>
 
-#include "talk/base/basicdefs.h"
-#include "talk/xmllite/xmlconstants.h"
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmllite/qname.h"
-#include "talk/xmpp/jid.h"
+#include "basicdefs.h"
+#include "xmlconstants.h"
+#include "xmlelement.h"
+#include "qname.h"
+#include "jid.h"
 
 namespace buzz {
 

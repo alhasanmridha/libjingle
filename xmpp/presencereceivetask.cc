@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/presencereceivetask.h"
+#include "presencereceivetask.h"
 
-#include "talk/base/stringencode.h"
-#include "talk/xmpp/constants.h"
+#include "stringencode.h"
+#include "constants.h"
 
 namespace buzz {
 

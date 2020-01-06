@@ -29,8 +29,8 @@
 #define TALK_XMPP_CONSTANTS_H_
 
 #include <string>
-#include "talk/xmllite/qname.h"
-#include "talk/xmpp/jid.h"
+#include "qname.h"
+#include "jid.h"
 
 namespace buzz {
 

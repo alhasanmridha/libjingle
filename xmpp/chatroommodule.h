@@ -28,8 +28,8 @@
 #ifndef _multiuserchatmodule_h_
 #define _multiuserchatmodule_h_
 
-#include "talk/xmpp/module.h"
-#include "talk/xmpp/rostermodule.h"
+#include "module.h"
+#include "rostermodule.h"
 
 namespace buzz {
 

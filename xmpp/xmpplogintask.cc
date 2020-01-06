@@ -25,18 +25,18 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/xmpplogintask.h"
+#include "xmpplogintask.h"
 
 #include <string>
 #include <vector>
 
-#include "talk/base/base64.h"
-#include "talk/base/common.h"
-#include "talk/xmllite/xmlelement.h"
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/jid.h"
-#include "talk/xmpp/saslmechanism.h"
-#include "talk/xmpp/xmppengineimpl.h"
+#include "base64.h"
+#include "common.h"
+#include "xmlelement.h"
+#include "constants.h"
+#include "jid.h"
+#include "saslmechanism.h"
+#include "xmppengineimpl.h"
 
 using talk_base::ConstantLabel;
 

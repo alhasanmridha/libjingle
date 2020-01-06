@@ -25,13 +25,13 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/xmppauth.h"
+#include "xmppauth.h"
 
 #include <algorithm>
 
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/saslcookiemechanism.h"
-#include "talk/xmpp/saslplainmechanism.h"
+#include "constants.h"
+#include "saslcookiemechanism.h"
+#include "saslplainmechanism.h"
 
 XmppAuth::XmppAuth() : done_(false) {
 }

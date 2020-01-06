@@ -25,13 +25,13 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/hangoutpubsubclient.h"
+#include "hangoutpubsubclient.h"
 
-#include "talk/base/logging.h"
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/jid.h"
-#include "talk/xmllite/qname.h"
-#include "talk/xmllite/xmlelement.h"
+#include "logging.h"
+#include "constants.h"
+#include "jid.h"
+#include "qname.h"
+#include "xmlelement.h"
 
 
 // Gives a high-level API for MUC call PubSub needs such as

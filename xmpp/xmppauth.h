@@ -30,11 +30,11 @@
 
 #include <vector>
 
-#include "talk/base/cryptstring.h"
-#include "talk/base/sigslot.h"
-#include "talk/xmpp/jid.h"
-#include "talk/xmpp/saslhandler.h"
-#include "talk/xmpp/prexmppauth.h"
+#include "cryptstring.h"
+#include "sigslot.h"
+#include "jid.h"
+#include "saslhandler.h"
+#include "prexmppauth.h"
 
 class XmppAuth: public buzz::PreXmppAuth {
 public:

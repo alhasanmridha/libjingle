@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/xmpppump.h"
+#include "xmpppump.h"
 
-#include "talk/xmpp/xmppauth.h"
+#include "xmppauth.h"
 
 namespace buzz {
 

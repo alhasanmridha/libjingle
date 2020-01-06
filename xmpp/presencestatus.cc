@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/presencestatus.h"
+#include "presencestatus.h"
 
 namespace buzz {
 PresenceStatus::PresenceStatus()

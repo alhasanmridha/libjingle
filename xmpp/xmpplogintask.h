@@ -31,10 +31,10 @@
 #include <string>
 #include <vector>
 
-#include "talk/base/logging.h"
-#include "talk/base/scoped_ptr.h"
-#include "talk/xmpp/jid.h"
-#include "talk/xmpp/xmppengine.h"
+#include "logging.h"
+#include "scoped_ptr.h"
+#include "jid.h"
+#include "xmppengine.h"
 
 namespace buzz {
 

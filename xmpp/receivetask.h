@@ -28,7 +28,7 @@
 #ifndef TALK_XMPP_RECEIVETASK_H_
 #define TALK_XMPP_RECEIVETASK_H_
 
-#include "talk/xmpp/xmpptask.h"
+#include "xmpptask.h"
 
 namespace buzz {
 

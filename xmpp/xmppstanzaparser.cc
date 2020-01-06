@@ -25,11 +25,11 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/xmppstanzaparser.h"
+#include "xmppstanzaparser.h"
 
-#include "talk/xmllite/xmlelement.h"
-#include "talk/base/common.h"
-#include "talk/xmpp/constants.h"
+#include "xmlelement.h"
+#include "common.h"
+#include "constants.h"
 #ifdef EXPAT_RELATIVE_PATH
 #include "expat.h"
 #else

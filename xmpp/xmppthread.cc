@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/xmppthread.h"
+#include "xmppthread.h"
 
-#include "talk/xmpp/xmppauth.h"
-#include "talk/xmpp/xmppclientsettings.h"
+#include "xmppauth.h"
+#include "xmppclientsettings.h"
 
 namespace buzz {
 namespace {

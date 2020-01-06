@@ -30,7 +30,7 @@
 
 #include <map>
 #include <string>
-#include "talk/xmpp/iqtask.h"
+#include "iqtask.h"
 
 namespace buzz {
 

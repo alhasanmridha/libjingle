@@ -25,9 +25,9 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/xmpp/mucroomdiscoverytask.h"
+#include "mucroomdiscoverytask.h"
 
-#include "talk/xmpp/constants.h"
+#include "constants.h"
 
 namespace buzz {
 

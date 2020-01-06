@@ -28,8 +28,8 @@
 #ifndef _xmppstanzaparser_h_
 #define _xmppstanzaparser_h_
 
-#include "talk/xmllite/xmlparser.h"
-#include "talk/xmllite/xmlbuilder.h"
+#include "xmlparser.h"
+#include "xmlbuilder.h"
 
 
 namespace buzz {

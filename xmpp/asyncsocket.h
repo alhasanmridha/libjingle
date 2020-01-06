@@ -28,7 +28,7 @@
 #ifndef _ASYNCSOCKET_H_
 #define _ASYNCSOCKET_H_
 
-#include "talk/base/sigslot.h"
+#include "sigslot.h"
 
 namespace talk_base {
   class SocketAddress;

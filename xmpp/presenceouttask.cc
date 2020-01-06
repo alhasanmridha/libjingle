@@ -27,10 +27,10 @@
 
 #include <time.h>
 #include <sstream>
-#include "talk/base/stringencode.h"
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/presenceouttask.h"
-#include "talk/xmpp/xmppclient.h"
+#include "stringencode.h"
+#include "constants.h"
+#include "presenceouttask.h"
+#include "xmppclient.h"
 
 namespace buzz {
 
