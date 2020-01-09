@@ -28,10 +28,10 @@
 #ifndef TALK_XMPP_XMPPSOCKET_H_
 #define TALK_XMPP_XMPPSOCKET_H_
 
-#include "asyncsocket.h"
+#include "base/asyncsocket.h"
 #include "bytebuffer.h"
 #include "sigslot.h"
-#include "asyncsocket.h"
+#include "xmpp/asyncsocket.h"
 #include "xmppengine.h"
 
 // The below define selects the SSLStreamAdapter implementation for

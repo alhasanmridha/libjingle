@@ -163,7 +163,7 @@ void XmppSocket::OnEvent(talk_base::StreamInterface* stream,
         return;
       ASSERT(result == talk_base::SR_SUCCESS);
       ASSERT(written > 0);
-      buffer_.Shift(written);
+      // buffer_.Shift(written);
     }
   }
   if ((events & talk_base::SE_CLOSE))

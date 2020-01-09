@@ -28,7 +28,7 @@
 #ifndef TALK_XMPP_XMPPCLIENTSETTINGS_H_
 #define TALK_XMPP_XMPPCLIENTSETTINGS_H_
 
-#include "talk/p2p/base/port.h"
+#include "base/port.h"
 #include "cryptstring.h"
 #include "xmppengine.h"
 

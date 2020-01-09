@@ -25,37 +25,45 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef TALK_EXAMPLES_LOGIN_JINGLEINFOTASK_H_
-#define TALK_EXAMPLES_LOGIN_JINGLEINFOTASK_H_
+#ifndef TALK_EXAMPLES_LOGIN_AUTOPORTALLOCATOR_H_
+#define TALK_EXAMPLES_LOGIN_AUTOPORTALLOCATOR_H_
 
+#include <string>
 #include <vector>
 
-#include "client/httpportallocator.h"
-#include "xmppengine.h"
-#include "xmpptask.h"
-#include "sigslot.h"
+#include "base/sigslot.h"
+#include "p2p/client/httpportallocator.h"
+#include "xmpp/jingleinfotask.h"
+#include "xmpp/xmppclient.h"
 
-namespace buzz {
-
-class JingleInfoTask : public XmppTask {
+// This class sets the relay and stun servers using XmppClient.
+// It enables the client to traverse Proxy and NAT.
+class AutoPortAllocator : public cricket::HttpPortAllocator {
  public:
-  explicit JingleInfoTask(XmppTaskParentInterface* parent) :
-    XmppTask(parent, XmppEngine::HL_TYPE) {}
+  AutoPortAllocator(talk_base::NetworkManager* network_manager,
+                    const std::string& user_agent)
+      : cricket::HttpPortAllocator(network_manager, user_agent) {
+  }
 
-  virtual int ProcessStart();
-  void RefreshJingleInfoNow();
+  // Creates and initiates a task to get relay token from XmppClient and set
+  // it appropriately.
+  void SetXmppClient(buzz::XmppClient* client) {
+    // The JingleInfoTask is freed by the task-runner.
+    buzz::JingleInfoTask* jit = new buzz::JingleInfoTask(client);
+    jit->SignalJingleInfo.connect(this, &AutoPortAllocator::OnJingleInfo);
+    jit->Start();
+    jit->RefreshJingleInfoNow();
+  }
 
-  sigslot::signal3<const std::string &,
-                   const std::vector<std::string> &,
-                   const std::vector<talk_base::SocketAddress> &>
-                       SignalJingleInfo;
-
- protected:
-  class JingleInfoGetTask;
-  friend class JingleInfoGetTask;
-
-  virtual bool HandleStanza(const XmlElement * stanza);
+ private:
+  void OnJingleInfo(
+      const std::string& token,
+      const std::vector<std::string>& relay_hosts,
+      const std::vector<talk_base::SocketAddress>& stun_hosts) {
+    SetRelayToken(token);
+    SetStunHosts(stun_hosts);
+    SetRelayHosts(relay_hosts);
+  }
 };
-}
 
-#endif  // TALK_EXAMPLES_LOGIN_JINGLEINFOTASK_H_
+#endif  // TALK_EXAMPLES_LOGIN_AUTOPORTALLOCATOR_H_

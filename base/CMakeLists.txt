@@ -16,6 +16,7 @@ crc32.cc
 event.cc
 fileutils.cc
 filelock.cc
+firewallsocketserver.cc
 flags.cc
 helpers.cc
 host.cc
@@ -32,10 +33,13 @@ main.cpp
 messagedigest.cc
 messagehandler.cc
 messagequeue.cc
+natserver.cc
+natsocketfactory.cc
 nethelpers.cc
 network.cc
 openssladapter.cc
 openssldigest.cc
+opensslidentity.cc
 optionsfile.cc
 pathutils.cc
 physicalsocketserver.cc
@@ -45,6 +49,7 @@ proxydetect.cc
 proxyinfo.cc
 proxyserver.cc
 ratelimiter.cc
+ratetracker.cc
 signalthread.cc
 socketadapters.cc
 socketaddress.cc
@@ -52,7 +57,10 @@ socketaddresspair.cc
 socketpool.cc
 socketstream.cc
 ssladapter.cc
+sslidentity.cc
 sslsocketfactory.cc
+sslstreamadapter.cc
+sslstreamadapterhelper.cc
 stream.cc
 stringutils.cc
 stringencode.cc

@@ -33,7 +33,7 @@
 #ifdef EXPAT_RELATIVE_PATH
 #include "expat.h"
 #else
-#include "third_party/expat/v2_0_1/Source/lib/expat.h"
+#include "lib/expat.h"
 #endif
 
 namespace buzz {
