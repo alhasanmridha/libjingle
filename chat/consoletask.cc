@@ -27,7 +27,7 @@
 
 // TODO(pmclean): Perhaps this should be unified with examples/call/console.cc
 // and refactor to talk/base.
-#include "talk/examples/chat/consoletask.h"
+#include "chat/consoletask.h"
 
 #define _CRT_SECURE_NO_DEPRECATE 1
 
@@ -39,7 +39,7 @@
 #endif  // POSIX
 #include <cassert>
 
-#include "talk/logging.h"
+#include "logging.h"
 
 #ifdef POSIX
 static void DoNothing(int unused) {}

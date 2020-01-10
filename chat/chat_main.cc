@@ -31,25 +31,25 @@
 
 #include <iostream>
 
-#include "talk/logging.h"
-#include "talk/ssladapter.h"
+#include "logging.h"
+#include "ssladapter.h"
 
 #ifdef OSX
-#include "talk/maccocoasocketserver.h"
+#include "maccocoasocketserver.h"
 #elif defined(WIN32)
-#include "talk/win32socketserver.h"
+#include "win32socketserver.h"
 #else
-#include "talk/physicalsocketserver.h"
+#include "physicalsocketserver.h"
 #endif
 
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/xmppauth.h"
-#include "talk/xmpp/xmppclientsettings.h"
-#include "talk/xmpp/xmpppump.h"
-#include "talk/xmpp/xmppsocket.h"
+#include "xmpp/constants.h"
+#include "xmpp/xmppauth.h"
+#include "xmpp/xmppclientsettings.h"
+#include "xmpp/xmpppump.h"
+#include "xmpp/xmppsocket.h"
 
-#include "talk/examples/chat/chatapp.h"
-#include "talk/examples/chat/consoletask.h"
+#include "chatapp.h"
+#include "consoletask.h"
 
 static const int kDefaultPort = 5222;
 

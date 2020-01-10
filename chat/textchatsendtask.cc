@@ -25,10 +25,10 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/examples/chat/textchatsendtask.h"
+#include "textchatsendtask.h"
 
-#include "talk/xmpp/constants.h"
-#include "talk/xmpp/xmppclient.h"
+#include "xmpp/constants.h"
+#include "xmpp/xmppclient.h"
 
 namespace buzz {
 TextChatSendTask::TextChatSendTask(XmppTaskParentInterface* parent)

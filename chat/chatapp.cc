@@ -24,13 +24,12 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#include "talk/examples/chat/chatapp.h"
-
-#include "talk/examples/chat/consoletask.h"
-#include "talk/examples/chat/textchatsendtask.h"
-#include "talk/examples/chat/textchatreceivetask.h"
-#include "talk/xmpp/presenceouttask.h"
-#include "talk/xmpp/presencereceivetask.h"
+#include "chat/chatapp.h"
+#include "chat/consoletask.h"
+#include "chat/textchatsendtask.h"
+#include "chat/textchatreceivetask.h"
+#include "xmpp/presenceouttask.h"
+#include "xmpp/presencereceivetask.h"
 
 #ifdef WIN32
 #define snprintf _snprintf

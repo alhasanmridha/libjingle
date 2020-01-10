@@ -25,32 +25,42 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef TALK_EXAMPLES_CHAT_TEXTCHATSENDTASK_H_
-#define TALK_EXAMPLES_CHAT_TEXTCHATSENDTASK_H_
+#include "chat/textchatreceivetask.h"
 
-#include "talk/xmpp/xmpptask.h"
+#include "xmpp/constants.h"
 
 namespace buzz {
 
-// A class to send chat messages to the XMPP server.
-class TextChatSendTask : public XmppTask {
- public:
-  // Arguments:
-  //   parent a reference to task interface associated withe the XMPP client.
-  explicit TextChatSendTask(XmppTaskParentInterface* parent);
+TextChatReceiveTask::TextChatReceiveTask(XmppTaskParentInterface* parent)
+  : XmppTask(parent, XmppEngine::HL_TYPE) {
+}
 
-  // Shuts down the thread associated with this task.
-  virtual ~TextChatSendTask();
+TextChatReceiveTask::~TextChatReceiveTask() {
+  Stop();
+}
 
-  // Forms the XMPP "chat" stanza with the specified receipient and message
-  // and queues it up.
-  XmppReturnStatus Send(const Jid& to, const std::string& message);
+bool TextChatReceiveTask::HandleStanza(const XmlElement* stanza) {
+  // Make sure that this stanza is a message
+  if (stanza->Name() != QN_MESSAGE) {
+    return false;
+  }
 
-  // Picks up any "chat" stanzas from our queue and sends them to the server.
-  virtual int ProcessStart();
-};
+  // see if there is any body
+  const XmlElement* message_body = stanza->FirstNamed(QN_BODY);
+  if (message_body == NULL) {
+    return false;
+  }
+
+  // Looks good, so send the message text along.
+  SignalTextChatReceived(Jid(stanza->Attr(QN_FROM)), Jid(stanza->Attr(QN_TO)),
+                         message_body->BodyText());
+
+  return true;
+}
+
+int TextChatReceiveTask::ProcessStart() {
+  // not queuing messages, so just block.
+  return STATE_BLOCKED;
+}
 
 }  // namespace buzz
-
-#endif  // TALK_EXAMPLES_CHAT_TEXTCHATSENDTASK_H_
-

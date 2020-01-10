@@ -25,42 +25,39 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "talk/examples/chat/textchatreceivetask.h"
+#ifndef TALK_EXAMPLES_CHAT_TEXTCHATRECEIVETASK_H_
+#define TALK_EXAMPLES_CHAT_TEXTCHATRECEIVETASK_H_
 
-#include "talk/xmpp/constants.h"
+#include "sigslot.h"
+#include "xmpp/xmpptask.h"
 
 namespace buzz {
 
-TextChatReceiveTask::TextChatReceiveTask(XmppTaskParentInterface* parent)
-  : XmppTask(parent, XmppEngine::HL_TYPE) {
-}
+// A class to receive chat messages from the XMPP server.
+class TextChatReceiveTask : public XmppTask {
+ public:
+  // Arguments:
+  //   parent a reference to task interface associated withe the XMPP client.
+  explicit TextChatReceiveTask(XmppTaskParentInterface* parent);
 
-TextChatReceiveTask::~TextChatReceiveTask() {
-  Stop();
-}
+  // Shuts down the thread associated with this task.
+  virtual ~TextChatReceiveTask();
 
-bool TextChatReceiveTask::HandleStanza(const XmlElement* stanza) {
-  // Make sure that this stanza is a message
-  if (stanza->Name() != QN_MESSAGE) {
-    return false;
-  }
+  // Starts pulling queued status messages and dispatching them to the
+  // PresenceUpdate() callback.
+  virtual int ProcessStart();
 
-  // see if there is any body
-  const XmlElement* message_body = stanza->FirstNamed(QN_BODY);
-  if (message_body == NULL) {
-    return false;
-  }
+  // Slot for chat message callbacks
+  sigslot::signal3<const Jid&, const Jid&, const std::string&>
+      SignalTextChatReceived;
 
-  // Looks good, so send the message text along.
-  SignalTextChatReceived(Jid(stanza->Attr(QN_FROM)), Jid(stanza->Attr(QN_TO)),
-                         message_body->BodyText());
-
-  return true;
-}
-
-int TextChatReceiveTask::ProcessStart() {
-  // not queuing messages, so just block.
-  return STATE_BLOCKED;
-}
+ protected:
+  // Called by the XMPP client when chat stanzas arrive.  We pull out the
+  // interesting parts and send them to the SignalTextCharReceived() slot.
+  virtual bool HandleStanza(const XmlElement* stanza);
+};
 
 }  // namespace buzz
+
+#endif  // TALK_EXAMPLES_CHAT_TEXTCHATRECEIVETASK_H_
+

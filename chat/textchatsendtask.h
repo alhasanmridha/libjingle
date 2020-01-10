@@ -25,39 +25,32 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef TALK_EXAMPLES_CHAT_TEXTCHATRECEIVETASK_H_
-#define TALK_EXAMPLES_CHAT_TEXTCHATRECEIVETASK_H_
+#ifndef TALK_EXAMPLES_CHAT_TEXTCHATSENDTASK_H_
+#define TALK_EXAMPLES_CHAT_TEXTCHATSENDTASK_H_
 
-#include "talk/sigslot.h"
-#include "talk/xmpp/xmpptask.h"
+#include "xmpp/xmpptask.h"
 
 namespace buzz {
 
-// A class to receive chat messages from the XMPP server.
-class TextChatReceiveTask : public XmppTask {
+// A class to send chat messages to the XMPP server.
+class TextChatSendTask : public XmppTask {
  public:
   // Arguments:
   //   parent a reference to task interface associated withe the XMPP client.
-  explicit TextChatReceiveTask(XmppTaskParentInterface* parent);
+  explicit TextChatSendTask(XmppTaskParentInterface* parent);
 
   // Shuts down the thread associated with this task.
-  virtual ~TextChatReceiveTask();
+  virtual ~TextChatSendTask();
 
-  // Starts pulling queued status messages and dispatching them to the
-  // PresenceUpdate() callback.
+  // Forms the XMPP "chat" stanza with the specified receipient and message
+  // and queues it up.
+  XmppReturnStatus Send(const Jid& to, const std::string& message);
+
+  // Picks up any "chat" stanzas from our queue and sends them to the server.
   virtual int ProcessStart();
-
-  // Slot for chat message callbacks
-  sigslot::signal3<const Jid&, const Jid&, const std::string&>
-      SignalTextChatReceived;
-
- protected:
-  // Called by the XMPP client when chat stanzas arrive.  We pull out the
-  // interesting parts and send them to the SignalTextCharReceived() slot.
-  virtual bool HandleStanza(const XmlElement* stanza);
 };
 
 }  // namespace buzz
 
-#endif  // TALK_EXAMPLES_CHAT_TEXTCHATRECEIVETASK_H_
+#endif  // TALK_EXAMPLES_CHAT_TEXTCHATSENDTASK_H_
 

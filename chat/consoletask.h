@@ -30,8 +30,8 @@
 
 #include <cstdio>
 
-#include "talk/thread.h"
-#include "talk/sigslot.h"
+#include "thread.h"
+#include "sigslot.h"
 
 namespace buzz {
 

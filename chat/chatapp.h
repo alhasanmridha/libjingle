@@ -28,11 +28,11 @@
 #ifndef TALK_EXAMPLES_CHAT_CHATAPP_H_
 #define TALK_EXAMPLES_CHAT_CHATAPP_H_
 
-#include "talk/thread.h"
-#include "talk/scoped_ptr.h"
+#include "thread.h"
+#include "scoped_ptr.h"
 
-#include "talk/xmpp/jid.h"
-#include "talk/xmpp/xmppclient.h"
+#include "xmpp/jid.h"
+#include "xmpp/xmppclient.h"
 
 namespace buzz {
 class XmppClient;
