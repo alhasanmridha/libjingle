@@ -99,10 +99,10 @@ int main(int argc, char* argv[]) {
   }
 
   // OTP (this can be skipped)
-  std::string otp_token;
-  printf("OTP: ");
-  fflush(stdin);
-  std::getline(std::cin, otp_token);
+  // std::string otp_token;
+  // printf("OTP: ");
+  // fflush(stdin);
+  // std::getline(std::cin, otp_token);
 
   // Setup the connection settings.
   buzz::XmppClientSettings xcs;
@@ -113,9 +113,9 @@ int main(int argc, char* argv[]) {
   xcs.set_allow_plain(allow_plain);
   xcs.set_use_tls(buzz::TLS_REQUIRED);
   xcs.set_pass(talk_base::CryptString(pass));
-  if (!otp_token.empty() && *otp_token.c_str() != '\n') {
-    xcs.set_auth_token(buzz::AUTH_MECHANISM_OAUTH2, otp_token);
-  }
+  // if (!otp_token.empty() && *otp_token.c_str() != '\n') {
+  //   xcs.set_auth_token(buzz::AUTH_MECHANISM_OAUTH2, otp_token);
+  // }
 
   // Build the server spec
   std::string host;
