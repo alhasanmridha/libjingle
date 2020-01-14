@@ -32,14 +32,14 @@
 
 #include "base/criticalsection.h"
 #include "base/stream.h"
-#include "p2p/base/constants.h"
-#include "p2p/base/pseudotcp.h"
-#include "p2p/base/session.h"
-#include "p2p/base/sessiondescription.h"
-#include "p2p/base/sessionmanager.h"
-#include "p2p/base/sessionclient.h"
+#include "engine/p2p/base/constants.h"
+#include "engine/p2p/base/pseudotcp.h"
+#include "engine/p2p/base/session.h"
+#include "engine/p2p/base/sessiondescription.h"
+#include "engine/p2p/base/sessionmanager.h"
+#include "engine/p2p/base/sessionclient.h"
 #include "xmllite/qname.h"
-#include "xmpp/constants.h"
+#include "engine/xmpp/constants.h"
 
 namespace cricket {
 

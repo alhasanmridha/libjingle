@@ -36,7 +36,7 @@
 #include "base/thread.h"
 #include "media/base/capturemanager.h"
 #include "media/base/mediaengine.h"
-#include "p2p/base/session.h"
+#include "engine/p2p/base/session.h"
 #include "session/media/voicechannel.h"
 
 namespace cricket {

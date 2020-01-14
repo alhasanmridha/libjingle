@@ -28,8 +28,8 @@
 #ifndef _PHONE_CLIENT_ROSTERTASK_H_
 #define _PHONE_CLIENT_ROSTERTASK_H_
 
-#include "xmpp/xmppclient.h"
-#include "xmpp/xmpptask.h"
+#include "engine/xmpp/xmppclient.h"
+#include "engine/xmpp/xmpptask.h"
 #include "app/rosteritem.h"
 #include "base/sigslot.h"
 

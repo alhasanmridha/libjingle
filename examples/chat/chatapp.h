@@ -31,8 +31,8 @@
 #include "base/thread.h"
 #include "base/scoped_ptr.h"
 
-#include "xmpp/jid.h"
-#include "xmpp/xmppclient.h"
+#include "engine/xmpp/jid.h"
+#include "engine/xmpp/xmppclient.h"
 
 namespace buzz {
 class XmppClient;

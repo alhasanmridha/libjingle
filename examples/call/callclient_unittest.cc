@@ -31,7 +31,7 @@
 #include "examples/call/callclient.h"
 #include "media/base/filemediaengine.h"
 #include "media/base/mediaengine.h"
-#include "xmpp/xmppthread.h"
+#include "engine/xmpp/xmppthread.h"
 
 TEST(CallClientTest, CreateCallClientWithDefaultMediaEngine) {
   buzz::XmppPump pump;

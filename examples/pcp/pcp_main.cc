@@ -27,18 +27,18 @@
 #include "base/ssladapter.h"
 #include "base/stringutils.h"
 #include "base/thread.h"
-#include "p2p/base/sessionmanager.h"
-#include "p2p/client/autoportallocator.h"
-#include "p2p/client/sessionmanagertask.h"
-#include "xmpp/xmppengine.h"
+#include "engine/p2p/base/sessionmanager.h"
+#include "engine/p2p/client/autoportallocator.h"
+#include "engine/p2p/client/sessionmanagertask.h"
+#include "engine/xmpp/xmppengine.h"
 #ifdef USE_SSL_TUNNEL
 #include "session/tunnel/securetunnelsessionclient.h"
 #endif
 #include "session/tunnel/tunnelsessionclient.h"
-#include "xmpp/xmppclient.h"
-#include "xmpp/xmppclientsettings.h"
-#include "xmpp/xmpppump.h"
-#include "xmpp/xmppsocket.h"
+#include "engine/xmpp/xmppclient.h"
+#include "engine/xmpp/xmppclientsettings.h"
+#include "engine/xmpp/xmpppump.h"
+#include "engine/xmpp/xmppsocket.h"
 
 #ifndef MAX_PATH
 #define MAX_PATH 256

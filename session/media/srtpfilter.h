@@ -37,7 +37,7 @@
 #include "base/scoped_ptr.h"
 #include "base/sigslotrepeater.h"
 #include "media/base/cryptoparams.h"
-#include "p2p/base/sessiondescription.h"
+#include "engine/p2p/base/sessiondescription.h"
 
 // Forward declaration to avoid pulling in libsrtp headers here
 struct srtp_event_data_t;

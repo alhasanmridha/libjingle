@@ -37,8 +37,8 @@
 #include "base/scoped_ptr.h"
 #include "base/stringutils.h"
 #include "base/thread.h"
-#include "p2p/base/constants.h"
-#include "p2p/base/sessiondescription.h"
+#include "engine/p2p/base/constants.h"
+#include "engine/p2p/base/sessiondescription.h"
 
 static const char kStreams[][8] = {"stream1", "stream2"};
 static const char kAudioTracks[][32] = {"audiotrack0", "audiotrack1"};

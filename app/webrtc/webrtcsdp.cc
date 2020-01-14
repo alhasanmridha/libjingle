@@ -42,9 +42,9 @@
 #include "media/base/codec.h"
 #include "media/base/constants.h"
 #include "media/base/cryptoparams.h"
-#include "p2p/base/candidate.h"
-#include "p2p/base/constants.h"
-#include "p2p/base/port.h"
+#include "engine/p2p/base/candidate.h"
+#include "engine/p2p/base/constants.h"
+#include "engine/p2p/base/port.h"
 #include "session/media/mediasession.h"
 #include "session/media/mediasessionclient.h"
 

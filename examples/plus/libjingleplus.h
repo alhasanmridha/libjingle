@@ -35,7 +35,7 @@
 #include "app/rosteritem.h"
 #include "app/message.h"
 #include "app/status.h"
-#include "xmpp/xmppengine.h"
+#include "engine/xmpp/xmppengine.h"
 #include "base/scoped_ptr.h"
 
 

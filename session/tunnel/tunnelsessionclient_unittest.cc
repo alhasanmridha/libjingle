@@ -32,9 +32,9 @@
 #include "base/stream.h"
 #include "base/thread.h"
 #include "base/timeutils.h"
-#include "p2p/base/sessionmanager.h"
-#include "p2p/base/transport.h"
-#include "p2p/client/fakeportallocator.h"
+#include "engine/p2p/base/sessionmanager.h"
+#include "engine/p2p/base/transport.h"
+#include "engine/p2p/client/fakeportallocator.h"
 #include "session/tunnel/tunnelsessionclient.h"
 
 static const int kTimeoutMs = 10000;

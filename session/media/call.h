@@ -38,13 +38,13 @@
 #include "media/base/screencastid.h"
 #include "media/base/streamparams.h"
 #include "media/base/videocommon.h"
-#include "p2p/base/session.h"
-#include "p2p/client/socketmonitor.h"
+#include "engine/p2p/base/session.h"
+#include "engine/p2p/client/socketmonitor.h"
 #include "session/media/audiomonitor.h"
 #include "session/media/currentspeakermonitor.h"
 #include "session/media/mediamessages.h"
 #include "session/media/mediasession.h"
-#include "xmpp/jid.h"
+#include "engine/xmpp/jid.h"
 
 namespace cricket {
 

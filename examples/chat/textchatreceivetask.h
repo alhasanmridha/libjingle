@@ -29,7 +29,7 @@
 #define TALK_EXAMPLES_CHAT_TEXTCHATRECEIVETASK_H_
 
 #include "base/sigslot.h"
-#include "xmpp/xmpptask.h"
+#include "engine/xmpp/xmpptask.h"
 
 namespace buzz {
 

@@ -36,7 +36,7 @@
 #include "base/stringutils.h"
 #include "base/sslidentity.h"
 #include "base/sslstreamadapter.h"
-#include "p2p/base/transportchannel.h"
+#include "engine/p2p/base/transportchannel.h"
 #include "xmllite/xmlelement.h"
 #include "session/tunnel/pseudotcpchannel.h"
 

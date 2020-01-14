@@ -26,7 +26,7 @@
  */
 
 #include "rostertask.h"
-#include "xmpp/constants.h"
+#include "engine/xmpp/constants.h"
 #include "base/stream.h"
 
 #undef WIN32

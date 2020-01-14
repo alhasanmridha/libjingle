@@ -33,7 +33,7 @@
 #include "media/base/fakemediaengine.h"
 #include "media/base/rtpdump.h"
 #include "media/base/testutils.h"
-#include "p2p/base/fakesession.h"
+#include "engine/p2p/base/fakesession.h"
 #include "session/media/channel.h"
 #include "session/media/mediarecorder.h"
 

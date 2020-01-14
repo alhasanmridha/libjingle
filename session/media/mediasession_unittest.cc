@@ -33,9 +33,9 @@
 #include "base/messagedigest.h"
 #include "media/base/codec.h"
 #include "media/base/testutils.h"
-#include "p2p/base/constants.h"
-#include "p2p/base/transportdescription.h"
-#include "p2p/base/transportinfo.h"
+#include "engine/p2p/base/constants.h"
+#include "engine/p2p/base/transportdescription.h"
+#include "engine/p2p/base/transportinfo.h"
 #include "session/media/mediasession.h"
 #include "session/media/srtpfilter.h"
 

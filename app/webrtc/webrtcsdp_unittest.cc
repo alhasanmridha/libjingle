@@ -39,7 +39,7 @@
 #include "base/stringencode.h"
 #include "base/stringutils.h"
 #include "media/base/constants.h"
-#include "p2p/base/constants.h"
+#include "engine/p2p/base/constants.h"
 #include "session/media/mediasession.h"
 
 using cricket::AudioCodec;

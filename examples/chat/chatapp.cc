@@ -29,8 +29,8 @@
 #include "examples/chat/consoletask.h"
 #include "examples/chat/textchatsendtask.h"
 #include "examples/chat/textchatreceivetask.h"
-#include "xmpp/presenceouttask.h"
-#include "xmpp/presencereceivetask.h"
+#include "engine/xmpp/presenceouttask.h"
+#include "engine/xmpp/presencereceivetask.h"
 
 #ifdef WIN32
 #define snprintf _snprintf

@@ -32,7 +32,7 @@
 
 #include "base/gunit.h"
 #include "base/scoped_ptr.h"
-#include "p2p/base/constants.h"
+#include "engine/p2p/base/constants.h"
 #include "session/media/mediasessionclient.h"
 #include "xmllite/xmlelement.h"
 

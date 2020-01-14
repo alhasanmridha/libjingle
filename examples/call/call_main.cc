@@ -44,16 +44,16 @@
 #include "examples/call/callclient.h"
 #include "examples/call/console.h"
 #include "examples/call/mediaenginefactory.h"
-#include "p2p/base/constants.h"
+#include "engine/p2p/base/constants.h"
 #ifdef ANDROID
 #include "media/other/androidmediaengine.h"
 #endif
 #include "session/media/mediasessionclient.h"
 #include "session/media/srtpfilter.h"
-#include "xmpp/xmppauth.h"
-#include "xmpp/xmppclientsettings.h"
-#include "xmpp/xmpppump.h"
-#include "xmpp/xmppsocket.h"
+#include "engine/xmpp/xmppauth.h"
+#include "engine/xmpp/xmppclientsettings.h"
+#include "engine/xmpp/xmpppump.h"
+#include "engine/xmpp/xmppsocket.h"
 
 class DebugLog : public sigslot::has_slots<> {
  public:

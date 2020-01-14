@@ -28,8 +28,8 @@
 #ifndef _MUCINVITESENDTASK_H_
 #define _MUCINVITESENDTASK_H_
 
-#include "xmpp/xmppengine.h"
-#include "xmpp/xmpptask.h"
+#include "engine/xmpp/xmppengine.h"
+#include "engine/xmpp/xmpptask.h"
 #include "examples/call/muc.h"
 
 namespace buzz {

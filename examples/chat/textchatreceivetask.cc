@@ -27,7 +27,7 @@
 
 #include "examples/chat/textchatreceivetask.h"
 
-#include "xmpp/constants.h"
+#include "engine/xmpp/constants.h"
 
 namespace buzz {
 

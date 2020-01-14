@@ -33,8 +33,8 @@
 
 #include "base/logging.h"
 #include "base/stringencode.h"
-#include "p2p/base/constants.h"
-#include "p2p/base/parsing.h"
+#include "engine/p2p/base/constants.h"
+#include "engine/p2p/base/parsing.h"
 #include "session/media/mediasessionclient.h"
 #include "xmllite/xmlelement.h"
 

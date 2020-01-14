@@ -15,7 +15,7 @@
 #include "media/base/fakertp.h"
 #include "media/webrtc/fakewebrtcvoiceengine.h"
 #include "media/webrtc/webrtcvoiceengine.h"
-#include "p2p/base/fakesession.h"
+#include "engine/p2p/base/fakesession.h"
 #include "session/media/channel.h"
 
 // Tests for the WebRtcVoiceEngine/VoiceChannel code.

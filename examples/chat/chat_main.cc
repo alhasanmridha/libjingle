@@ -42,11 +42,11 @@
 #include "base/physicalsocketserver.h"
 #endif
 
-#include "xmpp/constants.h"
-#include "xmpp/xmppauth.h"
-#include "xmpp/xmppclientsettings.h"
-#include "xmpp/xmpppump.h"
-#include "xmpp/xmppsocket.h"
+#include "engine/xmpp/constants.h"
+#include "engine/xmpp/xmppauth.h"
+#include "engine/xmpp/xmppclientsettings.h"
+#include "engine/xmpp/xmpppump.h"
+#include "engine/xmpp/xmppsocket.h"
 
 #include "examples/chat/chatapp.h"
 #include "examples/chat/consoletask.h"

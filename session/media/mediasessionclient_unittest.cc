@@ -33,13 +33,13 @@
 #include "base/scoped_ptr.h"
 #include "media/base/fakemediaengine.h"
 #include "media/devices/fakedevicemanager.h"
-#include "p2p/base/constants.h"
-#include "p2p/client/basicportallocator.h"
+#include "engine/p2p/base/constants.h"
+#include "engine/p2p/client/basicportallocator.h"
 #include "session/media/mediasessionclient.h"
 #include "xmllite/xmlbuilder.h"
 #include "xmllite/xmlelement.h"
 #include "xmllite/xmlprinter.h"
-#include "xmpp/constants.h"
+#include "engine/xmpp/constants.h"
 
 // The codecs that our FakeMediaEngine will support. Order is important, since
 // the tests check that our messages have codecs in the correct order.

@@ -28,7 +28,7 @@
 #ifndef TALK_EXAMPLES_CHAT_TEXTCHATSENDTASK_H_
 #define TALK_EXAMPLES_CHAT_TEXTCHATSENDTASK_H_
 
-#include "xmpp/xmpptask.h"
+#include "engine/xmpp/xmpptask.h"
 
 namespace buzz {
 

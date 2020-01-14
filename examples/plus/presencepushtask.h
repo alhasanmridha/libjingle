@@ -28,8 +28,8 @@
 #ifndef _PRESENCEPUSHTASK_H_
 #define _PRESENCEPUSHTASK_H_
 
-#include "xmpp/xmppengine.h"
-#include "xmpp/xmpptask.h"
+#include "engine/xmpp/xmppengine.h"
+#include "engine/xmpp/xmpptask.h"
 #include "base/sigslot.h"
 #include "app/status.h"
 

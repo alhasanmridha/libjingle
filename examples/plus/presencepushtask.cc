@@ -27,7 +27,7 @@
 
 #include "base/stringencode.h"
 #include "presencepushtask.h"
-#include "xmpp/constants.h"
+#include "engine/xmpp/constants.h"
 #include <sstream>
 
 

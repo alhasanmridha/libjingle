@@ -39,7 +39,7 @@
 #include "media/base/mediaengine.h"
 #include "media/base/rtputils.h"
 #include "media/base/streamparams.h"
-#include "p2p/base/sessiondescription.h"
+#include "engine/p2p/base/sessiondescription.h"
 
 namespace cricket {
 

@@ -36,12 +36,12 @@
 #include "base/sslidentity.h"
 #include "examples/call/console.h"
 #include "media/base/mediachannel.h"
-#include "p2p/base/session.h"
+#include "engine/p2p/base/session.h"
 #include "session/media/mediamessages.h"
 #include "session/media/mediasessionclient.h"
-#include "xmpp/hangoutpubsubclient.h"
-#include "xmpp/presencestatus.h"
-#include "xmpp/xmppclient.h"
+#include "engine/xmpp/hangoutpubsubclient.h"
+#include "engine/xmpp/presencestatus.h"
+#include "engine/xmpp/xmppclient.h"
 
 namespace buzz {
 class PresencePushTask;

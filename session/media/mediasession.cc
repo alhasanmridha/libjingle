@@ -38,10 +38,10 @@
 #include "base/stringutils.h"
 #include "media/base/constants.h"
 #include "media/base/cryptoparams.h"
-#include "p2p/base/constants.h"
+#include "engine/p2p/base/constants.h"
 #include "session/media/channelmanager.h"
 #include "session/media/srtpfilter.h"
-#include "xmpp/constants.h"
+#include "engine/xmpp/constants.h"
 
 namespace {
 const char kInline[] = "inline:";

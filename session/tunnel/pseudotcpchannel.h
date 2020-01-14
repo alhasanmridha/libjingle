@@ -31,8 +31,8 @@
 #include "base/criticalsection.h"
 #include "base/messagequeue.h"
 #include "base/stream.h"
-#include "p2p/base/pseudotcp.h"
-#include "p2p/base/session.h"
+#include "engine/p2p/base/pseudotcp.h"
+#include "engine/p2p/base/session.h"
 
 namespace talk_base {
 class Thread;

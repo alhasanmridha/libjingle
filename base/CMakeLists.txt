@@ -137,8 +137,7 @@ unittest_main.cc
 )
 ########################### TEST #################################
 
-add_executable(${BINARY}_test ${TESTSOURCES})
-add_test(NAME ${BINARY}_test COMMAND ${BINARY}_test)
-target_link_libraries(${BINARY}_test PUBLIC ${BINARY} gtest)
+# add_executable(${BINARY}_test ${TESTSOURCES})
+# target_link_libraries(${BINARY}_test PUBLIC ${BINARY} gtest)
 
 ###############################################################

@@ -47,9 +47,9 @@
 #include "media/base/fakevideorenderer.h"
 #include "media/base/mediachannel.h"
 #include "media/devices/fakedevicemanager.h"
-#include "p2p/base/stunserver.h"
-#include "p2p/base/teststunserver.h"
-#include "p2p/client/basicportallocator.h"
+#include "engine/p2p/base/stunserver.h"
+#include "engine/p2p/base/teststunserver.h"
+#include "engine/p2p/client/basicportallocator.h"
 #include "session/media/channelmanager.h"
 #include "session/media/mediasession.h"
 

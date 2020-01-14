@@ -30,9 +30,9 @@
 
 #include <vector>
 
-#include "xmpp/xmppengine.h"
-#include "xmpp/xmpptask.h"
-#include "xmpp/presencestatus.h"
+#include "engine/xmpp/xmppengine.h"
+#include "engine/xmpp/xmpptask.h"
+#include "engine/xmpp/presencestatus.h"
 #include "base/sigslot.h"
 #include "examples/call/callclient.h"
 

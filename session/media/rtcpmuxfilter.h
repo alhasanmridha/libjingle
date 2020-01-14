@@ -29,7 +29,7 @@
 #define TALK_SESSION_MEDIA_RTCPMUXFILTER_H_
 
 #include "base/basictypes.h"
-#include "p2p/base/sessiondescription.h"
+#include "engine/p2p/base/sessiondescription.h"
 
 namespace cricket {
 

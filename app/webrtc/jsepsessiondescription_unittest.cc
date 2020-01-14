@@ -33,9 +33,9 @@
 #include "base/helpers.h"
 #include "base/scoped_ptr.h"
 #include "base/stringencode.h"
-#include "p2p/base/candidate.h"
-#include "p2p/base/constants.h"
-#include "p2p/base/sessiondescription.h"
+#include "engine/p2p/base/candidate.h"
+#include "engine/p2p/base/constants.h"
+#include "engine/p2p/base/sessiondescription.h"
 #include "session/media/mediasession.h"
 
 using webrtc::IceCandidateCollection;

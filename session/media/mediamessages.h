@@ -42,8 +42,8 @@
 #include "base/basictypes.h"
 #include "media/base/mediachannel.h"  // For RtpHeaderExtension
 #include "media/base/streamparams.h"
-#include "p2p/base/parsing.h"
-#include "p2p/base/sessiondescription.h"
+#include "engine/p2p/base/parsing.h"
+#include "engine/p2p/base/sessiondescription.h"
 
 namespace cricket {
 

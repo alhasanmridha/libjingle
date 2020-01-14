@@ -30,8 +30,8 @@
 #include "base/logging.h"
 #include "base/network.h"
 #include "base/thread.h"
-#include "p2p/base/basicpacketsocketfactory.h"
-#include "p2p/client/basicportallocator.h"
+#include "engine/p2p/base/basicpacketsocketfactory.h"
+#include "engine/p2p/client/basicportallocator.h"
 
 static const char kUserAgent[] = "PeerConnection User Agent";
 

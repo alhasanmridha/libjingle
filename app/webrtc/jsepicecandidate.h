@@ -34,7 +34,7 @@
 
 #include "app/webrtc/jsep.h"
 #include "base/constructormagic.h"
-#include "p2p/base/candidate.h"
+#include "engine/p2p/base/candidate.h"
 
 namespace webrtc {
 

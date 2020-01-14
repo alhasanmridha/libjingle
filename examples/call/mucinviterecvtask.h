@@ -31,8 +31,8 @@
 #include <vector>
 
 #include "base/sigslot.h"
-#include "xmpp/xmppengine.h"
-#include "xmpp/xmpptask.h"
+#include "engine/xmpp/xmppengine.h"
+#include "engine/xmpp/xmpptask.h"
 
 namespace buzz {
 

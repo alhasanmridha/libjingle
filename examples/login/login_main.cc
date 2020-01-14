@@ -29,10 +29,10 @@
 #include <iostream>
 
 #include "base/thread.h"
-#include "xmpp/constants.h"
-#include "xmpp/xmppclientsettings.h"
-#include "xmpp/xmppengine.h"
-#include "xmpp/xmppthread.h"
+#include "engine/xmpp/constants.h"
+#include "engine/xmpp/xmppclientsettings.h"
+#include "engine/xmpp/xmppengine.h"
+#include "engine/xmpp/xmppthread.h"
 
 int main(int argc, char **argv) {
   std::cout << "OAuth Access Token: ";

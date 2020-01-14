@@ -33,7 +33,7 @@
 #include "base/gunit.h"
 #include "media/base/fakemediaengine.h"
 #include "media/devices/fakedevicemanager.h"
-#include "p2p/base/fakesession.h"
+#include "engine/p2p/base/fakesession.h"
 #include "session/media/channelmanager.h"
 #include "testing/base/public/gmock.h"
 

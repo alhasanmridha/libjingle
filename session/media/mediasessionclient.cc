@@ -35,13 +35,13 @@
 #include "base/stringutils.h"
 #include "media/base/cryptoparams.h"
 #include "media/base/capturemanager.h"
-#include "p2p/base/constants.h"
-#include "p2p/base/parsing.h"
+#include "engine/p2p/base/constants.h"
+#include "engine/p2p/base/parsing.h"
 #include "session/media/mediamessages.h"
 #include "session/media/srtpfilter.h"
 #include "xmllite/qname.h"
 #include "xmllite/xmlconstants.h"
-#include "xmpp/constants.h"
+#include "engine/xmpp/constants.h"
 
 namespace cricket {
 

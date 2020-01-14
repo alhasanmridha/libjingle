@@ -27,7 +27,7 @@
 
 #include "base/gunit.h"
 #include "media/base/fakemediaengine.h"
-#include "p2p/base/fakesession.h"
+#include "engine/p2p/base/fakesession.h"
 #include "session/media/channel.h"
 #include "session/media/currentspeakermonitor.h"
 #include "session/media/typingmonitor.h"

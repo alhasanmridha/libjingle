@@ -26,8 +26,8 @@
  */
 
 #include "examples/call/mucinvitesendtask.h"
-#include "xmpp/constants.h"
-#include "xmpp/xmppclient.h"
+#include "engine/xmpp/constants.h"
+#include "engine/xmpp/xmppclient.h"
 
 namespace buzz {
 

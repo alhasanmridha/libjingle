@@ -38,8 +38,8 @@
 #include "base/sigslot.h"
 #include "base/thread.h"
 #include "media/base/mediachannel.h"
-#include "p2p/base/session.h"
-#include "p2p/base/transportdescriptionfactory.h"
+#include "engine/p2p/base/session.h"
+#include "engine/p2p/base/transportdescriptionfactory.h"
 #include "session/media/mediasession.h"
 
 namespace cricket {

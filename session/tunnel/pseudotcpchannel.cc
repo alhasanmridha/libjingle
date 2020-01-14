@@ -31,8 +31,8 @@
 #include "base/logging.h"
 #include "base/scoped_ptr.h"
 #include "base/stringutils.h"
-#include "p2p/base/candidate.h"
-#include "p2p/base/transportchannel.h"
+#include "engine/p2p/base/candidate.h"
+#include "engine/p2p/base/transportchannel.h"
 #include "pseudotcpchannel.h"
 
 using namespace talk_base;

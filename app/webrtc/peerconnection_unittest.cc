@@ -50,8 +50,8 @@
 #include "base/sslstreamadapter.h"
 #include "base/thread.h"
 #include "media/webrtc/fakewebrtcvideoengine.h"
-#include "p2p/base/constants.h"
-#include "p2p/base/sessiondescription.h"
+#include "engine/p2p/base/constants.h"
+#include "engine/p2p/base/sessiondescription.h"
 #include "session/media/mediasession.h"
 
 #define MAYBE_SKIP_TEST(feature)                    \

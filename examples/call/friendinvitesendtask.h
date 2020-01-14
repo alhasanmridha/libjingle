@@ -28,8 +28,8 @@
 #ifndef _FRIENDINVITESENDTASK_H_
 #define _FRIENDINVITESENDTASK_H_
 
-#include "xmpp/xmppengine.h"
-#include "xmpp/xmpptask.h"
+#include "engine/xmpp/xmppengine.h"
+#include "engine/xmpp/xmpptask.h"
 
 namespace buzz {
 

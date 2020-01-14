@@ -29,7 +29,7 @@
 
 #include "base/stringencode.h"
 #include "examples/call/muc.h"
-#include "xmpp/constants.h"
+#include "engine/xmpp/constants.h"
 
 
 
