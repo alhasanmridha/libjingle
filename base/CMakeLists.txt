@@ -34,11 +34,13 @@ messagehandler.cc
 messagequeue.cc
 natserver.cc
 natsocketfactory.cc
+nattypes.cc
 nethelpers.cc
 network.cc
 openssladapter.cc
 openssldigest.cc
 opensslidentity.cc
+opensslstreamadapter.cc
 optionsfile.cc
 pathutils.cc
 physicalsocketserver.cc

@@ -170,10 +170,43 @@ p2p/client/socketmonitor.cc
 p2p/client/socketmonitor.h
 )
 set(TESTSOURCES
-
+# test/asyncstuntcpsocket_unittest.cc
+# # test/chatroommodule_unittest.cc #Compilation Error
+# test/connectivitychecker_unittest.cc
+# test/dtlstransportchannel_unittest.cc
+# test/hangoutpubsubclient_unittest.cc
+# test/jid_unittest.cc
+# test/mucroomconfigtask_unittest.cc
+# test/mucroomdiscoverytask_unittest.cc
+# test/mucroomlookuptask_unittest.cc
+# test/mucroomuniquehangoutidtask_unittest.cc
+# test/p2ptransportchannel_unittest.cc
+# test/pingtask_unittest.cc
+# test/portallocatorsessionproxy_unittest.cc
+# test/portallocator_unittest.cc
+# test/port_unittest.cc
+# test/pseudotcp_unittest.cc
+# test/pubsubclient_unittest.cc
+# test/pubsubtasks_unittest.cc
+# test/relayport_unittest.cc
+# test/relayserver_unittest.cc
+test/rostermodule_unittest.cc
+# test/session_unittest.cc
+# test/stunport_unittest.cc
+# test/stunrequest_unittest.cc
+# test/stunserver_unittest.cc
+# test/stun_unittest.cc
+# test/transportdescriptionfactory_unittest.cc
+# test/transport_unittest.cc
+# test/turnport_unittest.cc
+test/util_unittest.cc
+# test/util_unittest.h
+# test/xmppengine_unittest.cc
+# test/xmpplogintask_unittest.cc
+# test/xmppstanzaparser_unittest.cc
 )
 
 add_library(${BINARY} STATIC ${XMPPSOURCES} ${P2PSOURCES})
 target_link_libraries(${BINARY} PUBLIC ${CMAKE_PROJECT_NAME}_base gtest)
-# add_executable(${BINARY}_test ${TESTSOURCES})
-# target_link_libraries(${BINARY}_test PRIVATE ${BINARY} gtest)
+add_executable(${BINARY}_test test/unittest_main.cc ${TESTSOURCES})
+target_link_libraries(${BINARY}_test PRIVATE ${BINARY} ${CMAKE_PROJECT_NAME}_xmllite)

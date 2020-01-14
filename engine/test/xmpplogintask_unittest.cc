@@ -8,7 +8,7 @@
 #include "base/cryptstring.h"
 #include "base/gunit.h"
 #include "xmllite/xmlelement.h"
-#include "engine/xmpp/util_unittest.h"
+#include "engine/test/util_unittest.h"
 #include "engine/xmpp/constants.h"
 #include "engine/xmpp/saslplainmechanism.h"
 #include "engine/xmpp/plainsaslhandler.h"

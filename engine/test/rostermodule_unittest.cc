@@ -35,7 +35,7 @@
 #include "engine/xmpp/xmppengine.h"
 #include "engine/xmpp/rostermodule.h"
 #include "engine/xmpp/constants.h"
-#include "engine/xmpp/util_unittest.h"
+#include "engine/test/util_unittest.h"
 
 #define TEST_OK(x) EXPECT_EQ((x),XMPP_RETURN_OK)
 #define TEST_BADARGUMENT(x) EXPECT_EQ((x),XMPP_RETURN_BADARGUMENT)

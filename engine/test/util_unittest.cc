@@ -7,7 +7,7 @@
 #include "base/gunit.h"
 #include "xmllite/xmlelement.h"
 #include "engine/xmpp/xmppengine.h"
-#include "engine/xmpp/util_unittest.h"
+#include "engine/test/util_unittest.h"
 
 namespace buzz {
 
