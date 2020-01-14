@@ -3,7 +3,6 @@ set(XMPPSOURCES
 xmpp/asyncsocket.h
 xmpp/chatroommodule.h
 xmpp/chatroommoduleimpl.cc
-xmpp/chatroommodule_unittest.cc
 xmpp/constants.cc
 xmpp/constants.h
 xmpp/discoitemsquerytask.cc
@@ -11,12 +10,10 @@ xmpp/discoitemsquerytask.h
 xmpp/fakexmppclient.h
 xmpp/hangoutpubsubclient.cc
 xmpp/hangoutpubsubclient.h
-xmpp/hangoutpubsubclient_unittest.cc
 xmpp/iqtask.cc
 xmpp/iqtask.h
 xmpp/jid.cc
 xmpp/jid.h
-xmpp/jid_unittest.cc
 xmpp/jingleinfotask.cc
 xmpp/jingleinfotask.h
 xmpp/module.h
@@ -24,19 +21,14 @@ xmpp/moduleimpl.cc
 xmpp/moduleimpl.h
 xmpp/mucroomconfigtask.cc
 xmpp/mucroomconfigtask.h
-xmpp/mucroomconfigtask_unittest.cc
 xmpp/mucroomdiscoverytask.cc
 xmpp/mucroomdiscoverytask.h
-xmpp/mucroomdiscoverytask_unittest.cc
 xmpp/mucroomlookuptask.cc
 xmpp/mucroomlookuptask.h
-xmpp/mucroomlookuptask_unittest.cc
 xmpp/mucroomuniquehangoutidtask.cc
 xmpp/mucroomuniquehangoutidtask.h
-xmpp/mucroomuniquehangoutidtask_unittest.cc
 xmpp/pingtask.cc
 xmpp/pingtask.h
-xmpp/pingtask_unittest.cc
 xmpp/plainsaslhandler.h
 xmpp/presenceouttask.cc
 xmpp/presenceouttask.h
@@ -47,25 +39,20 @@ xmpp/presencestatus.h
 xmpp/prexmppauth.h
 xmpp/pubsubclient.cc
 xmpp/pubsubclient.h
-xmpp/pubsubclient_unittest.cc
 xmpp/pubsub_task.cc
 xmpp/pubsub_task.h
 xmpp/pubsubtasks.cc
 xmpp/pubsubtasks.h
-xmpp/pubsubtasks_unittest.cc
 xmpp/receivetask.cc
 xmpp/receivetask.h
 xmpp/rostermodule.h
 xmpp/rostermoduleimpl.cc
 xmpp/rostermoduleimpl.h
-xmpp/rostermodule_unittest.cc
 xmpp/saslcookiemechanism.h
 xmpp/saslhandler.h
 xmpp/saslmechanism.cc
 xmpp/saslmechanism.h
 xmpp/saslplainmechanism.h
-xmpp/util_unittest.cc
-xmpp/util_unittest.h
 xmpp/xmppauth.cc
 xmpp/xmppauth.h
 xmpp/xmppclient.cc
@@ -75,17 +62,14 @@ xmpp/xmppengine.h
 xmpp/xmppengineimpl.cc
 xmpp/xmppengineimpl.h
 xmpp/xmppengineimpl_iq.cc
-xmpp/xmppengine_unittest.cc
 xmpp/xmpplogintask.cc
 xmpp/xmpplogintask.h
-xmpp/xmpplogintask_unittest.cc
 xmpp/xmpppump.cc
 xmpp/xmpppump.h
 xmpp/xmppsocket.cc
 xmpp/xmppsocket.h
 xmpp/xmppstanzaparser.cc
 xmpp/xmppstanzaparser.h
-xmpp/xmppstanzaparser_unittest.cc
 xmpp/xmpptask.cc
 xmpp/xmpptask.h
 xmpp/xmppthread.cc
@@ -94,7 +78,6 @@ xmpp/xmppthread.h
 set(P2PSOURCES
 p2p/base/asyncstuntcpsocket.cc
 p2p/base/asyncstuntcpsocket.h
-p2p/base/asyncstuntcpsocket_unittest.cc
 p2p/base/basicpacketsocketfactory.cc
 p2p/base/basicpacketsocketfactory.h
 p2p/base/candidate.h
@@ -103,13 +86,11 @@ p2p/base/constants.cc
 p2p/base/constants.h
 p2p/base/dtlstransportchannel.cc
 p2p/base/dtlstransportchannel.h
-p2p/base/dtlstransportchannel_unittest.cc
 p2p/base/dtlstransport.h
 p2p/base/fakesession.h
 p2p/base/p2ptransport.cc
 p2p/base/p2ptransportchannel.cc
 p2p/base/p2ptransportchannel.h
-p2p/base/p2ptransportchannel_unittest.cc
 p2p/base/p2ptransport.h
 p2p/base/packetsocketfactory.h
 p2p/base/parsing.cc
@@ -118,27 +99,22 @@ p2p/base/portallocator.cc
 p2p/base/portallocator.h
 p2p/base/portallocatorsessionproxy.cc
 p2p/base/portallocatorsessionproxy.h
-p2p/base/portallocatorsessionproxy_unittest.cc
 p2p/base/port.cc
 p2p/base/port.h
 p2p/base/portinterface.h
 p2p/base/portproxy.cc
 p2p/base/portproxy.h
-p2p/base/port_unittest.cc
 p2p/base/pseudotcp.cc
 p2p/base/pseudotcp.h
-p2p/base/pseudotcp_unittest.cc
 p2p/base/rawtransport.cc
 p2p/base/rawtransportchannel.cc
 p2p/base/rawtransportchannel.h
 p2p/base/rawtransport.h
 p2p/base/relayport.cc
 p2p/base/relayport.h
-p2p/base/relayport_unittest.cc
 p2p/base/relayserver.cc
 p2p/base/relayserver.h
 p2p/base/relayserver_main.cc
-p2p/base/relayserver_unittest.cc
 p2p/base/session.cc
 p2p/base/sessionclient.h
 p2p/base/sessiondescription.cc
@@ -149,20 +125,15 @@ p2p/base/sessionmanager.cc
 p2p/base/sessionmanager.h
 p2p/base/sessionmessages.cc
 p2p/base/sessionmessages.h
-p2p/base/session_unittest.cc
 p2p/base/stun.cc
 p2p/base/stun.h
 p2p/base/stunport.cc
 p2p/base/stunport.h
-p2p/base/stunport_unittest.cc
 p2p/base/stunrequest.cc
 p2p/base/stunrequest.h
-p2p/base/stunrequest_unittest.cc
 p2p/base/stunserver.cc
 p2p/base/stunserver.h
 p2p/base/stunserver_main.cc
-p2p/base/stunserver_unittest.cc
-p2p/base/stun_unittest.cc
 p2p/base/tcpport.cc
 p2p/base/tcpport.h
 p2p/base/testrelayserver.h
@@ -176,14 +147,11 @@ p2p/base/transportchannelproxy.cc
 p2p/base/transportchannelproxy.h
 p2p/base/transportdescriptionfactory.cc
 p2p/base/transportdescriptionfactory.h
-p2p/base/transportdescriptionfactory_unittest.cc
 p2p/base/transportdescription.h
 p2p/base/transport.h
 p2p/base/transportinfo.h
-p2p/base/transport_unittest.cc
 p2p/base/turnport.cc
 p2p/base/turnport.h
-p2p/base/turnport_unittest.cc
 p2p/base/turnserver.cc
 p2p/base/turnserver.h
 p2p/base/turnserver_main.cc
@@ -193,27 +161,19 @@ p2p/client/basicportallocator.cc
 p2p/client/basicportallocator.h
 p2p/client/connectivitychecker.cc
 p2p/client/connectivitychecker.h
-p2p/client/connectivitychecker_unittest.cc
 p2p/client/fakeportallocator.h
 p2p/client/httpportallocator.cc
 p2p/client/httpportallocator.h
-p2p/client/portallocator_unittest.cc
 p2p/client/sessionmanagertask.h
 p2p/client/sessionsendtask.h
 p2p/client/socketmonitor.cc
 p2p/client/socketmonitor.h
 )
 set(TESTSOURCES
-qname_unittest.cc
-unittest_main.cc
-xmlbuilder_unittest.cc
-xmlelement_unittest.cc
-xmlnsstack_unittest.cc
-xmlparser_unittest.cc
-xmlprinter_unittest.cc
+
 )
 
-add_library(${BINARY} STATIC ${SOURCES})
-target_link_libraries(${BINARY} PUBLIC ${CMAKE_PROJECT_NAME}_base expat)
-add_executable(${BINARY}_test ${TESTSOURCES})
-target_link_libraries(${BINARY}_test PRIVATE ${BINARY} gtest)
+add_library(${BINARY} STATIC ${XMPPSOURCES} ${P2PSOURCES})
+target_link_libraries(${BINARY} PUBLIC ${CMAKE_PROJECT_NAME}_base)
+# add_executable(${BINARY}_test ${TESTSOURCES})
+# target_link_libraries(${BINARY}_test PRIVATE ${BINARY} gtest)
