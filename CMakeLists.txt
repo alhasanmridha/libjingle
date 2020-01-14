@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5.1)
 project(libjigle)
 set(CMAKE_CXX_STANDARD 14)
 # set(CMAKE_CXX_FLAGS "-pthread -lssl -lcrypto -lX11")
-add_definitions(-DPOSIX=5 -DHAVE_OPENSSL_SSL_H=1 -DLINUX=1 -DUSE_SSLSTREAM -DEXPAT_RELATIVE_PATH=expat/expat/lib -DGTEST_RELATIVE_PATH=googletest/googletest/include)
+add_definitions(-DPOSIX=5 -DHAVE_OPENSSL_SSL_H=1 -DLINUX=1 -DFEATURE_ENABLE_SSL -DEXPAT_RELATIVE_PATH=expat/expat/lib -DGTEST_RELATIVE_PATH=googletest/googletest/include)
 
 include_directories(${CMAKE_SOURCE_DIR})
 add_subdirectory(expat/expat)

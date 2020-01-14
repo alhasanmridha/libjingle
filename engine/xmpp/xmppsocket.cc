@@ -25,7 +25,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "engine/xmppsocket.h"
+#include "engine/xmpp/xmppsocket.h"
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>

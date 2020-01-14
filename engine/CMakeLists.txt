@@ -174,6 +174,6 @@ set(TESTSOURCES
 )
 
 add_library(${BINARY} STATIC ${XMPPSOURCES} ${P2PSOURCES})
-target_link_libraries(${BINARY} PUBLIC ${CMAKE_PROJECT_NAME}_base)
+target_link_libraries(${BINARY} PUBLIC ${CMAKE_PROJECT_NAME}_base gtest)
 # add_executable(${BINARY}_test ${TESTSOURCES})
 # target_link_libraries(${BINARY}_test PRIVATE ${BINARY} gtest)

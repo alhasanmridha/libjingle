@@ -25,8 +25,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "engine/xmppclient.h"
-#include "engine/xmpptask.h"
+#include "engine/xmpp/xmppclient.h"
+#include "engine/xmpp/xmpptask.h"
 #include "base/logging.h"
 #include "base/sigslot.h"
 #include "base/scoped_ptr.h"
