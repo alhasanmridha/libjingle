@@ -35,25 +35,34 @@
 #include "engine/xmpp/xmppthread.h"
 
 int main(int argc, char **argv) {
-  std::cout << "OAuth Access Token: ";
-  std::string auth_token;
-  std::getline(std::cin, auth_token);
+  // std::cout << "OAuth Access Token: ";
+  // std::string auth_token;
+  // std::getline(std::cin, auth_token);
 
-  std::cout << "User Name: ";
+  std::cout << "User Name: \n";
   std::string username;
-  std::getline(std::cin, username);
+  // std::getline(std::cin, username);
+  username = "test4";
 
+  talk_base::InsecureCryptStringImpl pass;
+  if (pass.password().empty()) {
+    // printf("Password: ");
+    // std::cin >> pass.password();
+    pass.password() = "mist";
+    printf("\n");
+  }
   // Start xmpp on a different thread
   buzz::XmppThread thread;
   thread.Start();
 
   buzz::XmppClientSettings xcs;
   xcs.set_user(username.c_str());
-  xcs.set_host("gmail.com");
+  xcs.set_host("ckotha.com");
   xcs.set_use_tls(buzz::TLS_DISABLED);
-  xcs.set_auth_token(buzz::AUTH_MECHANISM_OAUTH2,
-                     auth_token.c_str());
-  xcs.set_server(talk_base::SocketAddress("talk.google.com", 5222));
+  xcs.set_pass(talk_base::CryptString(pass));
+  // xcs.set_auth_token(buzz::AUTH_MECHANISM_OAUTH2,
+                    //  auth_token.c_str());
+  xcs.set_server(talk_base::SocketAddress("ckotha.com", 5222));
   thread.Login(xcs);
 
   // Use main thread for console input
