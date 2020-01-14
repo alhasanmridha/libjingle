@@ -121,7 +121,7 @@ int main(int argc, char* argv[]) {
   std::string host;
   int port;
 
-  std::string server = "talk.google.com";
+  std::string server = "ckotha.com";
   int colon = server.find(':');
   if (colon == -1) {
     host = server;
